@@ -17,6 +17,11 @@
 }
 
 /* === TYPOGRAPHY === */
+* {
+  font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
+  color: $txt-color;
+}
+
 h1,
 h2,
 h3,
@@ -55,10 +60,20 @@ p {
 }
 
 .title {
+  font-size: 3rem;
+  margin-top: 5rem;
+  font-weight: 400;
 }
 
 .sub-title {
 }
 
-.desc {
+.highlight {
+  font-size: 2em;
+}
+
+.desc,
+p {
+  font-size: 1.15rem;
+  line-height: 1.44;
 }

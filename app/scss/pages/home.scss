@@ -1,0 +1,146 @@
+#hr-home-page {
+  /* Banner */
+  .section-banner {
+  }
+
+  /* About */
+  .section-about-oppo,
+  #home-about-oppo {
+    position: relative;
+    height: 53.125vw;
+
+    .main-content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      z-index: 2;
+    }
+
+    .people-img-holder {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+
+      .img-holder {
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+
+    .grad-overlay {
+      z-index: 2;
+    }
+  }
+  /* About - END */
+
+  /* Job Oppotuinities */
+  .section-job-oppotunities,
+  #home-job-opportunities {
+    background-image: -webkit-linear-gradient(#ffffff, #f0f0f0);
+    background-image: linear-gradient(#ffffff, #f0f0f0);
+
+    .main-content {
+      .content-head {
+      }
+
+      .content-body {
+        .job-list-layout {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          grid-column-gap: 10px;
+          grid-row-gap: 80px;
+
+          .job-item {
+            .job-thumbnail {
+              height: 17.708333vw;
+              overflow: hidden;
+
+              .img-holder {
+                height: 100%;
+                transition: all linear 300ms;
+
+                img {
+                  display: block;
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                  object-position: center;
+                }
+              }
+            }
+
+            .job-detail {
+              height: 6.25vw;
+              text-align: center;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              text-transform: uppercase;
+              transition: all ease-in 150ms;
+              position: relative;
+              overflow: hidden;
+
+              .job-detail-effect {
+                width: 27vw;
+                height: 27vw;
+                position: absolute;
+                background-color: $oppo;
+                border-radius: 50%;
+                opacity: 0;
+                transform: scale(0);
+              }
+
+              .job-label {
+                font-size: 1.5rem;
+                margin: 0;
+                transition: all ease-in 150ms;
+                position: relative;
+                z-index: 2;
+              }
+            }
+
+            &:hover {
+              .job-thumbnail {
+                .img-holder {
+                  transform: scale(1.06);
+                  transition: all cubic-bezier(0.27, 0.85, 0.58, 1) 0.6s;
+                }
+              }
+
+              .job-detail {
+                .job-detail-effect {
+                  transform: scale(1);
+                  opacity: 1;
+                  transition: all cubic-bezier(0.27, 0.85, 0.58, 1) 0.6s;
+                }
+
+                .job-label {
+                  color: $white;
+                  transition: all ease-out 300ms;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .content-footer {
+        .context {
+          height: 100px;
+          line-height: 100px;
+          font-size: 1.25rem;
+        }
+      }
+    }
+  }
+  /* Job Oppotuinities - END */
+}
