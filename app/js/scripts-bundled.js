@@ -72,14 +72,19 @@
 
 var _common = _interopRequireDefault(__webpack_require__(1));
 
-var _lazyLoadVideo = _interopRequireDefault(__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./modules/lazy-load-video\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())));
+var _home = _interopRequireDefault(__webpack_require__(15));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var lazyLoadVideo = new _lazyLoadVideo.default();
+// import VideoLazyLoad from './modules/lazy-load-video';
+// let lazyLoadVideo = new VideoLazyLoad();
 $(document).ready(function () {
   // Behavior Use For All Page
-  var common = new _common.default();
+  var common = new _common.default(); // Behavior for HomePage
+
+  if ($('#hr-home-page').length > 0) {
+    var home = new _home.default();
+  }
 });
 
 /***/ }),
@@ -132,7 +137,6 @@ function () {
   }, {
     key: "SetupCommon",
     value: function SetupCommon() {
-      this.SetupVideoPlayer();
       this.SmoothScrollSetup();
     } // Smooth Scrolling Setup
 
@@ -172,70 +176,6 @@ function () {
           }
         }
       });
-    } // Video Popup Utilities
-
-  }, {
-    key: "SetupVideoPlayer",
-    value: function SetupVideoPlayer() {
-      var _this = this;
-
-      this.playerYT = (0, _youtubePlayer.default)('video-modal-video', {
-        videoId: 'VoI7_SmxJmQ',
-        // Default Clip
-        playerVars: {
-          disablekb: 1,
-          fs: 0,
-          modestbranding: 1,
-          rel: 0,
-          controls: 0,
-          playlist: 'VoI7_SmxJmQ',
-          loop: 1
-        }
-      });
-      $('.play-modal-video').on('click', function (e) {
-        _this.videoCode = 'VoI7_SmxJmQ'; // Default Youtube Video ID
-
-        if ($(e.target).parents('.play-modal-video').length > 0) {
-          _this.videoCode = $(e.target).parents('.play-modal-video').data('video-id');
-        } else {
-          _this.videoCode = $(e.target).data('video-id');
-        }
-
-        _this.PlayModalClip(_this.videoCode);
-      });
-      $('.close-video-modal').on('click', function (e) {
-        _this.CloseModalClip();
-      });
-    }
-  }, {
-    key: "PlayModalClip",
-    value: function PlayModalClip() {
-      var _this2 = this;
-
-      var clipID = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'VoI7_SmxJmQ';
-      $('body').addClass('show-modal');
-      $('.video-modal').addClass('active');
-      this.playerYT.cueVideoById(clipID);
-      this.playerYT.unMute();
-      this.playerYT.playVideo();
-      this.playerYT.addEventListener('onStateChange', function (e) {
-        if (e.data == 0) {
-          _this2.CloseModalClip();
-        }
-      });
-      console.log(clipID);
-    }
-  }, {
-    key: "CloseModalClip",
-    value: function CloseModalClip() {
-      var _this3 = this;
-
-      this.playerYT.mute();
-      $('body').removeClass('show-modal');
-      $('.video-modal').removeClass('active');
-      setTimeout(function () {
-        _this3.playerYT.stopVideo();
-      }, 200);
     }
   }]);
 
@@ -1583,6 +1523,137 @@ exports.default = {
   VIDEO_CUED: 5
 };
 module.exports = exports["default"];
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+var Home =
+/*#__PURE__*/
+function () {
+  /* ===================================
+   *  CONSTRUCTOR
+   * =================================== */
+  function Home() {
+    _classCallCheck(this, Home);
+
+    this.bindEvents();
+  }
+  /* ===================================
+   *  EVENTS
+   * =================================== */
+
+
+  _createClass(Home, [{
+    key: "bindEvents",
+    value: function bindEvents() {
+      this.SetupHome();
+    }
+    /* ===================================
+     *  METHODS
+     * =================================== */
+
+  }, {
+    key: "SetupHome",
+    value: function SetupHome() {
+      this.SetupBannerSlider();
+      this.DrawGlobe();
+      this.SetupTestimonialQuote();
+    }
+  }, {
+    key: "DrawGlobe",
+    value: function DrawGlobe() {
+      var width = 1440,
+          height = 1440;
+      var radius = height / 2 - 5,
+          scale = radius,
+          velocity = 0.02;
+      var projection = d3.geoOrthographic().translate([width / 2, height / 2]).scale(scale).clipAngle(90);
+      var canvas = d3.select("#the-globe").append("canvas").attr("width", width).attr("height", height);
+      var context = canvas.node().getContext("2d");
+      var path = d3.geoPath().projection(projection).context(context);
+      d3.json("https://gist.githubusercontent.com/mbostock/4090846/raw/d534aba169207548a8a3d670c9c2cc719ff05c47/world-110m.json", function (error, world) {
+        if (error) throw error;
+        var land = topojson.feature(world, world.objects.land);
+        d3.timer(function (elapsed) {
+          context.clearRect(0, 0, width, height);
+          projection.rotate([velocity * elapsed, 0]);
+          context.beginPath();
+          path(land);
+          context.fill();
+          context.beginPath(); // context.arc(width / 2, height / 2, radius, 0, 2 * Math.PI, true);
+          // context.lineWidth = .5;
+          // context.stroke();
+        });
+      });
+      d3.select(self.frameElement).style("height", height + "px");
+    }
+  }, {
+    key: "SetupBannerSlider",
+    value: function SetupBannerSlider() {
+      this.$bannerSliderElement = $('#home-banner .banner-slider');
+      this.$bannerSliderElement.slick({
+        dots: true,
+        infinite: true,
+        nextArrow: "<div class=\"banner-control banner-next\"><div class=\"shape-holder\"></div></div>",
+        prevArrow: "<div class=\"banner-control banner-prev\"><div class=\"shape-holder\"></div></div>"
+      });
+    }
+  }, {
+    key: "SetupTestimonialQuote",
+    value: function SetupTestimonialQuote() {
+      var _this = this;
+
+      this.$memberImageSlider = $('.oppo-member-image-slider');
+      this.$memberQuoteSlider = $('.oppo-member-quote-slider');
+      this.$sliderControlNextBtn = $('.testimonial-control.next-slide');
+      this.$sliderControlPrevBtn = $('.testimonial-control.next-slide');
+      this.$memberQuoteSlider.on('init', function () {
+        _this.$sliderControlNextBtn.on('click', function () {
+          $('.oppo-member-image-slider').slick('next');
+        });
+
+        _this.$sliderControlPrevBtn.on('click', function () {
+          $('.oppo-member-image-slider').slick('prev');
+        });
+      });
+      this.$memberImageSlider.slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.oppo-member-quote-slider',
+        dots: false
+      });
+      this.$memberQuoteSlider.slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        asNavFor: '.oppo-member-image-slider',
+        dots: true,
+        fade: true,
+        arrows: false
+      });
+    }
+  }]);
+
+  return Home;
+}();
+
+exports.default = Home;
 
 /***/ })
 /******/ ]);

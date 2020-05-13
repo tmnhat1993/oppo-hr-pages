@@ -20,7 +20,6 @@ export default class Common {
      *  METHODS
      * =================================== */
     SetupCommon() {
-        this.SetupVideoPlayer();
         this.SmoothScrollSetup();
     }
 
@@ -61,59 +60,5 @@ export default class Common {
                     }
                 }
             });
-    }
-
-    // Video Popup Utilities
-    SetupVideoPlayer() {
-        this.playerYT = YouTubePlayer('video-modal-video', {
-            videoId: 'VoI7_SmxJmQ', // Default Clip
-            playerVars: {
-                disablekb: 1,
-                fs: 0,
-                modestbranding: 1,
-                rel: 0,
-                controls: 0,
-                playlist: 'VoI7_SmxJmQ',
-                loop: 1,
-            },
-        });
-
-        $('.play-modal-video').on('click', (e) => {
-            this.videoCode = 'VoI7_SmxJmQ'; // Default Youtube Video ID
-
-            if ($(e.target).parents('.play-modal-video').length > 0) {
-                this.videoCode = $(e.target).parents('.play-modal-video').data('video-id');
-            } else {
-                this.videoCode = $(e.target).data('video-id');
-            }
-            this.PlayModalClip(this.videoCode);
-        });
-
-        $('.close-video-modal').on('click', (e) => {
-            this.CloseModalClip();
-        });
-    }
-
-    PlayModalClip(clipID = 'VoI7_SmxJmQ') {
-        $('body').addClass('show-modal');
-        $('.video-modal').addClass('active');
-        this.playerYT.cueVideoById(clipID);
-        this.playerYT.unMute();
-        this.playerYT.playVideo();
-
-        this.playerYT.addEventListener('onStateChange', (e) => {
-            if (e.data == 0) {
-                this.CloseModalClip();
-            }
-        })
-
-        console.log(clipID)
-    }
-
-    CloseModalClip() {
-        this.playerYT.mute();
-        $('body').removeClass('show-modal');
-        $('.video-modal').removeClass('active');
-        setTimeout(() => { this.playerYT.stopVideo(); }, 200);
     }
 }
