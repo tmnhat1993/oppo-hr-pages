@@ -170,4 +170,213 @@
     }
   }
   /* Section OPPO Culture - END */
+
+  /* OPPO History */
+  .section-about-history,
+  #about-history {
+    .container {
+      width: calc(100% - 140px);
+      position: relative;
+
+      .timeline-holder {
+        width: 100%;
+        overflow: hidden;
+        padding: 5rem 0 3rem;
+        position: relative;
+
+        .swiper-wrapper {
+          .history-item {
+            .history-layout-wrapper {
+              display: grid;
+              grid-template-rows: 240px 50px;
+              position: relative;
+
+              .context-bg {
+                position: absolute;
+                height: 220px;
+                width: 60px;
+                top: 10px;
+                z-index: 1;
+                opacity: 0;
+
+                background-image: radial-gradient(
+                  rgba($oppo, 0.3),
+                  rgba($oppo, 0),
+                  rgba($oppo, 0)
+                );
+
+                transition: all ease-in 150ms;
+                transform: scale(0.2);
+
+                &.bg-left {
+                  left: calc(2% - 30px);
+                }
+
+                &.bg-right {
+                  right: calc(2% - 30px);
+                }
+              }
+
+              .context-holder {
+                display: grid;
+                grid-template-rows: 100px 140px;
+                position: relative;
+                background-color: $white;
+                z-index: 2;
+                width: 96%;
+                margin: 0 auto;
+
+                .history-detail {
+                  text-align: center;
+                  font-size: 1.5625rem;
+                }
+
+                .history-icon {
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                }
+              }
+
+              .history-marker {
+                width: 100%;
+                height: 100%;
+                position: relative;
+
+                .marker-line {
+                  position: absolute;
+                  width: 40%;
+                  height: 1px;
+                  background-color: #333;
+                  top: 24px;
+
+                  &.line-left {
+                    left: 0;
+                  }
+
+                  &.line-right {
+                    right: 0;
+                  }
+                }
+
+                .marker-holder,
+                .marker-effect {
+                  width: 22px;
+                  height: 22px;
+                  border-radius: 50%;
+                  background-color: #76db8b;
+                  top: calc(50% - 11px);
+                  left: calc(50% - 11px);
+                  position: absolute;
+                }
+
+                .marker-holder {
+                }
+
+                .marker-effect {
+                  z-index: 0;
+                  animation: wavingEffect infinite 2s linear;
+                }
+              }
+            }
+
+            &:hover {
+              .history-layout-wrapper {
+                .context-bg {
+                  z-index: 4;
+                  opacity: 1;
+
+                  transition: all ease-out 330ms;
+                  transform: scale(1.2);
+                }
+
+                .context-holder {
+                  z-index: 5;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .button-prev,
+      .button-next {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: calc(87% - 25px);
+        cursor: pointer;
+        z-index: 3;
+        outline: none;
+
+        .shape-holder {
+          width: 50px;
+          height: 50px;
+          border: 3px solid $oppo;
+          -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+        }
+      }
+
+      .button-next {
+        right: -25px;
+        animation: arrowMove 1s linear infinite;
+
+        .shape-holder {
+          border-bottom: 0;
+          border-left: 0;
+        }
+      }
+
+      .button-prev {
+        left: -25px;
+        animation: arrowMove 1s 0.5s linear infinite;
+
+        .shape-holder {
+          border-top: 0;
+          border-right: 0;
+        }
+      }
+
+      .history-pagination {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+
+        .swiper-pagination-bullet {
+          width: 12px;
+          height: 12px;
+          border: 1px solid $oppo;
+          border-radius: 6px;
+          background: transparent;
+          opacity: 1;
+
+          &.swiper-pagination-bullet-active {
+            background-color: $oppo;
+          }
+        }
+      }
+    }
+  }
+  /* OPPO History - END */
+}
+
+@keyframes wavingEffect {
+  0%,
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: scale(1.35);
+  }
+
+  99% {
+    opacity: 0;
+    transform: scale(1.75);
+  }
 }

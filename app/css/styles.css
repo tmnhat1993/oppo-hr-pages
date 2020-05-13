@@ -1513,7 +1513,9 @@ p,
   /* Section Spirit */
   /* Section Spirit - END */
   /* Section OPPO Culture */
-  /* Section OPPO Culture - END */ }
+  /* Section OPPO Culture - END */
+  /* OPPO History */
+  /* OPPO History - END */ }
   #hr-about-page .section-about-intro .content-body,
   #hr-about-page #about-intro .content-body {
     margin-top: 1.875rem;
@@ -1631,3 +1633,161 @@ p,
         grid-row: 1 / span 2;
         grid-column: 2;
         background-image: url("../img/about/culture-bg3.jpg"); }
+  #hr-about-page .section-about-history .container,
+  #hr-about-page #about-history .container {
+    width: calc(100% - 140px);
+    position: relative; }
+    #hr-about-page .section-about-history .container .timeline-holder,
+    #hr-about-page #about-history .container .timeline-holder {
+      width: 100%;
+      overflow: hidden;
+      padding: 5rem 0 3rem;
+      position: relative; }
+      #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper,
+      #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper {
+        display: grid;
+        grid-template-rows: 240px 50px;
+        position: relative; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg {
+          position: absolute;
+          height: 220px;
+          width: 60px;
+          top: 10px;
+          z-index: 1;
+          opacity: 0;
+          background-image: radial-gradient(rgba(4, 106, 56, 0.3), rgba(4, 106, 56, 0), rgba(4, 106, 56, 0));
+          transition: all ease-in 150ms;
+          transform: scale(0.2); }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-left,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-left {
+            left: calc(2% - 30px); }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-right,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-right {
+            right: calc(2% - 30px); }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder {
+          display: grid;
+          grid-template-rows: 100px 140px;
+          position: relative;
+          background-color: #fff;
+          z-index: 2;
+          width: 96%;
+          margin: 0 auto; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail {
+            text-align: center;
+            font-size: 1.5625rem; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-icon,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker {
+          width: 100%;
+          height: 100%;
+          position: relative; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line {
+            position: absolute;
+            width: 40%;
+            height: 1px;
+            background-color: #333;
+            top: 24px; }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line.line-left,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line.line-left {
+              left: 0; }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line.line-right,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line.line-right {
+              right: 0; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-holder,
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-effect,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-holder,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-effect {
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            background-color: #76db8b;
+            top: calc(50% - 11px);
+            left: calc(50% - 11px);
+            position: absolute; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-effect,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-effect {
+            z-index: 0;
+            animation: wavingEffect infinite 2s linear; }
+      #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .context-bg,
+      #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .context-bg {
+        z-index: 4;
+        opacity: 1;
+        transition: all ease-out 330ms;
+        transform: scale(1.2); }
+      #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .context-holder,
+      #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .context-holder {
+        z-index: 5; }
+    #hr-about-page .section-about-history .container .button-prev,
+    #hr-about-page .section-about-history .container .button-next,
+    #hr-about-page #about-history .container .button-prev,
+    #hr-about-page #about-history .container .button-next {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      top: calc(87% - 25px);
+      cursor: pointer;
+      z-index: 3;
+      outline: none; }
+      #hr-about-page .section-about-history .container .button-prev .shape-holder,
+      #hr-about-page .section-about-history .container .button-next .shape-holder,
+      #hr-about-page #about-history .container .button-prev .shape-holder,
+      #hr-about-page #about-history .container .button-next .shape-holder {
+        width: 50px;
+        height: 50px;
+        border: 3px solid #046a38;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg); }
+    #hr-about-page .section-about-history .container .button-next,
+    #hr-about-page #about-history .container .button-next {
+      right: -25px;
+      animation: arrowMove 1s linear infinite; }
+      #hr-about-page .section-about-history .container .button-next .shape-holder,
+      #hr-about-page #about-history .container .button-next .shape-holder {
+        border-bottom: 0;
+        border-left: 0; }
+    #hr-about-page .section-about-history .container .button-prev,
+    #hr-about-page #about-history .container .button-prev {
+      left: -25px;
+      animation: arrowMove 1s 0.5s linear infinite; }
+      #hr-about-page .section-about-history .container .button-prev .shape-holder,
+      #hr-about-page #about-history .container .button-prev .shape-holder {
+        border-top: 0;
+        border-right: 0; }
+    #hr-about-page .section-about-history .container .history-pagination,
+    #hr-about-page #about-history .container .history-pagination {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      text-align: center; }
+      #hr-about-page .section-about-history .container .history-pagination .swiper-pagination-bullet,
+      #hr-about-page #about-history .container .history-pagination .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+        border: 1px solid #046a38;
+        border-radius: 6px;
+        background: transparent;
+        opacity: 1; }
+        #hr-about-page .section-about-history .container .history-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active,
+        #hr-about-page #about-history .container .history-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+          background-color: #046a38; }
+
+@keyframes wavingEffect {
+  0%,
+  100% {
+    opacity: 0;
+    transform: scale(1); }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.35); }
+  99% {
+    opacity: 0;
+    transform: scale(1.75); } }

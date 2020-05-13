@@ -84,12 +84,12 @@ $(document).ready(function () {
   // Behavior Use For All Page
   var common = new _common.default(); // Behavior for HomePage
 
-  if ($('#hr-home-page').length > 0) {
+  if ($("#hr-home-page").length > 0) {
     var home = new _home.default();
   } // Behavior for About Page
 
 
-  if ($('#hr-about-page').length > 0) {
+  if ($("#hr-about-page").length > 0) {
     var about = new _about.default();
   }
 });
@@ -1705,6 +1705,28 @@ function () {
      *  METHODS
      * =================================== */
 
+  }, {
+    key: "SetupAbout",
+    value: function SetupAbout() {
+      this.SetupHistorySlider();
+    }
+  }, {
+    key: "SetupHistorySlider",
+    value: function SetupHistorySlider() {
+      this.historySwiper = new Swiper(".timeline-holder", {
+        slidesPerView: 4,
+        slidesPerGroup: 2,
+        speed: 550,
+        navigation: {
+          nextEl: ".button-next",
+          prevEl: ".button-prev"
+        },
+        pagination: {
+          el: ".history-pagination",
+          type: "bullets"
+        }
+      });
+    }
   }]);
 
   return About;
