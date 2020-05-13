@@ -886,12 +886,19 @@ p {
   margin: 5.625rem 0 5rem;
   font-weight: 400; }
 
+.sub-title {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 2.25rem 0 0.15rem; }
+
 .highlight {
-  font-size: 2em;
+  font-size: 1.8em;
   color: inherit; }
 
 .desc,
-p {
+p,
+.desc-item {
   font-size: 1.5625rem;
   line-height: 1.44; }
 
@@ -1497,3 +1504,130 @@ p {
   75% {
     -webkit-transform: translateX(2px);
     transform: translateX(2px); } }
+
+#hr-about-page {
+  /* Banner */
+  /* Banner - END */
+  /* Section About */
+  /* Section About - END */
+  /* Section Spirit */
+  /* Section Spirit - END */
+  /* Section OPPO Culture */
+  /* Section OPPO Culture - END */ }
+  #hr-about-page .section-about-intro .content-body,
+  #hr-about-page #about-intro .content-body {
+    margin-top: 1.875rem;
+    height: 32.5vw;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/about/intro-bg.jpg"); }
+    #hr-about-page .section-about-intro .content-body .oppo-scale,
+    #hr-about-page #about-intro .content-body .oppo-scale {
+      height: 100%;
+      display: flex;
+      justify-content: flex-start;
+      padding: 6vw 0;
+      flex-direction: column;
+      height: 100%; }
+      #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head,
+      #hr-about-page #about-intro .content-body .oppo-scale .scale-head {
+        margin-bottom: 2vw; }
+        #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head h4,
+        #hr-about-page #about-intro .content-body .oppo-scale .scale-head h4 {
+          font-size: 2.25rem;
+          font-weight: 400; }
+      #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout,
+      #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout {
+        display: flex; }
+        #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item,
+        #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item {
+          width: 20%;
+          flex-basis: 20%;
+          text-align: center; }
+          #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder,
+          #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder {
+            width: 30%;
+            margin: 0 auto 1.5rem;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center; }
+            #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder img,
+            #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder img {
+              max-width: 100%;
+              max-height: 100%;
+              display: block; }
+          #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc,
+          #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc {
+            line-height: 1.7; }
+            #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc .highlight,
+            #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc .highlight {
+              line-height: 0.6; }
+  #hr-about-page .section-about-spirit .main-content .title,
+  #hr-about-page #about-spirit .main-content .title {
+    margin: 14.375rem 0 3.5rem; }
+  #hr-about-page .section-about-spirit .end-line,
+  #hr-about-page #about-spirit .end-line {
+    margin: 8.75rem auto;
+    width: 160px;
+    height: 3px;
+    background-color: #046a38; }
+  #hr-about-page .section-about-culture .main-content .content-head .title,
+  #hr-about-page #about-culture .main-content .content-head .title {
+    margin-bottom: 2.5rem; }
+  #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout,
+  #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 19.0105vw 19.0105vw;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px; }
+    #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block,
+    #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block {
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content,
+      #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content {
+        width: 75%; }
+        #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title,
+        #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title {
+          font-size: 2.25rem;
+          font-weight: 400;
+          margin-bottom: 0.5rem; }
+        #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc,
+        #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc {
+          margin-bottom: 0;
+          line-height: 1.5; }
+          #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item,
+          #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item {
+            padding-left: 2.25rem;
+            position: relative;
+            line-height: 1.5; }
+            #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before,
+            #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before {
+              content: "";
+              width: 12px;
+              height: 12px;
+              border-radius: 6px;
+              background-color: #21c34b;
+              position: absolute;
+              left: calc(1rem - 6px);
+              top: calc(1rem - 6px); }
+      #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block.block-vision,
+      #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block.block-vision {
+        grid-column: 1;
+        grid-row: 1;
+        background-image: url("../img/about/culture-bg1-mb.jpg"); }
+      #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block.block-core-value,
+      #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block.block-core-value {
+        grid-column: 1;
+        grid-row: 2;
+        background-image: url("../img/about/culture-bg2.jpg"); }
+      #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block.block-mission,
+      #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block.block-mission {
+        grid-row: 1 / span 2;
+        grid-column: 2;
+        background-image: url("../img/about/culture-bg3.jpg"); }

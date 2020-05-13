@@ -68,15 +68,20 @@ p {
 }
 
 .sub-title {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 2.25rem 0 0.15rem;
 }
 
 .highlight {
-  font-size: 2em;
+  font-size: 1.8em;
   color: inherit;
 }
 
 .desc,
-p {
+p,
+.desc-item {
   font-size: 1.5625rem;
   line-height: 1.44;
 }

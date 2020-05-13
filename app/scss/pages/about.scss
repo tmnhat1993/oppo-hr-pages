@@ -1,0 +1,173 @@
+#hr-about-page {
+  /* Banner */
+  .section-about-banner,
+  #about-banner {
+  }
+  /* Banner - END */
+
+  /* Section About */
+  .section-about-intro,
+  #about-intro {
+    .content-body {
+      margin-top: 1.875rem;
+      height: 32.5vw;
+      background-position: center;
+      background-size: cover;
+      background-image: url("../img/about/intro-bg.jpg");
+
+      .oppo-scale {
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        padding: 6vw 0;
+        flex-direction: column;
+        height: 100%;
+
+        .scale-head {
+          margin-bottom: 2vw;
+
+          h4 {
+            font-size: 2.25rem;
+            font-weight: 400;
+          }
+        }
+
+        .scale-body {
+          .scale-detail-layout {
+            display: flex;
+
+            .scale-item {
+              width: 20%;
+              flex-basis: 20%;
+              text-align: center;
+
+              .ico-holder {
+                width: 30%;
+                margin: 0 auto 1.5rem;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                  max-width: 100%;
+                  max-height: 100%;
+                  display: block;
+                }
+              }
+
+              .scale-context {
+                .desc {
+                  line-height: 1.7;
+
+                  .highlight {
+                    line-height: 0.6;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  /* Section About - END */
+
+  /* Section Spirit */
+  .section-about-spirit,
+  #about-spirit {
+    .main-content {
+      .title {
+        margin: 14.375rem 0 3.5rem;
+      }
+    }
+
+    .end-line {
+      margin: 8.75rem auto;
+      width: 160px;
+      height: 3px;
+      background-color: $oppo;
+    }
+  }
+  /* Section Spirit - END */
+
+  /* Section OPPO Culture */
+  .section-about-culture,
+  #about-culture {
+    .main-content {
+      .content-head {
+        .title {
+          margin-bottom: 2.5rem;
+        }
+      }
+      .content-body {
+        .oppo-culture-layout {
+          display: grid;
+          grid-template-columns: 1fr 2fr;
+          grid-template-rows: 19.0105vw 19.0105vw;
+          grid-column-gap: 10px;
+          grid-row-gap: 10px;
+
+          .layout-block {
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .block-content {
+              width: 75%;
+
+              .block-title {
+                font-size: 2.25rem;
+                font-weight: 400;
+                margin-bottom: 0.5rem;
+              }
+
+              .block-desc {
+                margin-bottom: 0;
+                line-height: 1.5;
+
+                .desc-item {
+                  padding-left: 2.25rem;
+                  position: relative;
+                  line-height: 1.5;
+
+                  &:before {
+                    content: "";
+                    width: 12px;
+                    height: 12px;
+                    border-radius: 6px;
+                    background-color: #21c34b;
+                    position: absolute;
+                    left: calc(1rem - 6px);
+                    top: calc(1rem - 6px);
+                  }
+                }
+              }
+            }
+
+            &.block-vision {
+              grid-column: 1;
+              grid-row: 1;
+              background-image: url("../img/about/culture-bg1-mb.jpg");
+            }
+
+            &.block-core-value {
+              grid-column: 1;
+              grid-row: 2;
+              background-image: url("../img/about/culture-bg2.jpg");
+            }
+
+            &.block-mission {
+              grid-row: 1 / span 2;
+              grid-column: 2;
+              background-image: url("../img/about/culture-bg3.jpg");
+            }
+          }
+        }
+      }
+    }
+  }
+  /* Section OPPO Culture - END */
+}
