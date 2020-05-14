@@ -1,0 +1,397 @@
+#hr-about-page {
+  /* Section Intro */
+  .section-about-intro,
+  #about-intro {
+    .content-head {
+      .title {
+        margin: 7rem 0 3.5rem;
+      }
+    }
+
+    .content-body {
+      margin-top: 1.875rem;
+      height: 32.5vw;
+      background-position: center;
+      background-size: cover;
+      background-image: url("../img/about/intro-bg.jpg");
+      background-attachment: fixed;
+
+      .oppo-scale {
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        padding: 6.25vw 3.125vw;
+        flex-direction: column;
+        height: 100%;
+
+        .scale-head {
+          margin-bottom: 2vw;
+
+          h4 {
+            font-size: 2.25rem;
+            font-weight: 400;
+            line-height: 1.35;
+          }
+        }
+
+        .scale-body {
+          .scale-detail-layout {
+            display: flex;
+
+            .scale-item {
+              width: 20%;
+              flex-basis: 20%;
+              text-align: center;
+
+              .ico-holder {
+                width: 30%;
+                margin: 0 auto 1.5rem;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                  max-width: 100%;
+                  max-height: 100%;
+                  display: block;
+                }
+              }
+
+              .scale-context {
+                .desc {
+                  line-height: 1.55;
+
+                  .highlight {
+                    line-height: 0.7;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  /* Section Intro - END */
+
+  /* RESPONSIVE */
+  @media #{$information-md-screen} {
+    .section-about-intro,
+    #about-intro {
+      .content-head {
+        .title {
+          margin: 6.125rem 0 3.0625rem;
+        }
+      }
+
+      .content-body {
+        margin-top: 1.64rem;
+
+        .oppo-scale {
+          .scale-head {
+            margin-bottom: 2vw;
+
+            h4 {
+              font-size: 1.96875rem;
+            }
+          }
+
+          .scale-body {
+            .scale-detail-layout {
+              .scale-item {
+                .ico-holder {
+                  width: 30%;
+                  margin: 0 auto 1.3125rem;
+                  height: 65px;
+                }
+
+                .scale-context {
+                  .desc {
+                    line-height: 1.55;
+
+                    .highlight {
+                      line-height: 0.7;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media #{$information-sm-screen} {
+    .section-about-intro,
+    #about-intro {
+      .content-head {
+        .title {
+          margin: 5rem 0 2.5rem;
+        }
+      }
+
+      .content-body {
+        margin-top: 1.336rem;
+
+        .oppo-scale {
+          .scale-head {
+            margin-bottom: 2vw;
+
+            h4 {
+              font-size: 1.6rem;
+            }
+          }
+
+          .scale-body {
+            .scale-detail-layout {
+              .scale-item {
+                .ico-holder {
+                  width: 30%;
+                  margin: 0 auto 1.5rem;
+                  height: 43px;
+                }
+
+                .scale-context {
+                  .desc {
+                    line-height: 1.55;
+
+                    .highlight {
+                      line-height: 0.7;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media #{$information-sm-laptop} {
+    .section-about-intro,
+    #about-intro {
+      .content-head {
+        .title {
+          margin: 4rem 0 2.25rem;
+        }
+      }
+
+      .content-body {
+        margin-top: 1.25rem;
+
+        .oppo-scale {
+          .scale-head {
+            margin-bottom: 2vw;
+
+            h4 {
+              font-size: 1.4rem;
+            }
+          }
+
+          .scale-body {
+            .scale-detail-layout {
+              .scale-item {
+                .ico-holder {
+                  width: 30%;
+                  margin: 0 auto 1.35rem;
+                  height: 40px;
+                }
+
+                .scale-context {
+                  .desc {
+                    line-height: 1.5;
+
+                    .highlight {
+                      line-height: 0.7;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* TABLET */
+  @media #{$information-lg-tablet} {
+    .section-about-intro,
+    #about-intro {
+      .content-head {
+        .title {
+          margin: 4rem 0 2rem;
+        }
+      }
+
+      .content-body {
+        margin-top: 2rem;
+        height: 125vw;
+
+        .oppo-scale {
+          padding: 7.5vw 30px;
+
+          .scale-head {
+            margin-bottom: 5vw;
+
+            h4 {
+              font-size: 2.25rem;
+            }
+          }
+
+          .scale-body {
+            .scale-detail-layout {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+
+              .scale-item {
+                width: 50%;
+                flex-basis: 50%;
+                text-align: center;
+                margin-bottom: 30px;
+
+                .ico-holder {
+                  width: 30%;
+                  margin: 0 auto 1.5rem;
+                  height: 70px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media #{$information-lg-tablet} {
+    .section-about-intro,
+    #about-intro {
+      .content-head {
+        .title {
+          margin: 4rem 0 1.75rem;
+        }
+      }
+
+      .content-body {
+        margin-top: 2rem;
+        height: auto;
+
+        .oppo-scale {
+          padding: 7.5vw 30px 5vw;
+
+          .scale-head {
+            margin-bottom: 5vw;
+
+            h4 {
+              font-size: 2.25rem;
+            }
+          }
+
+          .scale-body {
+            .scale-detail-layout {
+              .scale-item {
+                margin-bottom: 25px;
+
+                .ico-holder {
+                  width: 30%;
+                  margin: 0 auto 1.5rem;
+                  height: 60px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media #{$information-phone} {
+    .section-about-intro,
+    #about-intro {
+      .content-head {
+        .title {
+          margin: 4rem 0 1.25rem;
+        }
+      }
+
+      .content-body {
+        margin-top: 2rem;
+        height: auto;
+
+        .oppo-scale {
+          padding: 7vw 30px 4vw;
+
+          .scale-head {
+            margin-bottom: 3vw;
+
+            h4 {
+              font-size: 1.15rem;
+            }
+          }
+
+          .scale-body {
+            .scale-detail-layout {
+              .scale-item {
+                width: 100%;
+                flex-basis: 100%;
+                margin-bottom: 20px;
+
+                .ico-holder {
+                  width: 30%;
+                  margin: 0 auto 1.5rem;
+                  height: 46px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media #{$information-sm-phone} {
+    .section-about-intro,
+    #about-intro {
+      .content-head {
+        .title {
+          margin: 2.75rem 0 1rem;
+        }
+      }
+
+      .content-body {
+        margin-top: 1.75rem;
+        height: auto;
+
+        .oppo-scale {
+          padding: 7vw 30px 4vw;
+
+          .scale-head {
+            margin-bottom: 3vw;
+
+            h4 {
+              font-size: 1.05rem;
+            }
+          }
+
+          .scale-body {
+            .scale-detail-layout {
+              .scale-item {
+                margin-bottom: 10px;
+
+                .ico-holder {
+                  width: 30%;
+                  margin: 0 auto 1.15rem;
+                  height: 40px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -60,4 +60,43 @@ body {
     right: 0;
     height: 10vw;
   }
+
+  @media #{$information-lg-tablet} {
+    .container {
+      padding: 0 30px;
+    }
+  }
+
+  @media #{$information-tablet} {
+    .container {
+      padding: 0 20px;
+    }
+  }
+
+  @media #{$information-phone} {
+    .container {
+      padding: 0 15px;
+    }
+  }
+
+  @media #{$information-sm-phone} {
+    .container {
+      padding: 0 13px;
+    }
+  }
+
+  .section {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    transition: all ease-out 720ms;
+  }
+
+  .is-hiding {
+    opacity: 0;
+    visibility: hidden;
+    // -webkit-transform: translateY(2rem);
+    // transform: translateY(2rem);
+  }
 }

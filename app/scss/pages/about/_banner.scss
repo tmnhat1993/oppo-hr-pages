@@ -1,0 +1,270 @@
+#hr-about-page {
+  /* Banner */
+  .section-about-banner,
+  #about-banner {
+    height: 45.5729166vw;
+    // height: 100vh;
+    overflow: hidden;
+    background-color: #999;
+
+    .banner-video {
+      width: 100%;
+      height: 100%;
+      position: relative;
+
+      video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+
+    .video-control-holder {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(#000, 0.2);
+      z-index: 2;
+      color: $white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .fa {
+        color: $white;
+        font-size: 130px;
+        cursor: pointer;
+        text-shadow: 0 0 8px rgba(#000, 0.5);
+      }
+    }
+  }
+  /* Banner - END */
+
+  @media #{$information-md-screen} {
+    .section-about-banner,
+    #about-banner {
+      .video-control-holder {
+        .fa {
+          font-size: 110px;
+        }
+      }
+    }
+  }
+
+  @media #{$information-sm-screen} {
+    .section-about-banner,
+    #about-banner {
+      .video-control-holder {
+        .fa {
+          font-size: 95px;
+        }
+      }
+    }
+  }
+
+  @media #{$information-sm-laptop} {
+    .section-about-banner,
+    #about-banner {
+      .video-control-holder {
+        .fa {
+          font-size: 85px;
+        }
+      }
+    }
+  }
+
+  @media #{$information-tablet} {
+    .section-about-banner,
+    #about-banner {
+      height: 116.8675vw;
+      padding: 15px 15px 0;
+      background-color: #fff;
+
+      .video-control-holder {
+        padding-top: 55%;
+
+        .play-video-on-modal {
+          background-color: $white;
+          color: $txt-color;
+          width: 220px;
+          height: 60px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          font-size: 1.2rem;
+
+          .fa {
+            font-size: 1.5rem;
+            text-shadow: none;
+            color: $txt-color;
+            margin-right: 0.75rem;
+          }
+        }
+      }
+    }
+  }
+
+  @media #{$information-phone} {
+    .section-about-banner,
+    #about-banner {
+      padding: 13px 13px 0;
+
+      .video-control-holder {
+        padding-top: 65%;
+
+        .play-video-on-modal {
+          width: 190px;
+          height: 50px;
+          font-size: 1.1rem;
+          padding-top: 2px;
+
+          .fa {
+            font-size: 1.25rem;
+            margin-right: 0.65rem;
+          }
+        }
+      }
+    }
+  }
+
+  @media #{$information-sm-phone} {
+    .section-about-banner,
+    #about-banner {
+      padding: 10px 10px 0;
+
+      .video-control-holder {
+        padding-top: 70%;
+
+        .play-video-on-modal {
+          width: 170px;
+          height: 42px;
+          font-size: 1rem;
+          padding-top: 2px;
+
+          .fa {
+            font-size: 1.15rem;
+            margin-right: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* EXTRA */
+.video-modal {
+  background-color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 12;
+
+  // Original State
+  opacity: 0;
+  visibility: hidden;
+  transition: all ease-out 220ms;
+
+  .video-holder {
+    width: 1200px;
+    margin: auto;
+    height: 720px;
+    position: relative;
+
+    max-width: 90%;
+    max-height: 80vh;
+
+    .close-video-modal {
+      position: absolute;
+      font-size: 3.5rem;
+      margin: 0;
+      line-height: 1;
+      bottom: 100%;
+      right: 4px;
+      font-weight: 600;
+      cursor: pointer;
+
+      &:hover {
+        color: $oppo;
+      }
+    }
+
+    .video {
+      width: 100%;
+      height: 100%;
+
+      video {
+        width: 100%;
+        height: 100%;
+        object-position: cover;
+        object-position: center;
+      }
+    }
+  }
+
+  &.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transition: all ease-out 350ms;
+  }
+
+  @media #{$information-md-screen} {
+    .video-holder {
+      width: 1080px;
+      margin: auto;
+      height: 720px;
+
+      .close-video-modal {
+        font-size: 3.25rem;
+      }
+    }
+  }
+
+  @media #{$information-sm-screen} {
+    .video-holder {
+      width: 900px;
+      margin: auto;
+      height: 506px;
+
+      .close-video-modal {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  @media #{$information-sm-laptop} {
+    .video-holder {
+      width: 800px;
+      margin: auto;
+      height: 450px;
+
+      .close-video-modal {
+        font-size: 2.75rem;
+      }
+    }
+  }
+
+  @media #{$information-tablet} {
+    .video-holder {
+      width: 100vw;
+      margin: auto;
+      height: 56.25vw;
+      max-width: 100%;
+      max-height: none;
+
+      .close-video-modal {
+        font-size: 2.75rem;
+        right: 2%;
+        color: $oppo;
+      }
+    }
+  }
+}

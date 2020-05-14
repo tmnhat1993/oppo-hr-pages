@@ -1,0 +1,154 @@
+#hr-about-page {
+  /* Section Spirit */
+  .section-about-spirit,
+  #about-spirit {
+    .main-content {
+      .title {
+        margin: 14.375rem 0 3.5rem;
+      }
+    }
+
+    .end-line {
+      margin: 8.75rem auto;
+      width: 160px;
+      height: 3px;
+      background-color: $oppo;
+    }
+  }
+  /* Section Spirit - END */
+
+  /* RESPONSIVE */
+  @media #{$information-md-screen} {
+    .section-about-spirit,
+    #about-spirit {
+      .main-content {
+        .title {
+          margin: 12.578125rem 0 3.0625rem;
+        }
+      }
+
+      .end-line {
+        margin: 7.65625rem auto;
+        width: 140px;
+        height: 3px;
+      }
+    }
+    /* Section Spirit - END */
+  }
+
+  @media #{$information-sm-screen} {
+    .section-about-spirit,
+    #about-spirit {
+      .main-content {
+        .title {
+          margin: 10.24rem 0 2.49375rem;
+        }
+      }
+
+      .end-line {
+        margin: 6.234375rem auto;
+        width: 114px;
+        height: 3px;
+      }
+    }
+    /* Section Spirit - END */
+  }
+
+  @media #{$information-sm-laptop} {
+    .section-about-spirit,
+    #about-spirit {
+      .main-content {
+        .title {
+          margin: 9.75rem 0 2.25rem;
+        }
+      }
+
+      .end-line {
+        margin: 6rem auto;
+        width: 110px;
+        height: 2px;
+        background-color: $oppo;
+      }
+    }
+    /* Section Spirit - END */
+  }
+
+  /* RESPONSIVE */
+  @media #{$information-lg-tablet} {
+    .section-about-spirit,
+    #about-spirit {
+      .main-content {
+        .title {
+          margin: 10.24rem 0 2.49375rem;
+        }
+      }
+
+      .end-line {
+        margin: 6.234375rem auto;
+        width: 114px;
+        height: 3px;
+      }
+    }
+  }
+
+  @media #{$information-tablet} {
+    .section-about-spirit,
+    #about-spirit {
+      .main-content {
+        .title {
+          margin: 9.75rem 0 2.25rem;
+        }
+      }
+
+      .end-line {
+        margin: 6rem auto;
+        width: 110px;
+        height: 2px;
+      }
+    }
+  }
+
+  @media #{$information-phone} {
+    .section-about-spirit,
+    #about-spirit {
+      .main-content {
+        .title {
+          margin: 5.5rem 0 1.5rem;
+        }
+
+        h4 {
+          margin-bottom: 0.35rem;
+          line-height: 0.65;
+        }
+      }
+
+      .end-line {
+        margin: 3rem auto;
+        width: 90px;
+        height: 2px;
+      }
+    }
+  }
+
+  @media #{$information-sm-phone} {
+    .section-about-spirit,
+    #about-spirit {
+      .main-content {
+        .title {
+          margin: 4.5rem 0 1.25rem;
+        }
+
+        h4 {
+          margin-bottom: 0.25rem;
+          line-height: 0.5;
+        }
+      }
+
+      .end-line {
+        margin: 2.5rem auto;
+        width: 80px;
+        height: 1.5px;
+      }
+    }
+  }
+}

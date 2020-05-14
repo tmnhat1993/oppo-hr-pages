@@ -1,9 +1,9 @@
 import Common from "./modules/common";
 import Home from "./modules/home";
 import About from "./modules/about";
-// import VideoLazyLoad from './modules/lazy-load-video';
+import VideoLazyLoad from "./modules/lazy-load-video";
 
-// let lazyLoadVideo = new VideoLazyLoad();
+let lazyLoadVideo = new VideoLazyLoad();
 
 $(document).ready(function () {
   // Behavior Use For All Page

@@ -76,10 +76,11 @@ var _home = _interopRequireDefault(__webpack_require__(15));
 
 var _about = _interopRequireDefault(__webpack_require__(16));
 
+var _lazyLoadVideo = _interopRequireDefault(__webpack_require__(17));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// import VideoLazyLoad from './modules/lazy-load-video';
-// let lazyLoadVideo = new VideoLazyLoad();
+var lazyLoadVideo = new _lazyLoadVideo.default();
 $(document).ready(function () {
   // Behavior Use For All Page
   var common = new _common.default(); // Behavior for HomePage
@@ -1709,13 +1710,47 @@ function () {
     key: "SetupAbout",
     value: function SetupAbout() {
       this.SetupHistorySlider();
+      this.SetupVideoBanner();
+      this.SetupScrollDetect();
+    }
+  }, {
+    key: "SetupVideoBanner",
+    value: function SetupVideoBanner() {
+      var _this = this;
+
+      this.bannerVideo = $("#popup-intro-video").get(0);
+      this.playModalVideo = $(".play-modal-video");
+      this.modalVideo = $(".video-modal");
+      this.closeVideoModal = $(".close-video-modal");
+      console.log(this.bannerVideo, this.playModalVideo);
+      this.playModalVideo.on("click", function () {
+        _this.modalVideo.addClass("show-modal");
+
+        setTimeout(function () {
+          _this.bannerVideo.play();
+        }, 300);
+      });
+      this.closeVideoModal.on("click", function () {
+        _this.modalVideo.removeClass("show-modal");
+
+        _this.bannerVideo.pause();
+
+        _this.bannerVideo.currentTime = 0;
+      });
+      this.bannerVideo.addEventListener("ended", function () {
+        _this.modalVideo.removeClass("show-modal");
+
+        _this.bannerVideo.pause();
+
+        _this.bannerVideo.currentTime = 0;
+      });
     }
   }, {
     key: "SetupHistorySlider",
     value: function SetupHistorySlider() {
       this.historySwiper = new Swiper(".timeline-holder", {
-        slidesPerView: 4,
-        slidesPerGroup: 2,
+        slidesPerView: 1,
+        slidesPerGroup: 1,
         speed: 550,
         navigation: {
           nextEl: ".button-next",
@@ -1724,8 +1759,100 @@ function () {
         pagination: {
           el: ".history-pagination",
           type: "bullets"
+        },
+        breakpoints: {
+          780: {
+            slidesPerView: 4,
+            slidesPerGroup: 2
+          },
+          480: {
+            slidesPerView: 2,
+            slidesPerGroup: 1
+          }
         }
       });
+    }
+  }, {
+    key: "SetupScrollDetect",
+    value: function SetupScrollDetect() {
+      var _this2 = this;
+
+      this.allSection = {
+        intro: {
+          el: $("#about-intro"),
+          status: false
+        },
+        spirit: {
+          el: $("#about-spirit"),
+          status: false
+        },
+        culture: {
+          el: $("#about-culture"),
+          status: false
+        },
+        history: {
+          el: $("#about-history"),
+          status: false
+        },
+        achievement: {
+          el: $("#about-archivement"),
+          status: false
+        }
+      };
+      $(window).on("scroll load", function () {
+        _this2.DetectScreen();
+      });
+    }
+  }, {
+    key: "ReachSection",
+    value: function ReachSection($target) {
+      if ($target.offset().top > 0) {
+        if (window.pageYOffset > $target.offset().top - window.innerHeight / 1.15 && window.pageYOffset < $target.offset().top + window.innerHeight / 1.15) {
+          return true;
+        } else {
+          return false;
+        }
+      }
+
+      return false;
+    }
+  }, {
+    key: "DetectScreen",
+    value: function DetectScreen() {
+      if (!this.allSection.intro.status) {
+        if (this.ReachSection(this.allSection.intro.el)) {
+          this.allSection.intro.el.removeClass("is-hiding");
+          this.allSection.intro.status = true;
+        }
+      }
+
+      if (!this.allSection.spirit.status) {
+        if (this.ReachSection(this.allSection.spirit.el)) {
+          this.allSection.spirit.status = true;
+          this.allSection.spirit.el.removeClass("is-hiding");
+        }
+      }
+
+      if (!this.allSection.culture.status) {
+        if (this.ReachSection(this.allSection.culture.el)) {
+          this.allSection.culture.status = true;
+          this.allSection.culture.el.removeClass("is-hiding");
+        }
+      }
+
+      if (!this.allSection.history.status) {
+        if (this.ReachSection(this.allSection.history.el)) {
+          this.allSection.history.status = true;
+          this.allSection.history.el.removeClass("is-hiding");
+        }
+      }
+
+      if (!this.allSection.achievement.status) {
+        if (this.ReachSection(this.allSection.achievement.el)) {
+          this.allSection.achievement.status = true;
+          this.allSection.achievement.el.removeClass("is-hiding");
+        }
+      }
     }
   }]);
 
@@ -1733,6 +1860,59 @@ function () {
 }();
 
 exports.default = About;
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var LazyLoadVideo =
+/* ===================================
+ *  CONSTRUCTOR
+ * =================================== */
+function LazyLoadVideo() {
+  _classCallCheck(this, LazyLoadVideo);
+
+  // Lazy Load Video Function
+  document.addEventListener("DOMContentLoaded", function () {
+    /* ===== LAZY LOAD VIDEO ===== */
+    var lazyVideos = [].slice.call(document.querySelectorAll("video.lazy-video-desktop"));
+
+    if ("IntersectionObserver" in window) {
+      var lazyVideoObserver = new IntersectionObserver(function (entries, observer) {
+        entries.forEach(function (video) {
+          if (video.isIntersecting) {
+            for (var source in video.target.children) {
+              var videoSource = video.target.children[source];
+
+              if (typeof videoSource.tagName === "string" && videoSource.tagName === "SOURCE") {
+                videoSource.src = videoSource.dataset.src;
+              }
+            }
+
+            video.target.load();
+            video.target.classList.remove("lazy");
+            lazyVideoObserver.unobserve(video.target);
+          }
+        });
+      });
+      lazyVideos.forEach(function (lazyVideo) {
+        lazyVideoObserver.observe(lazyVideo);
+      });
+    }
+  });
+};
+
+exports.default = LazyLoadVideo;
 
 /***/ })
 /******/ ]);

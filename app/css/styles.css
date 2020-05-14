@@ -63,6 +63,33 @@ body {
     left: 0;
     right: 0;
     height: 10vw; }
+  @media only screen and (max-width: 1024px) {
+    html .container,
+    body .container {
+      padding: 0 30px; } }
+  @media only screen and (max-width: 768px) {
+    html .container,
+    body .container {
+      padding: 0 20px; } }
+  @media only screen and (max-width: 480px) {
+    html .container,
+    body .container {
+      padding: 0 15px; } }
+  @media only screen and (max-width: 376px) {
+    html .container,
+    body .container {
+      padding: 0 13px; } }
+  html .section,
+  body .section {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    transition: all ease-out 720ms; }
+  html .is-hiding,
+  body .is-hiding {
+    opacity: 0;
+    visibility: hidden; }
 
 /* ======================
 * Margin And Padding Generator 
@@ -910,6 +937,120 @@ p,
 .uppercase {
   text-transform: uppercase; }
 
+/* RESPONSIVE */
+@media only screen and (max-width: 1680px) {
+  a {
+    font-size: 1.35rem; }
+  .title {
+    font-size: 3.3rem;
+    margin: 5rem 0 4.4rem; }
+  .sub-title {
+    font-size: 2.625rem;
+    margin: 2rem 0 0.13125rem; }
+  .highlight {
+    font-size: 1.75em; }
+  .desc,
+  p,
+  .desc-item {
+    font-size: 1.35rem; } }
+
+@media only screen and (max-width: 1440px) {
+  a {
+    font-size: 1.125rem; }
+  .title {
+    font-size: 2.671875rem;
+    margin: 4rem 0 3.5625rem; }
+  .sub-title {
+    font-size: 2.1375rem;
+    margin: 1.6rem 0 0.1rem; }
+  .highlight {
+    font-size: 1.75em; }
+  .desc,
+  p,
+  .desc-item {
+    font-size: 1.125rem; } }
+
+@media only screen and (max-width: 1280px) {
+  a {
+    font-size: 1.05rem; }
+  .title {
+    font-size: 2.3rem;
+    margin: 3.5rem 0 3.15rem; }
+  .sub-title {
+    font-size: 2rem;
+    margin: 1.3rem 0 0.1rem; }
+  .highlight {
+    font-size: 1.75em; }
+  .desc,
+  p,
+  .desc-item {
+    font-size: 1.05rem; } }
+
+@media only screen and (max-width: 1024px) {
+  a {
+    font-size: 1.35rem; }
+  .title {
+    font-size: 3.3rem;
+    margin: 5rem 0 4.4rem; }
+  .sub-title {
+    font-size: 2.625rem;
+    margin: 2rem 0 0.13125rem; }
+  .highlight {
+    font-size: 1.75em; }
+  .desc,
+  p,
+  .desc-item {
+    font-size: 1.35rem; } }
+
+@media only screen and (max-width: 768px) {
+  a {
+    font-size: 1.125rem; }
+  .title {
+    font-size: 2.671875rem;
+    margin: 4rem 0 3.5625rem; }
+  .sub-title {
+    font-size: 2.1375rem;
+    margin: 1.6rem 0 0.1rem; }
+  .highlight {
+    font-size: 1.75em; }
+  .desc,
+  p,
+  .desc-item {
+    font-size: 1.125rem; } }
+
+@media only screen and (max-width: 480px) {
+  a {
+    font-size: 1rem; }
+  .title {
+    font-size: 1.75rem;
+    margin: 3rem 0 2.15rem; }
+  .sub-title {
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin: 1.25rem 0 0.25rem; }
+  .highlight {
+    font-size: 1.75em; }
+  .desc,
+  p,
+  .desc-item {
+    font-size: 1rem; } }
+
+@media only screen and (max-width: 376px) {
+  a {
+    font-size: 0.9rem; }
+  .title {
+    font-size: 1.35rem;
+    margin: 2.5rem 0 2rem; }
+  .sub-title {
+    font-size: 1.15rem;
+    margin: 1.15rem 0 0.15rem; }
+  .highlight {
+    font-size: 1.35em; }
+  .desc,
+  p,
+  .desc-item {
+    font-size: 0.9rem; } }
+
 .container {
   width: 1200px;
   max-width: 100%;
@@ -1507,28 +1648,215 @@ p,
 
 #hr-about-page {
   /* Banner */
-  /* Banner - END */
-  /* Section About */
-  /* Section About - END */
-  /* Section Spirit */
-  /* Section Spirit - END */
-  /* Section OPPO Culture */
-  /* Section OPPO Culture - END */
-  /* OPPO History */
-  /* OPPO History - END */ }
+  /* Banner - END */ }
+  #hr-about-page .section-about-banner,
+  #hr-about-page #about-banner {
+    height: 45.5729166vw;
+    overflow: hidden;
+    background-color: #999; }
+    #hr-about-page .section-about-banner .banner-video,
+    #hr-about-page #about-banner .banner-video {
+      width: 100%;
+      height: 100%;
+      position: relative; }
+      #hr-about-page .section-about-banner .banner-video video,
+      #hr-about-page #about-banner .banner-video video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center; }
+    #hr-about-page .section-about-banner .video-control-holder,
+    #hr-about-page #about-banner .video-control-holder {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.2);
+      z-index: 2;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #hr-about-page .section-about-banner .video-control-holder .fa,
+      #hr-about-page #about-banner .video-control-holder .fa {
+        color: #fff;
+        font-size: 130px;
+        cursor: pointer;
+        text-shadow: 0 0 8px rgba(0, 0, 0, 0.5); }
+  @media only screen and (max-width: 1680px) {
+    #hr-about-page .section-about-banner .video-control-holder .fa,
+    #hr-about-page #about-banner .video-control-holder .fa {
+      font-size: 110px; } }
+  @media only screen and (max-width: 1440px) {
+    #hr-about-page .section-about-banner .video-control-holder .fa,
+    #hr-about-page #about-banner .video-control-holder .fa {
+      font-size: 95px; } }
+  @media only screen and (max-width: 1280px) {
+    #hr-about-page .section-about-banner .video-control-holder .fa,
+    #hr-about-page #about-banner .video-control-holder .fa {
+      font-size: 85px; } }
+  @media only screen and (max-width: 768px) {
+    #hr-about-page .section-about-banner,
+    #hr-about-page #about-banner {
+      height: 116.8675vw;
+      padding: 15px 15px 0;
+      background-color: #fff; }
+      #hr-about-page .section-about-banner .video-control-holder,
+      #hr-about-page #about-banner .video-control-holder {
+        padding-top: 55%; }
+        #hr-about-page .section-about-banner .video-control-holder .play-video-on-modal,
+        #hr-about-page #about-banner .video-control-holder .play-video-on-modal {
+          background-color: #fff;
+          color: #000000;
+          width: 220px;
+          height: 60px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          font-size: 1.2rem; }
+          #hr-about-page .section-about-banner .video-control-holder .play-video-on-modal .fa,
+          #hr-about-page #about-banner .video-control-holder .play-video-on-modal .fa {
+            font-size: 1.5rem;
+            text-shadow: none;
+            color: #000000;
+            margin-right: 0.75rem; } }
+  @media only screen and (max-width: 480px) {
+    #hr-about-page .section-about-banner,
+    #hr-about-page #about-banner {
+      padding: 13px 13px 0; }
+      #hr-about-page .section-about-banner .video-control-holder,
+      #hr-about-page #about-banner .video-control-holder {
+        padding-top: 65%; }
+        #hr-about-page .section-about-banner .video-control-holder .play-video-on-modal,
+        #hr-about-page #about-banner .video-control-holder .play-video-on-modal {
+          width: 190px;
+          height: 50px;
+          font-size: 1.1rem;
+          padding-top: 2px; }
+          #hr-about-page .section-about-banner .video-control-holder .play-video-on-modal .fa,
+          #hr-about-page #about-banner .video-control-holder .play-video-on-modal .fa {
+            font-size: 1.25rem;
+            margin-right: 0.65rem; } }
+  @media only screen and (max-width: 376px) {
+    #hr-about-page .section-about-banner,
+    #hr-about-page #about-banner {
+      padding: 10px 10px 0; }
+      #hr-about-page .section-about-banner .video-control-holder,
+      #hr-about-page #about-banner .video-control-holder {
+        padding-top: 70%; }
+        #hr-about-page .section-about-banner .video-control-holder .play-video-on-modal,
+        #hr-about-page #about-banner .video-control-holder .play-video-on-modal {
+          width: 170px;
+          height: 42px;
+          font-size: 1rem;
+          padding-top: 2px; }
+          #hr-about-page .section-about-banner .video-control-holder .play-video-on-modal .fa,
+          #hr-about-page #about-banner .video-control-holder .play-video-on-modal .fa {
+            font-size: 1.15rem;
+            margin-right: 0.5rem; } }
+
+/* EXTRA */
+.video-modal {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 12;
+  opacity: 0;
+  visibility: hidden;
+  transition: all ease-out 220ms; }
+  .video-modal .video-holder {
+    width: 1200px;
+    margin: auto;
+    height: 720px;
+    position: relative;
+    max-width: 90%;
+    max-height: 80vh; }
+    .video-modal .video-holder .close-video-modal {
+      position: absolute;
+      font-size: 3.5rem;
+      margin: 0;
+      line-height: 1;
+      bottom: 100%;
+      right: 4px;
+      font-weight: 600;
+      cursor: pointer; }
+      .video-modal .video-holder .close-video-modal:hover {
+        color: #046a38; }
+    .video-modal .video-holder .video {
+      width: 100%;
+      height: 100%; }
+      .video-modal .video-holder .video video {
+        width: 100%;
+        height: 100%;
+        object-position: cover;
+        object-position: center; }
+  .video-modal.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transition: all ease-out 350ms; }
+  @media only screen and (max-width: 1680px) {
+    .video-modal .video-holder {
+      width: 1080px;
+      margin: auto;
+      height: 720px; }
+      .video-modal .video-holder .close-video-modal {
+        font-size: 3.25rem; } }
+  @media only screen and (max-width: 1440px) {
+    .video-modal .video-holder {
+      width: 900px;
+      margin: auto;
+      height: 506px; }
+      .video-modal .video-holder .close-video-modal {
+        font-size: 3rem; } }
+  @media only screen and (max-width: 1280px) {
+    .video-modal .video-holder {
+      width: 800px;
+      margin: auto;
+      height: 450px; }
+      .video-modal .video-holder .close-video-modal {
+        font-size: 2.75rem; } }
+  @media only screen and (max-width: 768px) {
+    .video-modal .video-holder {
+      width: 100vw;
+      margin: auto;
+      height: 56.25vw;
+      max-width: 100%;
+      max-height: none; }
+      .video-modal .video-holder .close-video-modal {
+        font-size: 2.75rem;
+        right: 2%;
+        color: #046a38; } }
+
+#hr-about-page {
+  /* Section Intro */
+  /* Section Intro - END */
+  /* RESPONSIVE */
+  /* TABLET */ }
+  #hr-about-page .section-about-intro .content-head .title,
+  #hr-about-page #about-intro .content-head .title {
+    margin: 7rem 0 3.5rem; }
   #hr-about-page .section-about-intro .content-body,
   #hr-about-page #about-intro .content-body {
     margin-top: 1.875rem;
     height: 32.5vw;
     background-position: center;
     background-size: cover;
-    background-image: url("../img/about/intro-bg.jpg"); }
+    background-image: url("../img/about/intro-bg.jpg");
+    background-attachment: fixed; }
     #hr-about-page .section-about-intro .content-body .oppo-scale,
     #hr-about-page #about-intro .content-body .oppo-scale {
       height: 100%;
       display: flex;
       justify-content: flex-start;
-      padding: 6vw 0;
+      padding: 6.25vw 3.125vw;
       flex-direction: column;
       height: 100%; }
       #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head,
@@ -1537,7 +1865,8 @@ p,
         #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head h4,
         #hr-about-page #about-intro .content-body .oppo-scale .scale-head h4 {
           font-size: 2.25rem;
-          font-weight: 400; }
+          font-weight: 400;
+          line-height: 1.35; }
       #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout,
       #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout {
         display: flex; }
@@ -1561,10 +1890,198 @@ p,
               display: block; }
           #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc,
           #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc {
-            line-height: 1.7; }
+            line-height: 1.55; }
             #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc .highlight,
             #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc .highlight {
-              line-height: 0.6; }
+              line-height: 0.7; }
+  @media only screen and (max-width: 1680px) {
+    #hr-about-page .section-about-intro .content-head .title,
+    #hr-about-page #about-intro .content-head .title {
+      margin: 6.125rem 0 3.0625rem; }
+    #hr-about-page .section-about-intro .content-body,
+    #hr-about-page #about-intro .content-body {
+      margin-top: 1.64rem; }
+      #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head,
+      #hr-about-page #about-intro .content-body .oppo-scale .scale-head {
+        margin-bottom: 2vw; }
+        #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head h4,
+        #hr-about-page #about-intro .content-body .oppo-scale .scale-head h4 {
+          font-size: 1.96875rem; }
+      #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder,
+      #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder {
+        width: 30%;
+        margin: 0 auto 1.3125rem;
+        height: 65px; }
+      #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc,
+      #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc {
+        line-height: 1.55; }
+        #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc .highlight,
+        #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc .highlight {
+          line-height: 0.7; } }
+  @media only screen and (max-width: 1440px) {
+    #hr-about-page .section-about-intro .content-head .title,
+    #hr-about-page #about-intro .content-head .title {
+      margin: 5rem 0 2.5rem; }
+    #hr-about-page .section-about-intro .content-body,
+    #hr-about-page #about-intro .content-body {
+      margin-top: 1.336rem; }
+      #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head,
+      #hr-about-page #about-intro .content-body .oppo-scale .scale-head {
+        margin-bottom: 2vw; }
+        #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head h4,
+        #hr-about-page #about-intro .content-body .oppo-scale .scale-head h4 {
+          font-size: 1.6rem; }
+      #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder,
+      #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder {
+        width: 30%;
+        margin: 0 auto 1.5rem;
+        height: 43px; }
+      #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc,
+      #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc {
+        line-height: 1.55; }
+        #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc .highlight,
+        #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc .highlight {
+          line-height: 0.7; } }
+  @media only screen and (max-width: 1280px) {
+    #hr-about-page .section-about-intro .content-head .title,
+    #hr-about-page #about-intro .content-head .title {
+      margin: 4rem 0 2.25rem; }
+    #hr-about-page .section-about-intro .content-body,
+    #hr-about-page #about-intro .content-body {
+      margin-top: 1.25rem; }
+      #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head,
+      #hr-about-page #about-intro .content-body .oppo-scale .scale-head {
+        margin-bottom: 2vw; }
+        #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head h4,
+        #hr-about-page #about-intro .content-body .oppo-scale .scale-head h4 {
+          font-size: 1.4rem; }
+      #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder,
+      #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder {
+        width: 30%;
+        margin: 0 auto 1.35rem;
+        height: 40px; }
+      #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc,
+      #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc {
+        line-height: 1.5; }
+        #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc .highlight,
+        #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc .highlight {
+          line-height: 0.7; } }
+  @media only screen and (max-width: 1024px) {
+    #hr-about-page .section-about-intro .content-head .title,
+    #hr-about-page #about-intro .content-head .title {
+      margin: 4rem 0 2rem; }
+    #hr-about-page .section-about-intro .content-body,
+    #hr-about-page #about-intro .content-body {
+      margin-top: 2rem;
+      height: 125vw; }
+      #hr-about-page .section-about-intro .content-body .oppo-scale,
+      #hr-about-page #about-intro .content-body .oppo-scale {
+        padding: 7.5vw 30px; }
+        #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head,
+        #hr-about-page #about-intro .content-body .oppo-scale .scale-head {
+          margin-bottom: 5vw; }
+          #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head h4,
+          #hr-about-page #about-intro .content-body .oppo-scale .scale-head h4 {
+            font-size: 2.25rem; }
+        #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout,
+        #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center; }
+          #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item,
+          #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item {
+            width: 50%;
+            flex-basis: 50%;
+            text-align: center;
+            margin-bottom: 30px; }
+            #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder,
+            #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder {
+              width: 30%;
+              margin: 0 auto 1.5rem;
+              height: 70px; } }
+  @media only screen and (max-width: 1024px) {
+    #hr-about-page .section-about-intro .content-head .title,
+    #hr-about-page #about-intro .content-head .title {
+      margin: 4rem 0 1.75rem; }
+    #hr-about-page .section-about-intro .content-body,
+    #hr-about-page #about-intro .content-body {
+      margin-top: 2rem;
+      height: auto; }
+      #hr-about-page .section-about-intro .content-body .oppo-scale,
+      #hr-about-page #about-intro .content-body .oppo-scale {
+        padding: 7.5vw 30px 5vw; }
+        #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head,
+        #hr-about-page #about-intro .content-body .oppo-scale .scale-head {
+          margin-bottom: 5vw; }
+          #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head h4,
+          #hr-about-page #about-intro .content-body .oppo-scale .scale-head h4 {
+            font-size: 2.25rem; }
+        #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item,
+        #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item {
+          margin-bottom: 25px; }
+          #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder,
+          #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder {
+            width: 30%;
+            margin: 0 auto 1.5rem;
+            height: 60px; } }
+  @media only screen and (max-width: 480px) {
+    #hr-about-page .section-about-intro .content-head .title,
+    #hr-about-page #about-intro .content-head .title {
+      margin: 4rem 0 1.25rem; }
+    #hr-about-page .section-about-intro .content-body,
+    #hr-about-page #about-intro .content-body {
+      margin-top: 2rem;
+      height: auto; }
+      #hr-about-page .section-about-intro .content-body .oppo-scale,
+      #hr-about-page #about-intro .content-body .oppo-scale {
+        padding: 7vw 30px 4vw; }
+        #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head,
+        #hr-about-page #about-intro .content-body .oppo-scale .scale-head {
+          margin-bottom: 3vw; }
+          #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head h4,
+          #hr-about-page #about-intro .content-body .oppo-scale .scale-head h4 {
+            font-size: 1.15rem; }
+        #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item,
+        #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item {
+          width: 100%;
+          flex-basis: 100%;
+          margin-bottom: 20px; }
+          #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder,
+          #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder {
+            width: 30%;
+            margin: 0 auto 1.5rem;
+            height: 46px; } }
+  @media only screen and (max-width: 376px) {
+    #hr-about-page .section-about-intro .content-head .title,
+    #hr-about-page #about-intro .content-head .title {
+      margin: 2.75rem 0 1rem; }
+    #hr-about-page .section-about-intro .content-body,
+    #hr-about-page #about-intro .content-body {
+      margin-top: 1.75rem;
+      height: auto; }
+      #hr-about-page .section-about-intro .content-body .oppo-scale,
+      #hr-about-page #about-intro .content-body .oppo-scale {
+        padding: 7vw 30px 4vw; }
+        #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head,
+        #hr-about-page #about-intro .content-body .oppo-scale .scale-head {
+          margin-bottom: 3vw; }
+          #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head h4,
+          #hr-about-page #about-intro .content-body .oppo-scale .scale-head h4 {
+            font-size: 1.05rem; }
+        #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item,
+        #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item {
+          margin-bottom: 10px; }
+          #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder,
+          #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder {
+            width: 30%;
+            margin: 0 auto 1.15rem;
+            height: 40px; } }
+
+#hr-about-page {
+  /* Section Spirit */
+  /* Section Spirit - END */
+  /* RESPONSIVE */
+  /* RESPONSIVE */ }
   #hr-about-page .section-about-spirit .main-content .title,
   #hr-about-page #about-spirit .main-content .title {
     margin: 14.375rem 0 3.5rem; }
@@ -1574,6 +2091,90 @@ p,
     width: 160px;
     height: 3px;
     background-color: #046a38; }
+  @media only screen and (max-width: 1680px) {
+    #hr-about-page {
+      /* Section Spirit - END */ }
+      #hr-about-page .section-about-spirit .main-content .title,
+      #hr-about-page #about-spirit .main-content .title {
+        margin: 12.578125rem 0 3.0625rem; }
+      #hr-about-page .section-about-spirit .end-line,
+      #hr-about-page #about-spirit .end-line {
+        margin: 7.65625rem auto;
+        width: 140px;
+        height: 3px; } }
+  @media only screen and (max-width: 1440px) {
+    #hr-about-page {
+      /* Section Spirit - END */ }
+      #hr-about-page .section-about-spirit .main-content .title,
+      #hr-about-page #about-spirit .main-content .title {
+        margin: 10.24rem 0 2.49375rem; }
+      #hr-about-page .section-about-spirit .end-line,
+      #hr-about-page #about-spirit .end-line {
+        margin: 6.234375rem auto;
+        width: 114px;
+        height: 3px; } }
+  @media only screen and (max-width: 1280px) {
+    #hr-about-page {
+      /* Section Spirit - END */ }
+      #hr-about-page .section-about-spirit .main-content .title,
+      #hr-about-page #about-spirit .main-content .title {
+        margin: 9.75rem 0 2.25rem; }
+      #hr-about-page .section-about-spirit .end-line,
+      #hr-about-page #about-spirit .end-line {
+        margin: 6rem auto;
+        width: 110px;
+        height: 2px;
+        background-color: #046a38; } }
+  @media only screen and (max-width: 1024px) {
+    #hr-about-page .section-about-spirit .main-content .title,
+    #hr-about-page #about-spirit .main-content .title {
+      margin: 10.24rem 0 2.49375rem; }
+    #hr-about-page .section-about-spirit .end-line,
+    #hr-about-page #about-spirit .end-line {
+      margin: 6.234375rem auto;
+      width: 114px;
+      height: 3px; } }
+  @media only screen and (max-width: 768px) {
+    #hr-about-page .section-about-spirit .main-content .title,
+    #hr-about-page #about-spirit .main-content .title {
+      margin: 9.75rem 0 2.25rem; }
+    #hr-about-page .section-about-spirit .end-line,
+    #hr-about-page #about-spirit .end-line {
+      margin: 6rem auto;
+      width: 110px;
+      height: 2px; } }
+  @media only screen and (max-width: 480px) {
+    #hr-about-page .section-about-spirit .main-content .title,
+    #hr-about-page #about-spirit .main-content .title {
+      margin: 5.5rem 0 1.5rem; }
+    #hr-about-page .section-about-spirit .main-content h4,
+    #hr-about-page #about-spirit .main-content h4 {
+      margin-bottom: 0.35rem;
+      line-height: 0.65; }
+    #hr-about-page .section-about-spirit .end-line,
+    #hr-about-page #about-spirit .end-line {
+      margin: 3rem auto;
+      width: 90px;
+      height: 2px; } }
+  @media only screen and (max-width: 376px) {
+    #hr-about-page .section-about-spirit .main-content .title,
+    #hr-about-page #about-spirit .main-content .title {
+      margin: 4.5rem 0 1.25rem; }
+    #hr-about-page .section-about-spirit .main-content h4,
+    #hr-about-page #about-spirit .main-content h4 {
+      margin-bottom: 0.25rem;
+      line-height: 0.5; }
+    #hr-about-page .section-about-spirit .end-line,
+    #hr-about-page #about-spirit .end-line {
+      margin: 2.5rem auto;
+      width: 80px;
+      height: 1.5px; } }
+
+#hr-about-page {
+  /* Section OPPO Culture */
+  /* Section OPPO Culture - END */
+  /* RESPONSIVE */
+  /* TBALET */ }
   #hr-about-page .section-about-culture .main-content .content-head .title,
   #hr-about-page #about-culture .main-content .content-head .title {
     margin-bottom: 2.5rem; }
@@ -1633,6 +2234,197 @@ p,
         grid-row: 1 / span 2;
         grid-column: 2;
         background-image: url("../img/about/culture-bg3.jpg"); }
+  @media only screen and (max-width: 1680px) {
+    #hr-about-page .section-about-culture .main-content .content-head .title,
+    #hr-about-page #about-culture .main-content .content-head .title {
+      margin-bottom: 2.1875rem; }
+    #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout,
+    #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout {
+      grid-column-gap: 10px;
+      grid-row-gap: 10px; }
+      #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title,
+      #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title {
+        font-size: 1.96875rem;
+        margin-bottom: 0.4rem; }
+      #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item,
+      #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item {
+        padding-left: 1.96875rem; }
+        #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before,
+        #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before {
+          width: 12px;
+          height: 12px;
+          border-radius: 6px;
+          left: calc(1rem - 6px);
+          top: calc(1rem - 6px); } }
+  @media only screen and (max-width: 1440px) {
+    #hr-about-page .section-about-culture .main-content .content-head .title,
+    #hr-about-page #about-culture .main-content .content-head .title {
+      margin-bottom: 1.78125rem; }
+    #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout,
+    #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout {
+      grid-column-gap: 9px;
+      grid-row-gap: 9px; }
+      #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title,
+      #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title {
+        font-size: 1.6rem;
+        margin-bottom: 0.32rem; }
+      #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item,
+      #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item {
+        padding-left: 1.6rem; }
+        #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before,
+        #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before {
+          width: 10px;
+          height: 10px;
+          border-radius: 5px;
+          left: calc(0.8rem - 5px);
+          top: calc(0.8rem - 5px); } }
+  @media only screen and (max-width: 1280px) {
+    #hr-about-page .section-about-culture .main-content .content-head .title,
+    #hr-about-page #about-culture .main-content .content-head .title {
+      margin-bottom: 1.6rem; }
+    #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout,
+    #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout {
+      grid-column-gap: 9px;
+      grid-row-gap: 9px; }
+      #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title,
+      #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title {
+        font-size: 1.4rem;
+        margin-bottom: 0.32rem; }
+      #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item,
+      #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item {
+        padding-left: 1.5rem; }
+        #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before,
+        #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before {
+          width: 8px;
+          height: 8px;
+          border-radius: 4px;
+          left: calc(0.75rem - 4px);
+          top: calc(0.75rem - 4px); } }
+  @media only screen and (max-width: 1024px) {
+    #hr-about-page .section-about-culture .main-content .content-head .title,
+    #hr-about-page #about-culture .main-content .content-head .title {
+      margin-bottom: 2.5rem; }
+    #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout,
+    #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout {
+      grid-template-columns: 1fr;
+      grid-template-rows: 54.216vw 89.759vw 54.216vw;
+      grid-column-gap: 15px;
+      grid-row-gap: 15px;
+      padding: 0 15px; }
+      #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content,
+      #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content {
+        width: 80%; }
+        #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title,
+        #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title {
+          font-size: 1.75rem;
+          margin-bottom: 0.5rem; }
+        #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc,
+        #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc {
+          margin-bottom: 0;
+          line-height: 1.5; }
+          #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item,
+          #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item {
+            padding-left: 2.25rem;
+            position: relative;
+            line-height: 1.5; }
+            #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before,
+            #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before {
+              width: 12px;
+              height: 12px;
+              left: calc(1rem - 6px);
+              top: calc(1rem - 6px); }
+      #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block.block-vision,
+      #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block.block-vision {
+        grid-column: 1;
+        grid-row: 1;
+        background-attachment: fixed; }
+      #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block.block-core-value,
+      #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block.block-core-value {
+        grid-column: 1;
+        grid-row: 3;
+        background-attachment: fixed; }
+      #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block.block-mission,
+      #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block.block-mission {
+        grid-row: 2;
+        grid-column: 1;
+        background-attachment: fixed; } }
+  @media only screen and (max-width: 480px) {
+    #hr-about-page .section-about-culture .main-content .content-head .title,
+    #hr-about-page #about-culture .main-content .content-head .title {
+      margin-bottom: 2rem; }
+    #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout,
+    #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout {
+      grid-column-gap: 13px;
+      grid-row-gap: 13px;
+      padding: 0 13px; }
+      #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content,
+      #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content {
+        width: 100%;
+        padding: 0 13px; }
+        #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title,
+        #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title {
+          font-size: 1.35rem;
+          margin-bottom: 0.35rem;
+          text-align: center; }
+        #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content p.block-desc,
+        #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content p.block-desc {
+          text-align: center; }
+        #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc,
+        #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc {
+          margin-bottom: 0;
+          line-height: 1.5; }
+          #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item,
+          #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item {
+            padding-left: 1.6rem;
+            line-height: 1.5; }
+            #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before,
+            #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before {
+              width: 8px;
+              height: 8px;
+              border-radius: 5px;
+              left: calc(0.8rem - 4px);
+              top: calc(0.8rem - 4px); } }
+  @media only screen and (max-width: 376px) {
+    #hr-about-page .section-about-culture .main-content .content-head .title,
+    #hr-about-page #about-culture .main-content .content-head .title {
+      margin-bottom: 1.5rem; }
+    #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout,
+    #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout {
+      grid-column-gap: 13px;
+      grid-row-gap: 13px;
+      padding: 0 13px; }
+      #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content,
+      #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content {
+        width: 100%;
+        padding: 0 10px; }
+        #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title,
+        #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title {
+          font-size: 1.15rem;
+          margin-bottom: 0.15rem; }
+        #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content p.block-desc,
+        #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content p.block-desc {
+          text-align: center; }
+        #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc,
+        #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc {
+          margin-bottom: 0;
+          line-height: 1.5; }
+          #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item,
+          #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item {
+            padding-left: 1.2rem;
+            line-height: 1.5; }
+            #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before,
+            #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before {
+              width: 6px;
+              height: 6px;
+              border-radius: 3px;
+              left: calc(0.6rem - 3px);
+              top: calc(0.6rem - 3px); } }
+
+#hr-about-page {
+  /* OPPO History */
+  /* OPPO History - END */
+  /* RESPONSIVE */
+  /* RESPONSIVE */ }
   #hr-about-page .section-about-history .container,
   #hr-about-page #about-history .container {
     width: calc(100% - 140px);
@@ -1643,88 +2435,132 @@ p,
       overflow: hidden;
       padding: 5rem 0 3rem;
       position: relative; }
-      #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper,
-      #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper {
-        display: grid;
-        grid-template-rows: 240px 50px;
-        position: relative; }
-        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg,
-        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg {
-          position: absolute;
-          height: 220px;
-          width: 60px;
-          top: 10px;
-          z-index: 1;
-          opacity: 0;
-          background-image: radial-gradient(rgba(4, 106, 56, 0.3), rgba(4, 106, 56, 0), rgba(4, 106, 56, 0));
-          transition: all ease-in 150ms;
-          transform: scale(0.2); }
-          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-left,
-          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-left {
-            left: calc(2% - 30px); }
-          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-right,
-          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-right {
-            right: calc(2% - 30px); }
-        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder,
-        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder {
+      #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item,
+      #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item {
+        cursor: pointer; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper {
           display: grid;
-          grid-template-rows: 100px 140px;
-          position: relative;
-          background-color: #fff;
-          z-index: 2;
-          width: 96%;
-          margin: 0 auto; }
-          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail,
-          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail {
-            text-align: center;
-            font-size: 1.5625rem; }
-          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-icon,
-          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-icon {
-            display: flex;
-            align-items: center;
-            justify-content: center; }
-        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker,
-        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker {
-          width: 100%;
-          height: 100%;
+          grid-template-rows: 320px 80px;
           position: relative; }
-          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line,
-          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line {
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg {
             position: absolute;
-            width: 40%;
-            height: 1px;
-            background-color: #333;
-            top: 24px; }
-            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line.line-left,
-            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line.line-left {
-              left: 0; }
-            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line.line-right,
-            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line.line-right {
-              right: 0; }
-          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-holder,
-          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-effect,
-          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-holder,
-          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-effect {
-            width: 22px;
-            height: 22px;
-            border-radius: 50%;
-            background-color: #76db8b;
-            top: calc(50% - 11px);
-            left: calc(50% - 11px);
-            position: absolute; }
-          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-effect,
-          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-effect {
-            z-index: 0;
-            animation: wavingEffect infinite 2s linear; }
-      #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .context-bg,
-      #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .context-bg {
-        z-index: 4;
-        opacity: 1;
-        transition: all ease-out 330ms;
-        transform: scale(1.2); }
-      #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .context-holder,
-      #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .context-holder {
-        z-index: 5; }
+            height: 260px;
+            width: 80px;
+            top: 10px;
+            z-index: 1;
+            opacity: 0;
+            background-image: radial-gradient(rgba(4, 106, 56, 0.2), rgba(4, 106, 56, 0), rgba(4, 106, 56, 0));
+            transition: all ease-in 150ms;
+            transform: scale(0.2); }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-left,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-left {
+              left: calc(2% - 40px); }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-right,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-right {
+              right: calc(2% - 40px); }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder {
+            display: grid;
+            grid-template-rows: 140px 180px;
+            position: relative;
+            background-color: #fff;
+            z-index: 2;
+            width: 96%;
+            margin: 0 auto; }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail {
+              text-align: center;
+              font-size: 1.5625rem;
+              transition: all ease-in 150ms;
+              display: flex;
+              align-items: center;
+              justify-content: center; }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-icon,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-icon {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              transition: all ease-in 150ms; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            z-index: 6; }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line {
+              position: absolute;
+              width: 40%;
+              height: 1px;
+              background-color: #333;
+              top: 39px; }
+              #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line.line-left,
+              #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line.line-left {
+                left: 0; }
+              #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line.line-right,
+              #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line.line-right {
+                right: 0; }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-holder,
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-effect,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-holder,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-effect {
+              width: 22px;
+              height: 22px;
+              border-radius: 50%;
+              background-color: #76db8b;
+              top: calc(50% - 11px);
+              left: calc(50% - 11px);
+              position: absolute;
+              transition: all ease-in 150ms; }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-effect,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-effect {
+              z-index: 0;
+              animation: wavingEffect infinite 2s linear; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-year,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-year {
+            padding: 0.5rem 0;
+            font-size: 1.5625rem;
+            transition: all ease-in 150ms; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .context-bg,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .context-bg {
+          z-index: 4;
+          opacity: 1;
+          transition: all ease-out 420ms;
+          -webkit-transform: scale(1.2);
+          transform: scale(1.2); }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .context-holder,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .context-holder {
+          z-index: 5; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .context-holder .history-detail,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .context-holder .history-detail {
+            transition: all ease-out 420ms;
+            -webkit-transform: scale(1.2) translateY(-5%);
+            transform: scale(1.2) translateY(-5%); }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .context-holder .history-icon,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .context-holder .history-icon {
+            transition: all ease-out 420ms;
+            -webkit-transform: scale(1.2) translateY(1%);
+            transform: scale(1.2) translateY(1%); }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .history-marker .marker-holder,
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .history-marker .marker-effect,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .history-marker .marker-holder,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .history-marker .marker-effect {
+          background-color: #046a38; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .history-marker .marker-holder,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .history-marker .marker-holder {
+          transition: all ease-out 420ms;
+          transform: scale(1.15); }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .history-marker .marker-effect,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .history-marker .marker-effect {
+          z-index: 0;
+          animation: wavingEffect2 infinite 2s linear; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .history-year,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .history-year {
+          color: #046a38;
+          transform: scale(1.2);
+          transition: all ease-out 420ms; }
     #hr-about-page .section-about-history .container .button-prev,
     #hr-about-page .section-about-history .container .button-next,
     #hr-about-page #about-history .container .button-prev,
@@ -1732,7 +2568,7 @@ p,
       position: absolute;
       width: 50px;
       height: 50px;
-      top: calc(87% - 25px);
+      top: calc(81.5% - 25px);
       cursor: pointer;
       z-index: 3;
       outline: none; }
@@ -1779,6 +2615,790 @@ p,
         #hr-about-page .section-about-history .container .history-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active,
         #hr-about-page #about-history .container .history-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
           background-color: #046a38; }
+  @media only screen and (max-width: 1680px) {
+    #hr-about-page .section-about-history .container,
+    #hr-about-page #about-history .container {
+      width: calc(100% - 120px); }
+      #hr-about-page .section-about-history .container .timeline-holder,
+      #hr-about-page #about-history .container .timeline-holder {
+        padding: 4.4rem 0 2.625rem; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper {
+          grid-template-rows: 280px 70px; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg {
+            height: 260px;
+            width: 70px;
+            top: 10px; }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-left,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-left {
+              left: calc(2% - 35px); }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-right,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-right {
+              right: calc(2% - 35px); }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder {
+            grid-template-rows: 120px 160px; }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail {
+              font-size: 1.35rem; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line {
+            top: 34px; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-holder,
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-effect,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-holder,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-effect {
+            width: 20px;
+            height: 20px;
+            top: calc(50% - 10px);
+            left: calc(50% - 10px); }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-year,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-year {
+            padding: 0.4375rem 0;
+            font-size: 1.35rem; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2001 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2006 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2021 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2001 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2006 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2021 .history-layout-wrapper .context-holder .history-icon img {
+          max-width: 27%;
+          max-height: 105px; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2012 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2013 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2014 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2018 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2019 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2005 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2012 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2013 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2014 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2018 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2019 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2005 .history-layout-wrapper .context-holder .history-icon img {
+          max-width: 50%;
+          max-height: 110px; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2016 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2017 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2016 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2017 .history-layout-wrapper .context-holder .history-icon img {
+          max-width: 50%;
+          max-height: 100px; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2020 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2020 .history-layout-wrapper .context-holder .history-icon img {
+          max-width: 70%;
+          max-height: 125px; }
+      #hr-about-page .section-about-history .container .button-prev,
+      #hr-about-page .section-about-history .container .button-next,
+      #hr-about-page #about-history .container .button-prev,
+      #hr-about-page #about-history .container .button-next {
+        width: 44px;
+        height: 44px;
+        top: calc(81.5% - 22px); }
+        #hr-about-page .section-about-history .container .button-prev .shape-holder,
+        #hr-about-page .section-about-history .container .button-next .shape-holder,
+        #hr-about-page #about-history .container .button-prev .shape-holder,
+        #hr-about-page #about-history .container .button-next .shape-holder {
+          width: 44px;
+          height: 44px;
+          border: 2px solid #046a38; }
+      #hr-about-page .section-about-history .container .button-next,
+      #hr-about-page #about-history .container .button-next {
+        right: -22px; }
+        #hr-about-page .section-about-history .container .button-next .shape-holder,
+        #hr-about-page #about-history .container .button-next .shape-holder {
+          border-bottom: 0;
+          border-left: 0; }
+      #hr-about-page .section-about-history .container .button-prev,
+      #hr-about-page #about-history .container .button-prev {
+        left: -22px; }
+        #hr-about-page .section-about-history .container .button-prev .shape-holder,
+        #hr-about-page #about-history .container .button-prev .shape-holder {
+          border-top: 0;
+          border-right: 0; }
+      #hr-about-page .section-about-history .container .history-pagination .swiper-pagination-bullet,
+      #hr-about-page #about-history .container .history-pagination .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+        border: 1px solid #046a38;
+        border-radius: 6px; } }
+  @media only screen and (max-width: 1440px) {
+    #hr-about-page .section-about-history .container,
+    #hr-about-page #about-history .container {
+      width: calc(100% - 100px); }
+      #hr-about-page .section-about-history .container .timeline-holder,
+      #hr-about-page #about-history .container .timeline-holder {
+        padding: 3.6rem 0 2.15rem; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper {
+          grid-template-rows: 230px 60px; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg {
+            height: 210px;
+            width: 60px;
+            top: 10px; }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-left,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-left {
+              left: calc(2% - 30px); }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-right,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-right {
+              right: calc(2% - 30px); }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder {
+            grid-template-rows: 110px 130px; }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail {
+              font-size: 1.125rem; }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-icon img,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-icon img {
+              max-height: 110px;
+              max-width: 42%; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line {
+            top: 30px; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-holder,
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-effect,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-holder,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-effect {
+            width: 16px;
+            height: 16px;
+            top: calc(50% - 8px);
+            left: calc(50% - 8px); }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2001 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2006 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2021 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2001 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2006 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2021 .history-layout-wrapper .context-holder .history-icon img {
+          max-width: 27%;
+          max-height: 84px; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2012 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2013 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2014 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2018 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2019 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2005 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2012 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2013 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2014 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2018 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2019 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2005 .history-layout-wrapper .context-holder .history-icon img {
+          max-width: 50%;
+          max-height: 95px; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2016 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2017 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2016 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2017 .history-layout-wrapper .context-holder .history-icon img {
+          max-width: 50%;
+          max-height: 85px; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2020 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2020 .history-layout-wrapper .context-holder .history-icon img {
+          max-width: 70%;
+          max-height: 110px; }
+      #hr-about-page .section-about-history .container .button-prev,
+      #hr-about-page .section-about-history .container .button-next,
+      #hr-about-page #about-history .container .button-prev,
+      #hr-about-page #about-history .container .button-next {
+        width: 40px;
+        height: 40px;
+        top: calc(81.5% - 20px); }
+        #hr-about-page .section-about-history .container .button-prev .shape-holder,
+        #hr-about-page .section-about-history .container .button-next .shape-holder,
+        #hr-about-page #about-history .container .button-prev .shape-holder,
+        #hr-about-page #about-history .container .button-next .shape-holder {
+          width: 40px;
+          height: 40px; }
+      #hr-about-page .section-about-history .container .button-next,
+      #hr-about-page #about-history .container .button-next {
+        right: -20px; }
+      #hr-about-page .section-about-history .container .button-prev,
+      #hr-about-page #about-history .container .button-prev {
+        left: -20px; }
+      #hr-about-page .section-about-history .container .history-pagination .swiper-pagination-bullet,
+      #hr-about-page #about-history .container .history-pagination .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        border: 1px solid #046a38;
+        border-radius: 5px; } }
+  @media only screen and (max-width: 1280px) {
+    #hr-about-page .section-about-history .container,
+    #hr-about-page #about-history .container {
+      width: calc(100% - 90px); }
+      #hr-about-page .section-about-history .container .timeline-holder,
+      #hr-about-page #about-history .container .timeline-holder {
+        padding: 3.3rem 0 2rem; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper {
+          grid-template-rows: 200px 50px; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg {
+            height: 180px;
+            width: 50px;
+            top: 10px; }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-left,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-left {
+              left: calc(2% - 25px); }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-right,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-right {
+              right: calc(2% - 25px); }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder {
+            grid-template-rows: 90px 110px; }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail {
+              font-size: 1.025rem; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line {
+            top: 25px; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-holder,
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-effect,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-holder,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-effect {
+            width: 13px;
+            height: 13px;
+            top: calc(50% - 6.5px);
+            left: calc(50% - 6.5px); }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-year,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-year {
+            padding: 0.3rem 0;
+            font-size: 1.15rem; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2001 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2006 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2021 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2001 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2006 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2021 .history-layout-wrapper .context-holder .history-icon img {
+          max-width: 27%;
+          max-height: 70px; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2012 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2013 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2014 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2018 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2019 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2005 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2012 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2013 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2014 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2018 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2019 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2005 .history-layout-wrapper .context-holder .history-icon img {
+          max-width: 50%;
+          max-height: 88px; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2016 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2017 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2016 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2017 .history-layout-wrapper .context-holder .history-icon img {
+          max-width: 50%;
+          max-height: 80px; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2020 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2020 .history-layout-wrapper .context-holder .history-icon img {
+          max-width: 70%;
+          max-height: 98px; }
+      #hr-about-page .section-about-history .container .button-prev,
+      #hr-about-page .section-about-history .container .button-next,
+      #hr-about-page #about-history .container .button-prev,
+      #hr-about-page #about-history .container .button-next {
+        width: 36px;
+        height: 36px;
+        top: calc(81.5% - 18px); }
+        #hr-about-page .section-about-history .container .button-prev .shape-holder,
+        #hr-about-page .section-about-history .container .button-next .shape-holder,
+        #hr-about-page #about-history .container .button-prev .shape-holder,
+        #hr-about-page #about-history .container .button-next .shape-holder {
+          width: 36px;
+          height: 36px; }
+      #hr-about-page .section-about-history .container .button-next,
+      #hr-about-page #about-history .container .button-next {
+        right: -18px; }
+      #hr-about-page .section-about-history .container .button-prev,
+      #hr-about-page #about-history .container .button-prev {
+        left: -18px; }
+      #hr-about-page .section-about-history .container .history-pagination .swiper-pagination-bullet,
+      #hr-about-page #about-history .container .history-pagination .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        border: 1px solid #046a38;
+        border-radius: 5px; } }
+  @media only screen and (max-width: 1024px) {
+    #hr-about-page .section-about-history .container,
+    #hr-about-page #about-history .container {
+      width: calc(100% - 80px);
+      position: relative; }
+      #hr-about-page .section-about-history .container .timeline-holder,
+      #hr-about-page #about-history .container .timeline-holder {
+        padding: 4rem 0 2.5rem; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper {
+          grid-template-rows: 280px 80px; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg {
+            height: 260px;
+            width: 50px;
+            top: 10px; }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-left,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-left {
+              left: calc(4% - 25px); }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-right,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-right {
+              right: calc(4% - 25px); }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder {
+            grid-template-rows: 120px 160px;
+            width: 92%; }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail {
+              font-size: 1.25rem; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line {
+            top: 39px; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-holder,
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-effect,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-holder,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-effect {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            top: calc(50% - 10px);
+            left: calc(50% - 10px); }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-year,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-year {
+            padding: 0.35rem 0;
+            font-size: 1.25rem; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2001 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2006 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2021 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2001 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2006 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2021 .history-layout-wrapper .context-holder .history-icon img {
+          max-width: 27%;
+          max-height: 84px; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2012 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2013 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2014 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2018 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2019 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2005 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2012 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2013 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2014 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2018 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2019 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2005 .history-layout-wrapper .context-holder .history-icon img {
+          max-width: 50%;
+          max-height: 95px; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2016 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2017 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2016 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2017 .history-layout-wrapper .context-holder .history-icon img {
+          max-width: 50%;
+          max-height: 85px; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2020 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2020 .history-layout-wrapper .context-holder .history-icon img {
+          max-width: 70%;
+          max-height: 110px; }
+      #hr-about-page .section-about-history .container .button-prev,
+      #hr-about-page .section-about-history .container .button-next,
+      #hr-about-page #about-history .container .button-prev,
+      #hr-about-page #about-history .container .button-next {
+        width: 40px;
+        height: 40px;
+        top: calc(81.5% - 20px); }
+        #hr-about-page .section-about-history .container .button-prev .shape-holder,
+        #hr-about-page .section-about-history .container .button-next .shape-holder,
+        #hr-about-page #about-history .container .button-prev .shape-holder,
+        #hr-about-page #about-history .container .button-next .shape-holder {
+          width: 40px;
+          height: 40px;
+          border: 2px solid #046a38; }
+      #hr-about-page .section-about-history .container .button-next,
+      #hr-about-page #about-history .container .button-next {
+        right: -20px; }
+        #hr-about-page .section-about-history .container .button-next .shape-holder,
+        #hr-about-page #about-history .container .button-next .shape-holder {
+          border-bottom: 0;
+          border-left: 0; }
+      #hr-about-page .section-about-history .container .button-prev,
+      #hr-about-page #about-history .container .button-prev {
+        left: -20px; }
+        #hr-about-page .section-about-history .container .button-prev .shape-holder,
+        #hr-about-page #about-history .container .button-prev .shape-holder {
+          border-top: 0;
+          border-right: 0; }
+      #hr-about-page .section-about-history .container .history-pagination .swiper-pagination-bullet,
+      #hr-about-page #about-history .container .history-pagination .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        border: 1px solid #046a38;
+        border-radius: 5px; } }
+  @media only screen and (max-width: 480px) {
+    #hr-about-page .section-about-history .container,
+    #hr-about-page #about-history .container {
+      width: calc(100% - 50px); }
+      #hr-about-page .section-about-history .container .timeline-holder,
+      #hr-about-page #about-history .container .timeline-holder {
+        padding: 3rem 0 2rem; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper {
+          grid-template-rows: 200px 40px; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg {
+            height: 180px;
+            width: 40px;
+            top: 10px; }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-left,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-left {
+              left: calc(4% - 20px); }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-right,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-right {
+              right: calc(4% - 20px); }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder {
+            grid-template-rows: 90px 110px;
+            width: 92%; }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail {
+              font-size: 1rem; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line {
+            top: 20px; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-holder,
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-effect,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-holder,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-effect {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            top: calc(50% - 7px);
+            left: calc(50% - 7px); }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-year,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-year {
+            padding: 0.25rem 0;
+            font-size: 1rem; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2001 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2006 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2021 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2001 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2006 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2021 .history-layout-wrapper .context-holder .history-icon img {
+          max-width: 27%;
+          max-height: 70px; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2012 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2013 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2014 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2018 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2019 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2005 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2012 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2013 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2014 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2018 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2019 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2005 .history-layout-wrapper .context-holder .history-icon img {
+          max-width: 50%;
+          max-height: 80px; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2016 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2017 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2016 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2017 .history-layout-wrapper .context-holder .history-icon img {
+          max-width: 50%;
+          max-height: 70px; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2020 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2020 .history-layout-wrapper .context-holder .history-icon img {
+          max-width: 70%;
+          max-height: 90px; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.swiper-slide-active .history-layout-wrapper .context-bg,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.swiper-slide-active .history-layout-wrapper .context-bg {
+          z-index: 4;
+          opacity: 1;
+          transition: all ease-out 420ms 300ms;
+          -webkit-transform: scale(1.2);
+          transform: scale(1.2); }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.swiper-slide-active .history-layout-wrapper .context-holder,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.swiper-slide-active .history-layout-wrapper .context-holder {
+          z-index: 5; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.swiper-slide-active .history-layout-wrapper .context-holder .history-detail,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.swiper-slide-active .history-layout-wrapper .context-holder .history-detail {
+            transition: all ease-out 420ms 300ms;
+            -webkit-transform: scale(1.2) translateY(-5%);
+            transform: scale(1.2) translateY(-5%); }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.swiper-slide-active .history-layout-wrapper .context-holder .history-icon,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.swiper-slide-active .history-layout-wrapper .context-holder .history-icon {
+            transition: all ease-out 420ms 300ms;
+            -webkit-transform: scale(1.2) translateY(1%);
+            transform: scale(1.2) translateY(1%); }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.swiper-slide-active .history-layout-wrapper .history-marker .marker-holder,
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.swiper-slide-active .history-layout-wrapper .history-marker .marker-effect,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.swiper-slide-active .history-layout-wrapper .history-marker .marker-holder,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.swiper-slide-active .history-layout-wrapper .history-marker .marker-effect {
+          background-color: #046a38; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.swiper-slide-active .history-layout-wrapper .history-marker .marker-holder,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.swiper-slide-active .history-layout-wrapper .history-marker .marker-holder {
+          transition: all ease-out 420ms 300ms;
+          transform: scale(1.15); }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.swiper-slide-active .history-layout-wrapper .history-marker .marker-effect,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.swiper-slide-active .history-layout-wrapper .history-marker .marker-effect {
+          z-index: 0;
+          animation: wavingEffect2 infinite 2s linear; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.swiper-slide-active .history-layout-wrapper .history-year,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.swiper-slide-active .history-layout-wrapper .history-year {
+          color: #046a38;
+          transform: scale(1.2);
+          transition: all ease-out 420ms 300ms; }
+      #hr-about-page .section-about-history .container .button-prev,
+      #hr-about-page .section-about-history .container .button-next,
+      #hr-about-page #about-history .container .button-prev,
+      #hr-about-page #about-history .container .button-next {
+        width: 30px;
+        height: 30px;
+        top: calc(81% - 15px); }
+        #hr-about-page .section-about-history .container .button-prev .shape-holder,
+        #hr-about-page .section-about-history .container .button-next .shape-holder,
+        #hr-about-page #about-history .container .button-prev .shape-holder,
+        #hr-about-page #about-history .container .button-next .shape-holder {
+          width: 30px;
+          height: 30px;
+          border: 2px solid #046a38; }
+      #hr-about-page .section-about-history .container .button-next,
+      #hr-about-page #about-history .container .button-next {
+        right: -15px; }
+        #hr-about-page .section-about-history .container .button-next .shape-holder,
+        #hr-about-page #about-history .container .button-next .shape-holder {
+          border-bottom: 0;
+          border-left: 0; }
+      #hr-about-page .section-about-history .container .button-prev,
+      #hr-about-page #about-history .container .button-prev {
+        left: -15px; }
+        #hr-about-page .section-about-history .container .button-prev .shape-holder,
+        #hr-about-page #about-history .container .button-prev .shape-holder {
+          border-top: 0;
+          border-right: 0; }
+      #hr-about-page .section-about-history .container .history-pagination .swiper-pagination-bullet,
+      #hr-about-page #about-history .container .history-pagination .swiper-pagination-bullet {
+        width: 9px;
+        height: 9px;
+        border: 1px solid #046a38;
+        border-radius: 5px;
+        margin: 0 3px; } }
+  @media only screen and (max-width: 376px) {
+    #hr-about-page .section-about-history .container,
+    #hr-about-page #about-history .container {
+      width: calc(100% - 30px); }
+      #hr-about-page .section-about-history .container .timeline-holder,
+      #hr-about-page #about-history .container .timeline-holder {
+        padding: 3rem 0 2rem; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper {
+          grid-template-rows: 180px 40px; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg {
+            height: 180px;
+            width: 30px;
+            top: 10px; }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-left,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-left {
+              left: calc(4% - 15px); }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-right,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-bg.bg-right {
+              right: calc(4% - 15px); }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder {
+            grid-template-rows: 80px 100px;
+            width: 92%; }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail {
+              font-size: 0.9rem; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line {
+            top: 20px; }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-holder,
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-effect,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-holder,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-effect {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            top: calc(50% - 6px);
+            left: calc(50% - 6px); }
+          #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-year,
+          #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-year {
+            padding: 0.25rem 0;
+            font-size: 0.9rem; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2001 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2006 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2021 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2001 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2006 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2021 .history-layout-wrapper .context-holder .history-icon img {
+          max-width: 27%;
+          max-height: 60px; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2012 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2013 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2014 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2018 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2019 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2005 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2012 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2013 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2014 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2018 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2019 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2005 .history-layout-wrapper .context-holder .history-icon img {
+          max-width: 50%;
+          max-height: 74px; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2016 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2017 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2016 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2017 .history-layout-wrapper .context-holder .history-icon img {
+          max-width: 50%;
+          max-height: 62px; }
+        #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2020 .history-layout-wrapper .context-holder .history-icon img,
+        #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2020 .history-layout-wrapper .context-holder .history-icon img {
+          max-width: 70%;
+          max-height: 80px; }
+      #hr-about-page .section-about-history .container .button-prev,
+      #hr-about-page .section-about-history .container .button-next,
+      #hr-about-page #about-history .container .button-prev,
+      #hr-about-page #about-history .container .button-next {
+        width: 26px;
+        height: 26px;
+        top: calc(79.5% - 13px); }
+        #hr-about-page .section-about-history .container .button-prev .shape-holder,
+        #hr-about-page .section-about-history .container .button-next .shape-holder,
+        #hr-about-page #about-history .container .button-prev .shape-holder,
+        #hr-about-page #about-history .container .button-next .shape-holder {
+          width: 26px;
+          height: 26px;
+          border: 2px solid #046a38; }
+      #hr-about-page .section-about-history .container .button-next,
+      #hr-about-page #about-history .container .button-next {
+        right: -3px; }
+        #hr-about-page .section-about-history .container .button-next .shape-holder,
+        #hr-about-page #about-history .container .button-next .shape-holder {
+          border-bottom: 0;
+          border-left: 0; }
+      #hr-about-page .section-about-history .container .button-prev,
+      #hr-about-page #about-history .container .button-prev {
+        left: -3px; }
+        #hr-about-page .section-about-history .container .button-prev .shape-holder,
+        #hr-about-page #about-history .container .button-prev .shape-holder {
+          border-top: 0;
+          border-right: 0; }
+      #hr-about-page .section-about-history .container .history-pagination .swiper-pagination-bullet,
+      #hr-about-page #about-history .container .history-pagination .swiper-pagination-bullet {
+        width: 9px;
+        height: 9px;
+        border: 1px solid #046a38;
+        border-radius: 5px;
+        margin: 0 2px; } }
+
+#hr-about-page {
+  /* OPPO Archivement */
+  /* OPPO Archivement - END */
+  /* RESPONSIVE */ }
+  #hr-about-page .section-archivement,
+  #hr-about-page #about-archivement {
+    margin-bottom: 3rem; }
+    #hr-about-page .section-archivement .content-body,
+    #hr-about-page #about-archivement .content-body {
+      margin-top: 4rem; }
+      #hr-about-page .section-archivement .content-body .archivement-layout,
+      #hr-about-page #about-archivement .content-body .archivement-layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px; }
+        #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .bg-holder,
+        #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .bg-holder {
+          width: 100%;
+          height: 28.125vw;
+          background-color: #999;
+          background-size: cover;
+          background-position: center; }
+        #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .context,
+        #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .context {
+          width: 700px;
+          text-align: center;
+          line-height: 4;
+          font-size: 1.56125rem;
+          transition: all 150ms ease-in; }
+        #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block.archivement-global .context,
+        #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block.archivement-global .context {
+          margin-left: auto; }
+        #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block:hover .context,
+        #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block:hover .context {
+          color: #046a38;
+          transition: all 150ms ease-out; }
+  @media only screen and (max-width: 1680px) {
+    #hr-about-page .section-archivement,
+    #hr-about-page #about-archivement {
+      margin-bottom: 2.625rem; }
+      #hr-about-page .section-archivement .content-body,
+      #hr-about-page #about-archivement .content-body {
+        margin-top: 3.5rem; }
+        #hr-about-page .section-archivement .content-body .archivement-layout,
+        #hr-about-page #about-archivement .content-body .archivement-layout {
+          grid-template-columns: 1fr 1fr;
+          grid-column-gap: 10px; }
+          #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .context,
+          #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .context {
+            width: 50%;
+            font-size: 1.35rem; } }
+  @media only screen and (max-width: 1440px) {
+    #hr-about-page .section-archivement,
+    #hr-about-page #about-archivement {
+      margin-bottom: 2.1375rem; }
+      #hr-about-page .section-archivement .content-body,
+      #hr-about-page #about-archivement .content-body {
+        margin-top: 2.85rem; }
+        #hr-about-page .section-archivement .content-body .archivement-layout,
+        #hr-about-page #about-archivement .content-body .archivement-layout {
+          grid-template-columns: 1fr 1fr;
+          grid-column-gap: 10px; }
+          #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .context,
+          #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .context {
+            width: 50%;
+            font-size: 1.125rem; } }
+  @media only screen and (max-width: 1280px) {
+    #hr-about-page .section-archivement,
+    #hr-about-page #about-archivement {
+      margin-bottom: 1.75rem; }
+      #hr-about-page .section-archivement .content-body,
+      #hr-about-page #about-archivement .content-body {
+        margin-top: 2rem; }
+        #hr-about-page .section-archivement .content-body .archivement-layout,
+        #hr-about-page #about-archivement .content-body .archivement-layout {
+          grid-template-columns: 1fr 1fr;
+          grid-column-gap: 10px; }
+          #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .context,
+          #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .context {
+            width: 50%;
+            font-size: 1.1rem; } }
+  @media only screen and (max-width: 768px) {
+    #hr-about-page .section-archivement,
+    #hr-about-page #about-archivement {
+      margin-bottom: 1.75rem; }
+      #hr-about-page .section-archivement .content-body,
+      #hr-about-page #about-archivement .content-body {
+        margin-top: 2rem; }
+        #hr-about-page .section-archivement .content-body .archivement-layout,
+        #hr-about-page #about-archivement .content-body .archivement-layout {
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr 1fr;
+          grid-column-gap: 10px;
+          padding: 0 30px; }
+          #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .bg-holder,
+          #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .bg-holder {
+            height: 42vw; }
+          #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .context,
+          #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .context {
+            width: 100%;
+            font-size: 1.1rem; } }
+  @media only screen and (max-width: 480px) {
+    #hr-about-page .section-archivement,
+    #hr-about-page #about-archivement {
+      margin-bottom: 1.75rem; }
+      #hr-about-page .section-archivement .content-body,
+      #hr-about-page #about-archivement .content-body {
+        margin-top: 2rem; }
+        #hr-about-page .section-archivement .content-body .archivement-layout,
+        #hr-about-page #about-archivement .content-body .archivement-layout {
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr 1fr;
+          grid-column-gap: 10px;
+          padding: 0 15px; }
+          #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .bg-holder,
+          #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .bg-holder {
+            height: 52vw; }
+          #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .context,
+          #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .context {
+            width: 100%;
+            font-size: 1.1rem;
+            line-height: 3.25; } }
+  @media only screen and (max-width: 376px) {
+    #hr-about-page .section-archivement,
+    #hr-about-page #about-archivement {
+      margin-bottom: 1.25rem; }
+      #hr-about-page .section-archivement .content-body,
+      #hr-about-page #about-archivement .content-body {
+        margin-top: 2rem; }
+        #hr-about-page .section-archivement .content-body .archivement-layout,
+        #hr-about-page #about-archivement .content-body .archivement-layout {
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr 1fr;
+          grid-column-gap: 10px;
+          padding: 0 15px; }
+          #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .bg-holder,
+          #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .bg-holder {
+            height: 52vw; }
+          #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .context,
+          #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .context {
+            font-size: 1rem;
+            line-height: 3; } }
+
+@-webkit-keyframes wavingEffect {
+  0%,
+  100% {
+    opacity: 0;
+    transform: scale(1); }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.35); }
+  99% {
+    opacity: 0;
+    transform: scale(1.75); } }
 
 @keyframes wavingEffect {
   0%,
@@ -1791,3 +3411,27 @@ p,
   99% {
     opacity: 0;
     transform: scale(1.75); } }
+
+@keyframes wavingEffect2 {
+  0%,
+  100% {
+    opacity: 0;
+    transform: scale(1.15); }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.55); }
+  99% {
+    opacity: 0;
+    transform: scale(2); } }
+
+@keyframes wavingEffect2 {
+  0%,
+  100% {
+    opacity: 0;
+    transform: scale(1.15); }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.55); }
+  99% {
+    opacity: 0;
+    transform: scale(2); } }

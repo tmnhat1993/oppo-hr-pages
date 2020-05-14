@@ -48,12 +48,39 @@
     <div class="page-wrapper" id="hr-about-page">
       <!-- SECTION ABOUT BANNER -->
       <section class="section section-about-banner" id="about-banner">
-        <div class="banner-video"></div>
+        <div class="banner-video">
+          <video
+            autoplay
+            muted
+            loop
+            playsinline
+            class="lazy-video-desktop"
+            poster="img/about/banner-bg.jpg"
+          >
+            <source
+              data-src="img/about/video/bg-video.webm"
+              type="video/webm"
+            />
+            <source data-src="img/about/video/bg-video.mp4" type="video/mp4" />
+          </video>
+
+          <div class="video-control-holder">
+            <div class="play-video-on-modal">
+              <div class="desktop-btn mb-hide">
+                <i class="fa fa-play play-modal-video" aria-hidden="true"></i>
+              </div>
+              <div class="mobile-btn mb-show play-modal-video">
+                <i class="fa fa-play" aria-hidden="true"></i>
+                <span>This is OPPO</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <!-- SECTION ABOUT BANNER - END -->
 
       <!-- SECTION ABOUT INTRO -->
-      <section class="section section-about-intro" id="about-intro">
+      <section class="section section-about-intro is-hiding" id="about-intro">
         <!-- Main Content -->
         <div class="main-content">
           <!-- Content Head -->
@@ -62,9 +89,13 @@
               <h2 class="title">Giới thiệu OPPO</h2>
               <p class="desc">
                 OPPO là thương hiệu toàn cầu cung cấp các thiết bị và dịch vụ
-                công nghệ đột phá để đem lại cho người dùng<br />
+                công nghệ đột phá để đem lại cho người dùng<br
+                  class="mb-hide"
+                />
                 một hệ sinh thái kết nối thông minh trong tương lai. OPPO đã ra
-                mắt điện thoại di động Smile Phone đầu tiên vào năm<br />
+                mắt điện thoại di động Smile Phone đầu tiên vào năm<br
+                  class="mb-hide"
+                />
                 2008, đánh dấu sự khởi đầu của một hành trình khám phá và tiên
                 phong khác biệt trong công nghệ
               </p>
@@ -81,8 +112,8 @@
                 <!-- Container -->
                 <div class="container">
                   <h4 class="txt-center">
-                    Sau hơn 10 năm không ngừng nỗ lực và <br />phát triển OPPO
-                    đã mở rộng quy mô
+                    Sau hơn 10 năm không ngừng nỗ lực và
+                    <br class="mb-hide" />phát triển OPPO đã mở rộng quy mô
                   </h4>
                 </div>
               </div>
@@ -180,7 +211,7 @@
       <!-- SECTION ABOUT INTRO - END -->
 
       <!-- SECTION OPPO SPIRIT -->
-      <section class="section section-about-spirit" id="about-spirit">
+      <section class="section section-about-spirit is-hiding" id="about-spirit">
         <!-- Main Content -->
         <div class="main-content">
           <!-- Container -->
@@ -188,19 +219,19 @@
             <h2 class="title">Tinh thần & Triết lý Kinh doanh</h2>
             <p class="desc">
               OPPO là thương hiệu toàn cầu cung cấp các thiết bị và dịch vụ công
-              nghệ<br />
+              nghệ<br class="mb-hide" />
               đột phá để đem lại cho người dùng một hệ sinh thái kết nối thông
               minh trong tương lai
             </p>
             <h4>&nbsp;</h4>
-            <h3 class="sub-title green-txt">
+            <h3 class="sub-title green-txt sm-bold">
               Hơn 40.000 OPPOers trên toàn cầu
             </h3>
             <p class="desc">
               Chúng tôi cùng nhau nỗ lực để mang lại những sản phẩm và dịch vụ
-              tốt nhất cho người dùng.<br />
+              tốt nhất cho người dùng.<br class="mb-hide" />
               Mỗi sản phẩm đến tay khách hàng luôn là những tâm huyết của tập
-              thể OPPO
+              thể OPPOers
             </p>
           </div>
           <!-- Container - END -->
@@ -214,7 +245,10 @@
       <!-- SECTION OPPO SPIRIT - END -->
 
       <!-- SECTION OPPO CULTURE -->
-      <section class="section section-about-culture" id="about-culture">
+      <section
+        class="section section-about-culture is-hiding"
+        id="about-culture"
+      >
         <!-- Main Content -->
         <div class="main-content">
           <!-- Content Head -->
@@ -234,7 +268,8 @@
                 <div class="block-content">
                   <h4 class="block-title">Tầm nhìn</h4>
                   <p class="block-desc">
-                    Trở thành một doanh nghiệp<br />vững mạnh và lâu dài
+                    Trở thành một doanh nghiệp<br class="mb-hide" />
+                    vững mạnh và lâu dài
                   </p>
                 </div>
               </div>
@@ -289,7 +324,10 @@
       <!-- SECTION OPPO CULTURE - END -->
 
       <!-- SECTION OPPO HISTORY -->
-      <section class="section section-about-history" id="about-history">
+      <section
+        class="section section-about-history is-hiding"
+        id="about-history"
+      >
         <!-- Container -->
         <div class="container">
           <!-- History Head -->
@@ -320,6 +358,7 @@
                     <div class="marker-holder"></div>
                     <div class="marker-effect"></div>
                   </div>
+                  <div class="history-year txt-center">2001</div>
                 </div>
               </li>
               <!-- History Item 2001 - END -->
@@ -343,6 +382,7 @@
                     <div class="marker-holder"></div>
                     <div class="marker-effect"></div>
                   </div>
+                  <div class="history-year txt-center">2004</div>
                 </div>
               </li>
               <!-- History Item 2004 - END -->
@@ -366,6 +406,7 @@
                     <div class="marker-holder"></div>
                     <div class="marker-effect"></div>
                   </div>
+                  <div class="history-year txt-center">2005</div>
                 </div>
               </li>
               <!-- History Item 2005 - END -->
@@ -389,6 +430,7 @@
                     <div class="marker-holder"></div>
                     <div class="marker-effect"></div>
                   </div>
+                  <div class="history-year txt-center">2006</div>
                 </div>
               </li>
               <!-- History Item 2006 - END -->
@@ -413,6 +455,7 @@
                     <div class="marker-holder"></div>
                     <div class="marker-effect"></div>
                   </div>
+                  <div class="history-year txt-center">2008</div>
                 </div>
               </li>
               <!-- History Item 2008 - END -->
@@ -436,6 +479,7 @@
                     <div class="marker-holder"></div>
                     <div class="marker-effect"></div>
                   </div>
+                  <div class="history-year txt-center">2009</div>
                 </div>
               </li>
               <!-- History Item 2009 - END -->
@@ -460,6 +504,7 @@
                     <div class="marker-holder"></div>
                     <div class="marker-effect"></div>
                   </div>
+                  <div class="history-year txt-center">2011</div>
                 </div>
               </li>
               <!-- History Item 2011 - END -->
@@ -483,6 +528,7 @@
                     <div class="marker-holder"></div>
                     <div class="marker-effect"></div>
                   </div>
+                  <div class="history-year txt-center">2012</div>
                 </div>
               </li>
               <!-- History Item 2012 - END -->
@@ -507,6 +553,7 @@
                     <div class="marker-holder"></div>
                     <div class="marker-effect"></div>
                   </div>
+                  <div class="history-year txt-center">2013</div>
                 </div>
               </li>
               <!-- History Item 2013 - END -->
@@ -530,6 +577,7 @@
                     <div class="marker-holder"></div>
                     <div class="marker-effect"></div>
                   </div>
+                  <div class="history-year txt-center">2014</div>
                 </div>
               </li>
               <!-- History Item 2014 - END -->
@@ -553,6 +601,7 @@
                     <div class="marker-holder"></div>
                     <div class="marker-effect"></div>
                   </div>
+                  <div class="history-year txt-center">2016</div>
                 </div>
               </li>
               <!-- History Item 2016 - END -->
@@ -578,6 +627,7 @@
                     <div class="marker-holder"></div>
                     <div class="marker-effect"></div>
                   </div>
+                  <div class="history-year txt-center">2017</div>
                 </div>
               </li>
               <!-- History Item 2017 - END -->
@@ -602,6 +652,7 @@
                     <div class="marker-holder"></div>
                     <div class="marker-effect"></div>
                   </div>
+                  <div class="history-year txt-center">2018</div>
                 </div>
               </li>
               <!-- History Item 2018 - END -->
@@ -626,6 +677,7 @@
                     <div class="marker-holder"></div>
                     <div class="marker-effect"></div>
                   </div>
+                  <div class="history-year txt-center">2019</div>
                 </div>
               </li>
               <!-- History Item 2019 - END -->
@@ -651,6 +703,7 @@
                     <div class="marker-holder"></div>
                     <div class="marker-effect"></div>
                   </div>
+                  <div class="history-year txt-center">2020</div>
                 </div>
               </li>
               <!-- History Item 2020 - END -->
@@ -674,6 +727,7 @@
                     <div class="marker-holder"></div>
                     <div class="marker-effect"></div>
                   </div>
+                  <div class="history-year txt-center">2021</div>
                 </div>
               </li>
               <!-- History Item 2021 - END -->
@@ -699,7 +753,10 @@
       <!-- SECTION OPPO HISTORY - END -->
 
       <!-- SECTION OPPO ARCHIVEMENT -->
-      <section class="section-archivement section" id="about-archivement">
+      <section
+        class="section-archivement section is-hiding"
+        id="about-archivement"
+      >
         <!-- Main Content -->
         <div class="main-content">
           <!-- Content Head -->
@@ -712,11 +769,15 @@
           <div class="content-body">
             <div class="archivement-layout">
               <div class="archivement-block archivement-global">
-                <div class="bg-holder"></div>
+                <a href="#">
+                  <div class="bg-holder"></div>
+                </a>
                 <div class="context">Global</div>
               </div>
-              <div class="archivement-block archivement-global">
-                <div class="bg-holder"></div>
+              <div class="archivement-block archivement-vietnam">
+                <a href="#">
+                  <div class="bg-holder"></div>
+                </a>
                 <div class="context">Việt Nam</div>
               </div>
             </div>
@@ -730,75 +791,19 @@
     <!-- ====== MAIN CONTENT - END ====== -->
 
     <!-- === FOOTER === -->
-    <footer class="footer" id="page-footer">
-      <!-- Container -->
-      <div class="container">
-        <!-- Footer Body -->
-        <div class="footer-body">
-          <div class="link-group">
-            <p class="link-group-title">Sản phẩm</p>
-            <ul class="link-list">
-              <li class="link-item"><a href="">Find X Lamborghini</a></li>
-              <li class="link-item"><a href="">Find X</a></li>
-              <li class="link-item"><a href="">Reno 2</a></li>
-              <li class="link-item"><a href="">Reno 2F</a></li>
-              <li class="link-item"><a href="">A9 2020</a></li>
-              <li class="link-item"><a href="">Sản phẩm khác</a></li>
-            </ul>
-          </div>
-
-          <div class="link-group">
-            <p class="link-group-title">Công nghệ</p>
-            <ul class="link-list">
-              <li class="link-item"><a href="">VOOC</a></li>
-              <li class="link-item"><a href="">Pure Image</a></li>
-            </ul>
-          </div>
-
-          <div class="link-group">
-            <p class="link-group-title">Hỗ trợ</p>
-            <ul class="link-list">
-              <li class="link-item"><a href="">Liên hệ</a></li>
-              <li class="link-item"><a href="">Linh Kiện</a></li>
-            </ul>
-          </div>
-
-          <div class="link-group">
-            <p class="link-group-title">Về OPPO</p>
-            <ul class="link-list">
-              <li class="link-item"><a href="">OPPO Global</a></li>
-              <li class="link-item"><a href="">OPPO Việt Nam</a></li>
-              <li class="link-item"><a href="">Fanbase Tuyển dụng</a></li>
-            </ul>
-          </div>
-        </div>
-        <!-- Footer Body -->
-
-        <div class="footer-bottom">
-          <hr />
-          <div class="footer-bottom-layout">
-            <div class="copyright-txt">
-              Copyright &copy; 2020 OPPO. All rights reserved
-            </div>
-            <div class="follow-social">
-              <div class="follow-label">Follow us:</div>
-              <ul class="social-listing">
-                <li class="social-item social-facebook"></li>
-                <li class="social-item social-instagram"></li>
-                <li class="social-item social-linkedin"></li>
-                <li class="social-item social-twitter"></li>
-                <li class="social-item social-youtube"></li>
-                <li class="social-item social-google"></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Container - END -->
-    </footer>
     <!-- === FOOTER - END === -->
 
     <!-- === REUSABLE === -->
+    <div class="video-modal">
+      <div class="video-holder">
+        <div class="close-video-modal">&times;</div>
+        <div class="video">
+          <video id="popup-intro-video" preload="none">
+            <source src="img/about/video/main-video.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </div>
     <!-- === REUSABLE - END === -->
 
     <!-- ====== SCRIPT REFERENCES  ====== -->
@@ -813,7 +818,7 @@
       src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"
     ></script>
 
-    <!-- Slick -->
+    <!-- Swiper Slider -->
     <script src="js/vendors/swiper.min.js"></script>
 
     <!-- Main Script -->

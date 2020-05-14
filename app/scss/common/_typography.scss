@@ -95,3 +95,187 @@ p,
 .uppercase {
   text-transform: uppercase;
 }
+
+/* RESPONSIVE */
+@media #{$information-md-screen} {
+  a {
+    font-size: 1.35rem;
+  }
+
+  .title {
+    font-size: 3.3rem;
+    margin: 5rem 0 4.4rem;
+  }
+
+  .sub-title {
+    font-size: 2.625rem;
+    margin: 2rem 0 0.13125rem;
+  }
+
+  .highlight {
+    font-size: 1.75em;
+  }
+
+  .desc,
+  p,
+  .desc-item {
+    font-size: 1.35rem;
+  }
+}
+
+@media #{$information-sm-screen} {
+  a {
+    font-size: 1.125rem;
+  }
+
+  .title {
+    font-size: 2.671875rem;
+    margin: 4rem 0 3.5625rem;
+  }
+
+  .sub-title {
+    font-size: 2.1375rem;
+    margin: 1.6rem 0 0.1rem;
+  }
+
+  .highlight {
+    font-size: 1.75em;
+  }
+
+  .desc,
+  p,
+  .desc-item {
+    font-size: 1.125rem;
+  }
+}
+
+@media #{$information-sm-laptop} {
+  a {
+    font-size: 1.05rem;
+  }
+
+  .title {
+    font-size: 2.3rem;
+    margin: 3.5rem 0 3.15rem;
+  }
+
+  .sub-title {
+    font-size: 2rem;
+    margin: 1.3rem 0 0.1rem;
+  }
+
+  .highlight {
+    font-size: 1.75em;
+  }
+
+  .desc,
+  p,
+  .desc-item {
+    font-size: 1.05rem;
+  }
+}
+
+@media #{$information-lg-tablet} {
+  a {
+    font-size: 1.35rem;
+  }
+
+  .title {
+    font-size: 3.3rem;
+    margin: 5rem 0 4.4rem;
+  }
+
+  .sub-title {
+    font-size: 2.625rem;
+    margin: 2rem 0 0.13125rem;
+  }
+
+  .highlight {
+    font-size: 1.75em;
+  }
+
+  .desc,
+  p,
+  .desc-item {
+    font-size: 1.35rem;
+  }
+}
+
+@media #{$information-tablet} {
+  a {
+    font-size: 1.125rem;
+  }
+
+  .title {
+    font-size: 2.671875rem;
+    margin: 4rem 0 3.5625rem;
+  }
+
+  .sub-title {
+    font-size: 2.1375rem;
+    margin: 1.6rem 0 0.1rem;
+  }
+
+  .highlight {
+    font-size: 1.75em;
+  }
+
+  .desc,
+  p,
+  .desc-item {
+    font-size: 1.125rem;
+  }
+}
+
+@media #{$information-phone} {
+  a {
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
+    margin: 3rem 0 2.15rem;
+  }
+
+  .sub-title {
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin: 1.25rem 0 0.25rem;
+  }
+
+  .highlight {
+    font-size: 1.75em;
+  }
+
+  .desc,
+  p,
+  .desc-item {
+    font-size: 1rem;
+  }
+}
+
+@media #{$information-sm-phone} {
+  a {
+    font-size: 0.9rem;
+  }
+
+  .title {
+    font-size: 1.35rem;
+    margin: 2.5rem 0 2rem;
+  }
+
+  .sub-title {
+    font-size: 1.15rem;
+    margin: 1.15rem 0 0.15rem;
+  }
+
+  .highlight {
+    font-size: 1.35em;
+  }
+
+  .desc,
+  p,
+  .desc-item {
+    font-size: 0.9rem;
+  }
+}
