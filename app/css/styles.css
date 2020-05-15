@@ -1846,22 +1846,22 @@ p,
     #hr-home-page #home-testimonial .next-slide,
     #hr-home-page #home-testimonial .prev-slide {
       position: absolute;
-      width: 60px;
-      height: 60px;
-      top: calc(50% - 30px);
+      width: 50px;
+      height: 50px;
+      top: calc(50% - 25px);
       cursor: pointer; }
       #hr-home-page .section-testimonial .next-slide .shape-holder,
       #hr-home-page .section-testimonial .prev-slide .shape-holder,
       #hr-home-page #home-testimonial .next-slide .shape-holder,
       #hr-home-page #home-testimonial .prev-slide .shape-holder {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         border: 3px solid #046a38;
         -webkit-transform: rotate(45deg);
         transform: rotate(45deg); }
     #hr-home-page .section-testimonial .next-slide,
     #hr-home-page #home-testimonial .next-slide {
-      right: 60px;
+      right: 50px;
       animation: arrowMove 1s linear infinite; }
       #hr-home-page .section-testimonial .next-slide .shape-holder,
       #hr-home-page #home-testimonial .next-slide .shape-holder {
@@ -1869,7 +1869,7 @@ p,
         border-left: 0; }
     #hr-home-page .section-testimonial .prev-slide,
     #hr-home-page #home-testimonial .prev-slide {
-      left: 60px;
+      left: 50px;
       animation: arrowMove 1s 0.5s linear infinite; }
       #hr-home-page .section-testimonial .prev-slide .shape-holder,
       #hr-home-page #home-testimonial .prev-slide .shape-holder {
@@ -2072,6 +2072,369 @@ p,
                   #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li.slick-active button,
                   #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li.slick-active button {
                     background-color: #046a38; }
+  @media only screen and (max-width: 1680px) {
+    #hr-home-page .section-testimonial,
+    #hr-home-page #home-testimonial {
+      height: 40.625vw; }
+      #hr-home-page .section-testimonial .next-slide,
+      #hr-home-page .section-testimonial .prev-slide,
+      #hr-home-page #home-testimonial .next-slide,
+      #hr-home-page #home-testimonial .prev-slide {
+        width: 40px;
+        height: 40px;
+        top: calc(50% - 20px); }
+        #hr-home-page .section-testimonial .next-slide .shape-holder,
+        #hr-home-page .section-testimonial .prev-slide .shape-holder,
+        #hr-home-page #home-testimonial .next-slide .shape-holder,
+        #hr-home-page #home-testimonial .prev-slide .shape-holder {
+          width: 40px;
+          height: 40px;
+          border-width: 2px; }
+      #hr-home-page .section-testimonial .next-slide,
+      #hr-home-page #home-testimonial .next-slide {
+        right: 40px; }
+      #hr-home-page .section-testimonial .prev-slide,
+      #hr-home-page #home-testimonial .prev-slide {
+        left: 40px; }
+      #hr-home-page .section-testimonial .main-content .container,
+      #hr-home-page #home-testimonial .main-content .container {
+        height: 100%; }
+        #hr-home-page .section-testimonial .main-content .container .testimonial-layout,
+        #hr-home-page #home-testimonial .main-content .container .testimonial-layout {
+          height: 62%;
+          top: 19%; }
+          #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item,
+          #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item {
+            padding-right: 25px; }
+          #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item,
+          #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item {
+            height: 53%;
+            padding: 0 18px 2rem 130px; }
+            #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor,
+            #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor {
+              right: calc(100% - 118px);
+              width: 66px; }
+            #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name,
+            #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name {
+              font-size: 2rem;
+              line-height: 1.15;
+              margin-bottom: 0; }
+            #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role,
+            #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role {
+              margin-bottom: 1.35rem; }
+          #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots,
+          #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots {
+            padding-left: 130px; }
+            #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li,
+            #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li {
+              margin: 0 5px; }
+              #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li button,
+              #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li button {
+                width: 16px;
+                height: 16px;
+                border: 1px solid #046a38;
+                border-radius: 8px; } }
+  @media only screen and (max-width: 1440px) {
+    #hr-home-page .section-testimonial,
+    #hr-home-page #home-testimonial {
+      height: 45vw; }
+      #hr-home-page .section-testimonial .next-slide,
+      #hr-home-page .section-testimonial .prev-slide,
+      #hr-home-page #home-testimonial .next-slide,
+      #hr-home-page #home-testimonial .prev-slide {
+        width: 36px;
+        height: 36px;
+        top: calc(50% - 18px); }
+        #hr-home-page .section-testimonial .next-slide .shape-holder,
+        #hr-home-page .section-testimonial .prev-slide .shape-holder,
+        #hr-home-page #home-testimonial .next-slide .shape-holder,
+        #hr-home-page #home-testimonial .prev-slide .shape-holder {
+          width: 36px;
+          height: 36px;
+          border-width: 2px; }
+      #hr-home-page .section-testimonial .next-slide,
+      #hr-home-page #home-testimonial .next-slide {
+        right: 36px; }
+      #hr-home-page .section-testimonial .prev-slide,
+      #hr-home-page #home-testimonial .prev-slide {
+        left: 36px; }
+      #hr-home-page .section-testimonial .main-content .container,
+      #hr-home-page #home-testimonial .main-content .container {
+        height: 100%;
+        padding: 0 30px; }
+        #hr-home-page .section-testimonial .main-content .container .testimonial-layout,
+        #hr-home-page #home-testimonial .main-content .container .testimonial-layout {
+          height: 64%;
+          top: 18%; }
+          #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item,
+          #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item {
+            padding-right: 25px; }
+          #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item,
+          #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item {
+            height: 53%;
+            padding: 0 18px 2rem 110px; }
+            #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor,
+            #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor {
+              right: calc(100% - 105px);
+              width: 60px; }
+            #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name,
+            #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name {
+              font-size: 2rem;
+              line-height: 1.15;
+              margin-bottom: 0; }
+            #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role,
+            #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role {
+              margin-bottom: 1.125rem; }
+          #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots,
+          #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots {
+            padding-left: 110px; }
+            #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li,
+            #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li {
+              margin: 0 5px; }
+              #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li button,
+              #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li button {
+                width: 14px;
+                height: 14px;
+                border: 1px solid #046a38;
+                border-radius: 7px; } }
+  @media only screen and (max-width: 1280px) {
+    #hr-home-page .section-testimonial,
+    #hr-home-page #home-testimonial {
+      height: 48vw; } }
+  @media only screen and (max-width: 768px) {
+    #hr-home-page .section-testimonial,
+    #hr-home-page #home-testimonial {
+      height: auto; }
+      #hr-home-page .section-testimonial .next-slide,
+      #hr-home-page .section-testimonial .prev-slide,
+      #hr-home-page #home-testimonial .next-slide,
+      #hr-home-page #home-testimonial .prev-slide {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: calc(50% - 25px);
+        cursor: pointer;
+        z-index: 4; }
+        #hr-home-page .section-testimonial .next-slide .shape-holder,
+        #hr-home-page .section-testimonial .prev-slide .shape-holder,
+        #hr-home-page #home-testimonial .next-slide .shape-holder,
+        #hr-home-page #home-testimonial .prev-slide .shape-holder {
+          width: 50px;
+          height: 50px;
+          border: 3px solid #046a38;
+          -webkit-transform: rotate(45deg);
+          transform: rotate(45deg); }
+      #hr-home-page .section-testimonial .next-slide,
+      #hr-home-page #home-testimonial .next-slide {
+        right: 50px;
+        animation: arrowMove 1s linear infinite; }
+        #hr-home-page .section-testimonial .next-slide .shape-holder,
+        #hr-home-page #home-testimonial .next-slide .shape-holder {
+          border-bottom: 0;
+          border-left: 0; }
+      #hr-home-page .section-testimonial .prev-slide,
+      #hr-home-page #home-testimonial .prev-slide {
+        left: 50px;
+        animation: arrowMove 1s 0.5s linear infinite; }
+        #hr-home-page .section-testimonial .prev-slide .shape-holder,
+        #hr-home-page #home-testimonial .prev-slide .shape-holder {
+          border-top: 0;
+          border-right: 0; }
+      #hr-home-page .section-testimonial .bg-effect,
+      #hr-home-page #home-testimonial .bg-effect {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0; }
+        #hr-home-page .section-testimonial .bg-effect .decor-circle,
+        #hr-home-page #home-testimonial .bg-effect .decor-circle {
+          position: absolute; }
+          #hr-home-page .section-testimonial .bg-effect .decor-circle .img-holder img,
+          #hr-home-page #home-testimonial .bg-effect .decor-circle .img-holder img {
+            width: 100%;
+            display: block; }
+          #hr-home-page .section-testimonial .bg-effect .decor-circle.circle-1,
+          #hr-home-page #home-testimonial .bg-effect .decor-circle.circle-1 {
+            width: 79%;
+            top: -123%;
+            left: 5%;
+            opacity: 0.8;
+            -webkit-animation: rotating 125s linear infinite;
+            animation: rotating 125s linear infinite; }
+          #hr-home-page .section-testimonial .bg-effect .decor-circle.circle-2,
+          #hr-home-page #home-testimonial .bg-effect .decor-circle.circle-2 {
+            width: 38%;
+            top: -33%;
+            left: 75%;
+            opacity: 0.6;
+            -webkit-animation: rotating 59s linear infinite;
+            animation: rotating 59s linear infinite; }
+          #hr-home-page .section-testimonial .bg-effect .decor-circle.circle-3,
+          #hr-home-page #home-testimonial .bg-effect .decor-circle.circle-3 {
+            width: 31%;
+            top: 53%;
+            left: -11%;
+            opacity: 0.5;
+            -webkit-animation: rotating 38s linear infinite reverse;
+            animation: rotating 38s linear infinite reverse; }
+      #hr-home-page .section-testimonial .main-content,
+      #hr-home-page #home-testimonial .main-content {
+        position: relative; }
+        #hr-home-page .section-testimonial .main-content .container,
+        #hr-home-page #home-testimonial .main-content .container {
+          height: 100%;
+          padding: 0 120px; }
+          #hr-home-page .section-testimonial .main-content .container .testimonial-layout,
+          #hr-home-page #home-testimonial .main-content .container .testimonial-layout {
+            height: auto;
+            top: 0;
+            position: relative;
+            z-index: 2;
+            display: flex;
+            flex-wrap: wrap; }
+            #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder,
+            #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder,
+            #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder,
+            #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder {
+              height: auto; }
+            #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder,
+            #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder {
+              width: 100%;
+              flex-basis: 100%; }
+              #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider,
+              #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider {
+                width: 100%;
+                height: 100%; }
+                #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .slick-list,
+                #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .slick-track,
+                #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .slick-list,
+                #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .slick-track {
+                  height: 100%; }
+                  #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .slick-list div,
+                  #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .slick-track div,
+                  #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .slick-list div,
+                  #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .slick-track div {
+                    height: 100%; }
+                #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item,
+                #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item {
+                  width: 100%;
+                  height: 100%;
+                  display: block !important;
+                  padding-right: 30px;
+                  opacity: 0;
+                  transform: translateX(-2rem); }
+                  #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item *,
+                  #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item * {
+                    height: 100%; }
+                  #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item .img-holder,
+                  #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item .img-holder {
+                    height: 100%; }
+                    #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item .img-holder img,
+                    #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item .img-holder img {
+                      width: 100%;
+                      height: 100%;
+                      object-fit: cover;
+                      object-position: center;
+                      display: block; }
+                #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .slick-active .member-img-item,
+                #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .slick-active .member-img-item {
+                  opacity: 1;
+                  -webkit-transform: translateX(0);
+                  transform: translateX(0);
+                  transition: all ease-out 400ms 400ms; }
+            #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder,
+            #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder {
+              width: 100%;
+              flex-basis: 100%;
+              margin-top: 3rem; }
+              #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider,
+              #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider {
+                height: 100%; }
+                #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-list,
+                #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-track,
+                #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-slide > div,
+                #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-list,
+                #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-track,
+                #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-slide > div {
+                  height: 100%; }
+                #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-slide > div,
+                #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-slide > div {
+                  display: flex;
+                  align-items: center; }
+                #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item,
+                #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item {
+                  height: 100vw;
+                  padding: 0 20px;
+                  position: relative; }
+                  #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor,
+                  #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor {
+                    position: absolute;
+                    bottom: 100%;
+                    right: calc(100% - 120px);
+                    width: 70px;
+                    opacity: 0;
+                    transform-origin: bottom 100%;
+                    -webkit-transform: translateX(3rem) scale(0.5);
+                    transform: translateX(3rem) scale(0.5); }
+                    #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor .img-holder img,
+                    #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor .img-holder img {
+                      display: block;
+                      width: 100%; }
+                  #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context,
+                  #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context {
+                    opacity: 0;
+                    -webkit-transform: translateX(3rem);
+                    transform: translateX(3rem); }
+                    #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name,
+                    #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name {
+                      font-size: 2.25rem;
+                      line-height: 1.15;
+                      margin-bottom: 0; }
+                    #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role,
+                    #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role {
+                      margin-bottom: 1.35rem; }
+                    #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-quote,
+                    #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-quote {
+                      text-align: justify; }
+                #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-active .quote-item .decor,
+                #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-active .quote-item .context,
+                #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-active .quote-item .decor,
+                #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-active .quote-item .context {
+                  opacity: 1;
+                  -webkit-transform: translateX(0) scale(1);
+                  transform: translateX(0) scale(1);
+                  transition: all ease-out 500ms; }
+                #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-active .quote-item .decor,
+                #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-active .quote-item .decor {
+                  transition: all ease-out 400ms 200ms; }
+                #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots,
+                #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots {
+                  display: flex;
+                  padding-left: 140px;
+                  position: absolute;
+                  bottom: 20%; }
+                  #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li,
+                  #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li {
+                    margin: 0 6px; }
+                    #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li:first-child,
+                    #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li:first-child {
+                      margin-left: 0; }
+                    #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li button,
+                    #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li button {
+                      text-indent: -9999px;
+                      display: block;
+                      font-size: 0.1rem;
+                      width: 18px;
+                      height: 18px;
+                      border: 1px solid #046a38;
+                      border-radius: 9px;
+                      padding: 0;
+                      background-color: transparent;
+                      outline: none; }
+                    #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li.slick-active button,
+                    #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li.slick-active button {
+                      background-color: #046a38; } }
 
 #hr-home-page {
   /* OPPO Family */
@@ -2191,11 +2554,56 @@ p,
     #hr-home-page .section-oppo-family .oppo-family-layout,
     #hr-home-page #home-oppo-family .oppo-family-layout {
       display: block;
-      width: 200%;
-      margin-left: -50%; }
+      width: 300%;
+      margin-left: -110%;
+      margin: 2rem 0 4rem -110%; }
       #hr-home-page .section-oppo-family .oppo-family-layout .family-item,
       #hr-home-page #home-oppo-family .oppo-family-layout .family-item {
-        height: 96.6vw; }
+        height: auto; }
+        #hr-home-page .section-oppo-family .oppo-family-layout .family-item .img-holder,
+        #hr-home-page #home-oppo-family .oppo-family-layout .family-item .img-holder {
+          height: 100%;
+          width: 94%;
+          overflow: hidden;
+          margin: auto;
+          height: 96.6vw; }
+        #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context,
+        #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context {
+          position: static;
+          text-align: left;
+          width: 88%;
+          margin-left: auto;
+          background-color: transparent;
+          color: #000;
+          padding-top: 30px; }
+          #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-title,
+          #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-title {
+            font-size: 1.25rem;
+            margin-bottom: 0.35rem;
+            color: #000; }
+          #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-desc,
+          #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-desc {
+            padding: 0;
+            color: #000; }
+          #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .cta-holder,
+          #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .cta-holder {
+            opacity: 0;
+            -webkit-transform: translateY(1rem);
+            transform: translateY(1rem);
+            transition: all ease-in 10ms 100ms; }
+            #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .cta-holder a,
+            #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .cta-holder a {
+              display: flex;
+              align-items: center;
+              height: 2rem; }
+              #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .cta-holder a .arrow,
+              #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .cta-holder a .arrow {
+                height: 1.65rem;
+                margin-left: 0.35rem;
+                transform: translateY(-15%); }
+                #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .cta-holder a .arrow img,
+                #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .cta-holder a .arrow img {
+                  height: 100%; }
       #hr-home-page .section-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .img-holder img,
       #hr-home-page #home-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .img-holder img {
         transform: scale(1.075);
@@ -2211,11 +2619,51 @@ p,
           transform: translateY(0);
           transition: all ease-out 330ms 130ms; }
         #hr-home-page .section-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .context .context-desc,
-        #hr-home-page #home-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .context .context-desc {
+        #hr-home-page .section-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .context .cta-holder,
+        #hr-home-page #home-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .context .context-desc,
+        #hr-home-page #home-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .context .cta-holder {
           opacity: 1;
           -webkit-transform: translateY(0);
           transform: translateY(0);
           transition: all ease-out 330ms 260ms; } }
+  @media only screen and (max-width: 480px) {
+    #hr-home-page .section-oppo-family .oppo-family-layout,
+    #hr-home-page #home-oppo-family .oppo-family-layout {
+      display: block;
+      width: 300%;
+      margin-left: -110%;
+      margin-top: 2rem; }
+      #hr-home-page .section-oppo-family .oppo-family-layout .family-item,
+      #hr-home-page #home-oppo-family .oppo-family-layout .family-item {
+        height: auto; }
+        #hr-home-page .section-oppo-family .oppo-family-layout .family-item .img-holder,
+        #hr-home-page #home-oppo-family .oppo-family-layout .family-item .img-holder {
+          height: 100%;
+          width: 94%;
+          overflow: hidden;
+          margin: auto;
+          height: 96.6vw; }
+        #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context,
+        #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context {
+          width: 90%;
+          padding-top: 20px; }
+          #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-title,
+          #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-title {
+            font-size: 1.25rem;
+            margin-bottom: 0.35rem;
+            color: #000; }
+          #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-desc,
+          #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-desc {
+            padding: 0;
+            color: #000; }
+          #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .cta-holder a,
+          #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .cta-holder a {
+            height: 2rem; }
+            #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .cta-holder a .arrow,
+            #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .cta-holder a .arrow {
+              height: 1.35rem;
+              margin-left: 0.35rem;
+              transform: translateY(-12%); } }
 
 @-webkit-keyframes rotating {
   0% {

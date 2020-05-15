@@ -162,12 +162,83 @@
     .section-oppo-family,
     #home-oppo-family {
       .oppo-family-layout {
+        // display: block;
+        // width: 240%;
+        // margin-left: -70%;
+
         display: block;
-        width: 200%;
-        margin-left: -50%;
+        width: 300%;
+        margin-left: -110%;
+        margin: 2rem 0 4rem -110%;
 
         .family-item {
-          height: 96.6vw;
+          height: auto;
+
+          .img-holder {
+            height: 100%;
+            width: 94%;
+            overflow: hidden;
+            margin: auto;
+            height: 96.6vw;
+          }
+
+          // .context {
+          //   left: 3%;
+          //   right: 3%;
+
+          //   .context-title {
+          //     font-size: 2.3125rem;
+          //     margin-bottom: 0.5rem;
+          //   }
+
+          //   .context-desc {
+          //     padding: 0 10%;
+          //   }
+          // }
+
+          .context {
+            position: static;
+            text-align: left;
+            width: 88%;
+            margin-left: auto;
+            background-color: transparent;
+            color: #000;
+            padding-top: 30px;
+
+            .context-title {
+              font-size: 1.25rem;
+              margin-bottom: 0.35rem;
+              color: #000;
+            }
+
+            .context-desc {
+              padding: 0;
+              color: #000;
+            }
+
+            .cta-holder {
+              opacity: 0;
+              -webkit-transform: translateY(1rem);
+              transform: translateY(1rem);
+              transition: all ease-in 10ms 100ms;
+
+              a {
+                display: flex;
+                align-items: center;
+                height: 2rem;
+
+                .arrow {
+                  height: 1.65rem;
+                  margin-left: 0.35rem;
+                  transform: translateY(-15%);
+
+                  img {
+                    height: 100%;
+                  }
+                }
+              }
+            }
+          }
         }
 
         .slick-current.slick-active {
@@ -190,11 +261,63 @@
                 transition: all ease-out 330ms 130ms;
               }
 
-              .context-desc {
+              .context-desc,
+              .cta-holder {
                 opacity: 1;
                 -webkit-transform: translateY(0);
                 transform: translateY(0);
                 transition: all ease-out 330ms 260ms;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media #{$information-phone} {
+    .section-oppo-family,
+    #home-oppo-family {
+      .oppo-family-layout {
+        display: block;
+        width: 300%;
+        margin-left: -110%;
+        margin-top: 2rem;
+
+        .family-item {
+          height: auto;
+          .img-holder {
+            height: 100%;
+            width: 94%;
+            overflow: hidden;
+            margin: auto;
+            height: 96.6vw;
+          }
+
+          .context {
+            width: 90%;
+            padding-top: 20px;
+
+            .context-title {
+              font-size: 1.25rem;
+              margin-bottom: 0.35rem;
+              color: #000;
+            }
+
+            .context-desc {
+              padding: 0;
+              color: #000;
+            }
+
+            .cta-holder {
+              a {
+                height: 2rem;
+
+                .arrow {
+                  height: 1.35rem;
+                  margin-left: 0.35rem;
+                  transform: translateY(-12%);
+                }
               }
             }
           }
