@@ -1822,7 +1822,6 @@ function () {
       this.playModalVideo = $(".play-modal-video");
       this.modalVideo = $(".video-modal");
       this.closeVideoModal = $(".close-video-modal");
-      console.log(this.bannerVideo, this.playModalVideo);
       this.playModalVideo.on("click", function () {
         _this.modalVideo.addClass("show-modal");
 
