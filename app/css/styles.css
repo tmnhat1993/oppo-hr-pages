@@ -38,11 +38,11 @@ body {
     width: 1440px;
     max-width: 100%;
     margin: 0 auto;
-    padding: 0 1rem; }
+    padding: 0 0.1rem; }
   html .container-fluid,
   body .container-fluid {
     width: 100%;
-    padding: 0 1rem; }
+    padding: 0 0.1rem; }
   html .no-pad,
   body .no-pad {
     padding: 0; }
@@ -75,7 +75,8 @@ body {
   @media only screen and (max-width: 1024px) {
     html .container,
     body .container {
-      padding: 0 30px; } }
+      padding: 0 30px;
+      width: 780px; } }
   @media only screen and (max-width: 768px) {
     html .container,
     body .container {
@@ -897,7 +898,7 @@ h4 {
 a {
   color: inherit;
   text-decoration: none;
-  font-size: 1.5625rem; }
+  font-size: 0.175rem; }
   a:hover {
     color: inherit;
     text-decoration: none; }
@@ -918,24 +919,24 @@ p {
     color: #046a38 !important; }
 
 .title {
-  font-size: 3.75rem;
-  margin: 5.625rem 0 5rem;
+  font-size: 0.375rem;
+  margin: 0.5625rem 0 0.5rem;
   font-weight: 400; }
 
 .sub-title {
-  font-size: 3rem;
+  font-size: 0.3rem;
   font-weight: 400;
   line-height: 1.2;
-  margin: 2.25rem 0 0.15rem; }
+  margin: 0.225rem 0 0.015rem; }
 
 .highlight {
-  font-size: 1.8em;
+  font-size: 0.18em;
   color: inherit; }
 
 .desc,
 p,
 .desc-item {
-  font-size: 1.5625rem;
+  font-size: 0.175rem;
   line-height: 1.44; }
 
 .inline-img {
@@ -949,116 +950,116 @@ p,
 /* RESPONSIVE */
 @media only screen and (max-width: 1680px) {
   a {
-    font-size: 1.35rem; }
+    font-size: 0.135rem; }
   .title {
-    font-size: 3.3rem;
-    margin: 5rem 0 4.4rem; }
+    font-size: 0.33rem;
+    margin: 0.5rem 0 0.44rem; }
   .sub-title {
-    font-size: 2.625rem;
-    margin: 2rem 0 0.13125rem; }
+    font-size: 0.2625rem;
+    margin: 0.2rem 0 0.013125rem; }
   .highlight {
     font-size: 1.75em; }
   .desc,
   p,
   .desc-item {
-    font-size: 1.35rem; } }
+    font-size: 0.135rem; } }
 
 @media only screen and (max-width: 1440px) {
   a {
-    font-size: 1.125rem; }
+    font-size: 0.1125rem; }
   .title {
-    font-size: 2.671875rem;
-    margin: 4rem 0 3.5625rem; }
+    font-size: 0.2671875rem;
+    margin: 0.4rem 0 0.35625rem; }
   .sub-title {
-    font-size: 2.1375rem;
-    margin: 1.6rem 0 0.1rem; }
+    font-size: 0.21375rem;
+    margin: 0.16rem 0 0.01rem; }
   .highlight {
     font-size: 1.75em; }
   .desc,
   p,
   .desc-item {
-    font-size: 1.125rem; } }
+    font-size: 0.1125rem; } }
 
 @media only screen and (max-width: 1280px) {
   a {
-    font-size: 1.05rem; }
+    font-size: 0.105rem; }
   .title {
-    font-size: 2.3rem;
-    margin: 3.5rem 0 3.15rem; }
+    font-size: 0.23rem;
+    margin: 0.35rem 0 0.315rem; }
   .sub-title {
-    font-size: 2rem;
-    margin: 1.3rem 0 0.1rem; }
+    font-size: 0.2rem;
+    margin: 0.13rem 0 0.01rem; }
   .highlight {
     font-size: 1.75em; }
   .desc,
   p,
   .desc-item {
-    font-size: 1.05rem; } }
+    font-size: 0.105rem; } }
 
 @media only screen and (max-width: 1024px) {
   a {
-    font-size: 1.35rem; }
+    font-size: 0.135rem; }
   .title {
-    font-size: 3.3rem;
-    margin: 5rem 0 4.4rem; }
+    font-size: 0.33rem;
+    margin: 0.5rem 0 0.44rem; }
   .sub-title {
-    font-size: 2.625rem;
-    margin: 2rem 0 0.13125rem; }
+    font-size: 0.2625rem;
+    margin: 0.2rem 0 0.013125rem; }
   .highlight {
     font-size: 1.75em; }
   .desc,
   p,
   .desc-item {
-    font-size: 1.35rem; } }
+    font-size: 0.135rem; } }
 
 @media only screen and (max-width: 768px) {
   a {
-    font-size: 1.125rem; }
+    font-size: 0.1125rem; }
   .title {
-    font-size: 2.671875rem;
-    margin: 4rem 0 3.5625rem; }
+    font-size: 0.2671875rem;
+    margin: 0.4rem 0 0.35625rem; }
   .sub-title {
-    font-size: 2.1375rem;
-    margin: 1.6rem 0 0.1rem; }
+    font-size: 0.21375rem;
+    margin: 0.16rem 0 0.01rem; }
   .highlight {
     font-size: 1.75em; }
   .desc,
   p,
   .desc-item {
-    font-size: 1.125rem; } }
+    font-size: 0.1125rem; } }
 
 @media only screen and (max-width: 480px) {
   a {
-    font-size: 1rem; }
+    font-size: 0.12rem; }
   .title {
-    font-size: 1.75rem;
-    margin: 3rem 0 2.15rem; }
+    font-size: 0.175rem;
+    margin: 0.3rem 0 0.215rem; }
   .sub-title {
-    font-size: 1.35rem;
+    font-size: 0.135rem;
     font-weight: 600;
-    margin: 1.25rem 0 0.25rem; }
+    margin: 0.125rem 0 0.025rem; }
   .highlight {
     font-size: 1.75em; }
   .desc,
   p,
   .desc-item {
-    font-size: 1rem; } }
+    font-size: 0.12rem; } }
 
 @media only screen and (max-width: 376px) {
   a {
-    font-size: 0.9rem; }
+    font-size: 0.12rem; }
   .title {
-    font-size: 1.35rem;
-    margin: 2.5rem 0 2rem; }
+    font-size: 0.135rem;
+    margin: 0.25rem 0 0.2rem; }
   .sub-title {
-    font-size: 1.15rem;
-    margin: 1.15rem 0 0.15rem; }
+    font-size: 0.115rem;
+    margin: 0.115rem 0 0.015rem; }
   .highlight {
-    font-size: 1.35em; }
+    font-size: 0.135em; }
   .desc,
   p,
   .desc-item {
-    font-size: 0.9rem; } }
+    font-size: 0.12rem; } }
 
 /* This file Will Import All UI Element */
 #hr-home-page {
@@ -1114,7 +1115,7 @@ p,
       left: 0;
       right: 0;
       text-align: center;
-      bottom: 2rem; }
+      bottom: 0.2rem; }
       #hr-home-page .section-banner .slick-dots li {
         display: inline-block;
         margin: 0 6px; }
@@ -1123,7 +1124,7 @@ p,
         #hr-home-page .section-banner .slick-dots li button {
           text-indent: -9999px;
           display: block;
-          font-size: 0.1rem;
+          font-size: 0.01rem;
           width: 18px;
           height: 18px;
           border: 1px solid #046a38;
@@ -1156,7 +1157,7 @@ p,
         left: 0;
         right: 0;
         text-align: center;
-        bottom: 2rem; }
+        bottom: 0.2rem; }
         #hr-home-page .section-banner .slick-dots li {
           display: inline-block;
           margin: 0 6px; }
@@ -1188,7 +1189,7 @@ p,
         left: 0;
         right: 0;
         text-align: center;
-        bottom: 2rem; }
+        bottom: 0.2rem; }
         #hr-home-page .section-banner .slick-dots li {
           display: inline-block;
           margin: 0 5px; }
@@ -1228,7 +1229,7 @@ p,
         #hr-home-page .section-banner .banner-slider .banner-control.banner-prev {
           left: 20px; }
         #hr-home-page .section-banner .slick-dots {
-          bottom: 1.2rem; }
+          bottom: 0.12rem; }
           #hr-home-page .section-banner .slick-dots li {
             margin: 0 3px; }
             #hr-home-page .section-banner .slick-dots li button {
@@ -1252,7 +1253,7 @@ p,
       #hr-home-page .section-banner .banner-slider .banner-control.banner-prev {
         left: 12px; }
       #hr-home-page .section-banner .slick-dots {
-        bottom: 1rem; }
+        bottom: 0.1rem; }
         #hr-home-page .section-banner .slick-dots li {
           margin: 0 3px; }
           #hr-home-page .section-banner .slick-dots li button {
@@ -1280,16 +1281,17 @@ p,
       z-index: 2; }
       #hr-home-page .section-about-oppo .main-content .title,
       #hr-home-page #home-about-oppo .main-content .title {
-        margin: 9.5rem 0 4.5rem; }
+        margin: 0.95rem 0 0.45rem; }
       #hr-home-page .section-about-oppo .main-content .cta-holder,
       #hr-home-page #home-about-oppo .main-content .cta-holder {
         display: flex;
         align-items: center;
-        justify-content: center; }
+        justify-content: center;
+        margin-top: 0.15rem; }
         #hr-home-page .section-about-oppo .main-content .cta-holder .arrow,
         #hr-home-page #home-about-oppo .main-content .cta-holder .arrow {
-          height: 2rem;
-          margin-left: 0.65rem; }
+          height: 0.2rem;
+          margin-left: 0.065rem; }
           #hr-home-page .section-about-oppo .main-content .cta-holder .arrow img,
           #hr-home-page #home-about-oppo .main-content .cta-holder .arrow img {
             max-height: 100%; }
@@ -1313,33 +1315,33 @@ p,
       height: 57vw; }
       #hr-home-page .section-about-oppo .main-content .title,
       #hr-home-page #home-about-oppo .main-content .title {
-        margin: 8.3125rem 0 3.9375rem; }
+        margin: 0.83125rem 0 0.39375rem; }
       #hr-home-page .section-about-oppo .main-content .cta-holder .arrow,
       #hr-home-page #home-about-oppo .main-content .cta-holder .arrow {
-        height: 1.75rem;
-        margin-left: 0.56875rem; } }
+        height: 0.175rem;
+        margin-left: 0.056875rem; } }
   @media only screen and (max-width: 1440px) {
     #hr-home-page .section-about-oppo,
     #hr-home-page #home-about-oppo {
       height: 58vw; }
       #hr-home-page .section-about-oppo .main-content .title,
       #hr-home-page #home-about-oppo .main-content .title {
-        margin: 6.7rem 0 3.2rem; }
+        margin: 0.67rem 0 0.32rem; }
       #hr-home-page .section-about-oppo .main-content .cta-holder .arrow,
       #hr-home-page #home-about-oppo .main-content .cta-holder .arrow {
-        height: 1.425‬rem;
-        margin-left: 0.463125rem; } }
+        height: 0.1425‬rem;
+        margin-left: 0.0463125rem; } }
   @media only screen and (max-width: 1280px) {
     #hr-home-page .section-about-oppo,
     #hr-home-page #home-about-oppo {
       height: 60vw; }
       #hr-home-page .section-about-oppo .main-content .title,
       #hr-home-page #home-about-oppo .main-content .title {
-        margin: 6.333rem 0 3rem; }
+        margin: 0.6333rem 0 0.3rem; }
       #hr-home-page .section-about-oppo .main-content .cta-holder .arrow,
       #hr-home-page #home-about-oppo .main-content .cta-holder .arrow {
-        height: 1.35‬rem;
-        margin-left: 0.43rem; } }
+        height: 0.135‬rem;
+        margin-left: 0.043rem; } }
   @media only screen and (max-width: 768px) {
     #hr-home-page .section-about-oppo,
     #hr-home-page #home-about-oppo {
@@ -1352,8 +1354,8 @@ p,
         margin-bottom: 7vw; }
       #hr-home-page .section-about-oppo .main-content .cta-holder .arrow,
       #hr-home-page #home-about-oppo .main-content .cta-holder .arrow {
-        height: 1.5rem;
-        margin-left: 0.5rem; } }
+        height: 0.15rem;
+        margin-left: 0.05rem; } }
   @media only screen and (max-width: 480px) {
     #hr-home-page .section-about-oppo,
     #hr-home-page #home-about-oppo {
@@ -1366,8 +1368,8 @@ p,
         margin-bottom: 7vw; }
       #hr-home-page .section-about-oppo .main-content .cta-holder .arrow,
       #hr-home-page #home-about-oppo .main-content .cta-holder .arrow {
-        height: 1.15rem;
-        margin-left: 0.5rem; } }
+        height: 0.115rem;
+        margin-left: 0.05rem; } }
   @media only screen and (max-width: 376px) {
     #hr-home-page .section-about-oppo,
     #hr-home-page #home-about-oppo {
@@ -1380,8 +1382,8 @@ p,
         margin-bottom: 6vw; }
       #hr-home-page .section-about-oppo .main-content .cta-holder .arrow,
       #hr-home-page #home-about-oppo .main-content .cta-holder .arrow {
-        height: 1.1rem;
-        margin-left: 0.5rem; } }
+        height: 0.11rem;
+        margin-left: 0.05rem; } }
 
 #hr-home-page {
   /* OPPO Global */
@@ -1396,15 +1398,15 @@ p,
     #hr-home-page #home-oppo-global .oppo-archivements {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      grid-column-gap: 1rem;
+      grid-column-gap: 0.1rem;
       grid-template-rows: 135px;
-      padding: 0 0.5rem; }
+      padding: 0 0.05rem; }
       #hr-home-page .section-oppo-global .oppo-archivements .archive-item,
       #hr-home-page #home-oppo-global .oppo-archivements .archive-item {
         background-color: #046a38;
         border-radius: 20px;
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
-        font-size: 1.35rem;
+        font-size: 0.135rem;
         display: flex;
         justify-content: center;
         align-items: center; }
@@ -1431,10 +1433,10 @@ p,
       #hr-home-page .section-oppo-global .oppo-archivements,
       #hr-home-page #home-oppo-global .oppo-archivements {
         grid-template-rows: 115px;
-        padding: 0 0.5rem; }
+        padding: 0 0.05rem; }
         #hr-home-page .section-oppo-global .oppo-archivements .archive-item,
         #hr-home-page #home-oppo-global .oppo-archivements .archive-item {
-          font-size: 1.25rem; } }
+          font-size: 0.125rem; } }
   @media only screen and (max-width: 1440px) {
     #hr-home-page .section-oppo-global,
     #hr-home-page #home-oppo-global {
@@ -1442,10 +1444,10 @@ p,
       #hr-home-page .section-oppo-global .oppo-archivements,
       #hr-home-page #home-oppo-global .oppo-archivements {
         grid-template-rows: 108px;
-        padding: 0 0.35rem; }
+        padding: 0 0.035rem; }
         #hr-home-page .section-oppo-global .oppo-archivements .archive-item,
         #hr-home-page #home-oppo-global .oppo-archivements .archive-item {
-          font-size: 1.15rem;
+          font-size: 0.115rem;
           border-radius: 15px; } }
   @media only screen and (max-width: 768px) {
     #hr-home-page .section-oppo-global,
@@ -1455,15 +1457,15 @@ p,
       #hr-home-page #home-oppo-global .oppo-archivements {
         display: grid;
         grid-template-columns: 1fr;
-        grid-row-gap: 1rem;
+        grid-row-gap: 0.1rem;
         grid-template-rows: 15vw 15vw 15vw;
-        padding: 0 0.5rem;
+        padding: 0 0.05rem;
         padding: 0 15px; }
         #hr-home-page .section-oppo-global .oppo-archivements .archive-item,
         #hr-home-page #home-oppo-global .oppo-archivements .archive-item {
           border-radius: 15px;
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
-          font-size: 1.35rem; }
+          font-size: 0.135rem; }
       #hr-home-page .section-oppo-global .globe-holder,
       #hr-home-page #home-oppo-global .globe-holder {
         top: 52%;
@@ -1484,7 +1486,7 @@ p,
         #hr-home-page #home-oppo-global .oppo-archivements .archive-item {
           border-radius: 12px;
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
-          font-size: 0.9rem; }
+          font-size: 0.09rem; }
       #hr-home-page .section-oppo-global .globe-holder,
       #hr-home-page #home-oppo-global .globe-holder {
         top: 58%;
@@ -1505,7 +1507,7 @@ p,
         #hr-home-page #home-oppo-global .oppo-archivements .archive-item {
           border-radius: 7px;
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
-          font-size: 0.8rem; }
+          font-size: 0.08rem; }
       #hr-home-page .section-oppo-global .globe-holder,
       #hr-home-page #home-oppo-global .globe-holder {
         top: 60%;
@@ -1565,7 +1567,7 @@ p,
           transform: scale(0); }
         #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label,
         #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label {
-          font-size: 1.5rem;
+          font-size: 0.2rem;
           margin: 0;
           transition: all ease-in 150ms;
           position: relative;
@@ -1586,7 +1588,7 @@ p,
     #hr-home-page .section-job-oppotunities .main-content .content-footer .context,
     #hr-home-page #home-job-opportunities .main-content .content-footer .context {
       height: 100px;
-      font-size: 1.5625rem;
+      font-size: 0.175rem;
       width: 100%;
       display: flex;
       align-items: center;
@@ -1594,7 +1596,7 @@ p,
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb {
         width: 41px;
-        margin-right: 0.65rem;
+        margin-right: 0.065rem;
         -webkit-transform: translateY(-14%);
         transform: translateY(-14%); }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb img,
@@ -1607,11 +1609,11 @@ p,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context .divider {
         -webkit-transform: translateY(-5%);
         transform: translateY(-5%);
-        margin: 0 0.5rem; }
+        margin: 0 0.05rem; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context .arrow,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context .arrow {
-        height: 2rem;
-        margin-left: 0.65rem; }
+        height: 0.2rem;
+        margin-left: 0.065rem; }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .arrow img,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .arrow img {
           display: block;
@@ -1633,22 +1635,22 @@ p,
           height: 27vw; }
         #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label,
         #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label {
-          font-size: 1.35rem; }
+          font-size: 0.175rem; }
     #hr-home-page .section-job-oppotunities .main-content .content-footer .context,
     #hr-home-page #home-job-opportunities .main-content .content-footer .context {
       height: 90px;
-      font-size: 1.367rem; }
+      font-size: 0.1367rem; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb {
         width: 38px;
-        margin-right: 0.6rem; }
+        margin-right: 0.06rem; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context .divider,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context .divider {
-        margin: 0 0.35rem; }
+        margin: 0 0.035rem; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context .arrow,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context .arrow {
-        height: 1.75rem;
-        margin-left: 0.56875rem; } }
+        height: 0.175rem;
+        margin-left: 0.056875rem; } }
   @media only screen and (max-width: 1440px) {
     #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout,
     #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout {
@@ -1662,22 +1664,22 @@ p,
         height: 6.25vw; }
         #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label,
         #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label {
-          font-size: 1.2rem; }
+          font-size: 0.15rem; }
     #hr-home-page .section-job-oppotunities .main-content .content-footer .context,
     #hr-home-page #home-job-opportunities .main-content .content-footer .context {
       height: 85px;
-      font-size: 1.125rem; }
+      font-size: 0.1125rem; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb {
         width: 36px;
-        margin-right: 0.5rem; }
+        margin-right: 0.05rem; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context .divider,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context .divider {
-        margin: 0 0.3rem; }
+        margin: 0 0.03rem; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context .arrow,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context .arrow {
-        height: 1.4rem;
-        margin-left: 0.463125rem; } }
+        height: 0.14rem;
+        margin-left: 0.0463125rem; } }
   @media only screen and (max-width: 1280px) {
     #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout,
     #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout {
@@ -1691,25 +1693,25 @@ p,
         height: 6.25vw; }
         #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label,
         #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label {
-          font-size: 1.1rem; }
+          font-size: 0.135rem; }
     #hr-home-page .section-job-oppotunities .main-content .content-footer,
     #hr-home-page #home-job-opportunities .main-content .content-footer {
-      margin-top: 1.5rem; }
+      margin-top: 0.15rem; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context {
         height: 85px;
-        font-size: 1.125rem; }
+        font-size: 0.1125rem; }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb {
           width: 32px;
-          margin-right: 0.35rem; }
+          margin-right: 0.035rem; }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .divider,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .divider {
-          margin: 0 0.3rem; }
+          margin: 0 0.03rem; }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .arrow,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .arrow {
-          height: 1.35‬rem;
-          margin-left: 0.43rem; } }
+          height: 0.13rem;
+          margin-left: 0.043rem; } }
   @media only screen and (max-width: 768px) {
     #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout,
     #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout {
@@ -1730,29 +1732,29 @@ p,
           height: 150vw; }
         #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label,
         #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label {
-          font-size: 1.35rem; }
+          font-size: 0.135rem; }
     #hr-home-page .section-job-oppotunities .main-content .content-footer,
     #hr-home-page #home-job-opportunities .main-content .content-footer {
       margin-top: 0; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context {
         height: 120px;
-        font-size: 1.125rem; }
+        font-size: 0.1125rem; }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb {
           width: 41px;
-          margin-right: 0.65rem;
+          margin-right: 0.065rem;
           -webkit-transform: translateY(-14%);
           transform: translateY(-14%); }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .divider,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .divider {
           -webkit-transform: translateY(-5%);
           transform: translateY(-5%);
-          margin: 0 0.25rem; }
+          margin: 0 0.025rem; }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .arrow,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .arrow {
-          height: 1.65rem;
-          margin-left: 0.35rem;
+          height: 0.165rem;
+          margin-left: 0.035rem;
           transform: translateY(25%); } }
   @media only screen and (max-width: 480px) {
     #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout,
@@ -1774,28 +1776,28 @@ p,
           height: 150vw; }
         #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label,
         #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label {
-          font-size: 1.05rem; }
+          font-size: 0.135rem; }
     #hr-home-page .section-job-oppotunities .main-content .content-footer,
     #hr-home-page #home-job-opportunities .main-content .content-footer {
       margin-top: 0; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context {
         height: 120px;
-        font-size: 1rem;
+        font-size: 0.12rem;
         line-height: 0.5; }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb {
           width: 38px;
-          margin-right: 0.35rem; }
+          margin-right: 0.035rem; }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .divider,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .divider {
           -webkit-transform: translateY(-5%);
           transform: translateY(-5%);
-          margin: 0 0.15rem; }
+          margin: 0 0.015rem; }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .arrow,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .arrow {
-          height: 1.35rem;
-          margin-left: 0.25rem;
+          height: 0.135rem;
+          margin-left: 0.025rem;
           transform: translateY(25%); } }
   @media only screen and (max-width: 376px) {
     #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout,
@@ -1813,23 +1815,23 @@ p,
           height: 150vw; }
         #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label,
         #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label {
-          font-size: 1rem; }
+          font-size: 0.125rem; }
     #hr-home-page .section-job-oppotunities .main-content .content-footer .context,
     #hr-home-page #home-job-opportunities .main-content .content-footer .context {
       height: 100px;
-      font-size: 0.9rem;
+      font-size: 0.09rem;
       line-height: 0.5; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb {
         width: 34px;
-        margin-right: 0.35rem; }
+        margin-right: 0.035rem; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context .divider,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context .divider {
-        margin: 0 0.15rem; }
+        margin: 0 0.015rem; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context .arrow,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context .arrow {
-        height: 1.2rem;
-        margin-left: 0.25rem;
+        height: 0.12rem;
+        margin-left: 0.025rem;
         transform: translateY(25%); } }
 
 #hr-home-page {
@@ -1961,7 +1963,7 @@ p,
                 display: block !important;
                 padding-right: 30px;
                 opacity: 0;
-                transform: translateX(-2rem); }
+                transform: translateX(-0.2rem); }
                 #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item *,
                 #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item * {
                   height: 100%; }
@@ -2002,7 +2004,7 @@ p,
               #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item,
               #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item {
                 height: 52%;
-                padding: 0 20px 2rem 140px;
+                padding: 0 20px 0.2rem 140px;
                 position: relative; }
                 #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor,
                 #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor {
@@ -2012,8 +2014,8 @@ p,
                   width: 70px;
                   opacity: 0;
                   transform-origin: bottom 100%;
-                  -webkit-transform: translateX(3rem) scale(0.5);
-                  transform: translateX(3rem) scale(0.5); }
+                  -webkit-transform: translateX(0.3rem) scale(0.5);
+                  transform: translateX(0.3rem) scale(0.5); }
                   #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor .img-holder img,
                   #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor .img-holder img {
                     display: block;
@@ -2021,16 +2023,16 @@ p,
                 #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context,
                 #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context {
                   opacity: 0;
-                  -webkit-transform: translateX(3rem);
-                  transform: translateX(3rem); }
+                  -webkit-transform: translateX(0.3rem);
+                  transform: translateX(0.3rem); }
                   #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name,
                   #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name {
-                    font-size: 2.25rem;
+                    font-size: 0.225rem;
                     line-height: 1.15;
                     margin-bottom: 0; }
                   #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role,
                   #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role {
-                    margin-bottom: 1.35rem; }
+                    margin-bottom: 0.135rem; }
                   #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-quote,
                   #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-quote {
                     text-align: justify; }
@@ -2061,7 +2063,7 @@ p,
                   #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li button {
                     text-indent: -9999px;
                     display: block;
-                    font-size: 0.1rem;
+                    font-size: 0.01rem;
                     width: 18px;
                     height: 18px;
                     border: 1px solid #046a38;
@@ -2109,19 +2111,19 @@ p,
           #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item,
           #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item {
             height: 53%;
-            padding: 0 18px 2rem 130px; }
+            padding: 0 18px 0.2rem 130px; }
             #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor,
             #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor {
               right: calc(100% - 118px);
               width: 66px; }
             #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name,
             #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name {
-              font-size: 2rem;
+              font-size: 0.2rem;
               line-height: 1.15;
               margin-bottom: 0; }
             #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role,
             #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role {
-              margin-bottom: 1.35rem; }
+              margin-bottom: 0.135rem; }
           #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots,
           #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots {
             padding-left: 130px; }
@@ -2172,19 +2174,19 @@ p,
           #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item,
           #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item {
             height: 53%;
-            padding: 0 18px 2rem 110px; }
+            padding: 0 18px 0.2rem 110px; }
             #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor,
             #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor {
               right: calc(100% - 105px);
               width: 60px; }
             #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name,
             #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name {
-              font-size: 2rem;
+              font-size: 0.2rem;
               line-height: 1.15;
               margin-bottom: 0; }
             #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role,
             #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role {
-              margin-bottom: 1.125rem; }
+              margin-bottom: 0.1125rem; }
           #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots,
           #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots {
             padding-left: 110px; }
@@ -2204,87 +2206,51 @@ p,
   @media only screen and (max-width: 768px) {
     #hr-home-page .section-testimonial,
     #hr-home-page #home-testimonial {
-      height: auto; }
+      height: auto;
+      padding-top: 10vw; }
       #hr-home-page .section-testimonial .next-slide,
       #hr-home-page .section-testimonial .prev-slide,
       #hr-home-page #home-testimonial .next-slide,
       #hr-home-page #home-testimonial .prev-slide {
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        top: calc(50% - 25px);
-        cursor: pointer;
-        z-index: 4; }
+        width: 40px;
+        height: 40px;
+        top: calc(50% - 20px); }
         #hr-home-page .section-testimonial .next-slide .shape-holder,
         #hr-home-page .section-testimonial .prev-slide .shape-holder,
         #hr-home-page #home-testimonial .next-slide .shape-holder,
         #hr-home-page #home-testimonial .prev-slide .shape-holder {
-          width: 50px;
-          height: 50px;
-          border: 3px solid #046a38;
-          -webkit-transform: rotate(45deg);
-          transform: rotate(45deg); }
+          width: 40px;
+          height: 40px;
+          border-width: 2px; }
       #hr-home-page .section-testimonial .next-slide,
       #hr-home-page #home-testimonial .next-slide {
-        right: 50px;
-        animation: arrowMove 1s linear infinite; }
-        #hr-home-page .section-testimonial .next-slide .shape-holder,
-        #hr-home-page #home-testimonial .next-slide .shape-holder {
-          border-bottom: 0;
-          border-left: 0; }
+        right: 20px; }
       #hr-home-page .section-testimonial .prev-slide,
       #hr-home-page #home-testimonial .prev-slide {
-        left: 50px;
-        animation: arrowMove 1s 0.5s linear infinite; }
-        #hr-home-page .section-testimonial .prev-slide .shape-holder,
-        #hr-home-page #home-testimonial .prev-slide .shape-holder {
-          border-top: 0;
-          border-right: 0; }
-      #hr-home-page .section-testimonial .bg-effect,
-      #hr-home-page #home-testimonial .bg-effect {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0; }
-        #hr-home-page .section-testimonial .bg-effect .decor-circle,
-        #hr-home-page #home-testimonial .bg-effect .decor-circle {
-          position: absolute; }
-          #hr-home-page .section-testimonial .bg-effect .decor-circle .img-holder img,
-          #hr-home-page #home-testimonial .bg-effect .decor-circle .img-holder img {
-            width: 100%;
-            display: block; }
-          #hr-home-page .section-testimonial .bg-effect .decor-circle.circle-1,
-          #hr-home-page #home-testimonial .bg-effect .decor-circle.circle-1 {
-            width: 79%;
-            top: -123%;
-            left: 5%;
-            opacity: 0.8;
-            -webkit-animation: rotating 125s linear infinite;
-            animation: rotating 125s linear infinite; }
-          #hr-home-page .section-testimonial .bg-effect .decor-circle.circle-2,
-          #hr-home-page #home-testimonial .bg-effect .decor-circle.circle-2 {
-            width: 38%;
-            top: -33%;
-            left: 75%;
-            opacity: 0.6;
-            -webkit-animation: rotating 59s linear infinite;
-            animation: rotating 59s linear infinite; }
-          #hr-home-page .section-testimonial .bg-effect .decor-circle.circle-3,
-          #hr-home-page #home-testimonial .bg-effect .decor-circle.circle-3 {
-            width: 31%;
-            top: 53%;
-            left: -11%;
-            opacity: 0.5;
-            -webkit-animation: rotating 38s linear infinite reverse;
-            animation: rotating 38s linear infinite reverse; }
+        left: 20px; }
+      #hr-home-page .section-testimonial .bg-effect .decor-circle.circle-1,
+      #hr-home-page #home-testimonial .bg-effect .decor-circle.circle-1 {
+        width: 139%;
+        top: -10%;
+        left: 25%; }
+      #hr-home-page .section-testimonial .bg-effect .decor-circle.circle-2,
+      #hr-home-page #home-testimonial .bg-effect .decor-circle.circle-2 {
+        width: 38%;
+        top: 7%;
+        left: -15%; }
+      #hr-home-page .section-testimonial .bg-effect .decor-circle.circle-3,
+      #hr-home-page #home-testimonial .bg-effect .decor-circle.circle-3 {
+        width: 51%;
+        top: 33%;
+        left: -28%;
+        opacity: 1; }
       #hr-home-page .section-testimonial .main-content,
       #hr-home-page #home-testimonial .main-content {
         position: relative; }
         #hr-home-page .section-testimonial .main-content .container,
         #hr-home-page #home-testimonial .main-content .container {
           height: 100%;
-          padding: 0 120px; }
+          padding: 0 100px; }
           #hr-home-page .section-testimonial .main-content .container .testimonial-layout,
           #hr-home-page #home-testimonial .main-content .container .testimonial-layout {
             height: auto;
@@ -2302,52 +2268,28 @@ p,
             #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder {
               width: 100%;
               flex-basis: 100%; }
-              #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider,
-              #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider {
+              #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item,
+              #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item {
                 width: 100%;
-                height: 100%; }
-                #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .slick-list,
-                #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .slick-track,
-                #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .slick-list,
-                #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .slick-track {
-                  height: 100%; }
-                  #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .slick-list div,
-                  #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .slick-track div,
-                  #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .slick-list div,
-                  #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .slick-track div {
-                    height: 100%; }
-                #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item,
-                #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item {
-                  width: 100%;
-                  height: 100%;
-                  display: block !important;
-                  padding-right: 30px;
-                  opacity: 0;
-                  transform: translateX(-2rem); }
-                  #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item *,
-                  #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item * {
-                    height: 100%; }
-                  #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item .img-holder,
-                  #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item .img-holder {
-                    height: 100%; }
-                    #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item .img-holder img,
-                    #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item .img-holder img {
-                      width: 100%;
-                      height: 100%;
-                      object-fit: cover;
-                      object-position: center;
-                      display: block; }
-                #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .slick-active .member-img-item,
-                #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .slick-active .member-img-item {
-                  opacity: 1;
-                  -webkit-transform: translateX(0);
-                  transform: translateX(0);
-                  transition: all ease-out 400ms 400ms; }
+                height: 100%;
+                display: block !important;
+                padding: 0;
+                opacity: 0;
+                transform: translate(0); }
+              #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .slick-active .member-img-item,
+              #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .slick-active .member-img-item {
+                opacity: 1;
+                -webkit-transform: translate(0);
+                transform: translate(0);
+                transition: all ease-out 400ms 300ms; }
             #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder,
             #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder {
               width: 100%;
               flex-basis: 100%;
-              margin-top: 3rem; }
+              margin-top: 0;
+              margin-bottom: 0.5rem;
+              padding: 5vw 0;
+              height: auto; }
               #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider,
               #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider {
                 height: 100%; }
@@ -2364,36 +2306,40 @@ p,
                   align-items: center; }
                 #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item,
                 #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item {
-                  height: 100vw;
-                  padding: 0 20px;
-                  position: relative; }
+                  height: 40vw;
+                  padding: 7vw 0 0; }
                   #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor,
                   #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor {
                     position: absolute;
-                    bottom: 100%;
-                    right: calc(100% - 120px);
+                    bottom: auto;
+                    right: 20%;
+                    top: 0;
                     width: 70px;
                     opacity: 0;
                     transform-origin: bottom 100%;
-                    -webkit-transform: translateX(3rem) scale(0.5);
-                    transform: translateX(3rem) scale(0.5); }
+                    -webkit-transform: translateX(0) scale(-0.5, 0.5);
+                    transform: translateX(0) scale(-0.5, 0.5); }
                     #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor .img-holder img,
                     #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor .img-holder img {
                       display: block;
                       width: 100%; }
                   #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context,
                   #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context {
+                    position: absolute;
+                    top: 5vw;
+                    left: 0;
+                    right: 0;
                     opacity: 0;
-                    -webkit-transform: translateX(3rem);
-                    transform: translateX(3rem); }
+                    -webkit-transform: translate(0, 0.2rem);
+                    transform: translate(0, 0.2rem); }
                     #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name,
                     #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name {
-                      font-size: 2.25rem;
+                      font-size: 0.225rem;
                       line-height: 1.15;
                       margin-bottom: 0; }
                     #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role,
                     #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role {
-                      margin-bottom: 1.35rem; }
+                      margin-bottom: 0.135rem; }
                     #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-quote,
                     #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-quote {
                       text-align: justify; }
@@ -2402,18 +2348,22 @@ p,
                 #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-active .quote-item .decor,
                 #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-active .quote-item .context {
                   opacity: 1;
-                  -webkit-transform: translateX(0) scale(1);
-                  transform: translateX(0) scale(1);
+                  -webkit-transform: translate(0) scale(1);
+                  transform: translate(0) scale(1);
                   transition: all ease-out 500ms; }
                 #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-active .quote-item .decor,
                 #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-active .quote-item .decor {
+                  -webkit-transform: translateX(0) scale(-1, 1);
+                  transform: translateX(0) scale(-1, 1);
                   transition: all ease-out 400ms 200ms; }
                 #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots,
                 #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots {
                   display: flex;
-                  padding-left: 140px;
-                  position: absolute;
-                  bottom: 20%; }
+                  padding-left: 0;
+                  bottom: auto;
+                  top: 105%;
+                  width: 100%;
+                  justify-content: center; }
                   #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li,
                   #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li {
                     margin: 0 6px; }
@@ -2422,26 +2372,208 @@ p,
                       margin-left: 0; }
                     #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li button,
                     #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li button {
-                      text-indent: -9999px;
-                      display: block;
-                      font-size: 0.1rem;
                       width: 18px;
                       height: 18px;
                       border: 1px solid #046a38;
-                      border-radius: 9px;
-                      padding: 0;
-                      background-color: transparent;
-                      outline: none; }
-                    #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li.slick-active button,
-                    #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li.slick-active button {
-                      background-color: #046a38; } }
+                      border-radius: 9px; }
+      #hr-home-page .section-testimonial .grad-overlay,
+      #hr-home-page #home-testimonial .grad-overlay {
+        height: 22vw;
+        opacity: 0.7; } }
+  @media only screen and (max-width: 480px) {
+    #hr-home-page .section-testimonial,
+    #hr-home-page #home-testimonial {
+      padding-top: 8vw; }
+      #hr-home-page .section-testimonial .next-slide,
+      #hr-home-page .section-testimonial .prev-slide,
+      #hr-home-page #home-testimonial .next-slide,
+      #hr-home-page #home-testimonial .prev-slide {
+        width: 30px;
+        height: 30px;
+        top: calc(50% - 15px);
+        z-index: 5; }
+        #hr-home-page .section-testimonial .next-slide .shape-holder,
+        #hr-home-page .section-testimonial .prev-slide .shape-holder,
+        #hr-home-page #home-testimonial .next-slide .shape-holder,
+        #hr-home-page #home-testimonial .prev-slide .shape-holder {
+          width: 30px;
+          height: 30px;
+          border-width: 2px; }
+      #hr-home-page .section-testimonial .next-slide,
+      #hr-home-page #home-testimonial .next-slide {
+        right: 15px; }
+      #hr-home-page .section-testimonial .prev-slide,
+      #hr-home-page #home-testimonial .prev-slide {
+        left: 15px; }
+      #hr-home-page .section-testimonial .main-content,
+      #hr-home-page #home-testimonial .main-content {
+        position: relative; }
+        #hr-home-page .section-testimonial .main-content .container,
+        #hr-home-page #home-testimonial .main-content .container {
+          height: 100%;
+          padding: 0 60px; }
+          #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item .img-holder,
+          #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item .img-holder {
+            height: 71vw; }
+          #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder,
+          #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder {
+            margin-bottom: 0.3rem;
+            padding: 3.5vw 0;
+            height: auto; }
+            #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider,
+            #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider {
+              height: 100%; }
+              #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-list,
+              #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-track,
+              #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-slide > div,
+              #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-list,
+              #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-track,
+              #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-slide > div {
+                height: 100%; }
+              #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-slide > div,
+              #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-slide > div {
+                display: flex;
+                align-items: center; }
+              #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item,
+              #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item {
+                height: 58vw;
+                padding: 5vw 0 0; }
+                #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor,
+                #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor {
+                  right: 12%;
+                  top: 0;
+                  width: 40px; }
+                #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context,
+                #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context {
+                  top: 5vw; }
+                  #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name,
+                  #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name {
+                    font-size: 0.135rem;
+                    line-height: 1.15;
+                    margin-bottom: 0; }
+                  #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role,
+                  #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role {
+                    font-size: 0.12rem;
+                    margin-bottom: 0.1rem; }
+              #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots,
+              #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots {
+                top: 105%; }
+                #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li,
+                #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li {
+                  margin: 0 5px; }
+                  #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li:first-child,
+                  #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li:first-child {
+                    margin-left: 0; }
+                  #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li button,
+                  #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li button {
+                    width: 12px;
+                    height: 12px;
+                    border: 1px solid #046a38;
+                    border-radius: 6px; }
+      #hr-home-page .section-testimonial .grad-overlay,
+      #hr-home-page #home-testimonial .grad-overlay {
+        height: 22vw;
+        opacity: 0.7; } }
+  @media only screen and (max-width: 376px) {
+    #hr-home-page .section-testimonial,
+    #hr-home-page #home-testimonial {
+      padding-top: 8vw; }
+      #hr-home-page .section-testimonial .next-slide,
+      #hr-home-page .section-testimonial .prev-slide,
+      #hr-home-page #home-testimonial .next-slide,
+      #hr-home-page #home-testimonial .prev-slide {
+        width: 24px;
+        height: 24px;
+        top: calc(50% - 12px); }
+        #hr-home-page .section-testimonial .next-slide .shape-holder,
+        #hr-home-page .section-testimonial .prev-slide .shape-holder,
+        #hr-home-page #home-testimonial .next-slide .shape-holder,
+        #hr-home-page #home-testimonial .prev-slide .shape-holder {
+          width: 24px;
+          height: 24px;
+          border-width: 2px; }
+      #hr-home-page .section-testimonial .next-slide,
+      #hr-home-page #home-testimonial .next-slide {
+        right: 12px; }
+      #hr-home-page .section-testimonial .prev-slide,
+      #hr-home-page #home-testimonial .prev-slide {
+        left: 12px; }
+      #hr-home-page .section-testimonial .main-content,
+      #hr-home-page #home-testimonial .main-content {
+        position: relative; }
+        #hr-home-page .section-testimonial .main-content .container,
+        #hr-home-page #home-testimonial .main-content .container {
+          height: 100%;
+          padding: 0 40px; }
+          #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item .img-holder,
+          #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item .img-holder {
+            height: 74vw; }
+          #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder,
+          #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder {
+            margin-bottom: 0.3rem;
+            padding: 3.5vw 0;
+            height: auto; }
+            #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider,
+            #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider {
+              height: 100%; }
+              #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-list,
+              #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-track,
+              #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-slide > div,
+              #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-list,
+              #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-track,
+              #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-slide > div {
+                height: 100%; }
+              #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-slide > div,
+              #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-slide > div {
+                display: flex;
+                align-items: center; }
+              #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item,
+              #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item {
+                height: 70vw;
+                padding: 5vw 0 0; }
+                #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor,
+                #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor {
+                  right: 7%;
+                  top: 0;
+                  width: 36px; }
+                #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context,
+                #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context {
+                  top: 5vw; }
+                  #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name,
+                  #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name {
+                    font-size: 0.115rem;
+                    line-height: 1.15;
+                    margin-bottom: 0; }
+                  #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role,
+                  #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role {
+                    font-size: 0.09rem;
+                    margin-bottom: 0.075rem; }
+              #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots,
+              #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots {
+                top: 105%; }
+                #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li,
+                #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li {
+                  margin: 0 5px; }
+                  #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li:first-child,
+                  #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li:first-child {
+                    margin-left: 0; }
+                  #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li button,
+                  #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li button {
+                    width: 12px;
+                    height: 12px;
+                    border: 1px solid #046a38;
+                    border-radius: 6px; }
+      #hr-home-page .section-testimonial .grad-overlay,
+      #hr-home-page #home-testimonial .grad-overlay {
+        height: 22vw;
+        opacity: 0.7; } }
 
 #hr-home-page {
   /* OPPO Family */
   /* OPPO Family - END */ }
   #hr-home-page .section-oppo-family .oppo-family-layout,
   #hr-home-page #home-oppo-family .oppo-family-layout {
-    margin-top: 4rem;
+    margin-top: 0.4rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 10px; }
@@ -2481,18 +2613,18 @@ p,
           color: #fff; }
         #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-title,
         #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-title {
-          font-size: 2.3125rem;
-          margin-bottom: 0.5rem;
+          font-size: 0.23125rem;
+          margin-bottom: 0.05rem;
           opacity: 0;
-          -webkit-transform: translateY(1rem);
-          transform: translateY(1rem);
+          -webkit-transform: translateY(0.1rem);
+          transform: translateY(0.1rem);
           transition: all ease-in 10ms 100ms; }
         #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-desc,
         #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-desc {
           padding: 0 5%;
           opacity: 0;
-          -webkit-transform: translateY(1rem);
-          transform: translateY(1rem);
+          -webkit-transform: translateY(0.1rem);
+          transform: translateY(0.1rem);
           transition: all ease-in 10ms 100ms; }
       #hr-home-page .section-oppo-family .oppo-family-layout .family-item:hover .img-holder img,
       #hr-home-page #home-oppo-family .oppo-family-layout .family-item:hover .img-holder img {
@@ -2517,46 +2649,46 @@ p,
   @media only screen and (max-width: 1680px) {
     #hr-home-page .section-oppo-family .oppo-family-layout,
     #hr-home-page #home-oppo-family .oppo-family-layout {
-      margin-top: 3.5rem;
+      margin-top: 0.35rem;
       grid-column-gap: 10px; }
       #hr-home-page .section-oppo-family .oppo-family-layout .family-item,
       #hr-home-page #home-oppo-family .oppo-family-layout .family-item {
         height: 33.6vw; }
         #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-title,
         #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-title {
-          font-size: 2rem;
-          margin-bottom: 0.35rem; } }
+          font-size: 0.2rem;
+          margin-bottom: 0.035rem; } }
   @media only screen and (max-width: 1440px) {
     #hr-home-page .section-oppo-family .oppo-family-layout,
     #hr-home-page #home-oppo-family .oppo-family-layout {
-      margin-top: 3.5rem;
+      margin-top: 0.35rem;
       grid-column-gap: 10px; }
       #hr-home-page .section-oppo-family .oppo-family-layout .family-item,
       #hr-home-page #home-oppo-family .oppo-family-layout .family-item {
         height: 33.6vw; }
         #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-title,
         #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-title {
-          font-size: 1.75rem;
-          margin-bottom: 0.3rem; } }
+          font-size: 0.175rem;
+          margin-bottom: 0.03rem; } }
   @media only screen and (max-width: 1280px) {
     #hr-home-page .section-oppo-family .oppo-family-layout,
     #hr-home-page #home-oppo-family .oppo-family-layout {
-      margin-top: 3.5rem;
+      margin-top: 0.35rem;
       grid-column-gap: 10px; }
       #hr-home-page .section-oppo-family .oppo-family-layout .family-item,
       #hr-home-page #home-oppo-family .oppo-family-layout .family-item {
         height: 33.6vw; }
         #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-title,
         #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-title {
-          font-size: 1.5rem;
-          margin-bottom: 0.3rem; } }
+          font-size: 0.15rem;
+          margin-bottom: 0.03rem; } }
   @media only screen and (max-width: 768px) {
     #hr-home-page .section-oppo-family .oppo-family-layout,
     #hr-home-page #home-oppo-family .oppo-family-layout {
       display: block;
       width: 300%;
       margin-left: -110%;
-      margin: 2rem 0 4rem -110%; }
+      margin: 0.2rem 0 0.4rem -110%; }
       #hr-home-page .section-oppo-family .oppo-family-layout .family-item,
       #hr-home-page #home-oppo-family .oppo-family-layout .family-item {
         height: auto; }
@@ -2578,8 +2710,8 @@ p,
           padding-top: 30px; }
           #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-title,
           #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-title {
-            font-size: 1.25rem;
-            margin-bottom: 0.35rem;
+            font-size: 0.125rem;
+            margin-bottom: 0.035rem;
             color: #000; }
           #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-desc,
           #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-desc {
@@ -2588,18 +2720,18 @@ p,
           #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .cta-holder,
           #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .cta-holder {
             opacity: 0;
-            -webkit-transform: translateY(1rem);
-            transform: translateY(1rem);
+            -webkit-transform: translateY(0.1rem);
+            transform: translateY(0.1rem);
             transition: all ease-in 10ms 100ms; }
             #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .cta-holder a,
             #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .cta-holder a {
               display: flex;
               align-items: center;
-              height: 2rem; }
+              height: 0.2rem; }
               #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .cta-holder a .arrow,
               #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .cta-holder a .arrow {
-                height: 1.65rem;
-                margin-left: 0.35rem;
+                height: 0.165rem;
+                margin-left: 0.035rem;
                 transform: translateY(-15%); }
                 #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .cta-holder a .arrow img,
                 #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .cta-holder a .arrow img {
@@ -2632,7 +2764,7 @@ p,
       display: block;
       width: 300%;
       margin-left: -110%;
-      margin-top: 2rem; }
+      margin-top: 0.2rem; }
       #hr-home-page .section-oppo-family .oppo-family-layout .family-item,
       #hr-home-page #home-oppo-family .oppo-family-layout .family-item {
         height: auto; }
@@ -2649,8 +2781,8 @@ p,
           padding-top: 20px; }
           #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-title,
           #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-title {
-            font-size: 1.25rem;
-            margin-bottom: 0.35rem;
+            font-size: 0.125rem;
+            margin-bottom: 0.035rem;
             color: #000; }
           #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-desc,
           #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-desc {
@@ -2658,11 +2790,11 @@ p,
             color: #000; }
           #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .cta-holder a,
           #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .cta-holder a {
-            height: 2rem; }
+            height: 0.2rem; }
             #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .cta-holder a .arrow,
             #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .cta-holder a .arrow {
-              height: 1.35rem;
-              margin-left: 0.35rem;
+              height: 0.135rem;
+              margin-left: 0.035rem;
               transform: translateY(-12%); } }
 
 @-webkit-keyframes rotating {
@@ -2776,13 +2908,13 @@ p,
           justify-content: center;
           align-items: center;
           text-align: center;
-          font-size: 1.2rem; }
+          font-size: 0.12rem; }
           #hr-about-page .section-about-banner .video-control-holder .play-video-on-modal .fa,
           #hr-about-page #about-banner .video-control-holder .play-video-on-modal .fa {
-            font-size: 1.5rem;
+            font-size: 0.15rem;
             text-shadow: none;
             color: #000000;
-            margin-right: 0.75rem; } }
+            margin-right: 0.075rem; } }
   @media only screen and (max-width: 480px) {
     #hr-about-page .section-about-banner,
     #hr-about-page #about-banner {
@@ -2794,12 +2926,12 @@ p,
         #hr-about-page #about-banner .video-control-holder .play-video-on-modal {
           width: 190px;
           height: 50px;
-          font-size: 1.1rem;
+          font-size: 0.11rem;
           padding-top: 2px; }
           #hr-about-page .section-about-banner .video-control-holder .play-video-on-modal .fa,
           #hr-about-page #about-banner .video-control-holder .play-video-on-modal .fa {
-            font-size: 1.25rem;
-            margin-right: 0.65rem; } }
+            font-size: 0.125rem;
+            margin-right: 0.065rem; } }
   @media only screen and (max-width: 376px) {
     #hr-about-page .section-about-banner,
     #hr-about-page #about-banner {
@@ -2811,12 +2943,12 @@ p,
         #hr-about-page #about-banner .video-control-holder .play-video-on-modal {
           width: 170px;
           height: 42px;
-          font-size: 1rem;
+          font-size: 0.1rem;
           padding-top: 2px; }
           #hr-about-page .section-about-banner .video-control-holder .play-video-on-modal .fa,
           #hr-about-page #about-banner .video-control-holder .play-video-on-modal .fa {
-            font-size: 1.15rem;
-            margin-right: 0.5rem; } }
+            font-size: 0.115rem;
+            margin-right: 0.05rem; } }
 
 /* EXTRA */
 .video-modal {
@@ -2842,7 +2974,7 @@ p,
     max-height: 80vh; }
     .video-modal .video-holder .close-video-modal {
       position: absolute;
-      font-size: 3.5rem;
+      font-size: 0.35rem;
       margin: 0;
       line-height: 1;
       bottom: 100%;
@@ -2869,21 +3001,21 @@ p,
       margin: auto;
       height: 720px; }
       .video-modal .video-holder .close-video-modal {
-        font-size: 3.25rem; } }
+        font-size: 0.325rem; } }
   @media only screen and (max-width: 1440px) {
     .video-modal .video-holder {
       width: 900px;
       margin: auto;
       height: 506px; }
       .video-modal .video-holder .close-video-modal {
-        font-size: 3rem; } }
+        font-size: 0.3rem; } }
   @media only screen and (max-width: 1280px) {
     .video-modal .video-holder {
       width: 800px;
       margin: auto;
       height: 450px; }
       .video-modal .video-holder .close-video-modal {
-        font-size: 2.75rem; } }
+        font-size: 0.275rem; } }
   @media only screen and (max-width: 768px) {
     .video-modal .video-holder {
       width: 100vw;
@@ -2892,7 +3024,7 @@ p,
       max-width: 100%;
       max-height: none; }
       .video-modal .video-holder .close-video-modal {
-        font-size: 2.75rem;
+        font-size: 0.275rem;
         right: 2%;
         color: #046a38; } }
 
@@ -4312,10 +4444,10 @@ p,
   /* RESPONSIVE */ }
   #hr-about-page .section-archivement,
   #hr-about-page #about-archivement {
-    margin-bottom: 3rem; }
+    margin-bottom: 0.3rem; }
     #hr-about-page .section-archivement .content-body,
     #hr-about-page #about-archivement .content-body {
-      margin-top: 4rem; }
+      margin-top: 0.4rem; }
       #hr-about-page .section-archivement .content-body .archivement-layout,
       #hr-about-page #about-archivement .content-body .archivement-layout {
         display: grid;
@@ -4333,7 +4465,7 @@ p,
           width: 700px;
           text-align: center;
           line-height: 4;
-          font-size: 1.56125rem;
+          font-size: 0.175rem;
           transition: all 150ms ease-in; }
         #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block.archivement-global .context,
         #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block.archivement-global .context {
@@ -4345,10 +4477,10 @@ p,
   @media only screen and (max-width: 1680px) {
     #hr-about-page .section-archivement,
     #hr-about-page #about-archivement {
-      margin-bottom: 2.625rem; }
+      margin-bottom: 0.2625rem; }
       #hr-about-page .section-archivement .content-body,
       #hr-about-page #about-archivement .content-body {
-        margin-top: 3.5rem; }
+        margin-top: 0.35rem; }
         #hr-about-page .section-archivement .content-body .archivement-layout,
         #hr-about-page #about-archivement .content-body .archivement-layout {
           grid-template-columns: 1fr 1fr;
@@ -4356,14 +4488,14 @@ p,
           #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .context,
           #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .context {
             width: 50%;
-            font-size: 1.35rem; } }
+            font-size: 0.135rem; } }
   @media only screen and (max-width: 1440px) {
     #hr-about-page .section-archivement,
     #hr-about-page #about-archivement {
-      margin-bottom: 2.1375rem; }
+      margin-bottom: 0.21375rem; }
       #hr-about-page .section-archivement .content-body,
       #hr-about-page #about-archivement .content-body {
-        margin-top: 2.85rem; }
+        margin-top: 0.285rem; }
         #hr-about-page .section-archivement .content-body .archivement-layout,
         #hr-about-page #about-archivement .content-body .archivement-layout {
           grid-template-columns: 1fr 1fr;
@@ -4371,14 +4503,14 @@ p,
           #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .context,
           #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .context {
             width: 50%;
-            font-size: 1.125rem; } }
+            font-size: 0.1125rem; } }
   @media only screen and (max-width: 1280px) {
     #hr-about-page .section-archivement,
     #hr-about-page #about-archivement {
-      margin-bottom: 1.75rem; }
+      margin-bottom: 0.175rem; }
       #hr-about-page .section-archivement .content-body,
       #hr-about-page #about-archivement .content-body {
-        margin-top: 2rem; }
+        margin-top: 0.2rem; }
         #hr-about-page .section-archivement .content-body .archivement-layout,
         #hr-about-page #about-archivement .content-body .archivement-layout {
           grid-template-columns: 1fr 1fr;
@@ -4386,14 +4518,14 @@ p,
           #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .context,
           #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .context {
             width: 50%;
-            font-size: 1.1rem; } }
+            font-size: 0.11rem; } }
   @media only screen and (max-width: 768px) {
     #hr-about-page .section-archivement,
     #hr-about-page #about-archivement {
-      margin-bottom: 1.75rem; }
+      margin-bottom: 0.175rem; }
       #hr-about-page .section-archivement .content-body,
       #hr-about-page #about-archivement .content-body {
-        margin-top: 2rem; }
+        margin-top: 0.2rem; }
         #hr-about-page .section-archivement .content-body .archivement-layout,
         #hr-about-page #about-archivement .content-body .archivement-layout {
           grid-template-columns: 1fr;
@@ -4406,14 +4538,14 @@ p,
           #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .context,
           #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .context {
             width: 100%;
-            font-size: 1.1rem; } }
+            font-size: 0.11rem; } }
   @media only screen and (max-width: 480px) {
     #hr-about-page .section-archivement,
     #hr-about-page #about-archivement {
-      margin-bottom: 1.75rem; }
+      margin-bottom: 0.175rem; }
       #hr-about-page .section-archivement .content-body,
       #hr-about-page #about-archivement .content-body {
-        margin-top: 2rem; }
+        margin-top: 0.2rem; }
         #hr-about-page .section-archivement .content-body .archivement-layout,
         #hr-about-page #about-archivement .content-body .archivement-layout {
           grid-template-columns: 1fr;
@@ -4426,15 +4558,15 @@ p,
           #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .context,
           #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .context {
             width: 100%;
-            font-size: 1.1rem;
+            font-size: 0.11rem;
             line-height: 3.25; } }
   @media only screen and (max-width: 376px) {
     #hr-about-page .section-archivement,
     #hr-about-page #about-archivement {
-      margin-bottom: 1.25rem; }
+      margin-bottom: 0.125rem; }
       #hr-about-page .section-archivement .content-body,
       #hr-about-page #about-archivement .content-body {
-        margin-top: 2rem; }
+        margin-top: 0.2rem; }
         #hr-about-page .section-archivement .content-body .archivement-layout,
         #hr-about-page #about-archivement .content-body .archivement-layout {
           grid-template-columns: 1fr;
@@ -4446,7 +4578,7 @@ p,
             height: 52vw; }
           #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .context,
           #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .context {
-            font-size: 1rem;
+            font-size: 0.12rem;
             line-height: 3; } }
 
 @-webkit-keyframes wavingEffect {

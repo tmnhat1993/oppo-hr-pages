@@ -3,7 +3,7 @@
   .section-oppo-family,
   #home-oppo-family {
     .oppo-family-layout {
-      margin-top: 4rem;
+      margin-top: 0.4rem;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-column-gap: 10px;
@@ -46,19 +46,19 @@
           }
 
           .context-title {
-            font-size: 2.3125rem;
-            margin-bottom: 0.5rem;
+            font-size: 0.23125rem;
+            margin-bottom: 0.05rem;
             opacity: 0;
-            -webkit-transform: translateY(1rem);
-            transform: translateY(1rem);
+            -webkit-transform: translateY(0.1rem);
+            transform: translateY(0.1rem);
             transition: all ease-in 10ms 100ms;
           }
 
           .context-desc {
             padding: 0 5%;
             opacity: 0;
-            -webkit-transform: translateY(1rem);
-            transform: translateY(1rem);
+            -webkit-transform: translateY(0.1rem);
+            transform: translateY(0.1rem);
             transition: all ease-in 10ms 100ms;
           }
         }
@@ -99,7 +99,7 @@
     .section-oppo-family,
     #home-oppo-family {
       .oppo-family-layout {
-        margin-top: 3.5rem;
+        margin-top: 0.35rem;
         grid-column-gap: 10px;
 
         .family-item {
@@ -107,8 +107,8 @@
 
           .context {
             .context-title {
-              font-size: 2rem;
-              margin-bottom: 0.35rem;
+              font-size: 0.2rem;
+              margin-bottom: 0.035rem;
             }
           }
         }
@@ -120,7 +120,7 @@
     .section-oppo-family,
     #home-oppo-family {
       .oppo-family-layout {
-        margin-top: 3.5rem;
+        margin-top: 0.35rem;
         grid-column-gap: 10px;
 
         .family-item {
@@ -128,8 +128,8 @@
 
           .context {
             .context-title {
-              font-size: 1.75rem;
-              margin-bottom: 0.3rem;
+              font-size: 0.175rem;
+              margin-bottom: 0.03rem;
             }
           }
         }
@@ -141,7 +141,7 @@
     .section-oppo-family,
     #home-oppo-family {
       .oppo-family-layout {
-        margin-top: 3.5rem;
+        margin-top: 0.35rem;
         grid-column-gap: 10px;
 
         .family-item {
@@ -149,8 +149,8 @@
 
           .context {
             .context-title {
-              font-size: 1.5rem;
-              margin-bottom: 0.3rem;
+              font-size: 0.15rem;
+              margin-bottom: 0.03rem;
             }
           }
         }
@@ -169,7 +169,7 @@
         display: block;
         width: 300%;
         margin-left: -110%;
-        margin: 2rem 0 4rem -110%;
+        margin: 0.2rem 0 0.4rem -110%;
 
         .family-item {
           height: auto;
@@ -187,8 +187,8 @@
           //   right: 3%;
 
           //   .context-title {
-          //     font-size: 2.3125rem;
-          //     margin-bottom: 0.5rem;
+          //     font-size: .23125rem;
+          //     margin-bottom: .05rem;
           //   }
 
           //   .context-desc {
@@ -206,8 +206,8 @@
             padding-top: 30px;
 
             .context-title {
-              font-size: 1.25rem;
-              margin-bottom: 0.35rem;
+              font-size: 0.125rem;
+              margin-bottom: 0.035rem;
               color: #000;
             }
 
@@ -218,18 +218,18 @@
 
             .cta-holder {
               opacity: 0;
-              -webkit-transform: translateY(1rem);
-              transform: translateY(1rem);
+              -webkit-transform: translateY(0.1rem);
+              transform: translateY(0.1rem);
               transition: all ease-in 10ms 100ms;
 
               a {
                 display: flex;
                 align-items: center;
-                height: 2rem;
+                height: 0.2rem;
 
                 .arrow {
-                  height: 1.65rem;
-                  margin-left: 0.35rem;
+                  height: 0.165rem;
+                  margin-left: 0.035rem;
                   transform: translateY(-15%);
 
                   img {
@@ -282,7 +282,7 @@
         display: block;
         width: 300%;
         margin-left: -110%;
-        margin-top: 2rem;
+        margin-top: 0.2rem;
 
         .family-item {
           height: auto;
@@ -299,8 +299,8 @@
             padding-top: 20px;
 
             .context-title {
-              font-size: 1.25rem;
-              margin-bottom: 0.35rem;
+              font-size: 0.125rem;
+              margin-bottom: 0.035rem;
               color: #000;
             }
 
@@ -311,11 +311,11 @@
 
             .cta-holder {
               a {
-                height: 2rem;
+                height: 0.2rem;
 
                 .arrow {
-                  height: 1.35rem;
-                  margin-left: 0.35rem;
+                  height: 0.135rem;
+                  margin-left: 0.035rem;
                   transform: translateY(-12%);
                 }
               }
