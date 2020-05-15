@@ -55,7 +55,7 @@
             <div class="img-holder">
               <picture>
                 <source
-                  src="img/home/banner-dummy-mb.jpg"
+                  srcset="img/home/banner-dummy-mb.jpg"
                   media="(max-width: 768px)"
                 />
                 <img src="img/home/banner-dummy.jpg" alt="" />
@@ -69,7 +69,7 @@
             <div class="img-holder">
               <picture>
                 <source
-                  src="https://i.picsum.photos/id/101/720/360.jpg"
+                  srcset="https://i.picsum.photos/id/101/720/360.jpg"
                   media="(max-width: 768px)"
                 />
                 <img src="https://i.picsum.photos/id/101/1920/920.jpg" alt="" />
@@ -83,10 +83,10 @@
             <div class="img-holder">
               <picture>
                 <source
-                  src="https://i.picsum.photos/id/103/720/360.jpg"
-                  media="(max-width: 768px)"
+                  srcset="https://i.picsum.photos/id/102/720/360.jpg"
+                  media="max-width: 768px"
                 />
-                <img src="https://i.picsum.photos/id/103/1920/920.jpg" alt="" />
+                <img src="https://i.picsum.photos/id/102/1920/920.jpg" alt="" />
               </picture>
             </div>
           </li>
@@ -104,14 +104,19 @@
             <h2 class="title">Về OPPO</h2>
             <p class="desc">
               Với tinh thần đơn giản và tập chung. OPPO luôn mong muốn cung cấp
-              cho khách hàng<br />
+              cho khách hàng<br class="mb-hide" />
               những trải nghiệm tốt nhất trên từng sản phẩm, thông qua những
-              đường net thiết kế<br />
+              đường net thiết kế<br class="mb-hide" />
               tinh xảo cùng công nghệ thông minh đáp ứng nhu cầu của cuộc sống
               và công việc....
             </p>
             <div class="cta-holder">
-              <a href="#" class="see-more green-txt">Xem Thêm</a>
+              <a href="#" class="see-more green-txt"
+                >Xem Thêm
+                <a href="#" class="arrow">
+                  <img src="img/arrow.png" alt="" />
+                </a>
+              </a>
             </div>
           </div>
         </div>

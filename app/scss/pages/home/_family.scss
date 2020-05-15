@@ -1,0 +1,95 @@
+#hr-home-page {
+  /* OPPO Family */
+  .section-oppo-family,
+  #home-oppo-family {
+    .oppo-family-layout {
+      margin-top: 4rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-column-gap: 10px;
+
+      .family-item {
+        position: relative;
+        overflow: hidden;
+        height: 33.6vw;
+
+        .img-holder {
+          height: 100%;
+          transition: all linear 0.4s;
+
+          img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+          }
+        }
+
+        .context {
+          background-color: rgba(darken($oppo, 8%), 0.65);
+          color: $white;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          opacity: 0;
+          transition: all ease-in 100ms;
+
+          * {
+            color: $white;
+          }
+
+          .context-title {
+            font-size: 2.3125rem;
+            margin-bottom: 0.5rem;
+            opacity: 0;
+            -webkit-transform: translateY(1rem);
+            transform: translateY(1rem);
+            transition: all ease-in 10ms 100ms;
+          }
+
+          .context-desc {
+            padding: 0 5%;
+            opacity: 0;
+            -webkit-transform: translateY(1rem);
+            transform: translateY(1rem);
+            transition: all ease-in 10ms 100ms;
+          }
+        }
+
+        &:hover {
+          .img-holder {
+            transform: scale(1.075);
+            transition: all ease-out 1s;
+          }
+
+          .context {
+            opacity: 1;
+            transition: all ease-out 150ms;
+
+            .context-title {
+              opacity: 1;
+              -webkit-transform: translateY(0);
+              transform: translateY(0);
+              transition: all ease-out 330ms 130ms;
+            }
+
+            .context-desc {
+              opacity: 1;
+              -webkit-transform: translateY(0);
+              transform: translateY(0);
+              transition: all ease-out 330ms 260ms;
+            }
+          }
+        }
+      }
+    }
+  }
+  /* OPPO Family - END */
+}

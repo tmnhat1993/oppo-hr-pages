@@ -29,7 +29,7 @@ body {
   .container {
     width: 1440px;
     max-width: 100%;
-    margin: auto;
+    margin: 0 auto;
     padding: 0 1rem;
   }
 
@@ -59,6 +59,18 @@ body {
     left: 0;
     right: 0;
     height: 10vw;
+  }
+
+  @media #{$information-md-screen} {
+    .container {
+      width: 1370px;
+    }
+  }
+
+  @media #{$information-sm-screen} {
+    .container {
+      width: 1200px;
+    }
   }
 
   @media #{$information-lg-tablet} {
