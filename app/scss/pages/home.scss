@@ -5,6 +5,10 @@
 @import "home/testimonials";
 @import "home/family";
 
+#footer {
+  margin-top: 0;
+}
+
 // ANIMATION KEYFRAMES
 @-webkit-keyframes rotating {
   0% {

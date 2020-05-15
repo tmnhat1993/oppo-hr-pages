@@ -214,11 +214,12 @@
                   transform: translateX(0.3rem);
 
                   .member-name {
-                    font-size: 0.225rem;
+                    font-size: 0.35rem;
                     line-height: 1.15;
                     margin-bottom: 0;
                   }
                   .member-role {
+                    font-size: 0.25rem;
                     margin-bottom: 0.135rem;
                   }
                   .member-quote {
@@ -339,12 +340,12 @@
 
                   .context {
                     .member-name {
-                      font-size: 0.2rem;
+                      font-size: 0.325rem;
                       line-height: 1.15;
                       margin-bottom: 0;
                     }
                     .member-role {
-                      margin-bottom: 0.135rem;
+                      margin-bottom: 0.175rem;
                     }
                   }
                 }
@@ -427,12 +428,13 @@
 
                   .context {
                     .member-name {
-                      font-size: 0.2rem;
+                      font-size: 0.285rem;
                       line-height: 1.15;
                       margin-bottom: 0;
                     }
                     .member-role {
-                      margin-bottom: 0.1125rem;
+                      font-size: 0.185rem;
+                      margin-bottom: 0.15rem;
                     }
                   }
                 }
@@ -463,6 +465,30 @@
     .section-testimonial,
     #home-testimonial {
       height: 48vw;
+
+      .main-content {
+        .container {
+          .testimonial-layout {
+            .member-quote-slider-holder {
+              .oppo-member-quote-slider {
+                .quote-item {
+                  .context {
+                    .member-name {
+                      font-size: 0.265rem;
+                      line-height: 1.15;
+                      margin-bottom: 0;
+                    }
+                    .member-role {
+                      font-size: 0.2rem;
+                      margin-bottom: 0.15rem;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 

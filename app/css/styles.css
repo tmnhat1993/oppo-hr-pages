@@ -898,7 +898,7 @@ h4 {
 a {
   color: inherit;
   text-decoration: none;
-  font-size: 0.175rem; }
+  font-size: 0.2rem; }
   a:hover {
     color: inherit;
     text-decoration: none; }
@@ -919,7 +919,7 @@ p {
     color: #046a38 !important; }
 
 .title {
-  font-size: 0.375rem;
+  font-size: 0.45rem;
   margin: 0.5625rem 0 0.5rem;
   font-weight: 400; }
 
@@ -930,13 +930,13 @@ p {
   margin: 0.225rem 0 0.015rem; }
 
 .highlight {
-  font-size: 0.18em;
+  font-size: 1.8em;
   color: inherit; }
 
 .desc,
 p,
 .desc-item {
-  font-size: 0.175rem;
+  font-size: 0.2rem;
   line-height: 1.44; }
 
 .inline-img {
@@ -950,9 +950,9 @@ p,
 /* RESPONSIVE */
 @media only screen and (max-width: 1680px) {
   a {
-    font-size: 0.135rem; }
+    font-size: 0.2rem; }
   .title {
-    font-size: 0.33rem;
+    font-size: 0.4rem;
     margin: 0.5rem 0 0.44rem; }
   .sub-title {
     font-size: 0.2625rem;
@@ -962,13 +962,13 @@ p,
   .desc,
   p,
   .desc-item {
-    font-size: 0.135rem; } }
+    font-size: 0.2rem; } }
 
 @media only screen and (max-width: 1440px) {
   a {
-    font-size: 0.1125rem; }
+    font-size: 0.18rem; }
   .title {
-    font-size: 0.2671875rem;
+    font-size: 0.375rem;
     margin: 0.4rem 0 0.35625rem; }
   .sub-title {
     font-size: 0.21375rem;
@@ -978,13 +978,13 @@ p,
   .desc,
   p,
   .desc-item {
-    font-size: 0.1125rem; } }
+    font-size: 0.18rem; } }
 
 @media only screen and (max-width: 1280px) {
   a {
-    font-size: 0.105rem; }
+    font-size: 0.17rem; }
   .title {
-    font-size: 0.23rem;
+    font-size: 0.35rem;
     margin: 0.35rem 0 0.315rem; }
   .sub-title {
     font-size: 0.2rem;
@@ -994,11 +994,11 @@ p,
   .desc,
   p,
   .desc-item {
-    font-size: 0.105rem; } }
+    font-size: 0.17rem; } }
 
 @media only screen and (max-width: 1024px) {
   a {
-    font-size: 0.135rem; }
+    font-size: 0.2rem; }
   .title {
     font-size: 0.33rem;
     margin: 0.5rem 0 0.44rem; }
@@ -1010,32 +1010,32 @@ p,
   .desc,
   p,
   .desc-item {
-    font-size: 0.135rem; } }
+    font-size: 0.2rem; } }
 
 @media only screen and (max-width: 768px) {
   a {
-    font-size: 0.1125rem; }
+    font-size: 0.175rem; }
   .title {
-    font-size: 0.2671875rem;
+    font-size: 0.35rem;
     margin: 0.4rem 0 0.35625rem; }
   .sub-title {
-    font-size: 0.21375rem;
+    font-size: 0.25rem;
     margin: 0.16rem 0 0.01rem; }
   .highlight {
     font-size: 1.75em; }
   .desc,
   p,
   .desc-item {
-    font-size: 0.1125rem; } }
+    font-size: 0.175rem; } }
 
 @media only screen and (max-width: 480px) {
   a {
-    font-size: 0.12rem; }
+    font-size: 0.14rem; }
   .title {
-    font-size: 0.175rem;
+    font-size: 0.275rem;
     margin: 0.3rem 0 0.215rem; }
   .sub-title {
-    font-size: 0.135rem;
+    font-size: 0.2rem;
     font-weight: 600;
     margin: 0.125rem 0 0.025rem; }
   .highlight {
@@ -1043,23 +1043,23 @@ p,
   .desc,
   p,
   .desc-item {
-    font-size: 0.12rem; } }
+    font-size: 0.14rem; } }
 
 @media only screen and (max-width: 376px) {
   a {
-    font-size: 0.12rem; }
+    font-size: 0.13rem; }
   .title {
-    font-size: 0.135rem;
+    font-size: 0.225rem;
     margin: 0.25rem 0 0.2rem; }
   .sub-title {
-    font-size: 0.115rem;
+    font-size: 0.185rem;
     margin: 0.115rem 0 0.015rem; }
   .highlight {
-    font-size: 0.135em; }
+    font-size: 1.5em; }
   .desc,
   p,
   .desc-item {
-    font-size: 0.12rem; } }
+    font-size: 0.13rem; } }
 
 /* This file Will Import All UI Element */
 #hr-home-page {
@@ -1406,7 +1406,7 @@ p,
         background-color: #046a38;
         border-radius: 20px;
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
-        font-size: 0.135rem;
+        font-size: 0.2rem;
         display: flex;
         justify-content: center;
         align-items: center; }
@@ -1436,7 +1436,7 @@ p,
         padding: 0 0.05rem; }
         #hr-home-page .section-oppo-global .oppo-archivements .archive-item,
         #hr-home-page #home-oppo-global .oppo-archivements .archive-item {
-          font-size: 0.125rem; } }
+          font-size: 0.175rem; } }
   @media only screen and (max-width: 1440px) {
     #hr-home-page .section-oppo-global,
     #hr-home-page #home-oppo-global {
@@ -1447,7 +1447,7 @@ p,
         padding: 0 0.035rem; }
         #hr-home-page .section-oppo-global .oppo-archivements .archive-item,
         #hr-home-page #home-oppo-global .oppo-archivements .archive-item {
-          font-size: 0.115rem;
+          font-size: 0.15rem;
           border-radius: 15px; } }
   @media only screen and (max-width: 768px) {
     #hr-home-page .section-oppo-global,
@@ -1465,7 +1465,7 @@ p,
         #hr-home-page #home-oppo-global .oppo-archivements .archive-item {
           border-radius: 15px;
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
-          font-size: 0.135rem; }
+          font-size: 0.175rem; }
       #hr-home-page .section-oppo-global .globe-holder,
       #hr-home-page #home-oppo-global .globe-holder {
         top: 52%;
@@ -1639,7 +1639,7 @@ p,
     #hr-home-page .section-job-oppotunities .main-content .content-footer .context,
     #hr-home-page #home-job-opportunities .main-content .content-footer .context {
       height: 90px;
-      font-size: 0.1367rem; }
+      font-size: 0.2rem; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb {
         width: 38px;
@@ -1668,7 +1668,7 @@ p,
     #hr-home-page .section-job-oppotunities .main-content .content-footer .context,
     #hr-home-page #home-job-opportunities .main-content .content-footer .context {
       height: 85px;
-      font-size: 0.1125rem; }
+      font-size: 0.175rem; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb {
         width: 36px;
@@ -1700,11 +1700,11 @@ p,
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context {
         height: 85px;
-        font-size: 0.1125rem; }
+        font-size: 0.155rem; }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb {
-          width: 32px;
-          margin-right: 0.035rem; }
+          width: 30px;
+          margin-right: 0.05rem; }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .divider,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .divider {
           margin: 0 0.03rem; }
@@ -2027,11 +2027,12 @@ p,
                   transform: translateX(0.3rem); }
                   #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name,
                   #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name {
-                    font-size: 0.225rem;
+                    font-size: 0.35rem;
                     line-height: 1.15;
                     margin-bottom: 0; }
                   #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role,
                   #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role {
+                    font-size: 0.25rem;
                     margin-bottom: 0.135rem; }
                   #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-quote,
                   #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-quote {
@@ -2118,12 +2119,12 @@ p,
               width: 66px; }
             #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name,
             #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name {
-              font-size: 0.2rem;
+              font-size: 0.325rem;
               line-height: 1.15;
               margin-bottom: 0; }
             #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role,
             #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role {
-              margin-bottom: 0.135rem; }
+              margin-bottom: 0.175rem; }
           #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots,
           #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots {
             padding-left: 130px; }
@@ -2181,12 +2182,13 @@ p,
               width: 60px; }
             #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name,
             #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name {
-              font-size: 0.2rem;
+              font-size: 0.285rem;
               line-height: 1.15;
               margin-bottom: 0; }
             #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role,
             #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role {
-              margin-bottom: 0.1125rem; }
+              font-size: 0.185rem;
+              margin-bottom: 0.15rem; }
           #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots,
           #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots {
             padding-left: 110px; }
@@ -2202,7 +2204,16 @@ p,
   @media only screen and (max-width: 1280px) {
     #hr-home-page .section-testimonial,
     #hr-home-page #home-testimonial {
-      height: 48vw; } }
+      height: 48vw; }
+      #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name,
+      #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name {
+        font-size: 0.265rem;
+        line-height: 1.15;
+        margin-bottom: 0; }
+      #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role,
+      #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role {
+        font-size: 0.2rem;
+        margin-bottom: 0.15rem; } }
   @media only screen and (max-width: 768px) {
     #hr-home-page .section-testimonial,
     #hr-home-page #home-testimonial {
@@ -2797,6 +2808,9 @@ p,
               margin-left: 0.035rem;
               transform: translateY(-12%); } }
 
+#footer {
+  margin-top: 0; }
+
 @-webkit-keyframes rotating {
   0% {
     -webkit-transform: rotate(0);
@@ -2893,7 +2907,7 @@ p,
     #hr-about-page .section-about-banner,
     #hr-about-page #about-banner {
       height: 116.8675vw;
-      padding: 15px 15px 0;
+      padding: 0;
       background-color: #fff; }
       #hr-about-page .section-about-banner .video-control-holder,
       #hr-about-page #about-banner .video-control-holder {
@@ -2908,17 +2922,17 @@ p,
           justify-content: center;
           align-items: center;
           text-align: center;
-          font-size: 0.12rem; }
+          font-size: 0.2rem; }
           #hr-about-page .section-about-banner .video-control-holder .play-video-on-modal .fa,
           #hr-about-page #about-banner .video-control-holder .play-video-on-modal .fa {
-            font-size: 0.15rem;
+            font-size: 0.25rem;
             text-shadow: none;
             color: #000000;
             margin-right: 0.075rem; } }
   @media only screen and (max-width: 480px) {
     #hr-about-page .section-about-banner,
     #hr-about-page #about-banner {
-      padding: 13px 13px 0; }
+      padding: 0; }
       #hr-about-page .section-about-banner .video-control-holder,
       #hr-about-page #about-banner .video-control-holder {
         padding-top: 65%; }
@@ -2926,11 +2940,11 @@ p,
         #hr-about-page #about-banner .video-control-holder .play-video-on-modal {
           width: 190px;
           height: 50px;
-          font-size: 0.11rem;
+          font-size: 0.185rem;
           padding-top: 2px; }
           #hr-about-page .section-about-banner .video-control-holder .play-video-on-modal .fa,
           #hr-about-page #about-banner .video-control-holder .play-video-on-modal .fa {
-            font-size: 0.125rem;
+            font-size: 0.2rem;
             margin-right: 0.065rem; } }
   @media only screen and (max-width: 376px) {
     #hr-about-page .section-about-banner,
@@ -2943,11 +2957,11 @@ p,
         #hr-about-page #about-banner .video-control-holder .play-video-on-modal {
           width: 170px;
           height: 42px;
-          font-size: 0.1rem;
+          font-size: 0.15rem;
           padding-top: 2px; }
           #hr-about-page .section-about-banner .video-control-holder .play-video-on-modal .fa,
           #hr-about-page #about-banner .video-control-holder .play-video-on-modal .fa {
-            font-size: 0.115rem;
+            font-size: 0.175rem;
             margin-right: 0.05rem; } }
 
 /* EXTRA */
@@ -2961,7 +2975,7 @@ p,
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 12;
+  z-index: 999;
   opacity: 0;
   visibility: hidden;
   transition: all ease-out 220ms; }
@@ -2974,7 +2988,7 @@ p,
     max-height: 80vh; }
     .video-modal .video-holder .close-video-modal {
       position: absolute;
-      font-size: 0.35rem;
+      font-size: 0.5rem;
       margin: 0;
       line-height: 1;
       bottom: 100%;
@@ -2999,23 +3013,23 @@ p,
     .video-modal .video-holder {
       width: 1080px;
       margin: auto;
-      height: 720px; }
+      height: 680px; }
       .video-modal .video-holder .close-video-modal {
-        font-size: 0.325rem; } }
+        font-size: 0.45rem; } }
   @media only screen and (max-width: 1440px) {
     .video-modal .video-holder {
       width: 900px;
       margin: auto;
       height: 506px; }
       .video-modal .video-holder .close-video-modal {
-        font-size: 0.3rem; } }
+        font-size: 0.4rem; } }
   @media only screen and (max-width: 1280px) {
     .video-modal .video-holder {
       width: 800px;
       margin: auto;
       height: 450px; }
       .video-modal .video-holder .close-video-modal {
-        font-size: 0.275rem; } }
+        font-size: 0.35rem; } }
   @media only screen and (max-width: 768px) {
     .video-modal .video-holder {
       width: 100vw;
@@ -3024,7 +3038,7 @@ p,
       max-width: 100%;
       max-height: none; }
       .video-modal .video-holder .close-video-modal {
-        font-size: 0.275rem;
+        font-size: 0.5rem;
         right: 2%;
         color: #046a38; } }
 
@@ -3035,10 +3049,10 @@ p,
   /* TABLET */ }
   #hr-about-page .section-about-intro .content-head .title,
   #hr-about-page #about-intro .content-head .title {
-    margin: 7rem 0 3.5rem; }
+    margin: 0.96rem 0 0.45rem; }
   #hr-about-page .section-about-intro .content-body,
   #hr-about-page #about-intro .content-body {
-    margin-top: 1.875rem;
+    margin-top: 0.4rem;
     height: 32.5vw;
     background-position: center;
     background-size: cover;
@@ -3054,10 +3068,10 @@ p,
       height: 100%; }
       #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head,
       #hr-about-page #about-intro .content-body .oppo-scale .scale-head {
-        margin-bottom: 2vw; }
+        margin-bottom: 5vw; }
         #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head h4,
         #hr-about-page #about-intro .content-body .oppo-scale .scale-head h4 {
-          font-size: 2.25rem;
+          font-size: 0.275rem;
           font-weight: 400;
           line-height: 1.35; }
       #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout,
@@ -3071,7 +3085,7 @@ p,
           #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder,
           #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder {
             width: 30%;
-            margin: 0 auto 1.5rem;
+            margin: 0 auto 0.25rem;
             height: 70px;
             display: flex;
             justify-content: center;
@@ -3090,44 +3104,47 @@ p,
   @media only screen and (max-width: 1680px) {
     #hr-about-page .section-about-intro .content-head .title,
     #hr-about-page #about-intro .content-head .title {
-      margin: 6.125rem 0 3.0625rem; }
+      margin: 0.8rem 0 0.35rem; }
     #hr-about-page .section-about-intro .content-body,
     #hr-about-page #about-intro .content-body {
-      margin-top: 1.64rem; }
-      #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head,
-      #hr-about-page #about-intro .content-body .oppo-scale .scale-head {
-        margin-bottom: 2vw; }
-        #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head h4,
-        #hr-about-page #about-intro .content-body .oppo-scale .scale-head h4 {
-          font-size: 1.96875rem; }
-      #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder,
-      #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder {
-        width: 30%;
-        margin: 0 auto 1.3125rem;
-        height: 65px; }
-      #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc,
-      #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc {
-        line-height: 1.55; }
-        #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc .highlight,
-        #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc .highlight {
-          line-height: 0.7; } }
+      margin-top: 0.25rem; }
+      #hr-about-page .section-about-intro .content-body .oppo-scale,
+      #hr-about-page #about-intro .content-body .oppo-scale {
+        padding: 6vw 3.125vw; }
+        #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head,
+        #hr-about-page #about-intro .content-body .oppo-scale .scale-head {
+          margin-bottom: 5.25vw; }
+          #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head h4,
+          #hr-about-page #about-intro .content-body .oppo-scale .scale-head h4 {
+            font-size: 0.275rem; }
+        #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder,
+        #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder {
+          width: 30%;
+          margin: 0 auto 0.25rem;
+          height: 65px; }
+        #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc,
+        #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc {
+          line-height: 1.55; }
+          #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc .highlight,
+          #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc .highlight {
+            line-height: 0.7; } }
   @media only screen and (max-width: 1440px) {
     #hr-about-page .section-about-intro .content-head .title,
     #hr-about-page #about-intro .content-head .title {
-      margin: 5rem 0 2.5rem; }
+      margin: 0.725rem 0 0.325rem; }
     #hr-about-page .section-about-intro .content-body,
     #hr-about-page #about-intro .content-body {
-      margin-top: 1.336rem; }
+      margin-top: 0.25rem; }
       #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head,
       #hr-about-page #about-intro .content-body .oppo-scale .scale-head {
-        margin-bottom: 2vw; }
+        margin-bottom: 5.25vw; }
         #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head h4,
         #hr-about-page #about-intro .content-body .oppo-scale .scale-head h4 {
-          font-size: 1.6rem; }
+          font-size: 0.25rem; }
       #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder,
       #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder {
         width: 30%;
-        margin: 0 auto 1.5rem;
+        margin: 0 auto 0.25rem;
         height: 43px; }
       #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc,
       #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc {
@@ -3138,20 +3155,20 @@ p,
   @media only screen and (max-width: 1280px) {
     #hr-about-page .section-about-intro .content-head .title,
     #hr-about-page #about-intro .content-head .title {
-      margin: 4rem 0 2.25rem; }
+      margin: 0.7rem 0 0.225rem; }
     #hr-about-page .section-about-intro .content-body,
     #hr-about-page #about-intro .content-body {
-      margin-top: 1.25rem; }
+      margin-top: 0.225rem; }
       #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head,
       #hr-about-page #about-intro .content-body .oppo-scale .scale-head {
-        margin-bottom: 2vw; }
+        margin-bottom: 5.25vw; }
         #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head h4,
         #hr-about-page #about-intro .content-body .oppo-scale .scale-head h4 {
-          font-size: 1.4rem; }
+          font-size: 0.225rem; }
       #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder,
       #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder {
         width: 30%;
-        margin: 0 auto 1.35rem;
+        margin: 0 auto 0.225rem;
         height: 40px; }
       #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc,
       #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .scale-context .desc {
@@ -3162,10 +3179,10 @@ p,
   @media only screen and (max-width: 1024px) {
     #hr-about-page .section-about-intro .content-head .title,
     #hr-about-page #about-intro .content-head .title {
-      margin: 4rem 0 2rem; }
+      margin: 0.7rem 0 0.35rem; }
     #hr-about-page .section-about-intro .content-body,
     #hr-about-page #about-intro .content-body {
-      margin-top: 2rem;
+      margin-top: 0.3rem;
       height: 125vw; }
       #hr-about-page .section-about-intro .content-body .oppo-scale,
       #hr-about-page #about-intro .content-body .oppo-scale {
@@ -3175,7 +3192,7 @@ p,
           margin-bottom: 5vw; }
           #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head h4,
           #hr-about-page #about-intro .content-body .oppo-scale .scale-head h4 {
-            font-size: 2.25rem; }
+            font-size: 0.3rem; }
         #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout,
         #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout {
           display: flex;
@@ -3190,15 +3207,15 @@ p,
             #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder,
             #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder {
               width: 30%;
-              margin: 0 auto 1.5rem;
+              margin: 0 auto 0.3rem;
               height: 70px; } }
   @media only screen and (max-width: 1024px) {
     #hr-about-page .section-about-intro .content-head .title,
     #hr-about-page #about-intro .content-head .title {
-      margin: 4rem 0 1.75rem; }
+      margin: 0.6rem 0 0.375rem; }
     #hr-about-page .section-about-intro .content-body,
     #hr-about-page #about-intro .content-body {
-      margin-top: 2rem;
+      margin-top: 0.25rem;
       height: auto; }
       #hr-about-page .section-about-intro .content-body .oppo-scale,
       #hr-about-page #about-intro .content-body .oppo-scale {
@@ -3208,22 +3225,22 @@ p,
           margin-bottom: 5vw; }
           #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head h4,
           #hr-about-page #about-intro .content-body .oppo-scale .scale-head h4 {
-            font-size: 2.25rem; }
+            font-size: 0.25rem; }
         #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item,
         #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item {
           margin-bottom: 25px; }
           #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder,
           #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder {
             width: 30%;
-            margin: 0 auto 1.5rem;
+            margin: 0 auto 0.25rem;
             height: 60px; } }
   @media only screen and (max-width: 480px) {
     #hr-about-page .section-about-intro .content-head .title,
     #hr-about-page #about-intro .content-head .title {
-      margin: 4rem 0 1.25rem; }
+      margin: 0.5rem 0 0.2rem; }
     #hr-about-page .section-about-intro .content-body,
     #hr-about-page #about-intro .content-body {
-      margin-top: 2rem;
+      margin-top: 0.25rem;
       height: auto; }
       #hr-about-page .section-about-intro .content-body .oppo-scale,
       #hr-about-page #about-intro .content-body .oppo-scale {
@@ -3233,7 +3250,7 @@ p,
           margin-bottom: 3vw; }
           #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head h4,
           #hr-about-page #about-intro .content-body .oppo-scale .scale-head h4 {
-            font-size: 1.15rem; }
+            font-size: 0.175rem; }
         #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item,
         #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item {
           width: 100%;
@@ -3242,15 +3259,15 @@ p,
           #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder,
           #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder {
             width: 30%;
-            margin: 0 auto 1.5rem;
+            margin: 0.15rem auto 0.25rem;
             height: 46px; } }
   @media only screen and (max-width: 376px) {
     #hr-about-page .section-about-intro .content-head .title,
     #hr-about-page #about-intro .content-head .title {
-      margin: 2.75rem 0 1rem; }
+      margin: 0.45rem 0 0.2rem; }
     #hr-about-page .section-about-intro .content-body,
     #hr-about-page #about-intro .content-body {
-      margin-top: 1.75rem;
+      margin-top: 0.225rem;
       height: auto; }
       #hr-about-page .section-about-intro .content-body .oppo-scale,
       #hr-about-page #about-intro .content-body .oppo-scale {
@@ -3260,14 +3277,14 @@ p,
           margin-bottom: 3vw; }
           #hr-about-page .section-about-intro .content-body .oppo-scale .scale-head h4,
           #hr-about-page #about-intro .content-body .oppo-scale .scale-head h4 {
-            font-size: 1.05rem; }
+            font-size: 0.155rem; }
         #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item,
         #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item {
           margin-bottom: 10px; }
           #hr-about-page .section-about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder,
           #hr-about-page #about-intro .content-body .oppo-scale .scale-body .scale-detail-layout .scale-item .ico-holder {
             width: 30%;
-            margin: 0 auto 1.15rem;
+            margin: 0.12rem auto 0.175rem;
             height: 40px; } }
 
 #hr-about-page {
@@ -3277,10 +3294,10 @@ p,
   /* RESPONSIVE */ }
   #hr-about-page .section-about-spirit .main-content .title,
   #hr-about-page #about-spirit .main-content .title {
-    margin: 14.375rem 0 3.5rem; }
+    margin: 1.6rem 0 0.3rem; }
   #hr-about-page .section-about-spirit .end-line,
   #hr-about-page #about-spirit .end-line {
-    margin: 8.75rem auto;
+    margin: 1rem auto;
     width: 160px;
     height: 3px;
     background-color: #046a38; }
@@ -3289,10 +3306,10 @@ p,
       /* Section Spirit - END */ }
       #hr-about-page .section-about-spirit .main-content .title,
       #hr-about-page #about-spirit .main-content .title {
-        margin: 12.578125rem 0 3.0625rem; }
+        margin: 1.45rem 0 0.275rem; }
       #hr-about-page .section-about-spirit .end-line,
       #hr-about-page #about-spirit .end-line {
-        margin: 7.65625rem auto;
+        margin: 0.925rem auto;
         width: 140px;
         height: 3px; } }
   @media only screen and (max-width: 1440px) {
@@ -3300,10 +3317,10 @@ p,
       /* Section Spirit - END */ }
       #hr-about-page .section-about-spirit .main-content .title,
       #hr-about-page #about-spirit .main-content .title {
-        margin: 10.24rem 0 2.49375rem; }
+        margin: 1.4rem 0 0.255rem; }
       #hr-about-page .section-about-spirit .end-line,
       #hr-about-page #about-spirit .end-line {
-        margin: 6.234375rem auto;
+        margin: 0.8rem auto;
         width: 114px;
         height: 3px; } }
   @media only screen and (max-width: 1280px) {
@@ -3311,55 +3328,55 @@ p,
       /* Section Spirit - END */ }
       #hr-about-page .section-about-spirit .main-content .title,
       #hr-about-page #about-spirit .main-content .title {
-        margin: 9.75rem 0 2.25rem; }
+        margin: 1.25rem 0 0.235rem; }
       #hr-about-page .section-about-spirit .end-line,
       #hr-about-page #about-spirit .end-line {
-        margin: 6rem auto;
+        margin: 0.65rem auto;
         width: 110px;
         height: 2px;
         background-color: #046a38; } }
   @media only screen and (max-width: 1024px) {
     #hr-about-page .section-about-spirit .main-content .title,
     #hr-about-page #about-spirit .main-content .title {
-      margin: 10.24rem 0 2.49375rem; }
+      margin: 1.1rem 0 0.25rem; }
     #hr-about-page .section-about-spirit .end-line,
     #hr-about-page #about-spirit .end-line {
-      margin: 6.234375rem auto;
+      margin: 0.7rem auto;
       width: 114px;
       height: 3px; } }
   @media only screen and (max-width: 768px) {
     #hr-about-page .section-about-spirit .main-content .title,
     #hr-about-page #about-spirit .main-content .title {
-      margin: 9.75rem 0 2.25rem; }
+      margin: 0.9rem 0 0.225rem; }
     #hr-about-page .section-about-spirit .end-line,
     #hr-about-page #about-spirit .end-line {
-      margin: 6rem auto;
+      margin: 0.6rem auto;
       width: 110px;
       height: 2px; } }
   @media only screen and (max-width: 480px) {
     #hr-about-page .section-about-spirit .main-content .title,
     #hr-about-page #about-spirit .main-content .title {
-      margin: 5.5rem 0 1.5rem; }
+      margin: 0.6rem 0 0.175rem; }
     #hr-about-page .section-about-spirit .main-content h4,
     #hr-about-page #about-spirit .main-content h4 {
       margin-bottom: 0.35rem;
-      line-height: 0.65; }
+      line-height: 0.75; }
     #hr-about-page .section-about-spirit .end-line,
     #hr-about-page #about-spirit .end-line {
-      margin: 3rem auto;
+      margin: 0.5rem auto;
       width: 90px;
       height: 2px; } }
   @media only screen and (max-width: 376px) {
     #hr-about-page .section-about-spirit .main-content .title,
     #hr-about-page #about-spirit .main-content .title {
-      margin: 4.5rem 0 1.25rem; }
+      margin: 0.575rem 0 0.155rem; }
     #hr-about-page .section-about-spirit .main-content h4,
     #hr-about-page #about-spirit .main-content h4 {
       margin-bottom: 0.25rem;
-      line-height: 0.5; }
+      line-height: 0.65; }
     #hr-about-page .section-about-spirit .end-line,
     #hr-about-page #about-spirit .end-line {
-      margin: 2.5rem auto;
+      margin: 0.5rem auto;
       width: 80px;
       height: 1.5px; } }
 
@@ -3370,7 +3387,7 @@ p,
   /* TBALET */ }
   #hr-about-page .section-about-culture .main-content .content-head .title,
   #hr-about-page #about-culture .main-content .content-head .title {
-    margin-bottom: 2.5rem; }
+    margin-bottom: 0.375rem; }
   #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout,
   #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout {
     display: grid;
@@ -3390,16 +3407,16 @@ p,
         width: 75%; }
         #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title,
         #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title {
-          font-size: 2.25rem;
+          font-size: 0.25rem;
           font-weight: 400;
-          margin-bottom: 0.5rem; }
+          margin-bottom: 0.05rem; }
         #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc,
         #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc {
           margin-bottom: 0;
           line-height: 1.5; }
           #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item,
           #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item {
-            padding-left: 2.25rem;
+            padding-left: 0.25rem;
             position: relative;
             line-height: 1.5; }
             #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before,
@@ -3410,8 +3427,8 @@ p,
               border-radius: 6px;
               background-color: #21c34b;
               position: absolute;
-              left: calc(1rem - 6px);
-              top: calc(1rem - 6px); }
+              left: calc(0.125rem - 6px);
+              top: calc(0.125rem - 6px); }
       #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block.block-vision,
       #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block.block-vision {
         grid-column: 1;
@@ -3430,73 +3447,73 @@ p,
   @media only screen and (max-width: 1680px) {
     #hr-about-page .section-about-culture .main-content .content-head .title,
     #hr-about-page #about-culture .main-content .content-head .title {
-      margin-bottom: 2.1875rem; }
+      margin: 0.5rem 0 0.25rem; }
     #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout,
     #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout {
       grid-column-gap: 10px;
       grid-row-gap: 10px; }
       #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title,
       #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title {
-        font-size: 1.96875rem;
-        margin-bottom: 0.4rem; }
+        font-size: 0.25rem;
+        margin-bottom: 0.05rem; }
       #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item,
       #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item {
-        padding-left: 1.96875rem; }
+        padding-left: 0.25rem; }
         #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before,
         #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before {
           width: 12px;
           height: 12px;
           border-radius: 6px;
-          left: calc(1rem - 6px);
-          top: calc(1rem - 6px); } }
+          left: calc(0.125rem - 6px);
+          top: calc(0.12rem - 6px); } }
   @media only screen and (max-width: 1440px) {
     #hr-about-page .section-about-culture .main-content .content-head .title,
     #hr-about-page #about-culture .main-content .content-head .title {
-      margin-bottom: 1.78125rem; }
+      margin-bottom: 0.2rem; }
     #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout,
     #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout {
       grid-column-gap: 9px;
       grid-row-gap: 9px; }
       #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title,
       #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title {
-        font-size: 1.6rem;
-        margin-bottom: 0.32rem; }
+        font-size: 0.225rem;
+        margin-bottom: 0.05rem; }
       #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item,
       #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item {
-        padding-left: 1.6rem; }
+        padding-left: 0.2rem; }
         #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before,
         #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before {
           width: 10px;
           height: 10px;
           border-radius: 5px;
-          left: calc(0.8rem - 5px);
-          top: calc(0.8rem - 5px); } }
+          left: calc(0.09rem - 5px);
+          top: calc(0.11rem - 5px); } }
   @media only screen and (max-width: 1280px) {
     #hr-about-page .section-about-culture .main-content .content-head .title,
     #hr-about-page #about-culture .main-content .content-head .title {
-      margin-bottom: 1.6rem; }
+      margin-bottom: 0.175rem; }
     #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout,
     #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout {
       grid-column-gap: 9px;
       grid-row-gap: 9px; }
       #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title,
       #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title {
-        font-size: 1.4rem;
-        margin-bottom: 0.32rem; }
+        font-size: 0.205rem;
+        margin-bottom: 0.03rem; }
       #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item,
       #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item {
-        padding-left: 1.5rem; }
+        padding-left: 0.175rem; }
         #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before,
         #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before {
           width: 8px;
           height: 8px;
           border-radius: 4px;
-          left: calc(0.75rem - 4px);
-          top: calc(0.75rem - 4px); } }
+          left: calc(0.075rem - 4px);
+          top: calc(0.1rem - 4px); } }
   @media only screen and (max-width: 1024px) {
     #hr-about-page .section-about-culture .main-content .content-head .title,
     #hr-about-page #about-culture .main-content .content-head .title {
-      margin-bottom: 2.5rem; }
+      margin-bottom: 0.2rem; }
     #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout,
     #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout {
       grid-template-columns: 1fr;
@@ -3509,23 +3526,24 @@ p,
         width: 80%; }
         #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title,
         #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title {
-          font-size: 1.75rem;
-          margin-bottom: 0.5rem; }
+          font-size: 0.3rem;
+          margin-bottom: 0.075rem; }
         #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc,
         #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc {
           margin-bottom: 0;
           line-height: 1.5; }
           #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item,
           #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item {
-            padding-left: 2.25rem;
+            padding-left: 0.225rem;
             position: relative;
             line-height: 1.5; }
             #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before,
             #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before {
-              width: 12px;
-              height: 12px;
-              left: calc(1rem - 6px);
-              top: calc(1rem - 6px); }
+              width: 10px;
+              height: 10px;
+              border-radius: 5px;
+              left: calc(0.125rem - 6px);
+              top: calc(0.115rem - 6px); }
       #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block.block-vision,
       #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block.block-vision {
         grid-column: 1;
@@ -3544,7 +3562,7 @@ p,
   @media only screen and (max-width: 480px) {
     #hr-about-page .section-about-culture .main-content .content-head .title,
     #hr-about-page #about-culture .main-content .content-head .title {
-      margin-bottom: 2rem; }
+      margin-bottom: 0.2rem; }
     #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout,
     #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout {
       grid-column-gap: 13px;
@@ -3556,8 +3574,8 @@ p,
         padding: 0 13px; }
         #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title,
         #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title {
-          font-size: 1.35rem;
-          margin-bottom: 0.35rem;
+          font-size: 0.2rem;
+          margin-bottom: 0.04rem;
           text-align: center; }
         #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content p.block-desc,
         #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content p.block-desc {
@@ -3568,19 +3586,19 @@ p,
           line-height: 1.5; }
           #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item,
           #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item {
-            padding-left: 1.6rem;
+            padding-left: 0.2rem;
             line-height: 1.5; }
             #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before,
             #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before {
               width: 8px;
               height: 8px;
               border-radius: 5px;
-              left: calc(0.8rem - 4px);
-              top: calc(0.8rem - 4px); } }
+              left: calc(0.09rem - 4px);
+              top: calc(0.09rem - 4px); } }
   @media only screen and (max-width: 376px) {
     #hr-about-page .section-about-culture .main-content .content-head .title,
     #hr-about-page #about-culture .main-content .content-head .title {
-      margin-bottom: 1.5rem; }
+      margin-bottom: 0.175rem; }
     #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout,
     #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout {
       grid-column-gap: 13px;
@@ -3592,8 +3610,8 @@ p,
         padding: 0 10px; }
         #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title,
         #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title {
-          font-size: 1.15rem;
-          margin-bottom: 0.15rem; }
+          font-size: 0.175rem;
+          margin-bottom: 0.025rem; }
         #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content p.block-desc,
         #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content p.block-desc {
           text-align: center; }
@@ -3603,15 +3621,15 @@ p,
           line-height: 1.5; }
           #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item,
           #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item {
-            padding-left: 1.2rem;
+            padding-left: 0.16rem;
             line-height: 1.5; }
             #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before,
             #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before {
               width: 6px;
               height: 6px;
               border-radius: 3px;
-              left: calc(0.6rem - 3px);
-              top: calc(0.6rem - 3px); } }
+              left: calc(0.08rem - 3px);
+              top: calc(0.08rem - 3px); } }
 
 #hr-about-page {
   /* OPPO History */
@@ -3626,7 +3644,7 @@ p,
     #hr-about-page #about-history .container .timeline-holder {
       width: 100%;
       overflow: hidden;
-      padding: 5rem 0 3rem;
+      padding: 0.5rem 0 0.3rem;
       position: relative; }
       #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item,
       #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item {
@@ -3665,7 +3683,7 @@ p,
             #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail,
             #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail {
               text-align: center;
-              font-size: 1.5625rem;
+              font-size: 0.225rem;
               transition: all ease-in 150ms;
               display: flex;
               align-items: center;
@@ -3713,8 +3731,8 @@ p,
               animation: wavingEffect infinite 2s linear; }
           #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-year,
           #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-year {
-            padding: 0.5rem 0;
-            font-size: 1.5625rem;
+            padding: 0.05rem 0;
+            font-size: 0.225rem;
             transition: all ease-in 150ms; }
         #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .context-bg,
         #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item:hover .history-layout-wrapper .context-bg {
@@ -3814,7 +3832,7 @@ p,
       width: calc(100% - 120px); }
       #hr-about-page .section-about-history .container .timeline-holder,
       #hr-about-page #about-history .container .timeline-holder {
-        padding: 4.4rem 0 2.625rem; }
+        padding: 0.44rem 0 0.2625rem; }
         #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper,
         #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper {
           grid-template-rows: 280px 70px; }
@@ -3834,7 +3852,7 @@ p,
             grid-template-rows: 120px 160px; }
             #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail,
             #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail {
-              font-size: 1.35rem; }
+              font-size: 0.2rem; }
           #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line,
           #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line {
             top: 34px; }
@@ -3848,8 +3866,8 @@ p,
             left: calc(50% - 10px); }
           #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-year,
           #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-year {
-            padding: 0.4375rem 0;
-            font-size: 1.35rem; }
+            padding: 0.04375rem 0;
+            font-size: 0.2rem; }
         #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2001 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2006 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2021 .history-layout-wrapper .context-holder .history-icon img,
         #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2001 .history-layout-wrapper .context-holder .history-icon img,
         #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2006 .history-layout-wrapper .context-holder .history-icon img,
@@ -3914,7 +3932,7 @@ p,
       width: calc(100% - 100px); }
       #hr-about-page .section-about-history .container .timeline-holder,
       #hr-about-page #about-history .container .timeline-holder {
-        padding: 3.6rem 0 2.15rem; }
+        padding: 0.4rem 0 0.3rem; }
         #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper,
         #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper {
           grid-template-rows: 230px 60px; }
@@ -3934,11 +3952,14 @@ p,
             grid-template-rows: 110px 130px; }
             #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail,
             #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail {
-              font-size: 1.125rem; }
+              font-size: 0.175rem; }
             #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-icon img,
             #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-icon img {
               max-height: 110px;
               max-width: 42%; }
+            #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-year,
+            #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-year {
+              font-size: 0.175rem; }
           #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line,
           #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line {
             top: 30px; }
@@ -4005,7 +4026,7 @@ p,
       width: calc(100% - 90px); }
       #hr-about-page .section-about-history .container .timeline-holder,
       #hr-about-page #about-history .container .timeline-holder {
-        padding: 3.3rem 0 2rem; }
+        padding: 0.375rem 0 0.25rem; }
         #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper,
         #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper {
           grid-template-rows: 200px 50px; }
@@ -4025,7 +4046,7 @@ p,
             grid-template-rows: 90px 110px; }
             #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail,
             #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail {
-              font-size: 1.025rem; }
+              font-size: 0.155rem; }
           #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line,
           #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line {
             top: 25px; }
@@ -4039,8 +4060,8 @@ p,
             left: calc(50% - 6.5px); }
           #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-year,
           #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-year {
-            padding: 0.3rem 0;
-            font-size: 1.15rem; }
+            padding: 0.03rem 0;
+            font-size: 0.155rem; }
         #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2001 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2006 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2021 .history-layout-wrapper .context-holder .history-icon img,
         #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2001 .history-layout-wrapper .context-holder .history-icon img,
         #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2006 .history-layout-wrapper .context-holder .history-icon img,
@@ -4097,7 +4118,7 @@ p,
       position: relative; }
       #hr-about-page .section-about-history .container .timeline-holder,
       #hr-about-page #about-history .container .timeline-holder {
-        padding: 4rem 0 2.5rem; }
+        padding: 0.45rem 0 0.275rem; }
         #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper,
         #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper {
           grid-template-rows: 280px 80px; }
@@ -4118,7 +4139,7 @@ p,
             width: 92%; }
             #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail,
             #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail {
-              font-size: 1.25rem; }
+              font-size: 0.2rem; }
           #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line,
           #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line {
             top: 39px; }
@@ -4133,8 +4154,8 @@ p,
             left: calc(50% - 10px); }
           #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-year,
           #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-year {
-            padding: 0.35rem 0;
-            font-size: 1.25rem; }
+            padding: 0.035rem 0;
+            font-size: 0.2rem; }
         #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2001 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2006 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2021 .history-layout-wrapper .context-holder .history-icon img,
         #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2001 .history-layout-wrapper .context-holder .history-icon img,
         #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2006 .history-layout-wrapper .context-holder .history-icon img,
@@ -4199,7 +4220,7 @@ p,
       width: calc(100% - 50px); }
       #hr-about-page .section-about-history .container .timeline-holder,
       #hr-about-page #about-history .container .timeline-holder {
-        padding: 3rem 0 2rem; }
+        padding: 0.35rem 0 0.25rem; }
         #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper,
         #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper {
           grid-template-rows: 200px 40px; }
@@ -4220,7 +4241,7 @@ p,
             width: 92%; }
             #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail,
             #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail {
-              font-size: 1rem; }
+              font-size: 0.15rem; }
           #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line,
           #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line {
             top: 20px; }
@@ -4235,8 +4256,8 @@ p,
             left: calc(50% - 7px); }
           #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-year,
           #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-year {
-            padding: 0.25rem 0;
-            font-size: 1rem; }
+            padding: 0.025rem 0;
+            font-size: 0.15rem; }
         #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2001 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2006 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2021 .history-layout-wrapper .context-holder .history-icon img,
         #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2001 .history-layout-wrapper .context-holder .history-icon img,
         #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2006 .history-layout-wrapper .context-holder .history-icon img,
@@ -4340,7 +4361,7 @@ p,
       width: calc(100% - 30px); }
       #hr-about-page .section-about-history .container .timeline-holder,
       #hr-about-page #about-history .container .timeline-holder {
-        padding: 3rem 0 2rem; }
+        padding: 0.35rem 0 0.25rem; }
         #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper,
         #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper {
           grid-template-rows: 180px 40px; }
@@ -4361,7 +4382,7 @@ p,
             width: 92%; }
             #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail,
             #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .context-holder .history-detail {
-              font-size: 0.9rem; }
+              font-size: 0.14rem; }
           #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line,
           #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-marker .marker-line {
             top: 20px; }
@@ -4376,8 +4397,8 @@ p,
             left: calc(50% - 6px); }
           #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-year,
           #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item .history-layout-wrapper .history-year {
-            padding: 0.25rem 0;
-            font-size: 0.9rem; }
+            padding: 0.025rem 0;
+            font-size: 0.14rem; }
         #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2001 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2006 .history-layout-wrapper .context-holder .history-icon img, #hr-about-page .section-about-history .container .timeline-holder .swiper-wrapper .history-item.item-2021 .history-layout-wrapper .context-holder .history-icon img,
         #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2001 .history-layout-wrapper .context-holder .history-icon img,
         #hr-about-page #about-history .container .timeline-holder .swiper-wrapper .history-item.item-2006 .history-layout-wrapper .context-holder .history-icon img,
@@ -4465,7 +4486,7 @@ p,
           width: 700px;
           text-align: center;
           line-height: 4;
-          font-size: 0.175rem;
+          font-size: 0.225rem;
           transition: all 150ms ease-in; }
         #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block.archivement-global .context,
         #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block.archivement-global .context {
@@ -4488,7 +4509,7 @@ p,
           #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .context,
           #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .context {
             width: 50%;
-            font-size: 0.135rem; } }
+            font-size: 0.2rem; } }
   @media only screen and (max-width: 1440px) {
     #hr-about-page .section-archivement,
     #hr-about-page #about-archivement {
@@ -4503,7 +4524,7 @@ p,
           #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .context,
           #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .context {
             width: 50%;
-            font-size: 0.1125rem; } }
+            font-size: 0.185rem; } }
   @media only screen and (max-width: 1280px) {
     #hr-about-page .section-archivement,
     #hr-about-page #about-archivement {
@@ -4518,7 +4539,7 @@ p,
           #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .context,
           #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .context {
             width: 50%;
-            font-size: 0.11rem; } }
+            font-size: 0.175rem; } }
   @media only screen and (max-width: 768px) {
     #hr-about-page .section-archivement,
     #hr-about-page #about-archivement {
@@ -4538,7 +4559,7 @@ p,
           #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .context,
           #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .context {
             width: 100%;
-            font-size: 0.11rem; } }
+            font-size: 0.225rem; } }
   @media only screen and (max-width: 480px) {
     #hr-about-page .section-archivement,
     #hr-about-page #about-archivement {
@@ -4558,7 +4579,7 @@ p,
           #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .context,
           #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .context {
             width: 100%;
-            font-size: 0.11rem;
+            font-size: 0.175rem;
             line-height: 3.25; } }
   @media only screen and (max-width: 376px) {
     #hr-about-page .section-archivement,
@@ -4578,7 +4599,7 @@ p,
             height: 52vw; }
           #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .context,
           #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .context {
-            font-size: 0.12rem;
+            font-size: 0.165rem;
             line-height: 3; } }
 
 @-webkit-keyframes wavingEffect {
