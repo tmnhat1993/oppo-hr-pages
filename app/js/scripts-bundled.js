@@ -1581,6 +1581,10 @@ function () {
       this.SetupBannerSlider();
       this.DrawGlobe();
       this.SetupTestimonialQuote();
+
+      if (window.innerWidth <= 768) {
+        this.SetupOPPOFamilySlider();
+      }
     }
   }, {
     key: "DrawGlobe",
@@ -1613,7 +1617,7 @@ function () {
   }, {
     key: "SetupBannerSlider",
     value: function SetupBannerSlider() {
-      this.$bannerSliderElement = $('#home-banner .banner-slider');
+      this.$bannerSliderElement = $("#home-banner .banner-slider");
       this.$bannerSliderElement.slick({
         dots: true,
         infinite: true,
@@ -1626,17 +1630,17 @@ function () {
     value: function SetupTestimonialQuote() {
       var _this = this;
 
-      this.$memberImageSlider = $('.oppo-member-image-slider');
-      this.$memberQuoteSlider = $('.oppo-member-quote-slider');
-      this.$sliderControlNextBtn = $('.testimonial-control.next-slide');
-      this.$sliderControlPrevBtn = $('.testimonial-control.next-slide');
-      this.$memberQuoteSlider.on('init', function () {
-        _this.$sliderControlNextBtn.on('click', function () {
-          $('.oppo-member-image-slider').slick('next');
+      this.$memberImageSlider = $(".oppo-member-image-slider");
+      this.$memberQuoteSlider = $(".oppo-member-quote-slider");
+      this.$sliderControlNextBtn = $(".testimonial-control.next-slide");
+      this.$sliderControlPrevBtn = $(".testimonial-control.next-slide");
+      this.$memberQuoteSlider.on("init", function () {
+        _this.$sliderControlNextBtn.on("click", function () {
+          $(".oppo-member-image-slider").slick("next");
         });
 
-        _this.$sliderControlPrevBtn.on('click', function () {
-          $('.oppo-member-image-slider').slick('prev');
+        _this.$sliderControlPrevBtn.on("click", function () {
+          $(".oppo-member-image-slider").slick("prev");
         });
       });
       this.$memberImageSlider.slick({
@@ -1644,16 +1648,29 @@ function () {
         slidesToScroll: 1,
         arrows: false,
         fade: true,
-        asNavFor: '.oppo-member-quote-slider',
+        asNavFor: ".oppo-member-quote-slider",
         dots: false
       });
       this.$memberQuoteSlider.slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        asNavFor: '.oppo-member-image-slider',
+        asNavFor: ".oppo-member-image-slider",
         dots: true,
         fade: true,
         arrows: false
+      });
+    }
+  }, {
+    key: "SetupOPPOFamilySlider",
+    value: function SetupOPPOFamilySlider() {
+      this.$familySlider = $(".oppo-family-layout");
+      this.$familySlider.slick({
+        slidesToShow: 3,
+        dots: false,
+        arrows: false,
+        swipe: true,
+        swipeToSlide: true,
+        centerMode: true
       });
     }
   }]);

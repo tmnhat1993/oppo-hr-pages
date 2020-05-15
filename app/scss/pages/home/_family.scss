@@ -15,7 +15,6 @@
 
         .img-holder {
           height: 100%;
-          transition: all linear 0.4s;
 
           img {
             display: block;
@@ -23,6 +22,7 @@
             height: 100%;
             object-fit: cover;
             object-position: center;
+            transition: all linear 0.4s;
           }
         }
 
@@ -65,8 +65,10 @@
 
         &:hover {
           .img-holder {
-            transform: scale(1.075);
-            transition: all ease-out 1s;
+            img {
+              transform: scale(1.075);
+              transition: all ease-out 1s;
+            }
           }
 
           .context {
@@ -92,4 +94,112 @@
     }
   }
   /* OPPO Family - END */
+
+  @media #{$information-md-screen} {
+    .section-oppo-family,
+    #home-oppo-family {
+      .oppo-family-layout {
+        margin-top: 3.5rem;
+        grid-column-gap: 10px;
+
+        .family-item {
+          height: 33.6vw;
+
+          .context {
+            .context-title {
+              font-size: 2rem;
+              margin-bottom: 0.35rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media #{$information-sm-screen} {
+    .section-oppo-family,
+    #home-oppo-family {
+      .oppo-family-layout {
+        margin-top: 3.5rem;
+        grid-column-gap: 10px;
+
+        .family-item {
+          height: 33.6vw;
+
+          .context {
+            .context-title {
+              font-size: 1.75rem;
+              margin-bottom: 0.3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media #{$information-sm-laptop} {
+    .section-oppo-family,
+    #home-oppo-family {
+      .oppo-family-layout {
+        margin-top: 3.5rem;
+        grid-column-gap: 10px;
+
+        .family-item {
+          height: 33.6vw;
+
+          .context {
+            .context-title {
+              font-size: 1.5rem;
+              margin-bottom: 0.3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media #{$information-tablet} {
+    .section-oppo-family,
+    #home-oppo-family {
+      .oppo-family-layout {
+        display: block;
+        width: 200%;
+        margin-left: -50%;
+
+        .family-item {
+          height: 96.6vw;
+        }
+
+        .slick-current.slick-active {
+          .family-item {
+            .img-holder {
+              img {
+                transform: scale(1.075);
+                transition: all ease-out 1s;
+              }
+            }
+
+            .context {
+              opacity: 1;
+              transition: all ease-out 150ms;
+
+              .context-title {
+                opacity: 1;
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+                transition: all ease-out 330ms 130ms;
+              }
+
+              .context-desc {
+                opacity: 1;
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+                transition: all ease-out 330ms 260ms;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

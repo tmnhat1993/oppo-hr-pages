@@ -284,4 +284,189 @@
       }
     }
   }
+
+  @media #{$information-tablet} {
+    .section-job-oppotunities,
+    #home-job-opportunities {
+      .main-content {
+        .content-head {
+        }
+
+        .content-body {
+          .job-list-layout {
+            display: grid;
+            grid-template-columns: 1fr;
+            padding: 0 30px;
+            grid-column-gap: 10px;
+            grid-row-gap: 30px;
+
+            .job-item {
+              .job-thumbnail {
+                height: 60vw;
+              }
+
+              .job-detail {
+                height: 12.5vw;
+
+                .job-detail-effect {
+                  width: 150vw;
+                  height: 150vw;
+                }
+
+                .job-label {
+                  font-size: 1.35rem;
+                }
+              }
+            }
+          }
+        }
+
+        .content-footer {
+          margin-top: 0;
+
+          .context {
+            height: 120px;
+            font-size: 1.125rem;
+
+            .lightbulb {
+              width: 41px;
+              margin-right: 0.65rem;
+              -webkit-transform: translateY(-14%);
+              transform: translateY(-14%);
+            }
+
+            .divider {
+              -webkit-transform: translateY(-5%);
+              transform: translateY(-5%);
+              margin: 0 0.25rem;
+            }
+
+            .arrow {
+              height: 1.65rem;
+              margin-left: 0.35rem;
+              transform: translateY(25%);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media #{$information-phone} {
+    .section-job-oppotunities,
+    #home-job-opportunities {
+      .main-content {
+        .content-body {
+          .job-list-layout {
+            display: grid;
+            grid-template-columns: 1fr;
+            padding: 0 15px;
+            grid-column-gap: 10px;
+            grid-row-gap: 10px;
+
+            .job-item {
+              .job-thumbnail {
+                height: 56vw;
+              }
+
+              .job-detail {
+                height: 18.5vw;
+
+                .job-detail-effect {
+                  width: 150vw;
+                  height: 150vw;
+                }
+
+                .job-label {
+                  font-size: 1.05rem;
+                }
+              }
+            }
+          }
+        }
+
+        .content-footer {
+          margin-top: 0;
+
+          .context {
+            height: 120px;
+            font-size: 1rem;
+            line-height: 0.5;
+
+            .lightbulb {
+              width: 38px;
+              margin-right: 0.35rem;
+            }
+
+            .divider {
+              -webkit-transform: translateY(-5%);
+              transform: translateY(-5%);
+              margin: 0 0.15rem;
+            }
+
+            .arrow {
+              height: 1.35rem;
+              margin-left: 0.25rem;
+              transform: translateY(25%);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media #{$information-sm-phone} {
+    .section-job-oppotunities,
+    #home-job-opportunities {
+      .main-content {
+        .content-body {
+          .job-list-layout {
+            padding: 0 13px;
+
+            .job-item {
+              .job-thumbnail {
+                height: 56vw;
+              }
+
+              .job-detail {
+                height: 17vw;
+
+                .job-detail-effect {
+                  width: 150vw;
+                  height: 150vw;
+                }
+
+                .job-label {
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+
+        .content-footer {
+          .context {
+            height: 100px;
+            font-size: 0.9rem;
+            line-height: 0.5;
+
+            .lightbulb {
+              width: 34px;
+              margin-right: 0.35rem;
+            }
+
+            .divider {
+              margin: 0 0.15rem;
+            }
+
+            .arrow {
+              height: 1.2rem;
+              margin-left: 0.25rem;
+              transform: translateY(25%);
+            }
+          }
+        }
+      }
+    }
+  }
 }
