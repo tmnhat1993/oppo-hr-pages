@@ -32,7 +32,7 @@ h4 {
 a {
   color: inherit;
   text-decoration: none;
-  font-size: 0.2rem;
+  font-size: 0.225rem;
 
   &:hover {
     color: inherit;
@@ -68,7 +68,7 @@ p {
 }
 
 .sub-title {
-  font-size: 0.3rem;
+  font-size: 0.37rem;
   font-weight: 400;
   line-height: 1.2;
   margin: 0.225rem 0 0.015rem;
@@ -82,7 +82,7 @@ p {
 .desc,
 p,
 .desc-item {
-  font-size: 0.2rem;
+  font-size: 0.225rem;
   line-height: 1.44;
 }
 
@@ -99,17 +99,17 @@ p,
 /* RESPONSIVE */
 @media #{$information-md-screen} {
   a {
-    font-size: 0.2rem;
+    font-size: 0.225rem;
   }
 
   .title {
-    font-size: 0.4rem;
-    margin: 0.5rem 0 0.44rem;
+    font-size: 0.42rem;
+    margin: 0.8rem 0 0.35rem;
   }
 
   .sub-title {
-    font-size: 0.2625rem;
-    margin: 0.2rem 0 0.013125rem;
+    font-size: 0.34rem;
+    margin: 0.2rem 0 0.1rem;
   }
 
   .highlight {
@@ -119,23 +119,23 @@ p,
   .desc,
   p,
   .desc-item {
-    font-size: 0.2rem;
+    font-size: 0.225rem;
   }
 }
 
 @media #{$information-sm-screen} {
   a {
-    font-size: 0.18rem;
+    font-size: 0.2rem;
   }
 
   .title {
-    font-size: 0.375rem;
-    margin: 0.4rem 0 0.35625rem;
+    font-size: 0.4rem;
+    margin: 0.64rem 0 0.33rem;
   }
 
   .sub-title {
-    font-size: 0.21375rem;
-    margin: 0.16rem 0 0.01rem;
+    font-size: 0.32rem;
+    margin: 0.16rem 0 0.1rem;
   }
 
   .highlight {
@@ -145,23 +145,23 @@ p,
   .desc,
   p,
   .desc-item {
-    font-size: 0.18rem;
+    font-size: 0.2rem;
   }
 }
 
 @media #{$information-sm-laptop} {
   a {
-    font-size: 0.17rem;
+    font-size: 0.185rem;
   }
 
   .title {
-    font-size: 0.35rem;
-    margin: 0.35rem 0 0.315rem;
+    font-size: 0.36rem;
+    margin: 0.5rem 0 0.25rem;
   }
 
   .sub-title {
-    font-size: 0.2rem;
-    margin: 0.13rem 0 0.01rem;
+    font-size: 0.3rem;
+    margin: 0.15rem 0 0.08rem;
   }
 
   .highlight {
@@ -171,7 +171,7 @@ p,
   .desc,
   p,
   .desc-item {
-    font-size: 0.17rem;
+    font-size: 0.185rem;
   }
 }
 
@@ -181,8 +181,8 @@ p,
   }
 
   .title {
-    font-size: 0.33rem;
-    margin: 0.5rem 0 0.44rem;
+    font-size: 0.36rem;
+    margin: 0.5rem 0 0.25rem;
   }
 
   .sub-title {
@@ -203,12 +203,12 @@ p,
 
 @media #{$information-tablet} {
   a {
-    font-size: 0.175rem;
+    font-size: 0.2rem;
   }
 
   .title {
-    font-size: 0.35rem;
-    margin: 0.4rem 0 0.35625rem;
+    font-size: 0.36rem;
+    margin: 0.4rem 0 0.275rem;
   }
 
   .sub-title {
@@ -223,18 +223,18 @@ p,
   .desc,
   p,
   .desc-item {
-    font-size: 0.175rem;
+    font-size: 0.2rem;
   }
 }
 
 @media #{$information-phone} {
   a {
-    font-size: 0.14rem;
+    font-size: 0.15rem;
   }
 
   .title {
     font-size: 0.275rem;
-    margin: 0.3rem 0 0.215rem;
+    margin: 0.3rem 0 0.15rem;
   }
 
   .sub-title {
@@ -250,7 +250,7 @@ p,
   .desc,
   p,
   .desc-item {
-    font-size: 0.14rem;
+    font-size: 0.15rem;
   }
 }
 

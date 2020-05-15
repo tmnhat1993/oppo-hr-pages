@@ -27,8 +27,10 @@
         margin-top: 0.15rem;
 
         .arrow {
-          height: 0.2rem;
+          height: 0.25rem;
           margin-left: 0.065rem;
+          -webkit-transform: translateY(-5%);
+          transform: translateY(-5%);
 
           img {
             max-height: 100%;
@@ -70,7 +72,7 @@
 
         .cta-holder {
           .arrow {
-            height: 0.175rem;
+            height: 0.2rem;
             margin-left: 0.056875rem;
           }
         }
@@ -90,7 +92,7 @@
 
         .cta-holder {
           .arrow {
-            height: 0.1425‬rem;
+            height: 0.175‬rem;
             margin-left: 0.0463125rem;
           }
         }
@@ -125,16 +127,16 @@
 
       .main-content {
         .title {
-          margin: 14.49vw 0 8.45vw;
+          margin: 10vw 0 2vw;
         }
 
         .desc {
-          margin-bottom: 7vw;
+          margin-bottom: 3vw;
         }
 
         .cta-holder {
           .arrow {
-            height: 0.15rem;
+            height: 0.205rem;
             margin-left: 0.05rem;
           }
         }

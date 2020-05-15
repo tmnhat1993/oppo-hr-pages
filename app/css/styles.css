@@ -101,6 +101,9 @@ body {
     opacity: 0;
     visibility: hidden; }
 
+#oc-header a {
+  font-size: inherit; }
+
 /* ======================
 * Margin And Padding Generator 
 ====================== */
@@ -898,7 +901,7 @@ h4 {
 a {
   color: inherit;
   text-decoration: none;
-  font-size: 0.2rem; }
+  font-size: 0.225rem; }
   a:hover {
     color: inherit;
     text-decoration: none; }
@@ -924,7 +927,7 @@ p {
   font-weight: 400; }
 
 .sub-title {
-  font-size: 0.3rem;
+  font-size: 0.37rem;
   font-weight: 400;
   line-height: 1.2;
   margin: 0.225rem 0 0.015rem; }
@@ -936,7 +939,7 @@ p {
 .desc,
 p,
 .desc-item {
-  font-size: 0.2rem;
+  font-size: 0.225rem;
   line-height: 1.44; }
 
 .inline-img {
@@ -950,13 +953,29 @@ p,
 /* RESPONSIVE */
 @media only screen and (max-width: 1680px) {
   a {
+    font-size: 0.225rem; }
+  .title {
+    font-size: 0.42rem;
+    margin: 0.8rem 0 0.35rem; }
+  .sub-title {
+    font-size: 0.34rem;
+    margin: 0.2rem 0 0.1rem; }
+  .highlight {
+    font-size: 1.75em; }
+  .desc,
+  p,
+  .desc-item {
+    font-size: 0.225rem; } }
+
+@media only screen and (max-width: 1440px) {
+  a {
     font-size: 0.2rem; }
   .title {
     font-size: 0.4rem;
-    margin: 0.5rem 0 0.44rem; }
+    margin: 0.64rem 0 0.33rem; }
   .sub-title {
-    font-size: 0.2625rem;
-    margin: 0.2rem 0 0.013125rem; }
+    font-size: 0.32rem;
+    margin: 0.16rem 0 0.1rem; }
   .highlight {
     font-size: 1.75em; }
   .desc,
@@ -964,44 +983,28 @@ p,
   .desc-item {
     font-size: 0.2rem; } }
 
-@media only screen and (max-width: 1440px) {
-  a {
-    font-size: 0.18rem; }
-  .title {
-    font-size: 0.375rem;
-    margin: 0.4rem 0 0.35625rem; }
-  .sub-title {
-    font-size: 0.21375rem;
-    margin: 0.16rem 0 0.01rem; }
-  .highlight {
-    font-size: 1.75em; }
-  .desc,
-  p,
-  .desc-item {
-    font-size: 0.18rem; } }
-
 @media only screen and (max-width: 1280px) {
   a {
-    font-size: 0.17rem; }
+    font-size: 0.185rem; }
   .title {
-    font-size: 0.35rem;
-    margin: 0.35rem 0 0.315rem; }
+    font-size: 0.36rem;
+    margin: 0.5rem 0 0.25rem; }
   .sub-title {
-    font-size: 0.2rem;
-    margin: 0.13rem 0 0.01rem; }
+    font-size: 0.3rem;
+    margin: 0.15rem 0 0.08rem; }
   .highlight {
     font-size: 1.75em; }
   .desc,
   p,
   .desc-item {
-    font-size: 0.17rem; } }
+    font-size: 0.185rem; } }
 
 @media only screen and (max-width: 1024px) {
   a {
     font-size: 0.2rem; }
   .title {
-    font-size: 0.33rem;
-    margin: 0.5rem 0 0.44rem; }
+    font-size: 0.36rem;
+    margin: 0.5rem 0 0.25rem; }
   .sub-title {
     font-size: 0.2625rem;
     margin: 0.2rem 0 0.013125rem; }
@@ -1014,10 +1017,10 @@ p,
 
 @media only screen and (max-width: 768px) {
   a {
-    font-size: 0.175rem; }
+    font-size: 0.2rem; }
   .title {
-    font-size: 0.35rem;
-    margin: 0.4rem 0 0.35625rem; }
+    font-size: 0.36rem;
+    margin: 0.4rem 0 0.275rem; }
   .sub-title {
     font-size: 0.25rem;
     margin: 0.16rem 0 0.01rem; }
@@ -1026,14 +1029,14 @@ p,
   .desc,
   p,
   .desc-item {
-    font-size: 0.175rem; } }
+    font-size: 0.2rem; } }
 
 @media only screen and (max-width: 480px) {
   a {
-    font-size: 0.14rem; }
+    font-size: 0.15rem; }
   .title {
     font-size: 0.275rem;
-    margin: 0.3rem 0 0.215rem; }
+    margin: 0.3rem 0 0.15rem; }
   .sub-title {
     font-size: 0.2rem;
     font-weight: 600;
@@ -1043,7 +1046,7 @@ p,
   .desc,
   p,
   .desc-item {
-    font-size: 0.14rem; } }
+    font-size: 0.15rem; } }
 
 @media only screen and (max-width: 376px) {
   a {
@@ -1067,7 +1070,8 @@ p,
   /* REPONSIVE */ }
   #hr-home-page .section-banner {
     height: 47.91666vw;
-    overflow: hidden; }
+    overflow: hidden;
+    margin-top: 0.93rem; }
     #hr-home-page .section-banner .banner-slider {
       position: relative;
       height: 100%; }
@@ -1214,7 +1218,8 @@ p,
     #hr-home-page {
       /* Banner */ }
       #hr-home-page .section-banner {
-        height: 47.5vw; }
+        height: 47.5vw;
+        margin-top: 0.52rem; }
         #hr-home-page .section-banner .banner-slider .banner-control.banner-next,
         #hr-home-page .section-banner .banner-slider .banner-control.banner-prev {
           width: 30px;
@@ -1290,8 +1295,10 @@ p,
         margin-top: 0.15rem; }
         #hr-home-page .section-about-oppo .main-content .cta-holder .arrow,
         #hr-home-page #home-about-oppo .main-content .cta-holder .arrow {
-          height: 0.2rem;
-          margin-left: 0.065rem; }
+          height: 0.25rem;
+          margin-left: 0.065rem;
+          -webkit-transform: translateY(-5%);
+          transform: translateY(-5%); }
           #hr-home-page .section-about-oppo .main-content .cta-holder .arrow img,
           #hr-home-page #home-about-oppo .main-content .cta-holder .arrow img {
             max-height: 100%; }
@@ -1318,7 +1325,7 @@ p,
         margin: 0.83125rem 0 0.39375rem; }
       #hr-home-page .section-about-oppo .main-content .cta-holder .arrow,
       #hr-home-page #home-about-oppo .main-content .cta-holder .arrow {
-        height: 0.175rem;
+        height: 0.2rem;
         margin-left: 0.056875rem; } }
   @media only screen and (max-width: 1440px) {
     #hr-home-page .section-about-oppo,
@@ -1329,7 +1336,7 @@ p,
         margin: 0.67rem 0 0.32rem; }
       #hr-home-page .section-about-oppo .main-content .cta-holder .arrow,
       #hr-home-page #home-about-oppo .main-content .cta-holder .arrow {
-        height: 0.1425‬rem;
+        height: 0.175‬rem;
         margin-left: 0.0463125rem; } }
   @media only screen and (max-width: 1280px) {
     #hr-home-page .section-about-oppo,
@@ -1348,13 +1355,13 @@ p,
       height: 130vw; }
       #hr-home-page .section-about-oppo .main-content .title,
       #hr-home-page #home-about-oppo .main-content .title {
-        margin: 14.49vw 0 8.45vw; }
+        margin: 10vw 0 2vw; }
       #hr-home-page .section-about-oppo .main-content .desc,
       #hr-home-page #home-about-oppo .main-content .desc {
-        margin-bottom: 7vw; }
+        margin-bottom: 3vw; }
       #hr-home-page .section-about-oppo .main-content .cta-holder .arrow,
       #hr-home-page #home-about-oppo .main-content .cta-holder .arrow {
-        height: 0.15rem;
+        height: 0.205rem;
         margin-left: 0.05rem; } }
   @media only screen and (max-width: 480px) {
     #hr-home-page .section-about-oppo,
@@ -1406,7 +1413,7 @@ p,
         background-color: #046a38;
         border-radius: 20px;
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
-        font-size: 0.2rem;
+        font-size: 0.225rem;
         display: flex;
         justify-content: center;
         align-items: center; }
@@ -1436,18 +1443,18 @@ p,
         padding: 0 0.05rem; }
         #hr-home-page .section-oppo-global .oppo-archivements .archive-item,
         #hr-home-page #home-oppo-global .oppo-archivements .archive-item {
-          font-size: 0.175rem; } }
+          font-size: 0.2rem; } }
   @media only screen and (max-width: 1440px) {
     #hr-home-page .section-oppo-global,
     #hr-home-page #home-oppo-global {
       height: 57vw; }
       #hr-home-page .section-oppo-global .oppo-archivements,
       #hr-home-page #home-oppo-global .oppo-archivements {
-        grid-template-rows: 108px;
+        grid-template-rows: 100px;
         padding: 0 0.035rem; }
         #hr-home-page .section-oppo-global .oppo-archivements .archive-item,
         #hr-home-page #home-oppo-global .oppo-archivements .archive-item {
-          font-size: 0.15rem;
+          font-size: 0.175rem;
           border-radius: 15px; } }
   @media only screen and (max-width: 768px) {
     #hr-home-page .section-oppo-global,
@@ -1486,7 +1493,7 @@ p,
         #hr-home-page #home-oppo-global .oppo-archivements .archive-item {
           border-radius: 12px;
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
-          font-size: 0.09rem; }
+          font-size: 0.14rem; }
       #hr-home-page .section-oppo-global .globe-holder,
       #hr-home-page #home-oppo-global .globe-holder {
         top: 58%;
@@ -1507,7 +1514,7 @@ p,
         #hr-home-page #home-oppo-global .oppo-archivements .archive-item {
           border-radius: 7px;
           box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
-          font-size: 0.08rem; }
+          font-size: 0.125rem; }
       #hr-home-page .section-oppo-global .globe-holder,
       #hr-home-page #home-oppo-global .globe-holder {
         top: 60%;
@@ -1524,6 +1531,50 @@ p,
   #hr-home-page #home-job-opportunities {
     background-image: -webkit-linear-gradient(#ffffff, #f0f0f0);
     background-image: linear-gradient(#ffffff, #f0f0f0); }
+    #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder,
+    #hr-home-page #home-job-opportunities .main-content .content-head .searching-holder {
+      margin: 0.5rem 0; }
+      #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder .search-layout,
+      #hr-home-page #home-job-opportunities .main-content .content-head .searching-holder .search-layout {
+        width: 920px;
+        margin: auto;
+        display: flex;
+        justify-content: center; }
+        #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder .search-layout .form-block,
+        #hr-home-page #home-job-opportunities .main-content .content-head .searching-holder .search-layout .form-block {
+          margin: 0 10px; }
+          #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder .search-layout .form-block .custom-input,
+          #hr-home-page #home-job-opportunities .main-content .content-head .searching-holder .search-layout .form-block .custom-input {
+            border: none;
+            background-color: #f8f8f8;
+            box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            line-height: 48px;
+            height: 48px;
+            font-size: 20px;
+            padding: 3px 15px 0;
+            display: block;
+            width: 100%;
+            appearance: none;
+            width: 200px; }
+          #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder .search-layout .form-block .submit-form,
+          #hr-home-page #home-job-opportunities .main-content .content-head .searching-holder .search-layout .form-block .submit-form {
+            height: 48px;
+            font-size: 22px;
+            background-color: #046a38;
+            color: #fff;
+            display: block;
+            width: 60px;
+            padding-top: 3px;
+            line-height: 46px;
+            border-radius: 8px;
+            color: #fff;
+            text-align: center;
+            box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2); }
+            #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder .search-layout .form-block .submit-form i,
+            #hr-home-page #home-job-opportunities .main-content .content-head .searching-holder .search-layout .form-block .submit-form i {
+              color: #fff;
+              font-weight: 300; }
     #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout,
     #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout {
       display: grid;
@@ -1635,11 +1686,11 @@ p,
           height: 27vw; }
         #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label,
         #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label {
-          font-size: 0.175rem; }
+          font-size: 0.2rem; }
     #hr-home-page .section-job-oppotunities .main-content .content-footer .context,
     #hr-home-page #home-job-opportunities .main-content .content-footer .context {
       height: 90px;
-      font-size: 0.2rem; }
+      font-size: 0.225rem; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb {
         width: 38px;
@@ -1664,11 +1715,11 @@ p,
         height: 6.25vw; }
         #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label,
         #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label {
-          font-size: 0.15rem; }
+          font-size: 0.175rem; }
     #hr-home-page .section-job-oppotunities .main-content .content-footer .context,
     #hr-home-page #home-job-opportunities .main-content .content-footer .context {
       height: 85px;
-      font-size: 0.175rem; }
+      font-size: 0.2rem; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb {
         width: 36px;
@@ -1678,9 +1729,35 @@ p,
         margin: 0 0.03rem; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context .arrow,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context .arrow {
-        height: 0.14rem;
-        margin-left: 0.0463125rem; } }
+        height: 0.175rem;
+        margin-left: 0.05rem; } }
   @media only screen and (max-width: 1280px) {
+    #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder,
+    #hr-home-page #home-job-opportunities .main-content .content-head .searching-holder {
+      margin: 0.35rem 0; }
+      #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder .search-layout,
+      #hr-home-page #home-job-opportunities .main-content .content-head .searching-holder .search-layout {
+        width: 860px; }
+        #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder .search-layout .form-block,
+        #hr-home-page #home-job-opportunities .main-content .content-head .searching-holder .search-layout .form-block {
+          margin: 0 9px; }
+          #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder .search-layout .form-block .custom-input,
+          #hr-home-page #home-job-opportunities .main-content .content-head .searching-holder .search-layout .form-block .custom-input {
+            box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            line-height: 42px;
+            height: 42px;
+            font-size: 18px;
+            padding: 3px 13px 0;
+            width: 175px; }
+          #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder .search-layout .form-block .submit-form,
+          #hr-home-page #home-job-opportunities .main-content .content-head .searching-holder .search-layout .form-block .submit-form {
+            height: 42px;
+            font-size: 20px;
+            width: 54px;
+            padding-top: 3px;
+            line-height: 40px;
+            border-radius: 5px; }
     #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout,
     #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout {
       grid-column-gap: 8px;
@@ -1693,14 +1770,14 @@ p,
         height: 6.25vw; }
         #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label,
         #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label {
-          font-size: 0.135rem; }
+          font-size: 0.175rem; }
     #hr-home-page .section-job-oppotunities .main-content .content-footer,
     #hr-home-page #home-job-opportunities .main-content .content-footer {
       margin-top: 0.15rem; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context {
         height: 85px;
-        font-size: 0.155rem; }
+        font-size: 0.185rem; }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb {
           width: 30px;
@@ -1713,6 +1790,33 @@ p,
           height: 0.13rem;
           margin-left: 0.043rem; } }
   @media only screen and (max-width: 768px) {
+    #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder,
+    #hr-home-page #home-job-opportunities .main-content .content-head .searching-holder {
+      margin: 0.35rem 0; }
+      #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder .search-layout,
+      #hr-home-page #home-job-opportunities .main-content .content-head .searching-holder .search-layout {
+        width: 440px;
+        flex-wrap: wrap; }
+        #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder .search-layout .form-block,
+        #hr-home-page #home-job-opportunities .main-content .content-head .searching-holder .search-layout .form-block {
+          margin: 15px 0; }
+          #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder .search-layout .form-block .custom-input,
+          #hr-home-page #home-job-opportunities .main-content .content-head .searching-holder .search-layout .form-block .custom-input {
+            box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            line-height: 50px;
+            height: 50px;
+            font-size: 22px;
+            padding: 3px 13px 0;
+            width: 440px; }
+          #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder .search-layout .form-block .submit-form,
+          #hr-home-page #home-job-opportunities .main-content .content-head .searching-holder .search-layout .form-block .submit-form {
+            height: 50px;
+            font-size: 24px;
+            width: 440px;
+            padding-top: 3px;
+            line-height: 50px;
+            border-radius: 5px; }
     #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout,
     #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout {
       display: grid;
@@ -1732,14 +1836,14 @@ p,
           height: 150vw; }
         #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label,
         #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label {
-          font-size: 0.135rem; }
+          font-size: 0.225rem; }
     #hr-home-page .section-job-oppotunities .main-content .content-footer,
     #hr-home-page #home-job-opportunities .main-content .content-footer {
       margin-top: 0; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context {
         height: 120px;
-        font-size: 0.1125rem; }
+        font-size: 0.2rem; }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb {
           width: 41px;
@@ -1753,10 +1857,37 @@ p,
           margin: 0 0.025rem; }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .arrow,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .arrow {
-          height: 0.165rem;
+          height: 0.2rem;
           margin-left: 0.035rem;
           transform: translateY(25%); } }
   @media only screen and (max-width: 480px) {
+    #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder,
+    #hr-home-page #home-job-opportunities .main-content .content-head .searching-holder {
+      margin: 0.05rem 0 0.35rem; }
+      #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder .search-layout,
+      #hr-home-page #home-job-opportunities .main-content .content-head .searching-holder .search-layout {
+        width: 100%;
+        flex-wrap: wrap; }
+        #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder .search-layout .form-block,
+        #hr-home-page #home-job-opportunities .main-content .content-head .searching-holder .search-layout .form-block {
+          margin: 10px 0 10px;
+          width: 100%; }
+          #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder .search-layout .form-block .custom-input,
+          #hr-home-page #home-job-opportunities .main-content .content-head .searching-holder .search-layout .form-block .custom-input {
+            border-radius: 5px;
+            line-height: 42px;
+            height: 42px;
+            font-size: 18px;
+            padding: 3px 13px 0;
+            width: 100%; }
+          #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder .search-layout .form-block .submit-form,
+          #hr-home-page #home-job-opportunities .main-content .content-head .searching-holder .search-layout .form-block .submit-form {
+            height: 42px;
+            font-size: 20px;
+            width: 100%;
+            padding-top: 3px;
+            line-height: 40px;
+            border-radius: 5px; }
     #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout,
     #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout {
       display: grid;
@@ -1776,15 +1907,15 @@ p,
           height: 150vw; }
         #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label,
         #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label {
-          font-size: 0.135rem; }
+          font-size: 0.175rem; }
     #hr-home-page .section-job-oppotunities .main-content .content-footer,
     #hr-home-page #home-job-opportunities .main-content .content-footer {
       margin-top: 0; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context {
         height: 120px;
-        font-size: 0.12rem;
-        line-height: 0.5; }
+        font-size: 0.15rem;
+        line-height: 1; }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb {
           width: 38px;
@@ -1796,7 +1927,7 @@ p,
           margin: 0 0.015rem; }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .arrow,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .arrow {
-          height: 0.135rem;
+          height: 0.15rem;
           margin-left: 0.025rem;
           transform: translateY(25%); } }
   @media only screen and (max-width: 376px) {
@@ -1815,22 +1946,22 @@ p,
           height: 150vw; }
         #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label,
         #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label {
-          font-size: 0.125rem; }
+          font-size: 0.15rem; }
     #hr-home-page .section-job-oppotunities .main-content .content-footer .context,
     #hr-home-page #home-job-opportunities .main-content .content-footer .context {
       height: 100px;
-      font-size: 0.09rem;
-      line-height: 0.5; }
+      font-size: 0.125rem;
+      line-height: 1; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb {
-        width: 34px;
+        width: 32px;
         margin-right: 0.035rem; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context .divider,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context .divider {
         margin: 0 0.015rem; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context .arrow,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context .arrow {
-        height: 0.12rem;
+        height: 0.125rem;
         margin-left: 0.025rem;
         transform: translateY(25%); } }
 
@@ -2345,12 +2476,13 @@ p,
                     transform: translate(0, 0.2rem); }
                     #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name,
                     #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name {
-                      font-size: 0.225rem;
+                      font-size: 0.32rem;
                       line-height: 1.15;
                       margin-bottom: 0; }
                     #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role,
                     #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role {
-                      margin-bottom: 0.135rem; }
+                      font-size: 0.225rem;
+                      margin-bottom: 0.225rem; }
                     #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-quote,
                     #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-quote {
                       text-align: justify; }
@@ -2422,7 +2554,7 @@ p,
         #hr-home-page .section-testimonial .main-content .container,
         #hr-home-page #home-testimonial .main-content .container {
           height: 100%;
-          padding: 0 60px; }
+          padding: 0 55px; }
           #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item .img-holder,
           #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item .img-holder {
             height: 71vw; }
@@ -2459,12 +2591,12 @@ p,
                   top: 5vw; }
                   #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name,
                   #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name {
-                    font-size: 0.135rem;
+                    font-size: 0.225rem;
                     line-height: 1.15;
                     margin-bottom: 0; }
                   #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role,
                   #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role {
-                    font-size: 0.12rem;
+                    font-size: 0.185rem;
                     margin-bottom: 0.1rem; }
               #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots,
               #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots {
@@ -2515,7 +2647,7 @@ p,
         #hr-home-page .section-testimonial .main-content .container,
         #hr-home-page #home-testimonial .main-content .container {
           height: 100%;
-          padding: 0 40px; }
+          padding: 0 45px; }
           #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item .img-holder,
           #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-image-slider-holder .oppo-member-image-slider .member-img-item .img-holder {
             height: 74vw; }
@@ -2540,24 +2672,24 @@ p,
                 align-items: center; }
               #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item,
               #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item {
-                height: 70vw;
+                height: 67.5vw;
                 padding: 5vw 0 0; }
                 #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor,
                 #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor {
-                  right: 7%;
+                  right: 3%;
                   top: 0;
-                  width: 36px; }
+                  width: 32px; }
                 #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context,
                 #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context {
                   top: 5vw; }
                   #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name,
                   #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-name {
-                    font-size: 0.115rem;
+                    font-size: 0.2rem;
                     line-height: 1.15;
                     margin-bottom: 0; }
                   #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role,
                   #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .context .member-role {
-                    font-size: 0.09rem;
+                    font-size: 0.15rem;
                     margin-bottom: 0.075rem; }
               #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots,
               #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots {
@@ -2624,7 +2756,7 @@ p,
           color: #fff; }
         #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-title,
         #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-title {
-          font-size: 0.23125rem;
+          font-size: 0.35rem;
           margin-bottom: 0.05rem;
           opacity: 0;
           -webkit-transform: translateY(0.1rem);
@@ -2667,7 +2799,7 @@ p,
         height: 33.6vw; }
         #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-title,
         #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-title {
-          font-size: 0.2rem;
+          font-size: 0.33rem;
           margin-bottom: 0.035rem; } }
   @media only screen and (max-width: 1440px) {
     #hr-home-page .section-oppo-family .oppo-family-layout,
@@ -2679,7 +2811,7 @@ p,
         height: 33.6vw; }
         #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-title,
         #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-title {
-          font-size: 0.175rem;
+          font-size: 0.285rem;
           margin-bottom: 0.03rem; } }
   @media only screen and (max-width: 1280px) {
     #hr-home-page .section-oppo-family .oppo-family-layout,
@@ -2691,84 +2823,88 @@ p,
         height: 33.6vw; }
         #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-title,
         #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-title {
-          font-size: 0.15rem;
-          margin-bottom: 0.03rem; } }
+          font-size: 0.25rem;
+          margin-bottom: 0.05rem; } }
   @media only screen and (max-width: 768px) {
-    #hr-home-page .section-oppo-family .oppo-family-layout,
-    #hr-home-page #home-oppo-family .oppo-family-layout {
-      display: block;
-      width: 300%;
-      margin-left: -110%;
-      margin: 0.2rem 0 0.4rem -110%; }
-      #hr-home-page .section-oppo-family .oppo-family-layout .family-item,
-      #hr-home-page #home-oppo-family .oppo-family-layout .family-item {
-        height: auto; }
-        #hr-home-page .section-oppo-family .oppo-family-layout .family-item .img-holder,
-        #hr-home-page #home-oppo-family .oppo-family-layout .family-item .img-holder {
-          height: 100%;
-          width: 94%;
-          overflow: hidden;
-          margin: auto;
-          height: 96.6vw; }
-        #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context,
-        #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context {
-          position: static;
-          text-align: left;
-          width: 88%;
-          margin-left: auto;
-          background-color: transparent;
-          color: #000;
-          padding-top: 30px; }
-          #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-title,
-          #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-title {
-            font-size: 0.125rem;
-            margin-bottom: 0.035rem;
-            color: #000; }
-          #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-desc,
-          #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-desc {
-            padding: 0;
-            color: #000; }
-          #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .cta-holder,
-          #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .cta-holder {
-            opacity: 0;
-            -webkit-transform: translateY(0.1rem);
-            transform: translateY(0.1rem);
-            transition: all ease-in 10ms 100ms; }
-            #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .cta-holder a,
-            #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .cta-holder a {
-              display: flex;
-              align-items: center;
-              height: 0.2rem; }
-              #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .cta-holder a .arrow,
-              #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .cta-holder a .arrow {
-                height: 0.165rem;
-                margin-left: 0.035rem;
-                transform: translateY(-15%); }
-                #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .cta-holder a .arrow img,
-                #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .cta-holder a .arrow img {
-                  height: 100%; }
-      #hr-home-page .section-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .img-holder img,
-      #hr-home-page #home-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .img-holder img {
-        transform: scale(1.075);
-        transition: all ease-out 1s; }
-      #hr-home-page .section-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .context,
-      #hr-home-page #home-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .context {
-        opacity: 1;
-        transition: all ease-out 150ms; }
-        #hr-home-page .section-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .context .context-title,
-        #hr-home-page #home-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .context .context-title {
+    #hr-home-page .section-oppo-family,
+    #hr-home-page #home-oppo-family {
+      padding-top: 0.25rem; }
+      #hr-home-page .section-oppo-family .oppo-family-layout,
+      #hr-home-page #home-oppo-family .oppo-family-layout {
+        display: block;
+        width: 300%;
+        margin-left: -110%;
+        margin: 0.5rem 0 0.4rem -110%; }
+        #hr-home-page .section-oppo-family .oppo-family-layout .family-item,
+        #hr-home-page #home-oppo-family .oppo-family-layout .family-item {
+          height: auto; }
+          #hr-home-page .section-oppo-family .oppo-family-layout .family-item .img-holder,
+          #hr-home-page #home-oppo-family .oppo-family-layout .family-item .img-holder {
+            height: 100%;
+            width: 94%;
+            overflow: hidden;
+            margin: auto;
+            height: 96.6vw; }
+          #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context,
+          #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context {
+            position: static;
+            text-align: left;
+            width: 88%;
+            margin-left: auto;
+            background-color: transparent;
+            color: #000;
+            padding-top: 30px; }
+            #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-title,
+            #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-title {
+              font-size: 0.3rem;
+              margin-bottom: 0.035rem;
+              color: #000; }
+            #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-desc,
+            #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-desc {
+              padding: 0;
+              color: #000; }
+            #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .cta-holder,
+            #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .cta-holder {
+              opacity: 0;
+              margin-top: 0.16rem;
+              -webkit-transform: translateY(0.1rem);
+              transform: translateY(0.1rem);
+              transition: all ease-in 10ms 100ms; }
+              #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .cta-holder a,
+              #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .cta-holder a {
+                display: flex;
+                align-items: center;
+                height: 0.2rem; }
+                #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .cta-holder a .arrow,
+                #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .cta-holder a .arrow {
+                  height: 0.2rem;
+                  margin-left: 0.075rem;
+                  transform: translateY(-5%); }
+                  #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .cta-holder a .arrow img,
+                  #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .cta-holder a .arrow img {
+                    height: 100%; }
+        #hr-home-page .section-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .img-holder img,
+        #hr-home-page #home-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .img-holder img {
+          transform: scale(1.075);
+          transition: all ease-out 1s; }
+        #hr-home-page .section-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .context,
+        #hr-home-page #home-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .context {
           opacity: 1;
-          -webkit-transform: translateY(0);
-          transform: translateY(0);
-          transition: all ease-out 330ms 130ms; }
-        #hr-home-page .section-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .context .context-desc,
-        #hr-home-page .section-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .context .cta-holder,
-        #hr-home-page #home-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .context .context-desc,
-        #hr-home-page #home-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .context .cta-holder {
-          opacity: 1;
-          -webkit-transform: translateY(0);
-          transform: translateY(0);
-          transition: all ease-out 330ms 260ms; } }
+          transition: all ease-out 150ms; }
+          #hr-home-page .section-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .context .context-title,
+          #hr-home-page #home-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .context .context-title {
+            opacity: 1;
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            transition: all ease-out 330ms 130ms; }
+          #hr-home-page .section-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .context .context-desc,
+          #hr-home-page .section-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .context .cta-holder,
+          #hr-home-page #home-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .context .context-desc,
+          #hr-home-page #home-oppo-family .oppo-family-layout .slick-current.slick-active .family-item .context .cta-holder {
+            opacity: 1;
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            transition: all ease-out 330ms 260ms; } }
   @media only screen and (max-width: 480px) {
     #hr-home-page .section-oppo-family .oppo-family-layout,
     #hr-home-page #home-oppo-family .oppo-family-layout {
@@ -2792,8 +2928,8 @@ p,
           padding-top: 20px; }
           #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-title,
           #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-title {
-            font-size: 0.125rem;
-            margin-bottom: 0.035rem;
+            font-size: 0.2rem;
+            margin-bottom: 0.05rem;
             color: #000; }
           #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-desc,
           #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-desc {
@@ -2804,7 +2940,7 @@ p,
             height: 0.2rem; }
             #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .cta-holder a .arrow,
             #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .cta-holder a .arrow {
-              height: 0.135rem;
+              height: 0.15rem;
               margin-left: 0.035rem;
               transform: translateY(-12%); } }
 
@@ -2860,7 +2996,8 @@ p,
   #hr-about-page #about-banner {
     height: 45.5729166vw;
     overflow: hidden;
-    background-color: #999; }
+    background-color: #999;
+    margin-top: 0.93rem; }
     #hr-about-page .section-about-banner .banner-video,
     #hr-about-page #about-banner .banner-video {
       width: 100%;
@@ -2908,7 +3045,8 @@ p,
     #hr-about-page #about-banner {
       height: 116.8675vw;
       padding: 0;
-      background-color: #fff; }
+      background-color: #fff;
+      margin-top: 0; }
       #hr-about-page .section-about-banner .video-control-holder,
       #hr-about-page #about-banner .video-control-holder {
         padding-top: 55%; }
@@ -3407,7 +3545,7 @@ p,
         width: 75%; }
         #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title,
         #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title {
-          font-size: 0.25rem;
+          font-size: 0.3rem;
           font-weight: 400;
           margin-bottom: 0.05rem; }
         #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc,
@@ -3427,8 +3565,8 @@ p,
               border-radius: 6px;
               background-color: #21c34b;
               position: absolute;
-              left: calc(0.125rem - 6px);
-              top: calc(0.125rem - 6px); }
+              left: calc(0.11rem - 6px);
+              top: calc(0.13rem - 6px); }
       #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block.block-vision,
       #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block.block-vision {
         grid-column: 1;
@@ -3454,7 +3592,7 @@ p,
       grid-row-gap: 10px; }
       #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title,
       #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title {
-        font-size: 0.25rem;
+        font-size: 0.28rem;
         margin-bottom: 0.05rem; }
       #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item,
       #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item {
@@ -3465,7 +3603,7 @@ p,
           height: 12px;
           border-radius: 6px;
           left: calc(0.125rem - 6px);
-          top: calc(0.12rem - 6px); } }
+          top: calc(0.13rem - 6px); } }
   @media only screen and (max-width: 1440px) {
     #hr-about-page .section-about-culture .main-content .content-head .title,
     #hr-about-page #about-culture .main-content .content-head .title {
@@ -3476,7 +3614,7 @@ p,
       grid-row-gap: 9px; }
       #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title,
       #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title {
-        font-size: 0.225rem;
+        font-size: 0.25rem;
         margin-bottom: 0.05rem; }
       #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item,
       #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item {
@@ -3498,7 +3636,7 @@ p,
       grid-row-gap: 9px; }
       #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title,
       #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title {
-        font-size: 0.205rem;
+        font-size: 0.225rem;
         margin-bottom: 0.03rem; }
       #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item,
       #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item {
@@ -3509,7 +3647,7 @@ p,
           height: 8px;
           border-radius: 4px;
           left: calc(0.075rem - 4px);
-          top: calc(0.1rem - 4px); } }
+          top: calc(0.11rem - 4px); } }
   @media only screen and (max-width: 1024px) {
     #hr-about-page .section-about-culture .main-content .content-head .title,
     #hr-about-page #about-culture .main-content .content-head .title {
@@ -3526,7 +3664,7 @@ p,
         width: 80%; }
         #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title,
         #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-title {
-          font-size: 0.3rem;
+          font-size: 0.225rem;
           margin-bottom: 0.075rem; }
         #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc,
         #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc {
@@ -3534,7 +3672,7 @@ p,
           line-height: 1.5; }
           #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item,
           #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item {
-            padding-left: 0.225rem;
+            padding-left: 0.25rem;
             position: relative;
             line-height: 1.5; }
             #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block .block-content .block-desc .desc-item:before,
@@ -3542,8 +3680,8 @@ p,
               width: 10px;
               height: 10px;
               border-radius: 5px;
-              left: calc(0.125rem - 6px);
-              top: calc(0.115rem - 6px); }
+              left: calc(0.1rem - 6px);
+              top: calc(0.13rem - 6px); }
       #hr-about-page .section-about-culture .main-content .content-body .oppo-culture-layout .layout-block.block-vision,
       #hr-about-page #about-culture .main-content .content-body .oppo-culture-layout .layout-block.block-vision {
         grid-column: 1;

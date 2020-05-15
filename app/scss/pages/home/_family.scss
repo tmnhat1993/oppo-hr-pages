@@ -46,7 +46,7 @@
           }
 
           .context-title {
-            font-size: 0.23125rem;
+            font-size: 0.35rem;
             margin-bottom: 0.05rem;
             opacity: 0;
             -webkit-transform: translateY(0.1rem);
@@ -107,7 +107,7 @@
 
           .context {
             .context-title {
-              font-size: 0.2rem;
+              font-size: 0.33rem;
               margin-bottom: 0.035rem;
             }
           }
@@ -128,7 +128,7 @@
 
           .context {
             .context-title {
-              font-size: 0.175rem;
+              font-size: 0.285rem;
               margin-bottom: 0.03rem;
             }
           }
@@ -149,8 +149,8 @@
 
           .context {
             .context-title {
-              font-size: 0.15rem;
-              margin-bottom: 0.03rem;
+              font-size: 0.25rem;
+              margin-bottom: 0.05rem;
             }
           }
         }
@@ -161,6 +161,8 @@
   @media #{$information-tablet} {
     .section-oppo-family,
     #home-oppo-family {
+      padding-top: 0.25rem;
+
       .oppo-family-layout {
         // display: block;
         // width: 240%;
@@ -169,7 +171,7 @@
         display: block;
         width: 300%;
         margin-left: -110%;
-        margin: 0.2rem 0 0.4rem -110%;
+        margin: 0.5rem 0 0.4rem -110%;
 
         .family-item {
           height: auto;
@@ -206,7 +208,7 @@
             padding-top: 30px;
 
             .context-title {
-              font-size: 0.125rem;
+              font-size: 0.3rem;
               margin-bottom: 0.035rem;
               color: #000;
             }
@@ -218,6 +220,7 @@
 
             .cta-holder {
               opacity: 0;
+              margin-top: 0.16rem;
               -webkit-transform: translateY(0.1rem);
               transform: translateY(0.1rem);
               transition: all ease-in 10ms 100ms;
@@ -228,9 +231,9 @@
                 height: 0.2rem;
 
                 .arrow {
-                  height: 0.165rem;
-                  margin-left: 0.035rem;
-                  transform: translateY(-15%);
+                  height: 0.2rem;
+                  margin-left: 0.075rem;
+                  transform: translateY(-5%);
 
                   img {
                     height: 100%;
@@ -299,8 +302,8 @@
             padding-top: 20px;
 
             .context-title {
-              font-size: 0.125rem;
-              margin-bottom: 0.035rem;
+              font-size: 0.2rem;
+              margin-bottom: 0.05rem;
               color: #000;
             }
 
@@ -314,7 +317,7 @@
                 height: 0.2rem;
 
                 .arrow {
-                  height: 0.135rem;
+                  height: 0.15rem;
                   margin-left: 0.035rem;
                   transform: translateY(-12%);
                 }

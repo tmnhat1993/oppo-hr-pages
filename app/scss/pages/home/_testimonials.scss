@@ -643,12 +643,13 @@
                     transform: translate(0, 0.2rem);
 
                     .member-name {
-                      font-size: 0.225rem;
+                      font-size: 0.32rem;
                       line-height: 1.15;
                       margin-bottom: 0;
                     }
                     .member-role {
-                      margin-bottom: 0.135rem;
+                      font-size: 0.225rem;
+                      margin-bottom: 0.225rem;
                     }
                     .member-quote {
                       text-align: justify;
@@ -742,7 +743,7 @@
 
         .container {
           height: 100%;
-          padding: 0 60px;
+          padding: 0 55px;
 
           .testimonial-layout {
             .member-image-slider-holder {
@@ -788,12 +789,12 @@
                     top: 5vw;
 
                     .member-name {
-                      font-size: 0.135rem;
+                      font-size: 0.225rem;
                       line-height: 1.15;
                       margin-bottom: 0;
                     }
                     .member-role {
-                      font-size: 0.12rem;
+                      font-size: 0.185rem;
                       margin-bottom: 0.1rem;
                     }
                   }
@@ -861,7 +862,7 @@
 
         .container {
           height: 100%;
-          padding: 0 40px;
+          padding: 0 45px;
 
           .testimonial-layout {
             .member-image-slider-holder {
@@ -894,25 +895,25 @@
                 }
 
                 .quote-item {
-                  height: 70vw;
+                  height: 67.5vw;
                   padding: 5vw 0 0;
 
                   .decor {
-                    right: 7%;
+                    right: 3%;
                     top: 0;
-                    width: 36px;
+                    width: 32px;
                   }
 
                   .context {
                     top: 5vw;
 
                     .member-name {
-                      font-size: 0.115rem;
+                      font-size: 0.2rem;
                       line-height: 1.15;
                       margin-bottom: 0;
                     }
                     .member-role {
-                      font-size: 0.09rem;
+                      font-size: 0.15rem;
                       margin-bottom: 0.075rem;
                     }
                   }

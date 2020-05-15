@@ -20,6 +20,8 @@ export default class Home {
     this.SetupBannerSlider();
     this.DrawGlobe();
     this.SetupTestimonialQuote();
+    this.SetupScrollDetect();
+
     if (window.innerWidth <= 768) {
       this.SetupOPPOFamilySlider();
     }
@@ -131,5 +133,85 @@ export default class Home {
       swipeToSlide: true,
       centerMode: true,
     });
+  }
+
+  SetupScrollDetect() {
+    this.allSection = {
+      about: {
+        el: $("#home-about-oppo"),
+        status: false,
+      },
+      oppotunities: {
+        el: $("#home-job-opportunities"),
+        status: false,
+      },
+      global: {
+        el: $("#home-oppo-global"),
+        status: false,
+      },
+      family: {
+        el: $("#home-oppo-family"),
+        status: false,
+      },
+      testimonial: {
+        el: $("#home-testimonial"),
+        status: false,
+      },
+    };
+
+    $(window).on("scroll load", () => {
+      this.DetectScreen();
+    });
+  }
+
+  ReachSection($target) {
+    if ($target.offset().top > 0) {
+      if (
+        window.pageYOffset > $target.offset().top - window.innerHeight / 1.15 &&
+        window.pageYOffset < $target.offset().top + window.innerHeight / 1.15
+      ) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+    return false;
+  }
+
+  DetectScreen() {
+    if (!this.allSection.about.status) {
+      if (this.ReachSection(this.allSection.about.el)) {
+        this.allSection.about.el.removeClass("is-hiding");
+        this.allSection.about.status = true;
+      }
+    }
+
+    if (!this.allSection.oppotunities.status) {
+      if (this.ReachSection(this.allSection.oppotunities.el)) {
+        this.allSection.oppotunities.status = true;
+        this.allSection.oppotunities.el.removeClass("is-hiding");
+      }
+    }
+
+    if (!this.allSection.global.status) {
+      if (this.ReachSection(this.allSection.global.el)) {
+        this.allSection.global.status = true;
+        this.allSection.global.el.removeClass("is-hiding");
+      }
+    }
+
+    if (!this.allSection.family.status) {
+      if (this.ReachSection(this.allSection.family.el)) {
+        this.allSection.family.status = true;
+        this.allSection.family.el.removeClass("is-hiding");
+      }
+    }
+
+    if (!this.allSection.testimonial.status) {
+      if (this.ReachSection(this.allSection.testimonial.el)) {
+        this.allSection.testimonial.status = true;
+        this.allSection.testimonial.el.removeClass("is-hiding");
+      }
+    }
   }
 }
