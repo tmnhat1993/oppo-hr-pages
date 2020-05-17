@@ -101,7 +101,8 @@ body {
     opacity: 0;
     visibility: hidden; }
 
-#oc-header a {
+#oc-header a,
+#footer a {
   font-size: inherit; }
 
 /* ======================
@@ -881,21 +882,6 @@ body {
   font-family: "Myriad Pro";
   font-weight: 600;
   src: url("../fonts/MYRIADPRO-SEMIBOLD.OTF"); }
-
-@font-face {
-  font-family: "Myriad Pro";
-  font-weight: 800;
-  src: url("../fonts/MYRIADPRO-BOLD.OTF"); }
-
-@font-face {
-  font-family: "Font Awesome 5 Brands";
-  font-weight: 400;
-  src: url("../fonts/fa-brands-400.woff2"); }
-
-@font-face {
-  font-family: "Font Awesome 5 Brands";
-  font-weight: 900;
-  src: url("../fonts/fa-solid-900.woff2"); }
 
 @font-face {
   font-family: "OPPOSans-Regular";
