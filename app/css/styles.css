@@ -1584,8 +1584,7 @@ p,
             box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2); }
             #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder .search-layout .form-block .submit-form i,
             #hr-home-page #home-job-opportunities .main-content .content-head .searching-holder .search-layout .form-block .submit-form i {
-              color: #fff;
-              font-weight: 300; }
+              color: #fff; }
     #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout,
     #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout {
       display: grid;
