@@ -59,10 +59,12 @@
         .job-list-layout {
           display: grid;
           grid-template-columns: 1fr 1fr 1fr 1fr;
-          grid-column-gap: 10px;
+          grid-column-gap: 15px;
           grid-row-gap: 80px;
 
           .job-item {
+            transition: all ease-in 150ms;
+
             .job-thumbnail {
               height: 17.708333vw;
               overflow: hidden;
@@ -82,7 +84,7 @@
             }
 
             .job-detail {
-              height: 6.25vw;
+              height: 6vw;
               text-align: center;
               display: flex;
               justify-content: center;
@@ -91,16 +93,18 @@
               transition: all ease-in 150ms;
               position: relative;
               overflow: hidden;
+              font-family: "Myriad Pro";
+              font-weight: 600;
 
-              .job-detail-effect {
-                width: 27vw;
-                height: 27vw;
-                position: absolute;
-                background-color: $oppo;
-                border-radius: 50%;
-                opacity: 0;
-                transform: scale(0);
-              }
+              // .job-detail-effect {
+              //   width: 27vw;
+              //   height: 27vw;
+              //   position: absolute;
+              //   background-color: $oppo;
+              //   border-radius: 50%;
+              //   opacity: 0;
+              //   transform: scale(0);
+              // }
 
               .job-label {
                 font-size: 0.2rem;
@@ -108,23 +112,31 @@
                 transition: all ease-in 150ms;
                 position: relative;
                 z-index: 2;
+                width: 100%;
               }
             }
 
             &:hover {
+              transform: scale(1.17);
+              transition: all ease-out 300ms;
+              box-shadow: 0 0 12px rgba(#000, 0.75);
+
               .job-thumbnail {
-                .img-holder {
-                  transform: scale(1.06);
-                  transition: all cubic-bezier(0.27, 0.85, 0.58, 1) 0.6s;
-                }
+                // .img-holder {
+                //   transform: scale(1.06);
+                //   transition: all cubic-bezier(0.27, 0.85, 0.58, 1) 0.6s;
+                // }
               }
 
               .job-detail {
-                .job-detail-effect {
-                  transform: scale(1);
-                  opacity: 1;
-                  transition: all cubic-bezier(0.27, 0.85, 0.58, 1) 0.6s;
-                }
+                // .job-detail-effect {
+                //   transform: scale(1);
+                //   opacity: 1;
+                //   transition: all cubic-bezier(0.27, 0.85, 0.58, 1) 0.6s;
+                // }
+
+                background-color: $oppo;
+                transition: all ease-out 300ms;
 
                 .job-label {
                   color: $white;
@@ -137,6 +149,8 @@
       }
 
       .content-footer {
+        margin-top: 40px;
+
         .context {
           height: 100px;
           font-size: 0.175rem;
@@ -193,7 +207,7 @@
               }
 
               .job-detail {
-                height: 6.25vw;
+                height: 6vw;
 
                 .job-detail-effect {
                   width: 27vw;

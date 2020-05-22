@@ -43,6 +43,18 @@
         opacity: 0.25;
       }
     }
+
+    .video-holder {
+      width: 100%;
+      height: 54vw;
+
+      video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
   }
   /* OPPO Global - END */
 
@@ -76,13 +88,17 @@
           border-radius: 15px;
         }
       }
+
+      .video-holder {
+        height: 57vw;
+      }
     }
   }
 
   @media #{$information-tablet} {
     .section-oppo-global,
     #home-oppo-global {
-      height: 180vw;
+      // height: 180vw;
 
       .oppo-archivements {
         display: grid;
@@ -114,7 +130,7 @@
   @media #{$information-phone} {
     .section-oppo-global,
     #home-oppo-global {
-      height: 175vw;
+      // height: 175vw;
 
       .oppo-archivements {
         grid-template-rows: 17.5vw 17.5vw 17.5vw;
@@ -142,7 +158,7 @@
   @media #{$information-sm-phone} {
     .section-oppo-global,
     #home-oppo-global {
-      height: 180vw;
+      // height: 180vw;
 
       .oppo-archivements {
         grid-template-rows: 17.5vw 17.5vw 17.5vw;

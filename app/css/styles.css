@@ -1444,6 +1444,16 @@ p,
         display: block;
         margin: auto;
         opacity: 0.25; }
+    #hr-home-page .section-oppo-global .video-holder,
+    #hr-home-page #home-oppo-global .video-holder {
+      width: 100%;
+      height: 54vw; }
+      #hr-home-page .section-oppo-global .video-holder video,
+      #hr-home-page #home-oppo-global .video-holder video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center; }
   @media only screen and (max-width: 1680px) {
     #hr-home-page .section-oppo-global,
     #hr-home-page #home-oppo-global {
@@ -1466,74 +1476,68 @@ p,
         #hr-home-page .section-oppo-global .oppo-archivements .archive-item,
         #hr-home-page #home-oppo-global .oppo-archivements .archive-item {
           font-size: 0.175rem;
-          border-radius: 15px; } }
+          border-radius: 15px; }
+      #hr-home-page .section-oppo-global .video-holder,
+      #hr-home-page #home-oppo-global .video-holder {
+        height: 57vw; } }
   @media only screen and (max-width: 768px) {
-    #hr-home-page .section-oppo-global,
-    #hr-home-page #home-oppo-global {
-      height: 180vw; }
-      #hr-home-page .section-oppo-global .oppo-archivements,
-      #hr-home-page #home-oppo-global .oppo-archivements {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-row-gap: 0.1rem;
-        grid-template-rows: 15vw 15vw 15vw;
-        padding: 0 0.05rem;
-        padding: 0 15px; }
-        #hr-home-page .section-oppo-global .oppo-archivements .archive-item,
-        #hr-home-page #home-oppo-global .oppo-archivements .archive-item {
-          border-radius: 15px;
-          box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
-          font-size: 0.175rem; }
-      #hr-home-page .section-oppo-global .globe-holder,
-      #hr-home-page #home-oppo-global .globe-holder {
-        top: 52%;
-        left: -45%;
-        right: -45%; }
-        #hr-home-page .section-oppo-global .globe-holder canvas,
-        #hr-home-page #home-oppo-global .globe-holder canvas {
-          width: 100%; } }
+    #hr-home-page .section-oppo-global .oppo-archivements,
+    #hr-home-page #home-oppo-global .oppo-archivements {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-row-gap: 0.1rem;
+      grid-template-rows: 15vw 15vw 15vw;
+      padding: 0 0.05rem;
+      padding: 0 15px; }
+      #hr-home-page .section-oppo-global .oppo-archivements .archive-item,
+      #hr-home-page #home-oppo-global .oppo-archivements .archive-item {
+        border-radius: 15px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+        font-size: 0.175rem; }
+    #hr-home-page .section-oppo-global .globe-holder,
+    #hr-home-page #home-oppo-global .globe-holder {
+      top: 52%;
+      left: -45%;
+      right: -45%; }
+      #hr-home-page .section-oppo-global .globe-holder canvas,
+      #hr-home-page #home-oppo-global .globe-holder canvas {
+        width: 100%; } }
   @media only screen and (max-width: 480px) {
-    #hr-home-page .section-oppo-global,
-    #hr-home-page #home-oppo-global {
-      height: 175vw; }
-      #hr-home-page .section-oppo-global .oppo-archivements,
-      #hr-home-page #home-oppo-global .oppo-archivements {
-        grid-template-rows: 17.5vw 17.5vw 17.5vw;
-        padding: 0; }
-        #hr-home-page .section-oppo-global .oppo-archivements .archive-item,
-        #hr-home-page #home-oppo-global .oppo-archivements .archive-item {
-          border-radius: 12px;
-          box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
-          font-size: 0.14rem; }
-      #hr-home-page .section-oppo-global .globe-holder,
-      #hr-home-page #home-oppo-global .globe-holder {
-        top: 58%;
-        left: -45%;
-        right: -45%; }
-        #hr-home-page .section-oppo-global .globe-holder canvas,
-        #hr-home-page #home-oppo-global .globe-holder canvas {
-          width: 100%; } }
+    #hr-home-page .section-oppo-global .oppo-archivements,
+    #hr-home-page #home-oppo-global .oppo-archivements {
+      grid-template-rows: 17.5vw 17.5vw 17.5vw;
+      padding: 0; }
+      #hr-home-page .section-oppo-global .oppo-archivements .archive-item,
+      #hr-home-page #home-oppo-global .oppo-archivements .archive-item {
+        border-radius: 12px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+        font-size: 0.14rem; }
+    #hr-home-page .section-oppo-global .globe-holder,
+    #hr-home-page #home-oppo-global .globe-holder {
+      top: 58%;
+      left: -45%;
+      right: -45%; }
+      #hr-home-page .section-oppo-global .globe-holder canvas,
+      #hr-home-page #home-oppo-global .globe-holder canvas {
+        width: 100%; } }
   @media only screen and (max-width: 376px) {
-    #hr-home-page .section-oppo-global,
-    #hr-home-page #home-oppo-global {
-      height: 180vw; }
-      #hr-home-page .section-oppo-global .oppo-archivements,
-      #hr-home-page #home-oppo-global .oppo-archivements {
-        grid-template-rows: 17.5vw 17.5vw 17.5vw;
-        padding: 0; }
-        #hr-home-page .section-oppo-global .oppo-archivements .archive-item,
-        #hr-home-page #home-oppo-global .oppo-archivements .archive-item {
-          border-radius: 7px;
-          box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
-          font-size: 0.125rem; }
-      #hr-home-page .section-oppo-global .globe-holder,
-      #hr-home-page #home-oppo-global .globe-holder {
-        top: 60%;
-        left: -45%;
-        right: -45%; }
-        #hr-home-page .section-oppo-global .globe-holder canvas,
-        #hr-home-page #home-oppo-global .globe-holder canvas {
-          width: 100%; } }
+    #hr-home-page .section-oppo-global .oppo-archivements,
+    #hr-home-page #home-oppo-global .oppo-archivements {
+      grid-template-rows: 17.5vw 17.5vw 17.5vw;
+      padding: 0; }
+      #hr-home-page .section-oppo-global .oppo-archivements .archive-item,
+      #hr-home-page #home-oppo-global .oppo-archivements .archive-item {
+        border-radius: 7px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+        font-size: 0.125rem; }
+    #hr-home-page .section-oppo-global .globe-holder,
+    #hr-home-page #home-oppo-global .globe-holder {
+      top: 60%;
+      left: -45%;
+      right: -45%; }
+      #hr-home-page .section-oppo-global .globe-holder canvas,
+      #hr-home-page #home-oppo-global .globe-holder canvas {
+        width: 100%; } }
 
 #hr-home-page {
   /* Job Oppotuinities */
@@ -1589,96 +1593,96 @@ p,
     #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-column-gap: 10px;
+      grid-column-gap: 15px;
       grid-row-gap: 80px; }
-      #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-thumbnail,
-      #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-thumbnail {
-        height: 17.708333vw;
-        overflow: hidden; }
-        #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-thumbnail .img-holder,
-        #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-thumbnail .img-holder {
-          height: 100%;
-          transition: all linear 300ms; }
-          #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-thumbnail .img-holder img,
-          #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-thumbnail .img-holder img {
-            display: block;
-            width: 100%;
+      #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item,
+      #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item {
+        transition: all ease-in 150ms; }
+        #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-thumbnail,
+        #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-thumbnail {
+          height: 17.708333vw;
+          overflow: hidden; }
+          #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-thumbnail .img-holder,
+          #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-thumbnail .img-holder {
             height: 100%;
-            object-fit: cover;
-            object-position: center; }
-      #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail,
-      #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail {
-        height: 6.25vw;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-transform: uppercase;
-        transition: all ease-in 150ms;
-        position: relative;
-        overflow: hidden; }
-        #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail .job-detail-effect,
-        #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail .job-detail-effect {
-          width: 27vw;
-          height: 27vw;
-          position: absolute;
-          background-color: #046a38;
-          border-radius: 50%;
-          opacity: 0;
-          transform: scale(0); }
-        #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label,
-        #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label {
-          font-size: 0.2rem;
-          margin: 0;
+            transition: all linear 300ms; }
+            #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-thumbnail .img-holder img,
+            #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-thumbnail .img-holder img {
+              display: block;
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              object-position: center; }
+        #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail,
+        #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail {
+          height: 6vw;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-transform: uppercase;
           transition: all ease-in 150ms;
           position: relative;
-          z-index: 2; }
-      #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item:hover .job-thumbnail .img-holder,
-      #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item:hover .job-thumbnail .img-holder {
-        transform: scale(1.06);
-        transition: all cubic-bezier(0.27, 0.85, 0.58, 1) 0.6s; }
-      #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item:hover .job-detail .job-detail-effect,
-      #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item:hover .job-detail .job-detail-effect {
-        transform: scale(1);
-        opacity: 1;
-        transition: all cubic-bezier(0.27, 0.85, 0.58, 1) 0.6s; }
-      #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item:hover .job-detail .job-label,
-      #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item:hover .job-detail .job-label {
-        color: #fff;
-        transition: all ease-out 300ms; }
-    #hr-home-page .section-job-oppotunities .main-content .content-footer .context,
-    #hr-home-page #home-job-opportunities .main-content .content-footer .context {
-      height: 100px;
-      font-size: 0.175rem;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center; }
-      #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb,
-      #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb {
-        width: 41px;
-        margin-right: 0.065rem;
-        -webkit-transform: translateY(-14%);
-        transform: translateY(-14%); }
-        #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb img,
-        #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb picture,
-        #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb img,
-        #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb picture {
-          display: block;
-          width: 100%; }
-      #hr-home-page .section-job-oppotunities .main-content .content-footer .context .divider,
-      #hr-home-page #home-job-opportunities .main-content .content-footer .context .divider {
-        -webkit-transform: translateY(-5%);
-        transform: translateY(-5%);
-        margin: 0 0.05rem; }
-      #hr-home-page .section-job-oppotunities .main-content .content-footer .context .arrow,
-      #hr-home-page #home-job-opportunities .main-content .content-footer .context .arrow {
-        height: 0.2rem;
-        margin-left: 0.065rem; }
-        #hr-home-page .section-job-oppotunities .main-content .content-footer .context .arrow img,
-        #hr-home-page #home-job-opportunities .main-content .content-footer .context .arrow img {
-          display: block;
-          height: 100%; }
+          overflow: hidden;
+          font-family: "Myriad Pro";
+          font-weight: 600; }
+          #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label,
+          #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label {
+            font-size: 0.2rem;
+            margin: 0;
+            transition: all ease-in 150ms;
+            position: relative;
+            z-index: 2;
+            width: 100%; }
+        #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item:hover,
+        #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item:hover {
+          transform: scale(1.17);
+          transition: all ease-out 300ms;
+          box-shadow: 0 0 12px rgba(0, 0, 0, 0.75); }
+          #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item:hover .job-detail,
+          #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item:hover .job-detail {
+            background-color: #046a38;
+            transition: all ease-out 300ms; }
+            #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item:hover .job-detail .job-label,
+            #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item:hover .job-detail .job-label {
+              color: #fff;
+              transition: all ease-out 300ms; }
+    #hr-home-page .section-job-oppotunities .main-content .content-footer,
+    #hr-home-page #home-job-opportunities .main-content .content-footer {
+      margin-top: 40px; }
+      #hr-home-page .section-job-oppotunities .main-content .content-footer .context,
+      #hr-home-page #home-job-opportunities .main-content .content-footer .context {
+        height: 100px;
+        font-size: 0.175rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb,
+        #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb {
+          width: 41px;
+          margin-right: 0.065rem;
+          -webkit-transform: translateY(-14%);
+          transform: translateY(-14%); }
+          #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb img,
+          #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb picture,
+          #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb img,
+          #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb picture {
+            display: block;
+            width: 100%; }
+        #hr-home-page .section-job-oppotunities .main-content .content-footer .context .divider,
+        #hr-home-page #home-job-opportunities .main-content .content-footer .context .divider {
+          -webkit-transform: translateY(-5%);
+          transform: translateY(-5%);
+          margin: 0 0.05rem; }
+        #hr-home-page .section-job-oppotunities .main-content .content-footer .context .arrow,
+        #hr-home-page #home-job-opportunities .main-content .content-footer .context .arrow {
+          height: 0.2rem;
+          margin-left: 0.065rem; }
+          #hr-home-page .section-job-oppotunities .main-content .content-footer .context .arrow img,
+          #hr-home-page #home-job-opportunities .main-content .content-footer .context .arrow img {
+            display: block;
+            height: 100%; }
   @media only screen and (max-width: 1680px) {
     #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout,
     #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout {
@@ -1689,7 +1693,7 @@ p,
         height: 18vw; }
       #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail,
       #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail {
-        height: 6.25vw; }
+        height: 6vw; }
         #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail .job-detail-effect,
         #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail .job-detail-effect {
           width: 27vw;
@@ -2194,7 +2198,7 @@ p,
                 display: flex;
                 padding-left: 140px;
                 position: absolute;
-                bottom: 20%; }
+                bottom: 2.5%; }
                 #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li,
                 #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .slick-dots li {
                   margin: 0 6px; }
@@ -2589,7 +2593,7 @@ p,
                 align-items: center; }
               #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item,
               #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item {
-                height: 58vw;
+                height: 77vw;
                 padding: 5vw 0 0; }
                 #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor,
                 #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor {
@@ -2682,7 +2686,7 @@ p,
                 align-items: center; }
               #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item,
               #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item {
-                height: 67.5vw;
+                height: 75vw;
                 padding: 5vw 0 0; }
                 #hr-home-page .section-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor,
                 #hr-home-page #home-testimonial .main-content .container .testimonial-layout .member-quote-slider-holder .oppo-member-quote-slider .quote-item .decor {
@@ -2766,16 +2770,21 @@ p,
           color: #fff; }
         #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-title,
         #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-title {
-          font-size: 0.35rem;
+          font-size: 0.3rem;
           margin-bottom: 0.05rem;
           opacity: 0;
+          font-family: "Myriad Pro", Arial, sans-serif;
+          font-weight: 600;
           -webkit-transform: translateY(0.1rem);
           transform: translateY(0.1rem);
           transition: all ease-in 10ms 100ms; }
         #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-desc,
         #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-desc {
-          padding: 0 5%;
+          padding: 0 12%;
           opacity: 0;
+          font-size: 0.25rem;
+          font-family: "Myriad Pro", Arial, sans-serif;
+          font-weight: 400;
           -webkit-transform: translateY(0.1rem);
           transform: translateY(0.1rem);
           transition: all ease-in 10ms 100ms; }
@@ -2809,8 +2818,11 @@ p,
         height: 33.6vw; }
         #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-title,
         #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-title {
-          font-size: 0.33rem;
-          margin-bottom: 0.035rem; } }
+          font-size: 0.25rem;
+          margin-bottom: 0.035rem; }
+        #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-desc,
+        #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-desc {
+          font-size: 0.2rem; } }
   @media only screen and (max-width: 1440px) {
     #hr-home-page .section-oppo-family .oppo-family-layout,
     #hr-home-page #home-oppo-family .oppo-family-layout {
@@ -2821,8 +2833,11 @@ p,
         height: 33.6vw; }
         #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-title,
         #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-title {
-          font-size: 0.285rem;
-          margin-bottom: 0.03rem; } }
+          font-size: 0.24rem;
+          margin-bottom: 0.03rem; }
+        #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-desc,
+        #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-desc {
+          font-size: 0.18rem; } }
   @media only screen and (max-width: 1280px) {
     #hr-home-page .section-oppo-family .oppo-family-layout,
     #hr-home-page #home-oppo-family .oppo-family-layout {
@@ -2833,8 +2848,11 @@ p,
         height: 33.6vw; }
         #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-title,
         #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-title {
-          font-size: 0.25rem;
-          margin-bottom: 0.05rem; } }
+          font-size: 0.22rem;
+          margin-bottom: 0.05rem; }
+        #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context .context-desc,
+        #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context .context-desc {
+          font-size: 0.16rem; } }
   @media only screen and (max-width: 768px) {
     #hr-home-page .section-oppo-family,
     #hr-home-page #home-oppo-family {

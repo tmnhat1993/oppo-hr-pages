@@ -1578,8 +1578,8 @@ function () {
   }, {
     key: "SetupHome",
     value: function SetupHome() {
-      this.SetupBannerSlider();
-      this.DrawGlobe();
+      this.SetupBannerSlider(); // this.DrawGlobe();
+
       this.SetupTestimonialQuote();
       this.SetupScrollDetect();
 
@@ -1634,7 +1634,7 @@ function () {
       this.$memberImageSlider = $(".oppo-member-image-slider");
       this.$memberQuoteSlider = $(".oppo-member-quote-slider");
       this.$sliderControlNextBtn = $(".testimonial-control.next-slide");
-      this.$sliderControlPrevBtn = $(".testimonial-control.next-slide");
+      this.$sliderControlPrevBtn = $(".testimonial-control.prev-slide");
       this.$memberQuoteSlider.on("init", function () {
         _this.$sliderControlNextBtn.on("click", function () {
           $(".oppo-member-image-slider").slick("next");

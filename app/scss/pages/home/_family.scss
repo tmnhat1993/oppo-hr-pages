@@ -46,17 +46,22 @@
           }
 
           .context-title {
-            font-size: 0.35rem;
+            font-size: 0.3rem;
             margin-bottom: 0.05rem;
             opacity: 0;
+            font-family: "Myriad Pro", Arial, sans-serif;
+            font-weight: 600;
             -webkit-transform: translateY(0.1rem);
             transform: translateY(0.1rem);
             transition: all ease-in 10ms 100ms;
           }
 
           .context-desc {
-            padding: 0 5%;
+            padding: 0 12%;
             opacity: 0;
+            font-size: 0.25rem;
+            font-family: "Myriad Pro", Arial, sans-serif;
+            font-weight: 400;
             -webkit-transform: translateY(0.1rem);
             transform: translateY(0.1rem);
             transition: all ease-in 10ms 100ms;
@@ -107,8 +112,12 @@
 
           .context {
             .context-title {
-              font-size: 0.33rem;
+              font-size: 0.25rem;
               margin-bottom: 0.035rem;
+            }
+
+            .context-desc {
+              font-size: 0.2rem;
             }
           }
         }
@@ -128,8 +137,12 @@
 
           .context {
             .context-title {
-              font-size: 0.285rem;
+              font-size: 0.24rem;
               margin-bottom: 0.03rem;
+            }
+
+            .context-desc {
+              font-size: 0.18rem;
             }
           }
         }
@@ -149,8 +162,11 @@
 
           .context {
             .context-title {
-              font-size: 0.25rem;
+              font-size: 0.22rem;
               margin-bottom: 0.05rem;
+            }
+            .context-desc {
+              font-size: 0.16rem;
             }
           }
         }

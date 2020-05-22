@@ -18,7 +18,7 @@ export default class Home {
    * =================================== */
   SetupHome() {
     this.SetupBannerSlider();
-    this.DrawGlobe();
+    // this.DrawGlobe();
     this.SetupTestimonialQuote();
     this.SetupScrollDetect();
 
@@ -92,7 +92,7 @@ export default class Home {
     this.$memberQuoteSlider = $(".oppo-member-quote-slider");
 
     this.$sliderControlNextBtn = $(".testimonial-control.next-slide");
-    this.$sliderControlPrevBtn = $(".testimonial-control.next-slide");
+    this.$sliderControlPrevBtn = $(".testimonial-control.prev-slide");
 
     this.$memberQuoteSlider.on("init", () => {
       this.$sliderControlNextBtn.on("click", () => {
