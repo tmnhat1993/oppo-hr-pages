@@ -6143,14 +6143,6 @@ button.slick-arrow {
     display: none !important
 }
 
-.oh-nav {
-    max-width: 14.4rem;
-    position: relative;
-    text-align: center;
-    margin: 0 auto;
-    z-index: 2
-}
-
 @media (max-width: 1023.98px) {
     .oh-nav {
         margin: 0;

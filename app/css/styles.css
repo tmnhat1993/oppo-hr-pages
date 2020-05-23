@@ -911,7 +911,7 @@ h4 {
 a {
   color: inherit;
   text-decoration: none;
-  font-size: 0.225rem; }
+  font-size: 22.5px; }
   a:hover {
     color: inherit;
     text-decoration: none; }
@@ -932,15 +932,15 @@ p {
     color: #046a38 !important; }
 
 .title {
-  font-size: 0.45rem;
-  margin: 0.5625rem 0 0.5rem;
+  font-size: 45px;
+  margin: 56.25px 0 50px;
   font-weight: 400; }
 
 .sub-title {
-  font-size: 0.37rem;
+  font-size: 37px;
   font-weight: 400;
   line-height: 1.2;
-  margin: 0.225rem 0 0.015rem; }
+  margin: 22.5px 0 1.5px; }
 
 .highlight {
   font-size: 1.8em;
@@ -949,7 +949,7 @@ p {
 .desc,
 p,
 .desc-item {
-  font-size: 0.225rem;
+  font-size: 22.5px;
   line-height: 1.44; }
 
 .inline-img {
@@ -963,116 +963,116 @@ p,
 /* RESPONSIVE */
 @media only screen and (max-width: 1680px) {
   a {
-    font-size: 0.225rem; }
+    font-size: 22.5px; }
   .title {
-    font-size: 0.42rem;
-    margin: 0.8rem 0 0.35rem; }
+    font-size: 42px;
+    margin: 80px 0 35px; }
   .sub-title {
-    font-size: 0.34rem;
-    margin: 0.2rem 0 0.1rem; }
+    font-size: 34px;
+    margin: 20px 0 10px; }
   .highlight {
     font-size: 1.75em; }
   .desc,
   p,
   .desc-item {
-    font-size: 0.225rem; } }
+    font-size: 22.5px; } }
 
 @media only screen and (max-width: 1440px) {
   a {
-    font-size: 0.2rem; }
+    font-size: 20px; }
   .title {
-    font-size: 0.4rem;
-    margin: 0.64rem 0 0.33rem; }
+    font-size: 40px;
+    margin: 64px 0 33px; }
   .sub-title {
-    font-size: 0.32rem;
-    margin: 0.16rem 0 0.1rem; }
+    font-size: 32px;
+    margin: 16px 0 10px; }
   .highlight {
     font-size: 1.75em; }
   .desc,
   p,
   .desc-item {
-    font-size: 0.2rem; } }
+    font-size: 20px; } }
 
 @media only screen and (max-width: 1280px) {
   a {
-    font-size: 0.185rem; }
+    font-size: 18.5px; }
   .title {
-    font-size: 0.36rem;
-    margin: 0.5rem 0 0.25rem; }
+    font-size: 36px;
+    margin: 50px 0 25px; }
   .sub-title {
-    font-size: 0.3rem;
-    margin: 0.15rem 0 0.08rem; }
+    font-size: 30px;
+    margin: 15px 0 8px; }
   .highlight {
     font-size: 1.75em; }
   .desc,
   p,
   .desc-item {
-    font-size: 0.185rem; } }
+    font-size: 18.5px; } }
 
 @media only screen and (max-width: 1024px) {
   a {
-    font-size: 0.2rem; }
+    font-size: 20px; }
   .title {
-    font-size: 0.36rem;
-    margin: 0.5rem 0 0.25rem; }
+    font-size: 36px;
+    margin: 50px 0 25px; }
   .sub-title {
-    font-size: 0.2625rem;
-    margin: 0.2rem 0 0.013125rem; }
+    font-size: 26.25px;
+    margin: 20px 0 1.3125px; }
   .highlight {
     font-size: 1.75em; }
   .desc,
   p,
   .desc-item {
-    font-size: 0.2rem; } }
+    font-size: 20px; } }
 
 @media only screen and (max-width: 768px) {
   a {
-    font-size: 0.2rem; }
+    font-size: 20px; }
   .title {
-    font-size: 0.36rem;
-    margin: 0.4rem 0 0.275rem; }
+    font-size: 36px;
+    margin: 40px 0 27.5px; }
   .sub-title {
-    font-size: 0.25rem;
-    margin: 0.16rem 0 0.01rem; }
+    font-size: 25px;
+    margin: 16px 0 0.01rem; }
   .highlight {
     font-size: 1.75em; }
   .desc,
   p,
   .desc-item {
-    font-size: 0.2rem; } }
+    font-size: 20px; } }
 
 @media only screen and (max-width: 480px) {
   a {
-    font-size: 0.15rem; }
+    font-size: 15px; }
   .title {
-    font-size: 0.275rem;
-    margin: 0.3rem 0 0.15rem; }
+    font-size: 27.5px;
+    margin: 30px 0 15px; }
   .sub-title {
-    font-size: 0.2rem;
+    font-size: 20px;
     font-weight: 600;
-    margin: 0.125rem 0 0.025rem; }
+    margin: 12.5px 0 2.5px; }
   .highlight {
     font-size: 1.75em; }
   .desc,
   p,
   .desc-item {
-    font-size: 0.15rem; } }
+    font-size: 15px; } }
 
 @media only screen and (max-width: 376px) {
   a {
-    font-size: 0.13rem; }
+    font-size: 13px; }
   .title {
-    font-size: 0.225rem;
-    margin: 0.25rem 0 0.2rem; }
+    font-size: 22.5px;
+    margin: 25px 0 20px; }
   .sub-title {
-    font-size: 0.185rem;
-    margin: 0.115rem 0 0.015rem; }
+    font-size: 18.5px;
+    margin: 11.5px 0 1.5px; }
   .highlight {
     font-size: 1.5em; }
   .desc,
   p,
   .desc-item {
-    font-size: 0.13rem; } }
+    font-size: 13px; } }
 
 /* This file Will Import All UI Element */
 #hr-home-page {
@@ -1081,7 +1081,7 @@ p,
   #hr-home-page .section-banner {
     height: 47.91666vw;
     overflow: hidden;
-    margin-top: 93px; }
+    margin-top: 56px; }
     #hr-home-page .section-banner .banner-slider {
       position: relative;
       height: 100%; }
@@ -3023,8 +3023,7 @@ p,
   #hr-about-page #about-banner {
     height: 45.5729166vw;
     overflow: hidden;
-    background-color: #999;
-    margin-top: 93px; }
+    background-color: #999; }
     #hr-about-page .section-about-banner .banner-video,
     #hr-about-page #about-banner .banner-video {
       width: 100%;
