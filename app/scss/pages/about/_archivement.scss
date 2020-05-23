@@ -2,10 +2,10 @@
   /* OPPO Archivement */
   .section-archivement,
   #about-archivement {
-    margin-bottom: 0.3rem;
+    margin-bottom: 30px;
 
     .content-body {
-      margin-top: 0.4rem;
+      margin-top: 40px;
 
       .archivement-layout {
         display: grid;
@@ -25,7 +25,7 @@
             width: 700px;
             text-align: center;
             line-height: 4;
-            font-size: 0.225rem;
+            font-size: 22.5px;
             transition: all 150ms ease-in;
           }
 
@@ -51,10 +51,10 @@
   @media #{$information-md-screen} {
     .section-archivement,
     #about-archivement {
-      margin-bottom: 0.2625rem;
+      margin-bottom: 26.25px;
 
       .content-body {
-        margin-top: 0.35rem;
+        margin-top: 35px;
 
         .archivement-layout {
           grid-template-columns: 1fr 1fr;
@@ -63,7 +63,7 @@
           .archivement-block {
             .context {
               width: 50%;
-              font-size: 0.2rem;
+              font-size: 20px;
             }
           }
         }
@@ -74,10 +74,10 @@
   @media #{$information-sm-screen} {
     .section-archivement,
     #about-archivement {
-      margin-bottom: 0.21375rem;
+      margin-bottom: 21.375px;
 
       .content-body {
-        margin-top: 0.285rem;
+        margin-top: 28.5px;
 
         .archivement-layout {
           grid-template-columns: 1fr 1fr;
@@ -86,7 +86,7 @@
           .archivement-block {
             .context {
               width: 50%;
-              font-size: 0.185rem;
+              font-size: 18.5px;
             }
           }
         }
@@ -97,10 +97,10 @@
   @media #{$information-sm-laptop} {
     .section-archivement,
     #about-archivement {
-      margin-bottom: 0.175rem;
+      margin-bottom: 17.5px;
 
       .content-body {
-        margin-top: 0.2rem;
+        margin-top: 20px;
 
         .archivement-layout {
           grid-template-columns: 1fr 1fr;
@@ -109,7 +109,7 @@
           .archivement-block {
             .context {
               width: 50%;
-              font-size: 0.175rem;
+              font-size: 17.5px;
             }
           }
         }
@@ -120,10 +120,10 @@
   @media #{$information-tablet} {
     .section-archivement,
     #about-archivement {
-      margin-bottom: 0.175rem;
+      margin-bottom: 17.5px;
 
       .content-body {
-        margin-top: 0.2rem;
+        margin-top: 20px;
 
         .archivement-layout {
           grid-template-columns: 1fr;
@@ -138,7 +138,7 @@
 
             .context {
               width: 100%;
-              font-size: 0.225rem;
+              font-size: 22.5px;
             }
           }
         }
@@ -149,10 +149,10 @@
   @media #{$information-phone} {
     .section-archivement,
     #about-archivement {
-      margin-bottom: 0.175rem;
+      margin-bottom: 17.5px;
 
       .content-body {
-        margin-top: 0.2rem;
+        margin-top: 20px;
 
         .archivement-layout {
           grid-template-columns: 1fr;
@@ -167,7 +167,7 @@
 
             .context {
               width: 100%;
-              font-size: 0.175rem;
+              font-size: 17.5px;
               line-height: 3.25;
             }
           }
@@ -179,10 +179,10 @@
   @media #{$information-sm-phone} {
     .section-archivement,
     #about-archivement {
-      margin-bottom: 0.125rem;
+      margin-bottom: 12.5px;
 
       .content-body {
-        margin-top: 0.2rem;
+        margin-top: 20px;
 
         .archivement-layout {
           grid-template-columns: 1fr;
@@ -196,7 +196,7 @@
             }
 
             .context {
-              font-size: 0.165rem;
+              font-size: 16.5px;
               line-height: 3;
             }
           }

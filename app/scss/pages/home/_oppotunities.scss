@@ -8,7 +8,7 @@
     .main-content {
       .content-head {
         .searching-holder {
-          margin: 0.5rem 0;
+          margin: 50px 0;
           .search-layout {
             width: 920px;
             margin: auto;
@@ -107,7 +107,7 @@
               // }
 
               .job-label {
-                font-size: 0.2rem;
+                font-size: 20px;
                 margin: 0;
                 transition: all ease-in 150ms;
                 position: relative;
@@ -153,7 +153,7 @@
 
         .context {
           height: 100px;
-          font-size: 0.175rem;
+          font-size: 17.5px;
           width: 100%;
           display: flex;
           align-items: center;
@@ -161,7 +161,7 @@
 
           .lightbulb {
             width: 41px;
-            margin-right: 0.065rem;
+            margin-right: 6.5px;
             -webkit-transform: translateY(-14%);
             transform: translateY(-14%);
 
@@ -175,12 +175,12 @@
           .divider {
             -webkit-transform: translateY(-5%);
             transform: translateY(-5%);
-            margin: 0 0.05rem;
+            margin: 0 5px;
           }
 
           .arrow {
-            height: 0.2rem;
-            margin-left: 0.065rem;
+            height: 20px;
+            margin-left: 6.5px;
             img {
               display: block;
               height: 100%;
@@ -215,7 +215,7 @@
                 }
 
                 .job-label {
-                  font-size: 0.2rem;
+                  font-size: 20px;
                 }
               }
             }
@@ -225,20 +225,20 @@
         .content-footer {
           .context {
             height: 90px;
-            font-size: 0.225rem;
+            font-size: 22.5px;
 
             .lightbulb {
               width: 38px;
-              margin-right: 0.06rem;
+              margin-right: 6px;
             }
 
             .divider {
-              margin: 0 0.035rem;
+              margin: 0 3.5px;
             }
 
             .arrow {
-              height: 0.175rem;
-              margin-left: 0.056875rem;
+              height: 17.5px;
+              margin-left: 5.6875px;
             }
           }
         }
@@ -264,7 +264,7 @@
                 height: 6.25vw;
 
                 .job-label {
-                  font-size: 0.175rem;
+                  font-size: 17.5px;
                 }
               }
             }
@@ -274,20 +274,20 @@
         .content-footer {
           .context {
             height: 85px;
-            font-size: 0.2rem;
+            font-size: 20px;
 
             .lightbulb {
               width: 36px;
-              margin-right: 0.05rem;
+              margin-right: 5px;
             }
 
             .divider {
-              margin: 0 0.03rem;
+              margin: 0 3px;
             }
 
             .arrow {
-              height: 0.175rem;
-              margin-left: 0.05rem;
+              height: 17.5px;
+              margin-left: 5px;
             }
           }
         }
@@ -301,7 +301,7 @@
       .main-content {
         .content-head {
           .searching-holder {
-            margin: 0.35rem 0;
+            margin: 35px 0;
             .search-layout {
               width: 860px;
 
@@ -345,7 +345,7 @@
                 height: 6.25vw;
 
                 .job-label {
-                  font-size: 0.175rem;
+                  font-size: 17.5px;
                 }
               }
             }
@@ -353,24 +353,24 @@
         }
 
         .content-footer {
-          margin-top: 0.15rem;
+          margin-top: 15px;
 
           .context {
             height: 85px;
-            font-size: 0.185rem;
+            font-size: 18.5px;
 
             .lightbulb {
               width: 30px;
-              margin-right: 0.05rem;
+              margin-right: 5px;
             }
 
             .divider {
-              margin: 0 0.03rem;
+              margin: 0 3px;
             }
 
             .arrow {
-              height: 0.13rem;
-              margin-left: 0.043rem;
+              height: 13px;
+              margin-left: 4.3px;
             }
           }
         }
@@ -384,7 +384,7 @@
       .main-content {
         .content-head {
           .searching-holder {
-            margin: 0.35rem 0;
+            margin: 35px 0;
             .search-layout {
               width: 440px;
               flex-wrap: wrap;
@@ -437,7 +437,7 @@
                 }
 
                 .job-label {
-                  font-size: 0.225rem;
+                  font-size: 22.5px;
                 }
               }
             }
@@ -449,11 +449,11 @@
 
           .context {
             height: 120px;
-            font-size: 0.2rem;
+            font-size: 20px;
 
             .lightbulb {
               width: 41px;
-              margin-right: 0.065rem;
+              margin-right: 6.5px;
               -webkit-transform: translateY(-14%);
               transform: translateY(-14%);
             }
@@ -461,12 +461,12 @@
             .divider {
               -webkit-transform: translateY(-5%);
               transform: translateY(-5%);
-              margin: 0 0.025rem;
+              margin: 0 2.5px;
             }
 
             .arrow {
-              height: 0.2rem;
-              margin-left: 0.035rem;
+              height: 20px;
+              margin-left: 3.5px;
               transform: translateY(25%);
             }
           }
@@ -481,7 +481,7 @@
       .main-content {
         .content-head {
           .searching-holder {
-            margin: 0.05rem 0 0.35rem;
+            margin: 5px 0 35px;
             .search-layout {
               width: 100%;
               flex-wrap: wrap;
@@ -534,7 +534,7 @@
                 }
 
                 .job-label {
-                  font-size: 0.175rem;
+                  font-size: 17.5px;
                 }
               }
             }
@@ -546,23 +546,23 @@
 
           .context {
             height: 120px;
-            font-size: 0.15rem;
+            font-size: 15px;
             line-height: 1;
 
             .lightbulb {
               width: 38px;
-              margin-right: 0.035rem;
+              margin-right: 3.5px;
             }
 
             .divider {
               -webkit-transform: translateY(-5%);
               transform: translateY(-5%);
-              margin: 0 0.015rem;
+              margin: 0 1.5px;
             }
 
             .arrow {
-              height: 0.15rem;
-              margin-left: 0.025rem;
+              height: 15px;
+              margin-left: 2.5px;
               transform: translateY(25%);
             }
           }
@@ -593,7 +593,7 @@
                 }
 
                 .job-label {
-                  font-size: 0.15rem;
+                  font-size: 15px;
                 }
               }
             }
@@ -603,21 +603,21 @@
         .content-footer {
           .context {
             height: 100px;
-            font-size: 0.125rem;
+            font-size: 12.5px;
             line-height: 1;
 
             .lightbulb {
               width: 32px;
-              margin-right: 0.035rem;
+              margin-right: 3.5px;
             }
 
             .divider {
-              margin: 0 0.015rem;
+              margin: 0 1.5px;
             }
 
             .arrow {
-              height: 0.125rem;
-              margin-left: 0.025rem;
+              height: 12.5px;
+              margin-left: 2.5px;
               transform: translateY(25%);
             }
           }

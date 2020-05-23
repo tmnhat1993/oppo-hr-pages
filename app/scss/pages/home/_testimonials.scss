@@ -136,7 +136,7 @@
                 display: block !important;
                 padding-right: 30px;
                 opacity: 0;
-                transform: translateX(-0.2rem);
+                transform: translateX(-20px);
 
                 * {
                   height: 100%;
@@ -186,7 +186,7 @@
 
               .quote-item {
                 height: 52%;
-                padding: 0 20px 0.2rem 140px;
+                padding: 0 20px 20px 140px;
                 position: relative;
 
                 .decor {
@@ -197,8 +197,8 @@
 
                   opacity: 0;
                   transform-origin: bottom 100%;
-                  -webkit-transform: translateX(0.3rem) scale(0.5);
-                  transform: translateX(0.3rem) scale(0.5);
+                  -webkit-transform: translateX(30px) scale(0.5);
+                  transform: translateX(30px) scale(0.5);
 
                   .img-holder {
                     img {
@@ -210,17 +210,17 @@
 
                 .context {
                   opacity: 0;
-                  -webkit-transform: translateX(0.3rem);
-                  transform: translateX(0.3rem);
+                  -webkit-transform: translateX(30px);
+                  transform: translateX(30px);
 
                   .member-name {
-                    font-size: 0.35rem;
+                    font-size: 35px;
                     line-height: 1.15;
                     margin-bottom: 0;
                   }
                   .member-role {
-                    font-size: 0.25rem;
-                    margin-bottom: 0.135rem;
+                    font-size: 25px;
+                    margin-bottom: 13.5px;
                   }
                   .member-quote {
                     text-align: justify;
@@ -260,7 +260,7 @@
                   button {
                     text-indent: -9999px;
                     display: block;
-                    font-size: 0.01rem;
+                    font-size: 1px;
                     width: 18px;
                     height: 18px;
                     border: 1px solid $oppo;
@@ -331,7 +331,7 @@
               .oppo-member-quote-slider {
                 .quote-item {
                   height: 53%;
-                  padding: 0 18px 0.2rem 130px;
+                  padding: 0 18px 20px 130px;
 
                   .decor {
                     right: calc(100% - 118px);
@@ -340,12 +340,12 @@
 
                   .context {
                     .member-name {
-                      font-size: 0.325rem;
+                      font-size: 32.5px;
                       line-height: 1.15;
                       margin-bottom: 0;
                     }
                     .member-role {
-                      margin-bottom: 0.175rem;
+                      margin-bottom: 17.5px;
                     }
                   }
                 }
@@ -419,7 +419,7 @@
               .oppo-member-quote-slider {
                 .quote-item {
                   height: 53%;
-                  padding: 0 18px 0.2rem 110px;
+                  padding: 0 18px 20px 110px;
 
                   .decor {
                     right: calc(100% - 105px);
@@ -428,13 +428,13 @@
 
                   .context {
                     .member-name {
-                      font-size: 0.285rem;
+                      font-size: 28.5px;
                       line-height: 1.15;
                       margin-bottom: 0;
                     }
                     .member-role {
-                      font-size: 0.185rem;
-                      margin-bottom: 0.15rem;
+                      font-size: 18.5px;
+                      margin-bottom: 15px;
                     }
                   }
                 }
@@ -474,13 +474,13 @@
                 .quote-item {
                   .context {
                     .member-name {
-                      font-size: 0.265rem;
+                      font-size: 26.5px;
                       line-height: 1.15;
                       margin-bottom: 0;
                     }
                     .member-role {
-                      font-size: 0.2rem;
-                      margin-bottom: 0.15rem;
+                      font-size: 20px;
+                      margin-bottom: 15px;
                     }
                   }
                 }
@@ -591,7 +591,7 @@
               width: 100%;
               flex-basis: 100%;
               margin-top: 0;
-              margin-bottom: 0.5rem;
+              margin-bottom: 50px;
               padding: 5vw 0;
               height: auto;
 
@@ -639,17 +639,17 @@
                     left: 0;
                     right: 0;
                     opacity: 0;
-                    -webkit-transform: translate(0, 0.2rem);
-                    transform: translate(0, 0.2rem);
+                    -webkit-transform: translate(0, 20px);
+                    transform: translate(0, 20px);
 
                     .member-name {
-                      font-size: 0.32rem;
+                      font-size: 32px;
                       line-height: 1.15;
                       margin-bottom: 0;
                     }
                     .member-role {
-                      font-size: 0.225rem;
-                      margin-bottom: 0.225rem;
+                      font-size: 22.5px;
+                      margin-bottom: 22.5px;
                     }
                     .member-quote {
                       text-align: justify;
@@ -757,7 +757,7 @@
             }
 
             .member-quote-slider-holder {
-              margin-bottom: 0.3rem;
+              margin-bottom: 30px;
               padding: 3.5vw 0;
               height: auto;
 
@@ -789,13 +789,13 @@
                     top: 5vw;
 
                     .member-name {
-                      font-size: 0.225rem;
+                      font-size: 22.5px;
                       line-height: 1.15;
                       margin-bottom: 0;
                     }
                     .member-role {
-                      font-size: 0.185rem;
-                      margin-bottom: 0.1rem;
+                      font-size: 18.5px;
+                      margin-bottom: 10px;
                     }
                   }
                 }
@@ -876,7 +876,7 @@
             }
 
             .member-quote-slider-holder {
-              margin-bottom: 0.3rem;
+              margin-bottom: 30px;
               padding: 3.5vw 0;
               height: auto;
 
@@ -908,13 +908,13 @@
                     top: 5vw;
 
                     .member-name {
-                      font-size: 0.2rem;
+                      font-size: 20px;
                       line-height: 1.15;
                       margin-bottom: 0;
                     }
                     .member-role {
-                      font-size: 0.15rem;
-                      margin-bottom: 0.075rem;
+                      font-size: 15px;
+                      margin-bottom: 7.5px;
                     }
                   }
                 }

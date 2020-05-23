@@ -10,15 +10,15 @@
     .oppo-archivements {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      grid-column-gap: 0.1rem;
+      grid-column-gap: 10px;
       grid-template-rows: 135px;
-      padding: 0 0.05rem;
+      padding: 0 5px;
 
       .archive-item {
         background-color: $oppo;
         border-radius: 20px;
         box-shadow: 0 0 8px rgba(#000, 0.5);
-        font-size: 0.225rem;
+        font-size: 22.5px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -65,10 +65,10 @@
 
       .oppo-archivements {
         grid-template-rows: 115px;
-        padding: 0 0.05rem;
+        padding: 0 5px;
 
         .archive-item {
-          font-size: 0.2rem;
+          font-size: 20px;
         }
       }
     }
@@ -81,10 +81,10 @@
 
       .oppo-archivements {
         grid-template-rows: 100px;
-        padding: 0 0.035rem;
+        padding: 0 3.5px;
 
         .archive-item {
-          font-size: 0.175rem;
+          font-size: 17.5px;
           border-radius: 15px;
         }
       }
@@ -103,15 +103,15 @@
       .oppo-archivements {
         display: grid;
         grid-template-columns: 1fr;
-        grid-row-gap: 0.1rem;
+        grid-row-gap: 10px;
         grid-template-rows: 15vw 15vw 15vw;
-        padding: 0 0.05rem;
+        padding: 0 5px;
         padding: 0 15px;
 
         .archive-item {
           border-radius: 15px;
           box-shadow: 0 0 5px rgba(#000, 0.25);
-          font-size: 0.175rem;
+          font-size: 17.5px;
         }
       }
 
@@ -139,7 +139,7 @@
         .archive-item {
           border-radius: 12px;
           box-shadow: 0 0 5px rgba(#000, 0.25);
-          font-size: 0.14rem;
+          font-size: 14px;
         }
       }
 
@@ -167,7 +167,7 @@
         .archive-item {
           border-radius: 7px;
           box-shadow: 0 0 5px rgba(#000, 0.25);
-          font-size: 0.125rem;
+          font-size: 12.5px;
         }
       }
 
