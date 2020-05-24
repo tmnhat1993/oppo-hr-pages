@@ -1820,22 +1820,34 @@ function () {
       var _this = this;
 
       // Elements Variable
-      if (window.innerWidth > 1024) {
-        this.$cultureSection = $('#about-culture-2');
-        this.$cultureImages = this.$cultureSection.find('.images-holder .img-block');
-        this.$cultureIntros = this.$cultureSection.find('.intros-holder .intro-item');
+      if (window.innerWidth > 768) {
+        this.$cultureSection = $("#about-culture-2");
+        this.$cultureImages = this.$cultureSection.find(".images-holder .img-block");
+        this.$cultureIntros = this.$cultureSection.find(".intros-holder .intro-item");
         this.currentCultureActive = 0;
         this.blockCultureInteraction = false;
         this.ActiveCulture(1);
-        this.$cultureIntros.on('click', function (e) {
-          var targetParent = $(e.target).parents('.intro-item');
-          var targetID = parseInt(targetParent.data('culture-id'));
+        this.$cultureIntros.on("click", function (e) {
+          var targetParent = $(e.target).parents(".intro-item");
+          var targetID = parseInt(targetParent.data("culture-id"));
 
-          if ($(e.target).hasClass('intro-item')) {
-            targetID = parseInt($(e.target).data('culture-id'));
+          if ($(e.target).hasClass("intro-item")) {
+            targetID = parseInt($(e.target).data("culture-id"));
           }
 
           _this.ActiveCulture(targetID);
+        });
+      } else {
+        this.$cultureSlider = $(".culture-mb-slider .culture-slider");
+        this.cultureSwiper = new Swiper(".culture-slider", {
+          slidesPerView: 2,
+          spaceBetween: 30,
+          centeredSlides: true,
+          speed: 550,
+          navigation: {
+            nextEl: ".culture-button-next",
+            prevEl: ".culture-button-prev"
+          }
         });
       }
     }
@@ -1845,18 +1857,42 @@ function () {
       var _this2 = this;
 
       if (this.currentCultureActive !== ID && !this.blockCultureInteraction) {
+        clearTimeout(this.nextSlideTimeOut);
         this.blockCultureInteraction = true;
         this.currentCultureActive = ID;
-        var $activeImage = this.$cultureSection.find('.images-holder .img-block.active');
-        var $activeIntro = this.$cultureSection.find('.intros-holder .intro-item.active');
-        $activeImage.removeClass('active');
-        $activeIntro.removeClass('active');
+        var $activeImage = this.$cultureSection.find(".images-holder .img-block.active");
+        var $activeIntro = this.$cultureSection.find(".intros-holder .intro-item.active");
+        $activeImage.removeClass("active");
+        $activeIntro.removeClass("active");
         var $targetImage = this.$cultureSection.find(".images-holder .img-block[data-culture-id=\"".concat(ID, "\"]"));
         var $targetIntro = this.$cultureSection.find(".intros-holder .intro-item[data-culture-id=\"".concat(ID, "\"]"));
-        $targetImage.addClass('active');
-        $targetIntro.addClass('active');
+        $targetImage.addClass("active");
+        $targetIntro.addClass("active");
         setTimeout(function () {
           _this2.blockCultureInteraction = false;
+          _this2.nextSlideTimeOut = setTimeout(function () {
+            switch (_this2.currentCultureActive) {
+              case 1:
+                _this2.ActiveCulture(2);
+
+                break;
+
+              case 2:
+                _this2.ActiveCulture(3);
+
+                break;
+
+              case 3:
+                _this2.ActiveCulture(1);
+
+                break;
+
+              default:
+                _this2.ActiveCulture(1);
+
+                break;
+            }
+          }, 3600);
         }, 400);
       }
     }
@@ -1934,7 +1970,7 @@ function () {
           status: false
         },
         culture: {
-          el: $("#about-culture"),
+          el: $("#about-culture-2"),
           status: false
         },
         history: {
