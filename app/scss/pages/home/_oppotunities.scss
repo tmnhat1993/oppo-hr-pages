@@ -440,6 +440,35 @@
                   font-size: 22.5px;
                 }
               }
+
+              &:hover {
+                transform: scale(1.07);
+                transition: all ease-out 300ms;
+                box-shadow: 0 0 12px rgba(#000, 0.75);
+
+                .job-thumbnail {
+                  // .img-holder {
+                  //   transform: scale(1.06);
+                  //   transition: all cubic-bezier(0.27, 0.85, 0.58, 1) 0.6s;
+                  // }
+                }
+
+                .job-detail {
+                  // .job-detail-effect {
+                  //   transform: scale(1);
+                  //   opacity: 1;
+                  //   transition: all cubic-bezier(0.27, 0.85, 0.58, 1) 0.6s;
+                  // }
+
+                  background-color: $oppo;
+                  transition: all ease-out 300ms;
+
+                  .job-label {
+                    color: $white;
+                    transition: all ease-out 300ms;
+                  }
+                }
+              }
             }
           }
         }

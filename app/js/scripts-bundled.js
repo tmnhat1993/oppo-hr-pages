@@ -1812,36 +1812,83 @@ function () {
       this.SetupHistorySlider();
       this.SetupVideoBanner();
       this.SetupScrollDetect();
+      this.SetupCultureSlider();
+    }
+  }, {
+    key: "SetupCultureSlider",
+    value: function SetupCultureSlider() {
+      var _this = this;
+
+      // Elements Variable
+      if (window.innerWidth > 1024) {
+        this.$cultureSection = $('#about-culture-2');
+        this.$cultureImages = this.$cultureSection.find('.images-holder .img-block');
+        this.$cultureIntros = this.$cultureSection.find('.intros-holder .intro-item');
+        this.currentCultureActive = 0;
+        this.blockCultureInteraction = false;
+        this.ActiveCulture(1);
+        this.$cultureIntros.on('click', function (e) {
+          var targetParent = $(e.target).parents('.intro-item');
+          var targetID = parseInt(targetParent.data('culture-id'));
+
+          if ($(e.target).hasClass('intro-item')) {
+            targetID = parseInt($(e.target).data('culture-id'));
+          }
+
+          _this.ActiveCulture(targetID);
+        });
+      }
+    }
+  }, {
+    key: "ActiveCulture",
+    value: function ActiveCulture(ID) {
+      var _this2 = this;
+
+      if (this.currentCultureActive !== ID && !this.blockCultureInteraction) {
+        this.blockCultureInteraction = true;
+        this.currentCultureActive = ID;
+        var $activeImage = this.$cultureSection.find('.images-holder .img-block.active');
+        var $activeIntro = this.$cultureSection.find('.intros-holder .intro-item.active');
+        $activeImage.removeClass('active');
+        $activeIntro.removeClass('active');
+        var $targetImage = this.$cultureSection.find(".images-holder .img-block[data-culture-id=\"".concat(ID, "\"]"));
+        var $targetIntro = this.$cultureSection.find(".intros-holder .intro-item[data-culture-id=\"".concat(ID, "\"]"));
+        $targetImage.addClass('active');
+        $targetIntro.addClass('active');
+        setTimeout(function () {
+          _this2.blockCultureInteraction = false;
+        }, 400);
+      }
     }
   }, {
     key: "SetupVideoBanner",
     value: function SetupVideoBanner() {
-      var _this = this;
+      var _this3 = this;
 
       this.bannerVideo = $("#popup-intro-video").get(0);
       this.playModalVideo = $(".play-modal-video");
       this.modalVideo = $(".video-modal");
       this.closeVideoModal = $(".close-video-modal");
       this.playModalVideo.on("click", function () {
-        _this.modalVideo.addClass("show-modal");
+        _this3.modalVideo.addClass("show-modal");
 
         setTimeout(function () {
-          _this.bannerVideo.play();
+          _this3.bannerVideo.play();
         }, 300);
       });
       this.closeVideoModal.on("click", function () {
-        _this.modalVideo.removeClass("show-modal");
+        _this3.modalVideo.removeClass("show-modal");
 
-        _this.bannerVideo.pause();
+        _this3.bannerVideo.pause();
 
-        _this.bannerVideo.currentTime = 0;
+        _this3.bannerVideo.currentTime = 0;
       });
       this.bannerVideo.addEventListener("ended", function () {
-        _this.modalVideo.removeClass("show-modal");
+        _this3.modalVideo.removeClass("show-modal");
 
-        _this.bannerVideo.pause();
+        _this3.bannerVideo.pause();
 
-        _this.bannerVideo.currentTime = 0;
+        _this3.bannerVideo.currentTime = 0;
       });
     }
   }, {
@@ -1851,6 +1898,7 @@ function () {
         slidesPerView: 1,
         slidesPerGroup: 1,
         speed: 550,
+        initialSlide: $(".history-body .swiper-wrapper li.history-item").length - 1,
         navigation: {
           nextEl: ".button-next",
           prevEl: ".button-prev"
@@ -1874,7 +1922,7 @@ function () {
   }, {
     key: "SetupScrollDetect",
     value: function SetupScrollDetect() {
-      var _this2 = this;
+      var _this4 = this;
 
       this.allSection = {
         intro: {
@@ -1899,7 +1947,7 @@ function () {
         }
       };
       $(window).on("scroll load", function () {
-        _this2.DetectScreen();
+        _this4.DetectScreen();
       });
     }
   }, {

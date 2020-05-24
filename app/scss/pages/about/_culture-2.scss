@@ -1,0 +1,145 @@
+#hr-about-page {
+  /* Section OPPO Culture */
+
+  .section-about-culture-style-2,
+  #about-culture-2 {
+    height: 100vh;
+    background-color: $white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+
+    .main-content {
+      width: 100%;
+      height: 100%;
+    }
+
+    .container {
+      height: 100%;
+      width: 1200px;
+      padding: 0 15px;
+      display: flex;
+      align-items: center;
+
+      .culture-layout {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 640px;
+        max-height: 80vw;
+
+        .images-holder,
+        .intros-holder {
+          height: 100%;
+          flex-shrink: 0;
+          position: relative;
+        }
+
+        .intros-holder {
+          width: 55.666%;
+          flex-basis: 55.666%;
+          padding-left: 75px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+
+          .intro-item {
+            border-bottom: 1px solid #ccc;
+            transform: translateY(78px);
+            padding: 30px 0 25px;
+            cursor: pointer;
+            position: relative;
+            transition: all cubic-bezier(0, 0.25, 0.59, 0.99) 500ms;
+
+            &:last-child {
+              border-bottom: none;
+            }
+
+            .intro-title {
+              font-weight: 600;
+              opacity: 0.333;
+              transition: all ease-in 100ms;
+
+              &:hover {
+                transition: all ease-out 150ms;
+                opacity: 0.75;
+              }
+            }
+
+            .intro-desc {
+              font-size: 18px;
+              padding-right: 25%;
+              line-height: 26px;
+              height: 78px;
+              position: absolute;
+              left: 0;
+              bottom: 25px;
+
+              // Original state
+              opacity: 0;
+              visibility: hidden;
+            }
+
+            &.active {
+              cursor: initial;
+              padding-bottom: 115px;
+              transition: all cubic-bezier(0, 0.25, 0.59, 0.99) 500ms;
+
+              .intro-title {
+                opacity: 1;
+              }
+
+              .intro-desc {
+                opacity: 1;
+                visibility: visible;
+                transition: all ease-out 330ms 220ms;
+              }
+            }
+          }
+        }
+
+        .images-holder {
+          width: 44.444%;
+          background-color: #999;
+          flex-basis: 44.444%;
+
+          .img-block {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+
+            // original state
+            opacity: 0;
+            visibility: hidden;
+            transition: all ease-in 200ms;
+
+            .img-holder {
+              position: absolute;
+              overflow: hidden;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+
+              img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+              }
+            }
+
+            &.active {
+              opacity: 1;
+              visibility: visible;
+              transition: all ease-out 300ms 50ms;
+            }
+          }
+        }
+      }
+    }
+  }
+}

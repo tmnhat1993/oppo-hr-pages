@@ -875,12 +875,22 @@ body {
 @font-face {
   font-family: "Myriad Pro";
   font-weight: 400;
-  src: url("../fonts/MYRIADPRO-REGULAR.OTF"); }
+  src: url("../fonts/MyriadPro-Regular.otf"); }
+
+@font-face {
+  font-family: "MyriadPro-Regular";
+  font-weight: 400;
+  src: url("../fonts/MyriadPro-Regular.otf"); }
 
 @font-face {
   font-family: "Myriad Pro";
   font-weight: 600;
-  src: url("../fonts/MYRIADPRO-SEMIBOLD.OTF"); }
+  src: url("../fonts/MyriadPro-Semibold.otf"); }
+
+@font-face {
+  font-family: "MyriadPro-Semibold";
+  font-weight: 600;
+  src: url("../fonts/MyriadPro-Semibold.otf"); }
 
 @font-face {
   font-family: "OPPOSans-Regular";
@@ -1463,7 +1473,10 @@ p,
         padding: 0 5px; }
         #hr-home-page .section-oppo-global .oppo-archivements .archive-item,
         #hr-home-page #home-oppo-global .oppo-archivements .archive-item {
-          font-size: 20px; } }
+          font-size: 20px; }
+      #hr-home-page .section-oppo-global .video-holder,
+      #hr-home-page #home-oppo-global .video-holder {
+        height: 56vw; } }
   @media only screen and (max-width: 1440px) {
     #hr-home-page .section-oppo-global,
     #hr-home-page #home-oppo-global {
@@ -1850,6 +1863,19 @@ p,
         #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label,
         #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label {
           font-size: 22.5px; }
+      #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item:hover,
+      #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item:hover {
+        transform: scale(1.07);
+        transition: all ease-out 300ms;
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.75); }
+        #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item:hover .job-detail,
+        #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item:hover .job-detail {
+          background-color: #046a38;
+          transition: all ease-out 300ms; }
+          #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item:hover .job-detail .job-label,
+          #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item:hover .job-detail .job-label {
+            color: #fff;
+            transition: all ease-out 300ms; }
     #hr-home-page .section-job-oppotunities .main-content .content-footer,
     #hr-home-page #home-job-opportunities .main-content .content-footer {
       margin-top: 0; }
@@ -3794,6 +3820,128 @@ p,
               border-radius: 3px;
               left: calc(8px - 3px);
               top: calc(8px - 3px); } }
+
+#hr-about-page {
+  /* Section OPPO Culture */ }
+  #hr-about-page .section-about-culture-style-2,
+  #hr-about-page #about-culture-2 {
+    height: 100vh;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5; }
+    #hr-about-page .section-about-culture-style-2 .main-content,
+    #hr-about-page #about-culture-2 .main-content {
+      width: 100%;
+      height: 100%; }
+    #hr-about-page .section-about-culture-style-2 .container,
+    #hr-about-page #about-culture-2 .container {
+      height: 100%;
+      width: 1200px;
+      padding: 0 15px;
+      display: flex;
+      align-items: center; }
+      #hr-about-page .section-about-culture-style-2 .container .culture-layout,
+      #hr-about-page #about-culture-2 .container .culture-layout {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 640px;
+        max-height: 80vw; }
+        #hr-about-page .section-about-culture-style-2 .container .culture-layout .images-holder,
+        #hr-about-page .section-about-culture-style-2 .container .culture-layout .intros-holder,
+        #hr-about-page #about-culture-2 .container .culture-layout .images-holder,
+        #hr-about-page #about-culture-2 .container .culture-layout .intros-holder {
+          height: 100%;
+          flex-shrink: 0;
+          position: relative; }
+        #hr-about-page .section-about-culture-style-2 .container .culture-layout .intros-holder,
+        #hr-about-page #about-culture-2 .container .culture-layout .intros-holder {
+          width: 55.666%;
+          flex-basis: 55.666%;
+          padding-left: 75px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+          #hr-about-page .section-about-culture-style-2 .container .culture-layout .intros-holder .intro-item,
+          #hr-about-page #about-culture-2 .container .culture-layout .intros-holder .intro-item {
+            border-bottom: 1px solid #ccc;
+            transform: translateY(78px);
+            padding: 30px 0 25px;
+            cursor: pointer;
+            position: relative;
+            transition: all cubic-bezier(0, 0.25, 0.59, 0.99) 500ms; }
+            #hr-about-page .section-about-culture-style-2 .container .culture-layout .intros-holder .intro-item:last-child,
+            #hr-about-page #about-culture-2 .container .culture-layout .intros-holder .intro-item:last-child {
+              border-bottom: none; }
+            #hr-about-page .section-about-culture-style-2 .container .culture-layout .intros-holder .intro-item .intro-title,
+            #hr-about-page #about-culture-2 .container .culture-layout .intros-holder .intro-item .intro-title {
+              font-weight: 600;
+              opacity: 0.333;
+              transition: all ease-in 100ms; }
+              #hr-about-page .section-about-culture-style-2 .container .culture-layout .intros-holder .intro-item .intro-title:hover,
+              #hr-about-page #about-culture-2 .container .culture-layout .intros-holder .intro-item .intro-title:hover {
+                transition: all ease-out 150ms;
+                opacity: 0.75; }
+            #hr-about-page .section-about-culture-style-2 .container .culture-layout .intros-holder .intro-item .intro-desc,
+            #hr-about-page #about-culture-2 .container .culture-layout .intros-holder .intro-item .intro-desc {
+              font-size: 18px;
+              padding-right: 25%;
+              line-height: 26px;
+              height: 78px;
+              position: absolute;
+              left: 0;
+              bottom: 25px;
+              opacity: 0;
+              visibility: hidden; }
+            #hr-about-page .section-about-culture-style-2 .container .culture-layout .intros-holder .intro-item.active,
+            #hr-about-page #about-culture-2 .container .culture-layout .intros-holder .intro-item.active {
+              cursor: initial;
+              padding-bottom: 115px;
+              transition: all cubic-bezier(0, 0.25, 0.59, 0.99) 500ms; }
+              #hr-about-page .section-about-culture-style-2 .container .culture-layout .intros-holder .intro-item.active .intro-title,
+              #hr-about-page #about-culture-2 .container .culture-layout .intros-holder .intro-item.active .intro-title {
+                opacity: 1; }
+              #hr-about-page .section-about-culture-style-2 .container .culture-layout .intros-holder .intro-item.active .intro-desc,
+              #hr-about-page #about-culture-2 .container .culture-layout .intros-holder .intro-item.active .intro-desc {
+                opacity: 1;
+                visibility: visible;
+                transition: all ease-out 330ms 220ms; }
+        #hr-about-page .section-about-culture-style-2 .container .culture-layout .images-holder,
+        #hr-about-page #about-culture-2 .container .culture-layout .images-holder {
+          width: 44.444%;
+          background-color: #999;
+          flex-basis: 44.444%; }
+          #hr-about-page .section-about-culture-style-2 .container .culture-layout .images-holder .img-block,
+          #hr-about-page #about-culture-2 .container .culture-layout .images-holder .img-block {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            visibility: hidden;
+            transition: all ease-in 200ms; }
+            #hr-about-page .section-about-culture-style-2 .container .culture-layout .images-holder .img-block .img-holder,
+            #hr-about-page #about-culture-2 .container .culture-layout .images-holder .img-block .img-holder {
+              position: absolute;
+              overflow: hidden;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0; }
+              #hr-about-page .section-about-culture-style-2 .container .culture-layout .images-holder .img-block .img-holder img,
+              #hr-about-page #about-culture-2 .container .culture-layout .images-holder .img-block .img-holder img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center; }
+            #hr-about-page .section-about-culture-style-2 .container .culture-layout .images-holder .img-block.active,
+            #hr-about-page #about-culture-2 .container .culture-layout .images-holder .img-block.active {
+              opacity: 1;
+              visibility: visible;
+              transition: all ease-out 300ms 50ms; }
 
 #hr-about-page {
   /* OPPO History */
