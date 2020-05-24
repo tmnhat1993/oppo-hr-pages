@@ -1029,7 +1029,6 @@ body .mobile{
 }
 .oh-nav .oh-navlist-wrapper{
     height:1.07rem;
-    text-align: right;
 }
 @media (max-width:1080px){
     .oh-nav .oh-navlist-wrapper{
