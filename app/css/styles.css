@@ -1493,27 +1493,33 @@ p,
       #hr-home-page #home-oppo-global .video-holder {
         height: 57vw; } }
   @media only screen and (max-width: 768px) {
-    #hr-home-page .section-oppo-global .oppo-archivements,
-    #hr-home-page #home-oppo-global .oppo-archivements {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-row-gap: 10px;
-      grid-template-rows: 15vw 15vw 15vw;
-      padding: 0 5px;
-      padding: 0 15px; }
-      #hr-home-page .section-oppo-global .oppo-archivements .archive-item,
-      #hr-home-page #home-oppo-global .oppo-archivements .archive-item {
-        border-radius: 15px;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
-        font-size: 17.5px; }
-    #hr-home-page .section-oppo-global .globe-holder,
-    #hr-home-page #home-oppo-global .globe-holder {
-      top: 52%;
-      left: -45%;
-      right: -45%; }
-      #hr-home-page .section-oppo-global .globe-holder canvas,
-      #hr-home-page #home-oppo-global .globe-holder canvas {
-        width: 100%; } }
+    #hr-home-page .section-oppo-global,
+    #hr-home-page #home-oppo-global {
+      height: 178vw; }
+      #hr-home-page .section-oppo-global .oppo-archivements,
+      #hr-home-page #home-oppo-global .oppo-archivements {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 10px;
+        grid-template-rows: 15vw 15vw 15vw;
+        padding: 0 5px;
+        padding: 0 15px; }
+        #hr-home-page .section-oppo-global .oppo-archivements .archive-item,
+        #hr-home-page #home-oppo-global .oppo-archivements .archive-item {
+          border-radius: 15px;
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+          font-size: 17.5px; }
+      #hr-home-page .section-oppo-global .globe-holder,
+      #hr-home-page #home-oppo-global .globe-holder {
+        top: 52%;
+        left: -45%;
+        right: -45%; }
+        #hr-home-page .section-oppo-global .globe-holder canvas,
+        #hr-home-page #home-oppo-global .globe-holder canvas {
+          width: 100%; }
+      #hr-home-page .section-oppo-global .video-holder,
+      #hr-home-page #home-oppo-global .video-holder {
+        height: 178vw; } }
   @media only screen and (max-width: 480px) {
     #hr-home-page .section-oppo-global .oppo-archivements,
     #hr-home-page #home-oppo-global .oppo-archivements {
@@ -3886,19 +3892,39 @@ p,
           #hr-about-page .section-about-culture-style-2 .container .culture-layout .intros-holder .intro-item .intro-desc,
           #hr-about-page #about-culture-2 .container .culture-layout .intros-holder .intro-item .intro-desc {
             font-size: 18px;
-            padding-right: 25%;
+            padding-right: 5%;
             line-height: 26px;
-            height: 78px;
             position: absolute;
             left: 0;
             bottom: 25px;
             opacity: 0;
             visibility: hidden; }
+            #hr-about-page .section-about-culture-style-2 .container .culture-layout .intros-holder .intro-item .intro-desc li,
+            #hr-about-page #about-culture-2 .container .culture-layout .intros-holder .intro-item .intro-desc li {
+              text-indent: 12px;
+              position: relative; }
+              #hr-about-page .section-about-culture-style-2 .container .culture-layout .intros-holder .intro-item .intro-desc li:before,
+              #hr-about-page #about-culture-2 .container .culture-layout .intros-holder .intro-item .intro-desc li:before {
+                content: "";
+                width: 6px;
+                height: 6px;
+                font-size: 1px;
+                background-color: #046a38;
+                top: 8px;
+                left: 0;
+                position: absolute;
+                border-radius: 6px; }
           #hr-about-page .section-about-culture-style-2 .container .culture-layout .intros-holder .intro-item.active,
           #hr-about-page #about-culture-2 .container .culture-layout .intros-holder .intro-item.active {
             cursor: initial;
-            padding-bottom: 115px;
+            padding-bottom: 85px;
             transition: all cubic-bezier(0, 0.25, 0.59, 0.99) 500ms; }
+            #hr-about-page .section-about-culture-style-2 .container .culture-layout .intros-holder .intro-item.active.mission-intro,
+            #hr-about-page #about-culture-2 .container .culture-layout .intros-holder .intro-item.active.mission-intro {
+              padding-bottom: 190px; }
+            #hr-about-page .section-about-culture-style-2 .container .culture-layout .intros-holder .intro-item.active.value-intro,
+            #hr-about-page #about-culture-2 .container .culture-layout .intros-holder .intro-item.active.value-intro {
+              padding-bottom: 140px; }
             #hr-about-page .section-about-culture-style-2 .container .culture-layout .intros-holder .intro-item.active .intro-title,
             #hr-about-page #about-culture-2 .container .culture-layout .intros-holder .intro-item.active .intro-title {
               opacity: 1; }
@@ -3944,7 +3970,7 @@ p,
 @media only screen and (max-width: 768px) {
   #hr-about-page .section-about-culture-style-2,
   #hr-about-page #about-culture-2 {
-    height: 120vw; }
+    height: 130vw; }
     #hr-about-page .section-about-culture-style-2 .container .culture-layout,
     #hr-about-page #about-culture-2 .container .culture-layout {
       display: none; }
@@ -4003,6 +4029,8 @@ p,
         #hr-about-page #about-culture-2 .culture-mb-slider .culture-slider .swiper-slide .culture-item .culture-desc {
           position: absolute;
           top: 77vw;
+          left: 0;
+          right: 0;
           padding-top: 20px;
           opacity: 0; }
           #hr-about-page .section-about-culture-style-2 .culture-mb-slider .culture-slider .swiper-slide .culture-item .culture-desc .intro-title,
@@ -4013,7 +4041,7 @@ p,
           #hr-about-page .section-about-culture-style-2 .culture-mb-slider .culture-slider .swiper-slide .culture-item .culture-desc .intro-desc,
           #hr-about-page #about-culture-2 .culture-mb-slider .culture-slider .swiper-slide .culture-item .culture-desc .intro-desc {
             font-size: 17px;
-            padding: 0 10%; }
+            padding: 0 5%; }
       #hr-about-page .section-about-culture-style-2 .culture-mb-slider .culture-slider .swiper-slide.swiper-slide-prev,
       #hr-about-page #about-culture-2 .culture-mb-slider .culture-slider .swiper-slide.swiper-slide-prev {
         opacity: 0;
@@ -4040,7 +4068,7 @@ p,
 @media only screen and (max-width: 480px) {
   #hr-about-page .section-about-culture-style-2,
   #hr-about-page #about-culture-2 {
-    height: 137vw; }
+    height: 150vw; }
     #hr-about-page .section-about-culture-style-2 .culture-mb-slider,
     #hr-about-page #about-culture-2 .culture-mb-slider {
       width: 150%;
@@ -4089,12 +4117,12 @@ p,
 @media only screen and (max-width: 376px) {
   #hr-about-page .section-about-culture-style-2,
   #hr-about-page #about-culture-2 {
-    height: 142vw; }
+    height: 164vw; }
     #hr-about-page .section-about-culture-style-2 .culture-mb-slider,
     #hr-about-page #about-culture-2 .culture-mb-slider {
-      width: 160%;
+      width: 170%;
       height: 97%;
-      margin-left: -30%;
+      margin-left: -35%;
       padding-top: 40px; }
       #hr-about-page .section-about-culture-style-2 .culture-mb-slider .culture-button-next,
       #hr-about-page .section-about-culture-style-2 .culture-mb-slider .culture-button-prev,

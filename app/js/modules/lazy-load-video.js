@@ -10,6 +10,12 @@ export default class LazyLoadVideo {
         document.querySelectorAll("video.lazy-video-desktop")
       );
 
+      if (window.innerWidth <= 768) {
+        var lazyVideos = [].slice.call(
+          document.querySelectorAll("video.lazy-video-mobile")
+        );
+      }
+
       if ("IntersectionObserver" in window) {
         var lazyVideoObserver = new IntersectionObserver(function (
           entries,

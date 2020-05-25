@@ -102,7 +102,7 @@
   @media #{$information-tablet} {
     .section-oppo-global,
     #home-oppo-global {
-      // height: 180vw;
+      height: 178vw;
 
       .oppo-archivements {
         display: grid;
@@ -127,6 +127,10 @@
         canvas {
           width: 100%;
         }
+      }
+
+      .video-holder {
+        height: 178vw;
       }
     }
   }
