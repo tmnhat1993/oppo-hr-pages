@@ -1089,7 +1089,7 @@ p,
   /* Banner */
   /* REPONSIVE */ }
   #hr-home-page .section-banner {
-    height: 47.91666vw;
+    height: 36.4vw;
     overflow: hidden;
     margin-top: 56px; }
     #hr-home-page .section-banner .banner-slider {
@@ -5011,6 +5011,12 @@ p,
           background-color: #999;
           background-size: cover;
           background-position: center; }
+          #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .bg-holder img,
+          #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .bg-holder img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center; }
         #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .context,
         #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .context {
           width: 700px;
