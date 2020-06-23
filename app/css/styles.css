@@ -1292,7 +1292,7 @@ p,
   #hr-home-page .section-about-oppo,
   #hr-home-page #home-about-oppo {
     position: relative;
-    height: 53.125vw;
+    height: 66vw;
     overflow: hidden; }
     #hr-home-page .section-about-oppo .main-content,
     #hr-home-page #home-about-oppo .main-content {
@@ -1303,7 +1303,9 @@ p,
       display: flex;
       flex-direction: column;
       justify-content: center;
-      z-index: 2; }
+      z-index: 2;
+      padding-bottom: 7vw;
+      background-image: linear-gradient(#ffffffff, #ffffffff 70%, #ffffff00); }
       #hr-home-page .section-about-oppo .main-content .title,
       #hr-home-page #home-about-oppo .main-content .title {
         margin: 95px 0 45px; }
@@ -1337,27 +1339,21 @@ p,
     #hr-home-page #home-about-oppo .grad-overlay {
       z-index: 2; }
   @media only screen and (max-width: 1680px) {
-    #hr-home-page .section-about-oppo,
-    #hr-home-page #home-about-oppo {
-      height: 57vw; }
-      #hr-home-page .section-about-oppo .main-content .title,
-      #hr-home-page #home-about-oppo .main-content .title {
-        margin: 83.125px 0 39.375px; }
-      #hr-home-page .section-about-oppo .main-content .cta-holder .arrow,
-      #hr-home-page #home-about-oppo .main-content .cta-holder .arrow {
-        height: 20px;
-        margin-left: 5.6875px; } }
+    #hr-home-page .section-about-oppo .main-content .title,
+    #hr-home-page #home-about-oppo .main-content .title {
+      margin: 83.125px 0 39.375px; }
+    #hr-home-page .section-about-oppo .main-content .cta-holder .arrow,
+    #hr-home-page #home-about-oppo .main-content .cta-holder .arrow {
+      height: 20px;
+      margin-left: 5.6875px; } }
   @media only screen and (max-width: 1440px) {
-    #hr-home-page .section-about-oppo,
-    #hr-home-page #home-about-oppo {
-      height: 58vw; }
-      #hr-home-page .section-about-oppo .main-content .title,
-      #hr-home-page #home-about-oppo .main-content .title {
-        margin: 67px 0 32px; }
-      #hr-home-page .section-about-oppo .main-content .cta-holder .arrow,
-      #hr-home-page #home-about-oppo .main-content .cta-holder .arrow {
-        height: 17.5px;
-        margin-left: 4.63125px; } }
+    #hr-home-page .section-about-oppo .main-content .title,
+    #hr-home-page #home-about-oppo .main-content .title {
+      margin: 67px 0 32px; }
+    #hr-home-page .section-about-oppo .main-content .cta-holder .arrow,
+    #hr-home-page #home-about-oppo .main-content .cta-holder .arrow {
+      height: 17.5px;
+      margin-left: 4.63125px; } }
   @media only screen and (max-width: 1280px) {
     #hr-home-page .section-about-oppo,
     #hr-home-page #home-about-oppo {
@@ -1372,7 +1368,7 @@ p,
   @media only screen and (max-width: 768px) {
     #hr-home-page .section-about-oppo,
     #hr-home-page #home-about-oppo {
-      height: 130vw; }
+      height: 120vw; }
       #hr-home-page .section-about-oppo .main-content .title,
       #hr-home-page #home-about-oppo .main-content .title {
         margin: 10vw 0 2vw; }
@@ -1382,35 +1378,33 @@ p,
       #hr-home-page .section-about-oppo .main-content .cta-holder .arrow,
       #hr-home-page #home-about-oppo .main-content .cta-holder .arrow {
         height: 20.5px;
-        margin-left: 5px; } }
+        margin-left: 5px; }
+      #hr-home-page .section-about-oppo .people-img-holder,
+      #hr-home-page #home-about-oppo .people-img-holder {
+        left: -12%;
+        right: -12%; } }
   @media only screen and (max-width: 480px) {
-    #hr-home-page .section-about-oppo,
-    #hr-home-page #home-about-oppo {
-      height: 140vw; }
-      #hr-home-page .section-about-oppo .main-content .title,
-      #hr-home-page #home-about-oppo .main-content .title {
-        margin: 12vw 0 6.5vw; }
-      #hr-home-page .section-about-oppo .main-content .desc,
-      #hr-home-page #home-about-oppo .main-content .desc {
-        margin-bottom: 7vw; }
-      #hr-home-page .section-about-oppo .main-content .cta-holder .arrow,
-      #hr-home-page #home-about-oppo .main-content .cta-holder .arrow {
-        height: 11.5px;
-        margin-left: 5px; } }
+    #hr-home-page .section-about-oppo .main-content .title,
+    #hr-home-page #home-about-oppo .main-content .title {
+      margin: 12vw 0 6.5vw; }
+    #hr-home-page .section-about-oppo .main-content .desc,
+    #hr-home-page #home-about-oppo .main-content .desc {
+      margin-bottom: 7vw; }
+    #hr-home-page .section-about-oppo .main-content .cta-holder .arrow,
+    #hr-home-page #home-about-oppo .main-content .cta-holder .arrow {
+      height: 11.5px;
+      margin-left: 5px; } }
   @media only screen and (max-width: 376px) {
-    #hr-home-page .section-about-oppo,
-    #hr-home-page #home-about-oppo {
-      height: 140vw; }
-      #hr-home-page .section-about-oppo .main-content .title,
-      #hr-home-page #home-about-oppo .main-content .title {
-        margin: 11.5vw 0 5vw; }
-      #hr-home-page .section-about-oppo .main-content .desc,
-      #hr-home-page #home-about-oppo .main-content .desc {
-        margin-bottom: 6vw; }
-      #hr-home-page .section-about-oppo .main-content .cta-holder .arrow,
-      #hr-home-page #home-about-oppo .main-content .cta-holder .arrow {
-        height: 11px;
-        margin-left: 5px; } }
+    #hr-home-page .section-about-oppo .main-content .title,
+    #hr-home-page #home-about-oppo .main-content .title {
+      margin: 11.5vw 0 5vw; }
+    #hr-home-page .section-about-oppo .main-content .desc,
+    #hr-home-page #home-about-oppo .main-content .desc {
+      margin-bottom: 6vw; }
+    #hr-home-page .section-about-oppo .main-content .cta-holder .arrow,
+    #hr-home-page #home-about-oppo .main-content .cta-holder .arrow {
+      height: 11px;
+      margin-left: 5px; } }
 
 #hr-home-page {
   /* OPPO Global */
