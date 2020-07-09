@@ -1665,14 +1665,17 @@ p,
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context {
         height: 100px;
+        width: 40%;
+        margin: auto;
         font-size: 17.5px;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center; }
+        display: grid;
+        grid-template-columns: 40px 1fr;
+        grid-template-rows: 40px 20px; }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb {
-          width: 41px;
+          grid-column: 1;
+          grid-row: 1 / span 2;
+          width: 40px;
           margin-right: 6.5px;
           -webkit-transform: translateY(-14%);
           transform: translateY(-14%); }
@@ -1682,14 +1685,29 @@ p,
           #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb picture {
             display: block;
             width: 100%; }
-        #hr-home-page .section-job-oppotunities .main-content .content-footer .context .divider,
-        #hr-home-page #home-job-opportunities .main-content .content-footer .context .divider {
-          -webkit-transform: translateY(-5%);
-          transform: translateY(-5%);
-          margin: 0 5px; }
+        #hr-home-page .section-job-oppotunities .main-content .content-footer .context .main-line,
+        #hr-home-page .section-job-oppotunities .main-content .content-footer .context .sub-line,
+        #hr-home-page #home-job-opportunities .main-content .content-footer .context .main-line,
+        #hr-home-page #home-job-opportunities .main-content .content-footer .context .sub-line {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          white-space: nowrap; }
+        #hr-home-page .section-job-oppotunities .main-content .content-footer .context .main-line,
+        #hr-home-page #home-job-opportunities .main-content .content-footer .context .main-line {
+          font-size: 24px; }
+        #hr-home-page .section-job-oppotunities .main-content .content-footer .context .sub-line,
+        #hr-home-page #home-job-opportunities .main-content .content-footer .context .sub-line {
+          font-size: 16px;
+          font-weight: 300; }
+          #hr-home-page .section-job-oppotunities .main-content .content-footer .context .sub-line a,
+          #hr-home-page #home-job-opportunities .main-content .content-footer .context .sub-line a {
+            font-size: 19px;
+            margin-left: 5px;
+            font-weight: 400; }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .arrow,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .arrow {
-          height: 20px;
+          height: 18px;
           margin-left: 6.5px; }
           #hr-home-page .section-job-oppotunities .main-content .content-footer .context .arrow img,
           #hr-home-page #home-job-opportunities .main-content .content-footer .context .arrow img {
@@ -1803,7 +1821,8 @@ p,
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context {
         height: 85px;
-        font-size: 18.5px; }
+        font-size: 18.5px;
+        width: 75%; }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb {
           width: 30px;
@@ -1813,7 +1832,7 @@ p,
           margin: 0 3px; }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .arrow,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .arrow {
-          height: 13px;
+          height: 10px;
           margin-left: 4.3px; } }
   @media only screen and (max-width: 768px) {
     #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder,
@@ -1882,7 +1901,8 @@ p,
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context {
         height: 120px;
-        font-size: 20px; }
+        font-size: 20px;
+        width: 80%; }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb {
           width: 41px;
@@ -1897,8 +1917,7 @@ p,
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .arrow,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .arrow {
           height: 20px;
-          margin-left: 3.5px;
-          transform: translateY(25%); } }
+          margin-left: 3.5px; } }
   @media only screen and (max-width: 480px) {
     #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder,
     #hr-home-page #home-job-opportunities .main-content .content-head .searching-holder {
@@ -1954,10 +1973,13 @@ p,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context {
         height: 120px;
         font-size: 15px;
-        line-height: 1; }
+        line-height: 1;
+        width: 100%;
+        grid-template-columns: 30px 1fr;
+        grid-template-rows: 30px 20px; }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb {
-          width: 38px;
+          width: 30px;
           margin-right: 3.5px; }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .divider,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .divider {
@@ -1968,7 +1990,28 @@ p,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .arrow {
           height: 15px;
           margin-left: 2.5px;
-          transform: translateY(25%); } }
+          transform: translateY(25%); }
+        #hr-home-page .section-job-oppotunities .main-content .content-footer .context .main-line,
+        #hr-home-page #home-job-opportunities .main-content .content-footer .context .main-line {
+          font-size: 17px; }
+        #hr-home-page .section-job-oppotunities .main-content .content-footer .context .sub-line,
+        #hr-home-page #home-job-opportunities .main-content .content-footer .context .sub-line {
+          font-size: 12px;
+          font-weight: 400;
+          flex-wrap: wrap; }
+          #hr-home-page .section-job-oppotunities .main-content .content-footer .context .sub-line span,
+          #hr-home-page #home-job-opportunities .main-content .content-footer .context .sub-line span {
+            width: 100%;
+            text-align: center; }
+          #hr-home-page .section-job-oppotunities .main-content .content-footer .context .sub-line a,
+          #hr-home-page #home-job-opportunities .main-content .content-footer .context .sub-line a {
+            font-size: 16px;
+            margin: 0;
+            margin-top: 10px; }
+          #hr-home-page .section-job-oppotunities .main-content .content-footer .context .sub-line .arrow,
+          #hr-home-page #home-job-opportunities .main-content .content-footer .context .sub-line .arrow {
+            transform: none;
+            margin-left: 5px; } }
   @media only screen and (max-width: 376px) {
     #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout,
     #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout {
@@ -1990,11 +2033,13 @@ p,
     #hr-home-page #home-job-opportunities .main-content .content-footer .context {
       height: 100px;
       font-size: 12.5px;
-      line-height: 1; }
+      line-height: 1;
+      grid-template-columns: 21px 1fr;
+      grid-template-rows: 20px 16px; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb {
-        width: 32px;
-        margin-right: 3.5px; }
+        width: 21px;
+        margin-right: 0; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context .divider,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context .divider {
         margin: 0 1.5px; }
@@ -2002,7 +2047,28 @@ p,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context .arrow {
         height: 12.5px;
         margin-left: 2.5px;
-        transform: translateY(25%); } }
+        transform: translateY(25%); }
+      #hr-home-page .section-job-oppotunities .main-content .content-footer .context .main-line,
+      #hr-home-page #home-job-opportunities .main-content .content-footer .context .main-line {
+        font-size: 14px; }
+      #hr-home-page .section-job-oppotunities .main-content .content-footer .context .sub-line,
+      #hr-home-page #home-job-opportunities .main-content .content-footer .context .sub-line {
+        font-size: 10px;
+        font-weight: 400;
+        flex-wrap: wrap; }
+        #hr-home-page .section-job-oppotunities .main-content .content-footer .context .sub-line span,
+        #hr-home-page #home-job-opportunities .main-content .content-footer .context .sub-line span {
+          width: 100%;
+          text-align: center; }
+        #hr-home-page .section-job-oppotunities .main-content .content-footer .context .sub-line a,
+        #hr-home-page #home-job-opportunities .main-content .content-footer .context .sub-line a {
+          font-size: 12px;
+          margin: 0;
+          margin-top: 8px; }
+        #hr-home-page .section-job-oppotunities .main-content .content-footer .context .sub-line .arrow,
+        #hr-home-page #home-job-opportunities .main-content .content-footer .context .sub-line .arrow {
+          transform: none;
+          margin-left: 5px; } }
 
 #hr-home-page {
   /* Testimonials */
@@ -5013,7 +5079,6 @@ p,
             object-position: center; }
         #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .context,
         #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .context {
-          width: 700px;
           text-align: center;
           line-height: 4;
           font-size: 22.5px;
@@ -5038,7 +5103,6 @@ p,
           grid-column-gap: 10px; }
           #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .context,
           #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .context {
-            width: 50%;
             font-size: 20px; } }
   @media only screen and (max-width: 1440px) {
     #hr-about-page .section-archivement,
@@ -5053,7 +5117,6 @@ p,
           grid-column-gap: 10px; }
           #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .context,
           #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .context {
-            width: 50%;
             font-size: 18.5px; } }
   @media only screen and (max-width: 1280px) {
     #hr-about-page .section-archivement,
@@ -5068,7 +5131,6 @@ p,
           grid-column-gap: 10px; }
           #hr-about-page .section-archivement .content-body .archivement-layout .archivement-block .context,
           #hr-about-page #about-archivement .content-body .archivement-layout .archivement-block .context {
-            width: 50%;
             font-size: 17.5px; } }
   @media only screen and (max-width: 768px) {
     #hr-about-page .section-archivement,

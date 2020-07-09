@@ -153,14 +153,17 @@
 
         .context {
           height: 100px;
+          width: 40%;
+          margin: auto;
           font-size: 17.5px;
-          width: 100%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
+          display: grid;
+          grid-template-columns: 40px 1fr;
+          grid-template-rows: 40px 20px;
 
           .lightbulb {
-            width: 41px;
+            grid-column: 1;
+            grid-row: 1 / span 2;
+            width: 40px;
             margin-right: 6.5px;
             -webkit-transform: translateY(-14%);
             transform: translateY(-14%);
@@ -172,14 +175,37 @@
             }
           }
 
-          .divider {
-            -webkit-transform: translateY(-5%);
-            transform: translateY(-5%);
-            margin: 0 5px;
+          .main-line,
+          .sub-line {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            white-space: nowrap;
           }
 
+          .main-line {
+            font-size: 24px;
+          }
+
+          .sub-line {
+            font-size: 16px;
+            font-weight: 300;
+
+            a {
+              font-size: 19px;
+              margin-left: 5px;
+              font-weight: 400;
+            }
+          }
+
+          // .divider {
+          //   -webkit-transform: translateY(-5%);
+          //   transform: translateY(-5%);
+          //   margin: 0 5px;
+          // }
+
           .arrow {
-            height: 20px;
+            height: 18px;
             margin-left: 6.5px;
             img {
               display: block;
@@ -358,6 +384,7 @@
           .context {
             height: 85px;
             font-size: 18.5px;
+            width: 75%;
 
             .lightbulb {
               width: 30px;
@@ -369,7 +396,7 @@
             }
 
             .arrow {
-              height: 13px;
+              height: 10px;
               margin-left: 4.3px;
             }
           }
@@ -479,6 +506,7 @@
           .context {
             height: 120px;
             font-size: 20px;
+            width: 80%;
 
             .lightbulb {
               width: 41px;
@@ -496,7 +524,6 @@
             .arrow {
               height: 20px;
               margin-left: 3.5px;
-              transform: translateY(25%);
             }
           }
         }
@@ -577,9 +604,12 @@
             height: 120px;
             font-size: 15px;
             line-height: 1;
+            width: 100%;
+            grid-template-columns: 30px 1fr;
+            grid-template-rows: 30px 20px;
 
             .lightbulb {
-              width: 38px;
+              width: 30px;
               margin-right: 3.5px;
             }
 
@@ -593,6 +623,32 @@
               height: 15px;
               margin-left: 2.5px;
               transform: translateY(25%);
+            }
+
+            .main-line {
+              font-size: 17px;
+            }
+
+            .sub-line {
+              font-size: 12px;
+              font-weight: 400;
+              flex-wrap: wrap;
+
+              span {
+                width: 100%;
+                text-align: center;
+              }
+
+              a {
+                font-size: 16px;
+                margin: 0;
+                margin-top: 10px;
+              }
+
+              .arrow {
+                transform: none;
+                margin-left: 5px;
+              }
             }
           }
         }
@@ -634,10 +690,12 @@
             height: 100px;
             font-size: 12.5px;
             line-height: 1;
+            grid-template-columns: 21px 1fr;
+            grid-template-rows: 20px 16px;
 
             .lightbulb {
-              width: 32px;
-              margin-right: 3.5px;
+              width: 21px;
+              margin-right: 0;
             }
 
             .divider {
@@ -648,6 +706,32 @@
               height: 12.5px;
               margin-left: 2.5px;
               transform: translateY(25%);
+            }
+
+            .main-line {
+              font-size: 14px;
+            }
+
+            .sub-line {
+              font-size: 10px;
+              font-weight: 400;
+              flex-wrap: wrap;
+
+              span {
+                width: 100%;
+                text-align: center;
+              }
+
+              a {
+                font-size: 12px;
+                margin: 0;
+                margin-top: 8px;
+              }
+
+              .arrow {
+                transform: none;
+                margin-left: 5px;
+              }
             }
           }
         }
