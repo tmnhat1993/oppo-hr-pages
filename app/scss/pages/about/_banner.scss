@@ -32,6 +32,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      opacity: 0;
+      visibility: hidden;
 
       .fa {
         color: $white;
@@ -79,13 +81,15 @@
   @media #{$information-tablet} {
     .section-about-banner,
     #about-banner {
-      height: 116.8675vw;
+      height: 65.57vw;
       padding: 0;
       background-color: #fff;
       margin-top: 0;
 
       .video-control-holder {
         padding-top: 55%;
+        opacity: 1;
+        visibility: visible;
 
         .play-video-on-modal {
           background-color: $white;
@@ -115,7 +119,7 @@
       padding: 0;
 
       .video-control-holder {
-        padding-top: 65%;
+        padding-top: 44%;
 
         .play-video-on-modal {
           width: 190px;
@@ -138,7 +142,7 @@
       padding: 10px 10px 0;
 
       .video-control-holder {
-        padding-top: 70%;
+        padding-top: 44%;
 
         .play-video-on-modal {
           width: 170px;

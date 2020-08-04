@@ -33,6 +33,7 @@
           margin-left: 6.5px;
           -webkit-transform: translateY(-5%);
           transform: translateY(-5%);
+          @include flex;
 
           img {
             max-height: 100%;
@@ -121,9 +122,10 @@
   @media #{$information-tablet} {
     .section-about-oppo,
     #home-about-oppo {
-      height: 120vw;
+      height: 125vw;
 
       .main-content {
+        padding-bottom: 26vw;
         .title {
           margin: 10vw 0 2vw;
         }
@@ -150,9 +152,10 @@
   @media #{$information-phone} {
     .section-about-oppo,
     #home-about-oppo {
-      // height: 140vw;
+       height: 150vw;
 
       .main-content {
+        padding-bottom: 36vw;
         .title {
           margin: 12vw 0 6.5vw;
         }

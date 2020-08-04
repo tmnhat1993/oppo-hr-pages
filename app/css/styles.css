@@ -16,7 +16,9 @@ body {
   overflow-x: hidden; }
   html *,
   body * {
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    min-height: 0;
+    min-width: 0; }
   html a,
   body a {
     color: inherit;
@@ -105,7 +107,7 @@ body {
   font-size: inherit; }
 
 /* ======================
-* Margin And Padding Generator 
+* Margin And Padding Generator
 ====================== */
 .mt-5 {
   margin-top: 5px !important; }
@@ -864,6 +866,19 @@ body {
   .mb-hide {
     display: none !important; } }
 
+.txt-color a {
+  display: block;
+  text-align: center;
+  margin-top: 10px; }
+  .txt-color a span {
+    color: #ffffff; }
+
+@media only screen and (max-width: 768px) {
+  .txt-color a {
+    margin-top: 0; }
+    .txt-color a span {
+      color: #046a38 !important; } }
+
 .mb-show {
   display: none !important; }
   @media only screen and (max-width: 768px) {
@@ -1089,7 +1104,7 @@ p,
   /* Banner */
   /* REPONSIVE */ }
   #hr-home-page .section-banner {
-    height: 36.4vw;
+    height: 49.2vw;
     overflow: hidden;
     margin-top: 56px; }
     #hr-home-page .section-banner .banner-slider {
@@ -1320,7 +1335,11 @@ p,
           height: 25px;
           margin-left: 6.5px;
           -webkit-transform: translateY(-5%);
-          transform: translateY(-5%); }
+          transform: translateY(-5%);
+          display: -moz-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex; }
           #hr-home-page .section-about-oppo .main-content .cta-holder .arrow img,
           #hr-home-page #home-about-oppo .main-content .cta-holder .arrow img {
             max-height: 100%; }
@@ -1368,32 +1387,41 @@ p,
   @media only screen and (max-width: 768px) {
     #hr-home-page .section-about-oppo,
     #hr-home-page #home-about-oppo {
-      height: 120vw; }
-      #hr-home-page .section-about-oppo .main-content .title,
-      #hr-home-page #home-about-oppo .main-content .title {
-        margin: 10vw 0 2vw; }
-      #hr-home-page .section-about-oppo .main-content .desc,
-      #hr-home-page #home-about-oppo .main-content .desc {
-        margin-bottom: 3vw; }
-      #hr-home-page .section-about-oppo .main-content .cta-holder .arrow,
-      #hr-home-page #home-about-oppo .main-content .cta-holder .arrow {
-        height: 20.5px;
-        margin-left: 5px; }
+      height: 125vw; }
+      #hr-home-page .section-about-oppo .main-content,
+      #hr-home-page #home-about-oppo .main-content {
+        padding-bottom: 26vw; }
+        #hr-home-page .section-about-oppo .main-content .title,
+        #hr-home-page #home-about-oppo .main-content .title {
+          margin: 10vw 0 2vw; }
+        #hr-home-page .section-about-oppo .main-content .desc,
+        #hr-home-page #home-about-oppo .main-content .desc {
+          margin-bottom: 3vw; }
+        #hr-home-page .section-about-oppo .main-content .cta-holder .arrow,
+        #hr-home-page #home-about-oppo .main-content .cta-holder .arrow {
+          height: 20.5px;
+          margin-left: 5px; }
       #hr-home-page .section-about-oppo .people-img-holder,
       #hr-home-page #home-about-oppo .people-img-holder {
         left: -12%;
         right: -12%; } }
   @media only screen and (max-width: 480px) {
-    #hr-home-page .section-about-oppo .main-content .title,
-    #hr-home-page #home-about-oppo .main-content .title {
-      margin: 12vw 0 6.5vw; }
-    #hr-home-page .section-about-oppo .main-content .desc,
-    #hr-home-page #home-about-oppo .main-content .desc {
-      margin-bottom: 7vw; }
-    #hr-home-page .section-about-oppo .main-content .cta-holder .arrow,
-    #hr-home-page #home-about-oppo .main-content .cta-holder .arrow {
-      height: 11.5px;
-      margin-left: 5px; } }
+    #hr-home-page .section-about-oppo,
+    #hr-home-page #home-about-oppo {
+      height: 150vw; }
+      #hr-home-page .section-about-oppo .main-content,
+      #hr-home-page #home-about-oppo .main-content {
+        padding-bottom: 36vw; }
+        #hr-home-page .section-about-oppo .main-content .title,
+        #hr-home-page #home-about-oppo .main-content .title {
+          margin: 12vw 0 6.5vw; }
+        #hr-home-page .section-about-oppo .main-content .desc,
+        #hr-home-page #home-about-oppo .main-content .desc {
+          margin-bottom: 7vw; }
+        #hr-home-page .section-about-oppo .main-content .cta-holder .arrow,
+        #hr-home-page #home-about-oppo .main-content .cta-holder .arrow {
+          height: 11.5px;
+          margin-left: 5px; } }
   @media only screen and (max-width: 376px) {
     #hr-home-page .section-about-oppo .main-content .title,
     #hr-home-page #home-about-oppo .main-content .title {
@@ -1955,7 +1983,7 @@ p,
       grid-row-gap: 10px; }
       #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-thumbnail,
       #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-thumbnail {
-        height: 56vw; }
+        height: 62vw; }
       #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail,
       #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail {
         height: 18.5vw; }
@@ -2018,7 +2046,7 @@ p,
       padding: 0 13px; }
       #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-thumbnail,
       #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-thumbnail {
-        height: 56vw; }
+        height: 60vw; }
       #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail,
       #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail {
         height: 17vw; }
@@ -3139,7 +3167,9 @@ p,
       color: #fff;
       display: flex;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      opacity: 0;
+      visibility: hidden; }
       #hr-about-page .section-about-banner .video-control-holder .fa,
       #hr-about-page #about-banner .video-control-holder .fa {
         color: #fff;
@@ -3161,13 +3191,15 @@ p,
   @media only screen and (max-width: 768px) {
     #hr-about-page .section-about-banner,
     #hr-about-page #about-banner {
-      height: 116.8675vw;
+      height: 65.57vw;
       padding: 0;
       background-color: #fff;
       margin-top: 0; }
       #hr-about-page .section-about-banner .video-control-holder,
       #hr-about-page #about-banner .video-control-holder {
-        padding-top: 55%; }
+        padding-top: 55%;
+        opacity: 1;
+        visibility: visible; }
         #hr-about-page .section-about-banner .video-control-holder .play-video-on-modal,
         #hr-about-page #about-banner .video-control-holder .play-video-on-modal {
           background-color: #fff;
@@ -3191,7 +3223,7 @@ p,
       padding: 0; }
       #hr-about-page .section-about-banner .video-control-holder,
       #hr-about-page #about-banner .video-control-holder {
-        padding-top: 65%; }
+        padding-top: 44%; }
         #hr-about-page .section-about-banner .video-control-holder .play-video-on-modal,
         #hr-about-page #about-banner .video-control-holder .play-video-on-modal {
           width: 190px;
@@ -3208,7 +3240,7 @@ p,
       padding: 10px 10px 0; }
       #hr-about-page .section-about-banner .video-control-holder,
       #hr-about-page #about-banner .video-control-holder {
-        padding-top: 70%; }
+        padding-top: 44%; }
         #hr-about-page .section-about-banner .video-control-holder .play-video-on-modal,
         #hr-about-page #about-banner .video-control-holder .play-video-on-modal {
           width: 170px;

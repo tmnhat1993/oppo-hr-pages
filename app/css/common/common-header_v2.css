@@ -797,7 +797,7 @@ body .mobile{
     position:absolute;
     height:auto;
     background-color:#fff;
-    z-index:999
+    z-index:999;
 }
 .main #oc-header{
     background-color:transparent
@@ -833,14 +833,15 @@ body .mobile{
     width:21.2rem;
     margin:0 auto;
     text-align:center;
-    z-index:2
+    z-index:2;
 }
 .oh-nav .oh-nav-menu{
     display:none;
     position:absolute;
     top:0;
     left:0;
-    z-index:5
+    z-index:5;
+    overflow: hidden;
 }
 @media (max-width:1080px){
     .oh-nav{
@@ -1249,7 +1250,7 @@ body .mobile{
 }
 .oh-navpro-content{
     width:100%;
-    height:100%
+    height:100%;
 }
 .oh-navpro-wrapper{
     width:21.2rem;

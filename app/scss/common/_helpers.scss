@@ -1,5 +1,5 @@
 /* ======================
-* Margin And Padding Generator 
+* Margin And Padding Generator
 ====================== */
 $spaceamounts: (
   5,
@@ -77,6 +77,26 @@ $sides: (top, bottom, left, right); // Leave this variable alone
 .mb-hide {
   @media #{$information-tablet} {
     display: none !important;
+  }
+}
+
+.txt-color {
+  a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    span {
+      color: #ffffff;
+    }
+  }
+
+  @media #{$information-tablet} {
+    a {
+      margin-top: 0;
+      span {
+        color: #046a38!important;
+      }
+    }
   }
 }
 
