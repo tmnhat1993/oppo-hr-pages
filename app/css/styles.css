@@ -1376,7 +1376,7 @@ p,
   @media only screen and (max-width: 1280px) {
     #hr-home-page .section-about-oppo,
     #hr-home-page #home-about-oppo {
-      height: 60vw; }
+      height: 80vw; }
       #hr-home-page .section-about-oppo .main-content .title,
       #hr-home-page #home-about-oppo .main-content .title {
         margin: 63.33px 0 30px; }
@@ -1387,7 +1387,7 @@ p,
   @media only screen and (max-width: 768px) {
     #hr-home-page .section-about-oppo,
     #hr-home-page #home-about-oppo {
-      height: 125vw; }
+      height: 110vw; }
       #hr-home-page .section-about-oppo .main-content,
       #hr-home-page #home-about-oppo .main-content {
         padding-bottom: 26vw; }
@@ -1403,12 +1403,12 @@ p,
           margin-left: 5px; }
       #hr-home-page .section-about-oppo .people-img-holder,
       #hr-home-page #home-about-oppo .people-img-holder {
-        left: -12%;
-        right: -12%; } }
+        left: -2%;
+        right: -4%; } }
   @media only screen and (max-width: 480px) {
     #hr-home-page .section-about-oppo,
     #hr-home-page #home-about-oppo {
-      height: 150vw; }
+      height: 130vw; }
       #hr-home-page .section-about-oppo .main-content,
       #hr-home-page #home-about-oppo .main-content {
         padding-bottom: 36vw; }
@@ -1421,7 +1421,11 @@ p,
         #hr-home-page .section-about-oppo .main-content .cta-holder .arrow,
         #hr-home-page #home-about-oppo .main-content .cta-holder .arrow {
           height: 11.5px;
-          margin-left: 5px; } }
+          margin-left: 5px; }
+      #hr-home-page .section-about-oppo .people-img-holder,
+      #hr-home-page #home-about-oppo .people-img-holder {
+        left: 0;
+        right: 0; } }
   @media only screen and (max-width: 376px) {
     #hr-home-page .section-about-oppo .main-content .title,
     #hr-home-page #home-about-oppo .main-content .title {
@@ -1585,7 +1589,8 @@ p,
   #hr-home-page .section-job-oppotunities,
   #hr-home-page #home-job-opportunities {
     background-image: -webkit-linear-gradient(#ffffff, #f0f0f0);
-    background-image: linear-gradient(#ffffff, #f0f0f0); }
+    background-image: linear-gradient(#ffffff, #f0f0f0);
+    margin: auto; }
     #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder,
     #hr-home-page #home-job-opportunities .main-content .content-head .searching-holder {
       margin: 50px 0; }
@@ -1629,64 +1634,68 @@ p,
             #hr-home-page .section-job-oppotunities .main-content .content-head .searching-holder .search-layout .form-block .submit-form i,
             #hr-home-page #home-job-opportunities .main-content .content-head .searching-holder .search-layout .form-block .submit-form i {
               color: #fff; }
-    #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout,
-    #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-column-gap: 15px;
-      grid-row-gap: 80px; }
-      #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item,
-      #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item {
-        transition: all ease-in 150ms; }
-        #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-thumbnail,
-        #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-thumbnail {
-          height: 17.708333vw;
-          overflow: hidden; }
-          #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-thumbnail .img-holder,
-          #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-thumbnail .img-holder {
-            height: 100%;
-            transition: all linear 300ms; }
-            #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-thumbnail .img-holder img,
-            #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-thumbnail .img-holder img {
-              display: block;
-              width: 100%;
+    #hr-home-page .section-job-oppotunities .main-content .content-body,
+    #hr-home-page #home-job-opportunities .main-content .content-body {
+      max-width: 1440px;
+      margin: auto; }
+      #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout,
+      #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 15px;
+        grid-row-gap: 80px; }
+        #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item,
+        #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item {
+          transition: all ease-in 150ms; }
+          #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-thumbnail,
+          #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-thumbnail {
+            height: 12vw;
+            overflow: hidden; }
+            #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-thumbnail .img-holder,
+            #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-thumbnail .img-holder {
               height: 100%;
-              object-fit: cover;
-              object-position: center; }
-        #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail,
-        #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail {
-          height: 6vw;
-          text-align: center;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-transform: uppercase;
-          transition: all ease-in 150ms;
-          position: relative;
-          overflow: hidden;
-          font-family: "Myriad Pro";
-          font-weight: 600; }
-          #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label,
-          #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label {
-            font-size: 20px;
-            margin: 0;
+              transition: all linear 300ms; }
+              #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-thumbnail .img-holder img,
+              #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-thumbnail .img-holder img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center; }
+          #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail,
+          #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail {
+            height: 6vw;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-transform: uppercase;
             transition: all ease-in 150ms;
             position: relative;
-            z-index: 2;
-            width: 100%; }
-        #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item:hover,
-        #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item:hover {
-          transform: scale(1.17);
-          transition: all ease-out 300ms;
-          box-shadow: 0 0 12px rgba(0, 0, 0, 0.75); }
-          #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item:hover .job-detail,
-          #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item:hover .job-detail {
-            background-color: #046a38;
-            transition: all ease-out 300ms; }
-            #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item:hover .job-detail .job-label,
-            #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item:hover .job-detail .job-label {
-              color: #fff;
+            overflow: hidden;
+            font-family: "Myriad Pro";
+            font-weight: 600; }
+            #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label,
+            #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label {
+              font-size: 20px;
+              margin: 0;
+              transition: all ease-in 150ms;
+              position: relative;
+              z-index: 2;
+              width: 100%; }
+          #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item:hover,
+          #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item:hover {
+            transform: scale(1.17);
+            transition: all ease-out 300ms;
+            box-shadow: 0 0 12px rgba(0, 0, 0, 0.75); }
+            #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item:hover .job-detail,
+            #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item:hover .job-detail {
+              background-color: #046a38;
               transition: all ease-out 300ms; }
+              #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item:hover .job-detail .job-label,
+              #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item:hover .job-detail .job-label {
+                color: #fff;
+                transition: all ease-out 300ms; }
     #hr-home-page .section-job-oppotunities .main-content .content-footer,
     #hr-home-page #home-job-opportunities .main-content .content-footer {
       margin-top: 40px; }
@@ -1742,25 +1751,29 @@ p,
             display: block;
             height: 100%; }
   @media only screen and (max-width: 1680px) {
-    #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout,
-    #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout {
-      grid-column-gap: 10px;
-      grid-row-gap: 70px; }
-      #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-thumbnail,
-      #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-thumbnail {
-        height: 18vw; }
-      #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail,
-      #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail {
-        height: 6vw; }
-        #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail .job-detail-effect,
-        #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail .job-detail-effect {
-          width: 27vw;
-          height: 27vw; }
-        #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label,
-        #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label {
-          font-size: 20px; }
+    #hr-home-page .section-job-oppotunities .main-content .content-body,
+    #hr-home-page #home-job-opportunities .main-content .content-body {
+      width: 100%; }
+      #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout,
+      #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout {
+        grid-column-gap: 10px;
+        grid-row-gap: 70px; }
+        #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-thumbnail,
+        #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-thumbnail {
+          height: 18vw; }
+        #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail,
+        #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail {
+          height: 6vw; }
+          #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail .job-detail-effect,
+          #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail .job-detail-effect {
+            width: 27vw;
+            height: 27vw; }
+          #hr-home-page .section-job-oppotunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label,
+          #hr-home-page #home-job-opportunities .main-content .content-body .job-list-layout .job-item .job-detail .job-label {
+            font-size: 20px; }
     #hr-home-page .section-job-oppotunities .main-content .content-footer .context,
     #hr-home-page #home-job-opportunities .main-content .content-footer .context {
+      width: 44%;
       height: 90px;
       font-size: 22.5px; }
       #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb,
@@ -1850,7 +1863,7 @@ p,
       #hr-home-page #home-job-opportunities .main-content .content-footer .context {
         height: 85px;
         font-size: 18.5px;
-        width: 75%; }
+        width: 45%; }
         #hr-home-page .section-job-oppotunities .main-content .content-footer .context .lightbulb,
         #hr-home-page #home-job-opportunities .main-content .content-footer .context .lightbulb {
           width: 30px;
@@ -3056,8 +3069,8 @@ p,
     #hr-home-page .section-oppo-family .oppo-family-layout,
     #hr-home-page #home-oppo-family .oppo-family-layout {
       display: block;
-      width: 300%;
-      margin-left: -110%;
+      width: 250%;
+      margin-left: -92%;
       margin-top: 20px; }
       #hr-home-page .section-oppo-family .oppo-family-layout .family-item,
       #hr-home-page #home-oppo-family .oppo-family-layout .family-item {
@@ -3065,10 +3078,10 @@ p,
         #hr-home-page .section-oppo-family .oppo-family-layout .family-item .img-holder,
         #hr-home-page #home-oppo-family .oppo-family-layout .family-item .img-holder {
           height: 100%;
-          width: 94%;
+          width: 90%;
           overflow: hidden;
           margin: auto;
-          height: 96.6vw; }
+          height: 80vw; }
         #hr-home-page .section-oppo-family .oppo-family-layout .family-item .context,
         #hr-home-page #home-oppo-family .oppo-family-layout .family-item .context {
           width: 90%;
@@ -3471,7 +3484,8 @@ p,
     #hr-about-page .section-about-intro .content-body,
     #hr-about-page #about-intro .content-body {
       margin-top: 30px;
-      height: 125vw; }
+      height: 125vw;
+      background-attachment: unset; }
       #hr-about-page .section-about-intro .content-body .oppo-scale,
       #hr-about-page #about-intro .content-body .oppo-scale {
         padding: 7.5vw 30px; }

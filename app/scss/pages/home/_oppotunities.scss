@@ -4,7 +4,7 @@
   #home-job-opportunities {
     background-image: -webkit-linear-gradient(#ffffff, #f0f0f0);
     background-image: linear-gradient(#ffffff, #f0f0f0);
-
+    margin: auto;
     .main-content {
       .content-head {
         .searching-holder {
@@ -56,6 +56,8 @@
       }
 
       .content-body {
+        max-width: 1440px;
+        margin: auto;
         .job-list-layout {
           display: grid;
           grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -66,7 +68,7 @@
             transition: all ease-in 150ms;
 
             .job-thumbnail {
-              height: 17.708333vw;
+              height: 12vw;
               overflow: hidden;
 
               .img-holder {
@@ -223,6 +225,7 @@
     #home-job-opportunities {
       .main-content {
         .content-body {
+          width: 100%;
           .job-list-layout {
             grid-column-gap: 10px;
             grid-row-gap: 70px;
@@ -250,6 +253,7 @@
 
         .content-footer {
           .context {
+            width: 44%;
             height: 90px;
             font-size: 22.5px;
 
@@ -384,7 +388,7 @@
           .context {
             height: 85px;
             font-size: 18.5px;
-            width: 75%;
+            width: 45%;
 
             .lightbulb {
               width: 30px;

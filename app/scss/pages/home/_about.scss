@@ -102,7 +102,7 @@
   @media #{$information-sm-laptop} {
     .section-about-oppo,
     #home-about-oppo {
-      height: 60vw;
+      height: 80vw;
 
       .main-content {
         .title {
@@ -122,7 +122,7 @@
   @media #{$information-tablet} {
     .section-about-oppo,
     #home-about-oppo {
-      height: 125vw;
+      height: 110vw;
 
       .main-content {
         padding-bottom: 26vw;
@@ -143,8 +143,8 @@
       }
 
       .people-img-holder {
-        left: -12%;
-        right: -12%;
+        left: -2%;
+        right: -4%;
       }
     }
   }
@@ -152,7 +152,7 @@
   @media #{$information-phone} {
     .section-about-oppo,
     #home-about-oppo {
-       height: 150vw;
+       height: 130vw;
 
       .main-content {
         padding-bottom: 36vw;
@@ -170,6 +170,10 @@
             margin-left: 5px;
           }
         }
+      }
+      .people-img-holder {
+        left: 0;
+        right: 0;
       }
     }
   }

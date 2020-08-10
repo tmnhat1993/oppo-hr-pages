@@ -808,7 +808,8 @@ body .mobile{
         -webkit-transition:background .1s ease .2s;
         -o-transition:background .1s ease .2s;
         -moz-transition:background .1s ease .2s;
-        transition:background .1s ease .2s
+        transition:background .1s ease .2s;
+        overflow: hidden;
     }
 }
 #oc-header.oh-theme-white{
@@ -841,7 +842,6 @@ body .mobile{
     top:0;
     left:0;
     z-index:5;
-    overflow: hidden;
 }
 @media (max-width:1080px){
     .oh-nav{
