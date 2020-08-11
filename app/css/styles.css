@@ -2992,9 +2992,9 @@ p,
       #hr-home-page .section-oppo-family .oppo-family-layout,
       #hr-home-page #home-oppo-family .oppo-family-layout {
         display: block;
-        width: 300%;
-        margin-left: -110%;
-        margin: 50px 0 40px -110%; }
+        width: 210%;
+        margin-left: -75%;
+        margin-top: 20px; }
         #hr-home-page .section-oppo-family .oppo-family-layout .family-item,
         #hr-home-page #home-oppo-family .oppo-family-layout .family-item {
           height: auto; }
@@ -3210,7 +3210,6 @@ p,
       margin-top: 0; }
       #hr-about-page .section-about-banner .video-control-holder,
       #hr-about-page #about-banner .video-control-holder {
-        padding-top: 55%;
         opacity: 1;
         visibility: visible; }
         #hr-about-page .section-about-banner .video-control-holder .play-video-on-modal,
@@ -3234,36 +3233,30 @@ p,
     #hr-about-page .section-about-banner,
     #hr-about-page #about-banner {
       padding: 0; }
-      #hr-about-page .section-about-banner .video-control-holder,
-      #hr-about-page #about-banner .video-control-holder {
-        padding-top: 44%; }
-        #hr-about-page .section-about-banner .video-control-holder .play-video-on-modal,
-        #hr-about-page #about-banner .video-control-holder .play-video-on-modal {
-          width: 190px;
-          height: 50px;
-          font-size: 18.5px;
-          padding-top: 2px; }
-          #hr-about-page .section-about-banner .video-control-holder .play-video-on-modal .fa,
-          #hr-about-page #about-banner .video-control-holder .play-video-on-modal .fa {
-            font-size: 20px;
-            margin-right: 6.5px; } }
+      #hr-about-page .section-about-banner .video-control-holder .play-video-on-modal,
+      #hr-about-page #about-banner .video-control-holder .play-video-on-modal {
+        width: 190px;
+        height: 50px;
+        font-size: 18.5px;
+        padding-top: 2px; }
+        #hr-about-page .section-about-banner .video-control-holder .play-video-on-modal .fa,
+        #hr-about-page #about-banner .video-control-holder .play-video-on-modal .fa {
+          font-size: 20px;
+          margin-right: 6.5px; } }
   @media only screen and (max-width: 376px) {
     #hr-about-page .section-about-banner,
     #hr-about-page #about-banner {
       padding: 10px 10px 0; }
-      #hr-about-page .section-about-banner .video-control-holder,
-      #hr-about-page #about-banner .video-control-holder {
-        padding-top: 44%; }
-        #hr-about-page .section-about-banner .video-control-holder .play-video-on-modal,
-        #hr-about-page #about-banner .video-control-holder .play-video-on-modal {
-          width: 170px;
-          height: 42px;
-          font-size: 15px;
-          padding-top: 2px; }
-          #hr-about-page .section-about-banner .video-control-holder .play-video-on-modal .fa,
-          #hr-about-page #about-banner .video-control-holder .play-video-on-modal .fa {
-            font-size: 17.5px;
-            margin-right: 5px; } }
+      #hr-about-page .section-about-banner .video-control-holder .play-video-on-modal,
+      #hr-about-page #about-banner .video-control-holder .play-video-on-modal {
+        width: 170px;
+        height: 42px;
+        font-size: 15px;
+        padding-top: 2px; }
+        #hr-about-page .section-about-banner .video-control-holder .play-video-on-modal .fa,
+        #hr-about-page #about-banner .video-control-holder .play-video-on-modal .fa {
+          font-size: 17.5px;
+          margin-right: 5px; } }
 
 /* EXTRA */
 .video-modal {
@@ -4076,7 +4069,9 @@ p,
 @media only screen and (max-width: 768px) {
   #hr-about-page .section-about-culture-style-2,
   #hr-about-page #about-culture-2 {
-    height: 130vw; }
+    height: 130vw;
+    min-height: unset !important;
+    min-width: unset !important; }
     #hr-about-page .section-about-culture-style-2 .container .culture-layout,
     #hr-about-page #about-culture-2 .container .culture-layout {
       display: none; }
@@ -4087,7 +4082,9 @@ p,
       height: 90%;
       margin-left: -10%;
       position: relative;
-      padding-top: 70px; }
+      padding-top: 70px;
+      min-height: unset !important;
+      min-width: unset !important; }
       #hr-about-page .section-about-culture-style-2 .culture-mb-slider .culture-button-next,
       #hr-about-page .section-about-culture-style-2 .culture-mb-slider .culture-button-prev,
       #hr-about-page #about-culture-2 .culture-mb-slider .culture-button-next,

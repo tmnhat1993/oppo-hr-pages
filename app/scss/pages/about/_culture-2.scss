@@ -5,6 +5,7 @@
     background-color: $white;
     z-index: 5;
 
+
     .main-content {
       width: 100%;
       height: 100%;
@@ -171,6 +172,8 @@
     .section-about-culture-style-2,
     #about-culture-2 {
       height: 130vw;
+      min-height: unset!important;
+      min-width: unset!important;
 
       .container {
         .culture-layout {
@@ -185,6 +188,8 @@
         margin-left: -10%;
         position: relative;
         padding-top: 70px;
+        min-height: unset!important;
+        min-width: unset!important;
 
         .culture-button-next,
         .culture-button-prev {
